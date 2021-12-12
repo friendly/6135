@@ -1,0 +1,9 @@
+https://www.forbes.com/sites/naomirobbins/2013/11/27/consider-readers-with-color-vision-deficiencies-2/#133e1399321b
+
+Business Insider published U.S. Regional Economic Map – November 2013.
+
+This map is extremely informative for those of us with normal color vision. However, Figure 2 simulates what people with one form of color vision deficiency, deuteranopes, will see.
+Deuteranope simulation of Business Insider's economic map 
+
+The simulation uses www.vischeck.com. It is very easy to check our color schemes with a color vision simulator and to choose colors that everyone can see. 
+

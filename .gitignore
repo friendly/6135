@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
+admin/
+notes/
+other-slides/
+private/
+*.bak
+students/
+images/munznder-alldiagrams/
+

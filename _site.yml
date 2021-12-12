@@ -1,0 +1,26 @@
+name: "Psych6135"
+exclude: ["admin", "notes", "private", "other-slides", "students", "*.pptx", "*.bak", "*.doc"]
+
+output:
+  html_document:
+    theme: cosmo
+
+navbar:
+  title: "Psychology 6135: Psychology of Data Visualization"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home fa-2x   # handy way to use FontAwesome icons in nav!
+      href: index.html
+    - text: "About"
+      icon: fa-file  fa-2x
+      href: about.html
+    - text: "Resources"
+      icon: fa-book  fa-2x
+      href: resources.html
+    - text: "Students"
+      href: students.html
+      icon: fa-users fa-2x
+  right:
+    - icon: fab fa-twitter fa-2x
+      href: https://twitter.com/datavisFriendly

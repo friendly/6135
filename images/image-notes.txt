@@ -1,0 +1,140 @@
+Image notes
+
+## Illusions  / visual lies
+
+http://www.vislies.org/2015/gallery/
+
+True Bars that Tell Lies : NASA funcind
+Two Points = Trend? : planned parenthood funding & abortions
+
+Simplicity, etc
+https://cloudbiguy.com/2015/03/20/data-visualization-part-1/
+
+CS 5650/6650
+Visual Perception from a Computer Graphics and Visualization Perspective
+http://www.eng.utah.edu/~cs6650/demos.html
+
+NYT graphic : NYC schools
+https://www.nytimes.com/interactive/2017/03/30/upshot/good-schools-affordable-homes-suburban-sweet-spots.html
+Critisized by Fung
+http://junkcharts.typepad.com/numbersruleyourworld/
+
+## Great graphics
+
+Miami Herald: Huirricane Andrew -What Went Wrong?
+http://www.derivativeworks.com/2008/09/complete-scans.html
+
+https://www.flickr.com/photos/juggernautco/sets/72157607210036175/
+
+
+Hockey Stick chart
+https://en.wikipedia.org/wiki/Hockey_stick_graph
+https://wattsupwiththat.com/2013/08/21/ipcc-throws-manns-hockey-stick-under-the-bus/
+
+cartoon:
+http://planninga-from-nanninga.blogspot.ca/2014/03/strategic-planning-analogy-526-big-stick.html
+
+# Dating graphs
+
+https://theblog.okcupid.com/the-case-for-an-older-woman-99d8cabacdf5
+
+# distributions
+
+
+The Rise of Partisanship and Super-Cooperators in the U.S. House of Representatives
+
+    Clio Andris ,
+    David Lee,
+    Marcus J. Hamilton,
+    Mauro Martino,
+    Christian E. Gunning,
+    John Armistead Selden
+
+PLOS
+
+    Published: April 21, 2015
+    https://doi.org/10.1371/journal.pone.0123507
+
+http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0123507
+
+Fig 1: Probability density functions of the number of roll call vote agreements between pairs of the same-party (SP) and those pairs of cross-party (CP) pairs. The plots show the steady divergence of CPs and SP agreement rates over time.
+Fig 2: Each member of the U.S. House of Representatives from 1949–2012 is drawn as a single node. Republican (R) representatives are in red and Democrat (D) representatives are in blue, party affiliation changes are not reflected. Edges are drawn between members who agree above the Congress’ threshold value of votes. The threshold value is the number of agreements where any pair exhibiting this number of agreements is equally likely to comprised of two members of the same party (e.g. D-D or R-R), or a cross-party pair (e.g. D-R). Each node is sized relative to its total number of connections; edges are thicker if the pair agrees on more votes. The starting year of each 2-year Congress is written above the network. The network is drawn using a linear-attraction linear-repulsion model with Barnes Hut optimization
+
+# Contour maps
+
+https://medium.com/two-n/an-alternative-to-choropleth-contour-density-maps-in-d3-js-93e1fdbdc4e
+
+
+## Enhanced scatterplots
+
+
+Wage gap
+Cairo, Fig 9.19
+http://www.nytimes.com/interactive/2009/03/01/business/20090301_WageGap.html
+
+Ford Nation 2014
+http://globalnews.ca/news/1652571/ford-nation-2014-15-things-demographics-tell-us-about-toronto-voters/
+
+
+# Uncertainty
+
+Chicago Weather 2016, in R
+http://blog.revolutionanalytics.com/2017/04/using-checkpoint-with-knitr-and-rstudio.html
+Code: https://github.com/revodavid/weather-report
+
+
+## Munzner figures, from https://www.cs.ubc.ca/~tmm/vadbook/figures.html
+
+Visualization Analysis and Design, PDF Diagrams for Download
+Diagram figures on this page are released under the Creative Commons Attribution 4.0 International license (CC BY 4.0), to be credited as "Visualization Analysis and Design. Tamara Munzner, with illustrations by Eamonn Maguire. A K Peters Visualization Series, CRC Press, 2014." 
+
+## Data journalism
+
+How do romours spread on Twitter?
+
+The Guardian analyzed Twitter tweets related to roumours of riots in London:
+#LondonRiots - Rioters attack London zoo & release animals
+Analysis shows that Twitter is often self-correcting, but not always
+https://www.theguardian.com/uk/interactive/2011/dec/07/london-riots-twitter
+
+--> Multiple views and animation add richer detail than single static graphs
+
+## Police shootings: black vs. white
+
+https://medium.com/two-n/visualizing-wapos-police-shooting-dataset-3792593f6be
+
+## Rob Allison
+
+https://blogs.sas.com/content/sastraining/2017/11/29/when-and-where-have-they-legalized-it/
+
+## Pantheon
+http://visualoop.com/blog/83382/pantheon-by-valerio-pellegrini
+
+The infographic shows the first 100 historical figures in order of influence according to Pantheon, a macro-connections group project of the MIT Media Lab of Boston, which took into account various parameters such as Wikipedia and the volume by Charles Murray “Human Accomplishmen. The Pursuit of Excellence in the Arts and Sciences, 800 BC”. 
+
+
+## Infographics
+
+From: https://medium.com/nightingale/how-to-create-wonder-with-data-and-a-physical-object-8903f107ad11
+
+
+One way to evoke wonder is to make the reader feel small in comparison. This stunning graphic from Reuters brilliantly invokes a sense of wonder by visualizing the vastness of the plastic pollution problem we face.
+
+By combining data about the number of plastic bottles sold and an illustration of New York City, this graphic made me feel extreme awe at the extent of the problem. This pile is looming over the city — the same city that feels enormous when I’m in it.
+
+I already used reusable water bottles, but this graphic made me re-evaluate all the other places that I used plastic in my life and seek out alternatives (e.g., reusable plastic bags!). Wonder, care, act.
+
+## Best Visualizations, Sep. 2020
+Use for an exercise!
+
+https://www.visualisingdata.com/2020/12/best-of-the-visualisation-web-september-2020/
+
+## Best visualizations of COVID pandemic
+https://uxdesign.cc/the-data-visualizations-that-helped-us-understand-2020-6447790f821
+
+# 538 best charts of 2020
+https://fivethirtyeight.com/features/the-40-weirdest-and-best-charts-we-made-in-2020/?ex_cid=story-twitter
+
+# Visual journalism
+
+https://gestalten.com/products/visual-journalism

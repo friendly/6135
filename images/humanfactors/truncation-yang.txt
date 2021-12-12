@@ -1,0 +1,14 @@
+Brenda W. Yang, Camila Vargas Restrepo, Matthew L. Stanley, Elizabeth J. Marsh,
+Truncating Bar Graphs Persistently Misleads Viewers,
+Journal of Applied Research in Memory and Cognition,
+2021,
+,
+ISSN 2211-3681,
+https://doi.org/10.1016/j.jarmac.2020.10.002.
+(https://www.sciencedirect.com/science/article/pii/S2211368120300978)
+Abstract: Data visualizations and graphs are increasingly common in both scientific and mass media settings. While graphs are useful tools for communicating patterns in data, they also have the potential to mislead viewers. In five studies, we provide empirical evidence that y-axis truncation leads viewers to perceive illustrated differences as larger (i.e., a truncation effect). This effect persisted after viewers were taught about the effects of y-axis truncation and was robust across participants, with 83.5% of participants across these 5 studies showing a truncation effect. We also found that individual differences in graph literacy failed to predict the size of individuals’ truncation effects. PhD students in both quantitative fields and the humanities were susceptible to the truncation effect, but quantitative PhD students were slightly more resistant when no warning about truncated axes was provided. We discuss the implications of these results for the underlying mechanisms and make practical recommendations for training critical consumers and creators of graphs.
+Keywords: Data visualization; Misleading graphs; Misinformation; Axis truncation; Bar graphs
+
+
+Brenda Yang et al.,
+Truncating Bar Graphs Persistently Misleads Viewers, Journal of Applied Research in Memory and Cognition, 2021, https://doi.org/10.1016/j.jarmac.2020.10.002 
