@@ -1,0 +1,136 @@
+---
+title: "Student Presentations"
+output:
+  html_document:
+    css: styles.css
+    includes:
+      after_body: footer.html
+---
+
+This page exists only to recognize the contributions of past students in this course and to serve as examples and guidance for current students. 
+
+All materials linked on this page are the intellectual property of the students in this course.  They may not be
+reproduced or used in any other manner without express permission of the student involved.
+
+## 2022
+
+### Discussion leader mini presentations
+TBA
+
+## 2021
+
+### Discussion leader mini presentations
+- Samantha Chan [Crowdsourcing and Information Visualization Evaluation](students/2021/mini-pres/Chan-Crowdsourcing.pdf)
+- Samantha Chan & Traci Fabri [Infographics and Knowledge Translation](students/2021/mini-pres/Chan-Fabri-Data Visualization_Infographics.pdf)
+- Chantell Ivanski [Colors in data visualization](students/2021/mini-pres/ChantelleIvanski-Colours in Data Visualization.pdf)
+- Holly Echlin [Visual Representations of COVID-19 data](students/2021/mini-pres/Echlin data journalism covid.pdf)
+- Traci Fabri [The History and Data Encoding of Pie and Donut Charts](students/2021/mini-pres/Fabri-Pie and Donut Charts.pdf)
+- Iris Yusupov [Data Journalism: Anti-Indigenous Racism](students/2021/mini-pres/Iris Yusupov Mini Discussion.pdf)
+- Krista Mitchnick [Graphical Abstracts](students/2021/mini-pres/Krista Mitchnick - Graphical Abstracts.pptx)
+- Samantha Roberts [Data Transparency Uing Violin Plots](students/2021/mini-pres/Roberts-Violin Plots.pptx)
+- Michael Truong [Applying Functions to Lists and Parallelism in R](students/2021/mini-pres/Truong-Purrr_R_Parallelism_MTruong_v2.pptx)
+- Ruth Vanstone [Communicating Healthcare Data to Patients](students/2021/mini-pres/Vanstone healthcare data presentation.pdf)
+- Alyssia Wilson [Data Visualization During A Pandemic](students/2021/mini-pres/Wilson-Data visualization druing the pandemic.pdf)
+- Cassandra Wyers [Nightingale’s impact on social change](students/2021/mini-pres/Wyers-Nightingale impact on social change.pdf)
+
+### Class project presentations
+
+- Stephanie Raposo & Chantell Ivanski [Did you see that? The role of graphics in media articles](students/2021/presentations/Ivanski_Raposo_Graphs in Media.pdf)
+- Ruth Vanstone & Krista Mitchnick [Making data accessible: Tactile and sonified data](students/2021/presentations/Mitchnick_Vanstone_Data accessibility.pdf)
+- Holly Echlin & Samantha Roberts [Efficiency of Stream Graphs](students/2021/presentations/StreamGraphs_Echlin Roberts.pdf)
+- Michael Truong [Visualizing Brain Activity](student/2021/presentations/TruongV4.pptx)
+- Cassy Wyers & Alyssia Wilson [Cassy Wyers & Alyssia Wilson - Physiological Response to Data Visualization](students/2021/presentations/Wilson-Wyers.pdf)
+- Andrea Aternali & Amanda Piccirilli [Feminist Data Visualization](students/2021/presentations/Andrea-Amanda-Feminist Data Vis.pdf)
+- Anthony Battaglia [NHL Data Analytics and Visualization](students/2021/presentations/Battaglia_NHL_DataViz.pdf)
+- Samantha Chan & Tracy Fabri [Infographics And Knowledge Translation](students/2021/presentations/Chan-Fabri-Infographics.pdf)
+- Arleen & Iris Yusupov [Data Visualization For Good](students/2021/presentations/Iris-Arleen-Data Visualization for Good.pdf)
+
+
+
+## 2019
+
+<center>
+<img src="images/class-group-book.jpg" width="250px"/>
+</center>
+
+### Discussion leader mini presentations
+
+- [Vanessa Rowlin - TREES: Data Visualisation in Geneology](students/2019/discussion/VROWLIN_Data Visualization in Genealogy.pdf)
+- [KB Zaidi - History of Data Vis](students/2019/discussion/History_of_Data_Vis-KB_Zaidi.pdf)
+- [Borzu Talaie](students/2019/discussion/BorzuPresentation2019.pdf)
+- [Jala Rizeq - Illusions](students/2019/discussion/RizeqJ_minipres_illusions.pptx)
+- [Justine Ledochowski - Overview of Human Factors research](papers/Paneels-Roberts-HapticEncoding.pdf)
+- [Mathew Cutone - Multi-modal encoding for information displays](papers/Paneels-Roberts-HapticEncoding.pdf)
+- [Natalie Beribisky - How do we (MIS)interpret graphs?](students/2019/discussion/Graphical Interpretation.pptx)
+- [Borzu - DYI Bertin Matrix](students/2019/discussion/Borzu-diymatrix.pdf)
+
+### Class presentations
+
+<center>
+<img src="images/JimRankinAward.png" width="200px"/>
+</center>
+
+Each student will give a brief presentation on a topic of research, application, or software related to data visualization,
+as described on the [About](about.html) page.
+The best paper will be given the Jim Rankin Award.
+
+Here is the [6135 Presentations 2019](https://docs.google.com/spreadsheets/d/1grrM9h9pz6PfmpEvSNF4RcUVOsab8QtL7MsvBvogQdA/edit?usp=sharing) signup sheet.
+
+#### March 28
+
+- [Mathew Cutone - Augmented Reality Information Displays](students/2019/presentation/Cutone-datavis_ar.pdf)
+- [Justine Ledochowski - Visulization for Social Change](students/2019/presentation/Data Vis_FinalPres_Ledochowski.pdf)
+- [Jala Rizeq - Visualizations in the News](students/2019/presentation/Rizeq_ingorgraphics_pres_march27.19.pdf)
+
+#### April 4
+
+- [Natalie Beribisky - Visualizing Climate Change](https://drive.google.com/file/d/1vuETSlElbYsqO3eWC2C8CwSndOk69L8e/view?usp=sharing)
+- [Davey Chafe - Data Visualizations in Space](students/2019/presentation/Chafe-DataVisualizationInSpace.pdf)
+- [Vanessa Rowlin - Visualization of Baseball Pitcher Data](students/2019/presentation/PSYC6135_VRowlin_BaseballPitchFX.pdf)
+- [KB Zaidi - Data Visualization of Brain activity](students/2019/presentation/Zadi-VisualizingBrainActivity .pdf)
+
+## 2018
+
+The items below remain here only to provide some examples of the topics chosen by former students and how they
+approached them.
+
+### Discussion leader mini presentations
+
+- [Vanessa Foot - Using Data visualization for Knowledge Translation](students/2018/discussion/Vanessa-DataVisPresentation1.pdf)
+- [Steven Baker - Varieties of Data Visualization: ROC Graphs](students/2018/discussion/Steven-ROC-Graphs.pdf)
+- [Ting Cao - Data Vis Today & Tomorrow](students/2018/discussion/Ting-Class3-Presentation.pdf); also a [handout](students/2018/discussion/Ting-one-page-takeaway.docx)
+- [Andrea Giambelli - Geospatial Data Visualization Enhancing The Power Of Maps](students/2018/discussion/AndreaGiambelli_Presentation2.pdf)
+- [Jonathan Bridekick - 1900-1950: Dawn Of Early Medical And Neuroimaging Techniques](students/2018/discussion/JonathanBridekirk_Presentation_v1.pdf)
+- [Marie Louise Donohoe - Ststistical Graphics: Pre-Golden Age](students/2018/discussion/MLDonohoe_StatisticalGraphics.pdf)
+- [Alisha Salerno - Data Journalism](https://prezi.com/view/eLwyPkFWKLJvf5BFMcTR/)
+- [Rotem Petranker - Graphical Perception](students/2018/discussion/RotemPetranker-Graphical Perception.pdf)
+- [Mehrnaz Zhian - Human Factors](students/2018/discussion/Mehrnan-Human_Factor_v6.pdf)
+- [Ortac Onder - The Why question](students/2018/discussion/OnderOtac-TheWhyQuestion.pptx)
+- [Brittney Hartle - Graphical Software: No Perfect Tool](students/2018/discussion/Hartle-NoPerfectGraphicalSoftware.pdf)
+- [Holly Clayton - Collecting Data Online](students/2018/discussion/Clayton-CollectingDataOnline.pptx)
+
+### Class presentations
+
+See the [6135 Presentations spreatsheet](https://docs.google.com/spreadsheets/d/1EAW-OIthfdE8-i--KtpEtP3OLwnRM4dRDioWNGPipqI/)
+
+### 2018 Video presentations
+
+- Jonathan Bridekirk - Grounded Visualization in Qualitative Research: [Youtube video presentation](https://youtu.be/275TdPWrurg);
+also, a [handout](students/2018/presentations/Bridekirk-GroundedVisualization_hand outs.pdf)
+- Rotem Petranker - Data visualization as a mind extension technology: [Slides](students/2018/presentations/Petranker-Datavis_extends_minds.pptx);
+watch the [video presentation](https://www.dropbox.com/s/n9lgy3oy1gbhb8r/2018%20Mar%2030%20-%20Datavis%20extends%20minds.wmv?dl=0).
+- Andrea Giambelli - Visualization as art: [abstract](students/2018/presentations/Giambelli-VisualizationAsArt.pdf); [video presentation](https://www.dropbox.com/s/3smqv08xu9t5gh4/Giambelli_Presentation.mp4?dl=0); and [handout with references](students/2018/presentations/Giambelli-References.pdf)
+- Alisha Salerno - Intelligent policing: utilizing data visualization in criminal investigate analysis: [abstract](students/Salerno-datavizCIA.docx); [slide show](https://www.dropbox.com/s/dtbkgckpkw9162f/Salerno_Datavizpresentation.ppsx?dl=0)
+- Vanessa Foot - Beyond Fake News: [Video presentation](https://drive.google.com/open?id=1SJ56lmG1wGu6nefuCMDh12ans9PWlrK8)
+- Ting Cao - Social Network Analysis: [Video presentation](https://drive.google.com/open?id=1lUNfv2UtZTRt7UyO2IyZ0HCzQdwjgF_a); and also [paper with references](students/2018/presentations/Ting_Cao-SocialNetworkAnalysisApplication.pdf)
+- Ortac Onder - Graphical Visualization of Spread of a Disease Using System Dynamics [Video presentation](https://drive.google.com/open?id=1hJTzzJsCV3XSpfgvOIlZuxRi1eDuMkjw)
+- Mehrnaz Zhian - Visualization for Eye Tracking [video presentation](https://www.dropbox.com/s/4z6dmozjfidqx5q/MehrnazZhian_Visulization_Eye_Tracking.mp4?dl=0)
+
+### Abstracts submitted
+
+- [Britney Hartle - Immersive Data Visualization in Virtual Environments](students/2018/presentations/Hartle-DataVisPresentationAbstract.docx)
+- [Lindsey Fraser - Dymamic Data Visualization](students/2018/presentations/Fraser-dynamc.docx)
+
+
+
+

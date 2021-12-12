@@ -1,0 +1,152 @@
+---
+title: "Happiness in the WVS"
+author: "Jason Hilton"
+date: "June 27, 2017"
+output: pdf_document
+---
+## Introduction
+
+We are interested in how happiness varies between countries.
+We started by selecting some important variables.
+
+```{r setup, echo=F, include=F}
+
+load("WVS.RData")
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(magrittr)
+library(corrplot)
+select <- dplyr::select
+WVS <- WVS %>% rename(Sex=V240,
+                      Happiness=V10,
+                      Health=V11,
+                      Country_Code=V2,
+                      Marital_Status=V57,
+                      Kids=V58)
+
+
+WVS <- WVS %>% rename(Education = V248, 
+                      Size_of_town =V253,
+                      Satisfaction=V23)
+
+WVS <- WVS %>% rename(Income=V239,
+                      Age=V242,
+                      Volition =V55,
+                      Sat_Finance=V59)
+
+#WVS<-WVS %>% filter_all(all_vars(. > 0 )) %>% as_tibble()
+
+WVS <- WVS %>% filter(Sex>0,
+               Health>0,
+               Satisfaction>0,
+               Marital_Status>0,
+               Kids>-1,
+               Education>0,
+               Income>0,
+               Volition>0,
+               Sat_Finance>0,
+               Age>0)
+
+
+WVS <- WVS %>% mutate(Country=countrycode(Country_Code,origin = "un",destination = "country.name"))
+
+
+
+WVS <- WVS %>% select(-Size_of_town)
+
+WVS <- WVS %>% mutate(Age_std=(Age-mean(Age))/sd(Age))
+
+
+
+WVS <- WVS %>% mutate(Egypt=(Country=="Egypt"))
+
+WVS <- WVS %>% as_tibble()
+
+
+```
+
+
+## Plotting means by country
+
+```{r mean_plots}
+WVS_mean <- WVS %>% group_by(Country) %>% summarise_if(is.numeric, mean, na.rm=T)
+  
+  
+  # summarise(Happiness=mean(Happiness),
+  #           Health=mean(Health),
+  #           Volition=mean(Volition),
+  #           Age=mean(Age),
+  #           Satisfaction=mean(Satisfaction),
+  #           Income=mean(Income),
+  #           Kids=mean(Kids,na.rm=T),
+  #           Sat_Finance=mean(Sat_Finance),
+  #           Education=mean(Education),
+  #           Egypt=as.factor(max(Egypt)))
+
+WVS_mean <- WVS_mean %>% mutate(Egypt=(Country=="Egypt"))
+
+ggplot(WVS_mean,aes(x=Satisfaction,y=Happiness,colour=Egypt)) + geom_point()
+
+ggplot(WVS_mean,aes(x=Age,y=Happiness,colour=Egypt)) + geom_point()
+
+ggplot(WVS_mean,aes(x=Kids,y=Happiness,colour=Egypt)) + geom_point()
+
+ggplot(WVS_mean,aes(x=Income,y=Happiness,colour=Egypt)) + geom_point()
+
+```
+
+## Corrplots
+
+
+```{r corrplots}
+WVS_mean<-WVS_mean %>% filter(!is.na(Kids)) %>% select(-Country,-Egypt)
+M<-cor(WVS_mean)
+order<-corrMatOrder(M)
+
+corrplot(M[order,order])
+
+```
+
+## Linear models
+
+
+```{r linear_models}
+do_models <- function(df){
+  lm(Happiness ~ Age + Health + Satisfaction +  Volition + 
+       Kids + Sat_Finance + Education + Marital_Status,
+     data=df)
+}
+
+
+WVS <- WVS %>% filter(Marital_Status > 0) %>% mutate(Marital_Status=as.factor(Marital_Status))
+
+WVS$Marital_Status <- plyr::revalue(WVS$Marital_Status,c(`1`= "married",
+                                                         `2`= "cohabiting",
+                                                         `3`= "divorce",
+                                                         `4`="separated",
+                                                         `5`="widowed",
+                                                         `6`="single"))
+do_models <- function(df){
+  lm(Happiness ~ Age + Health + Satisfaction +  Volition + 
+       Kids + Sat_Finance,
+     data=df)
+}
+
+
+library(broom)
+WVS_model <- WVS %>% nest(-Country) %>% mutate(model=map(data,do_models))
+
+WVS_model <- WVS_model %>% mutate(model=map(model, tidy))
+
+WVS_coefs <- WVS_model %>% select(-data) %>% unnest(model)
+
+ggplot(WVS_coefs %>% filter(!term=="(Intercept)"), 
+       aes(x=term,y=Country,fill=estimate)) + geom_tile() +
+  scale_fill_distiller(palette="Paired")
+
+```
+
+
+
+

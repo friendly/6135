@@ -1,0 +1,104 @@
+---
+title: "About This Course"
+output:
+  html_document:
+    css: styles.css
+    includes:
+      after_body: footer.html
+---
+
+
+## Instructor
+
+* Michael Friendly [datavis.ca home page](http://datavis.ca)
+* Email: friendly AT yorku DOT ca
+* Twitter: [@datavisFriendly](http://twitter.com/datavisFriendly); [#psy6135](https://twitter.com/search?q=%23psy6135)
+* Office: ~~226 BSB~~
+* Phone: ~~x66249~~
+* Office hour: Wednesday: 11:30-12:30, but by appointment
+* Course web site: [http://euclid.psych.yorku.ca/www/psy6135/](http://euclid.psych.yorku.ca/www/psy6135/)
+<!--
+* TAs: 
+  + Nataly Beribisky <natalyb1 AR yorku DOT ca>
+  + Justeena Zaki-Azat <justeena AT yorku DOT ca>
+-->
+
+<!-- ```{r, out.width = "400px"} -->
+<!-- knitr::include_graphics("images/MichaelFriendly-Mosaic-50pct-cropped.jpg") -->
+<!-- ``` -->
+
+* Photo mosaic of me (composed of images from the history of data vis); click on the image for a larger version
+
+<a href="images/MichaelFriendly-Mosaic-50pct-cropped.jpg"><img src="images/MichaelFriendly-Mosaic-50pct-cropped.jpg" width="300px"></a>
+
+## Class meetings
+
+* Tuesday 2:30 pm - 5:30 pm, 204 BSB. A few lab sessions will be held in the Hebb Computer lab, 159 BSB.
+<!-- 
+Link and instructions to be announced.
+204 BSB; lab sessions will be held in the Hebb Computer lab, 159 BSB. -->
+
+
+<!--
+## Class discussion forum
+
+This term we will be using eClass for class discussion. The system is designed to make it
+easier to communicate with your classmates, the TA, and myself.
+Rather than emailing questions to a listserv or to us individually, 
+I encourage you to post your questions on eClass. 
+
+Students in the course are automatically subscribed.
+The link is: https://eclass.yorku.ca/eclass/user/index.php?id=37950
+-->
+
+## Summary
+
+This course is designed as a lecture/seminar dealing with data visualization from a largely psychological and historical perspective. 
+
+## Course Description
+
+Information visualization is the pictorial representation of data. 
+
+* Successful visualizations capitalize on our capacity to recognize and understand patterns presented in information displays. 
+* Conversely, they require that writers of scientific papers, software designers and other providers of visual displays understand what works and what does not work to convey their message. 
+
+This course will examine a variety of issues related to data visualization from a largely psychological perspective, but will also touch upon other related communities of research and practice related to this topic:
+
+* history of data visualization, 
+* computer science and statistical software,
+* visual design, 
+* human factors. 
+
+We will consider visualization methods for a wide range of types of data from the points of view of both the viewer and designer/producer of graphic displays. 
+
+## Evaluation
+Grades will be based on the following components:
+
+* **Discussion leader** (20%)
+Each session, 1-2 of you will lead a brief discussion on one of the readings, sub-topics or an application related
+to the topic. (~ 5 min.).  
+
+    + It may be helpful to prepare a one-page handout or other visual materials. 
+    + You can send post these on [eClass](https://eclass.yorku.ca/eclass/user/index.php?id=37950) 
+    <!-- + With your permission, I will post these to the [students page](students.html) -->
+
+
+* **Class presentation** (40%)
+  In the last week, each person will give a ~ 20 min presentation on a topic of research, application, or software related to data visualization. The topic is not restricted to things covered in the lectures. You'll find a few random suggested topics
+  on the [resources page](resources.html)
+  You are permitted to do this work with one other person.
+
+    + You should prepare a brief **topic proposal** and post it to eClass or discuss it with one of us by email by Jun 1.
+    Ungraded, but we want to help you with your topic.
+    + Your presentation should be accompanied by a slide show or other visual materials. We encourage students to prepare
+    and record an audio/video of your presentation _in advance_ and upload to eClass or share a link. 
+    We would prefer to do this offline, in advance --- meaning you can record an audio/video of your presentation in advance and upload to eClass or share a link. In class discussion can then be abbreviated.
+    Those who do post their presentation in advance will be given extra credit.
+    + Evaluation of the presentation will be done by peer review as well as by the instructors. A rating form will provided
+    on eClass.
+
+
+* **Research proposal** (40%)
+  Prepare a brief research proposal (~ 5-6 pages) on a data visualization topic. This can an empirical study of
+  some aspect of data visualization, an historical review, or a proposal for development or implementation of
+  a graphical method. You are permitted to do this work with one other person. This will be due on Friday, June 25, the week following the last class.

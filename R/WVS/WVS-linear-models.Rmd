@@ -1,0 +1,134 @@
+---
+title: 'Team 3 / WVS: Exploratory Linear Model Plots'
+author: "Michael Friendly"
+date: "June 27, 2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Exploratory model-based plots
+
+One data analysis strategy for an unknown data set is to produce a set of purely
+exploratory graphs of just data, and see what turns up.  
+
+An alternative is to use simple
+models, mainly as a smoothing technique to get a **higher-level summary**, with the
+understanding that your model may not be the best summary, or may be totally **wrong**.
+But, you can **tune** the model (non-linear terms, add interactions, ...) and then the
+plotting step(s) **remain the same** for the new model(s).
+
+The caveats are:
+
+* Numeric variables may actually be factors, not quantitative, but you forgot to use `as.factor()`
+* You don't understand the  direction of coding: is `1` the highest or lowest?
+* You forgot to account for, or analyse missing data, which, annoyingly was not coded as
+`NA` in the `RData` file, but used negative values a la SAS or SPSS for various reasons why
+data was missing.
+
+But, this can give a jump start over purely EDA approaches, and allows me to show some things from
+R packages that John Fox & I have developed:  `car`, `effects`, `heplots`.
+
+```{r load_pkgs}
+library(effects)
+library(car)
+library(heplots)
+```
+
+Load our semi-cleaned data file
+```{r}
+load("WVS.Rdata")
+head(WVS)
+```
+
+
+## Fit some univariate linear models
+
+We chose three possible variables to treat as responses:
+
+```
+"V10",  # happiness
+"V11",  # health
+"V23",  # life satisfaction
+```
+
+The possible predictors kept changing from one discussion to the next.  What I'm using here are
+just:
+
+```
+"V57",  # marital_status
+"V58",  # kids
+"V238", # social class
+"V240", # sex
+"V248"  # education
+```
+
+Let's fit a simple additive linear model to each of these.  The strategy here is to:
+
+* Fit  `mod <- lm()`
+* Run `summary(mod)` and/or `car::Anova(mod)` to see test statistics, $R^2$, etc.
+* Run `effects::plot(allEffects(mod))` to see a visual summary of the model predicted values
+for **each** predictor, controlling for all other variables in the model.
+
+Think of an *effect plot* as one kind of visual summary of a table of (partial regression) coefficients.
+
+### Happiness
+
+```{r wvs.mod1}
+wvs.mod1 <- lm(happiness ~ marital + kids + social_class + sex + education, 
+		data=WVS)
+summary(wvs.mod1)
+```
+With such a huge sample size, everything is a significant effect.  What we want to understand
+is roughly the magnitude and direction of the effects of each predictor on happiness in a relatively compact display.
+
+Effect plot, using the short-hand default `plot(allEffects(mod))`.  Details of the screen size are
+important here.  There are many, many graphic options to improve presentation, none used here.
+
+```{r mod1-effplot, fig.width=6, fig.height=4}
+plot(allEffects(wvs.mod1))
+```
+
+**NB**: 
+
+* In this `.Rmd` file, I don't have as much control over the overall plot size, aspect ratio, 
+and other details as I would in a hand-crafted graph I re-sized on-screen or otherwise
+mainpulated.
+
+* This plot (by default) can be misleading, because each panel is scaled *separately*,
+so small absolute effects for a given predictor can appearlarger than if a common scale was
+used for all panels.
+
+* This "model" looks pretty good, until we notice that the $R^2 =0.04$ !!! But--- hey, we *can* say
+with a straight face that $R^2 > 0$, however,  We aren't using this for inference.
+
+
+
+### Health
+
+```{r}
+wvs.mod2 <- lm(health ~ marital + kids + social_class + sex + education, data=WVS)
+summary(wvs.mod2)
+
+```
+
+Effect plot:
+```{r mod2-effplot, fig.width=6, fig.height=4}
+plot(allEffects(wvs.mod2))
+```
+
+### Life satisfaction
+
+```{r}
+wvs.mod3 <- lm(life_sat ~ marital + kids + social_class + sex + education, data=WVS)
+summary(wvs.mod3)
+```
+
+Effect plot:
+```{r mod3-effplot, fig.width=6, fig.height=4}
+plot(allEffects(wvs.mod3))
+```
+
+

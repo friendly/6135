@@ -1,0 +1,6 @@
+subject drug1 drug2 drug3 drug4
+subj1  20  34  38  44
+subj2  16  28  30  34
+subj3  14  28  26  30
+subj4  18  20  24  30
+subj5  10  18  14  22

@@ -1,0 +1,11 @@
+Please register at the World Value Survey webpage and download
+the 6th wave of the World Value Survey:
+http://www.worldvaluessurvey.org/WVSDocumentationWV6.jsp
+ 
+The codebook is provided on that page. Important individual-level
+background variables are found from V240 onwards.
+ 
+Run analyses on this dataset related to a one or a few research
+questions which you are free to choose. Ideally you should conduct
+both descriptive analyses as well as specify models. The
+outcomes shall be presented in visualized form.

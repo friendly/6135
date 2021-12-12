@@ -1,0 +1,6 @@
+species,class,brain_weight,neurons,img
+Capybara,non-primate,48.2,0.3,capybara.png
+Rhesus Macaque,primate,69.9,1.71,rhesus.png
+Western Gorilla,primate,377,9.1,gorilla.png
+Human,primate,1232,16.3,human.png
+African Bush Elephant,non-primate,2848,5.59,elephant.png
