@@ -1,0 +1,105 @@
+---
+title: "WVS: What Makes People Happy?"
+author: "Team 3 (*Blinding Insight*) / Rostock Retreat"
+date: "June 27, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(
+  warning = FALSE,   # avoid warnings and messages in the output
+  message = FALSE,
+  tidy.opts=list(width.cutoff = 120),  # For code
+  options(width = 120)                 # for output
+  )
+```
+
+![](team3-1-photo.jpg)
+
+## World Value Survey
+
+At the [Rostock Retreat 2017](http://www.rostock-retreat.org/2017/), our team was assigned to analyze data from the 6th wave of the World Value Survey,
+http://www.worldvaluessurvey.org/WVSDocumentationWV6.jsp.  The vague instructions were:
+
+
+> Run analyses on this dataset related to a one or a few research questions which you are free to choose. Ideally you should conduct both descriptive analyses as well as specify models. The outcomes shall be presented in visualized form.
+
+
+## Preliminaries
+
+Ugh! The dataset was provided as an `.rdata` file that had been exported from some other software (SPSS?). The variables were named `V1` ... `V263`, and there was a separate Codebook, in Excel format, giving the survey questions and the coding of responses.  
+
+There was a lot (too much!) of work just to make this comprehensible and remove observations with a variety of missing value codes.
+
+The original data set had 90,350 observations and 430 variables. We pick up here with a subset data set of 81,284 observations and 12 variables.
+
+```{r}
+folder <- file.path(myutil::dropbox_folder(), "Documents", "6135", "R", "WVS")
+setwd(folder)
+load(file.path(folder, "WVS6.RData"))
+names(WVS)
+```
+
+Load the main packages we'll be using:
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(magrittr)
+library(corrplot)
+```
+
+### Recoding
+
+Some of our variables of interest were coded on 1-4 or 1-5 scales, where `1` means highest.  For interpretability, we reverse these
+scales so that a larger number means more. 
+
+```{r}
+WVS <- WVS %>%
+		mutate(Happiness =    5-Happiness,
+		       Health =       5-Health,
+		       Social_class = 6-Social_class)	
+WVS <- WVS %>% as_tibble()
+
+WVS                             
+
+```
+
+## Country means
+
+The data is hierarchical, in that respondents to the survey are nested within `Country`.
+One simple form of analyis uses just the country means 
+```{r}
+WVS_mean <- WVS %>% group_by(Country_Code) %>% 
+  summarise(Country  =max(Country),
+            Happiness=mean(Happiness),
+            Health   =mean(Health),
+            Age      =mean(Age),
+            Life_sat =mean(Life_sat),
+            Income   =mean(Income),
+            Kids     =mean(Kids),
+            Social_class =mean(Social_class),
+            Education=mean(Education)
+            )
+
+```
+It is usful to classify countries by continent.  The `countrycode` package has a function that converts a variety of
+country code forms among one another.  Without this, we would have to use a massive `recode()` statement to do these
+individually by country name or country code. Using `dplyr`, this is just a `mutate()` call.
+
+```{r countrycode}
+library(countrycode)
+WVS_mean <- WVS_mean %>%
+	 mutate(Continent = countrycode(Country, "country.name", "continent"))
+```
+
+As a first step, we can examine the distributions of mean `Happiness` by continent.
+
+```{r mean-boxplot1}
+ggplot(WVS_mean, aes(x=Continent, y=Happiness)) +
+	geom_boxplot(aes(fill=Continent))
+
+```
+

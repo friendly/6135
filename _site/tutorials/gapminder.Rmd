@@ -1,0 +1,448 @@
+---
+title: "ggplot2 tutorial: gapminder data"
+author: "Michael Friendly"
+date: "January 29, 2018"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(
+  warning = FALSE,   # avoid warnings and messages in the output
+  message = FALSE,
+  fig.height = .8 * 5,
+  fig.width = .8 * 7,
+  tidy.opts=list(width.cutoff = 120),  # For code
+  options(width = 120)                 # for output
+  )
+```
+
+```{r include=FALSE}
+#What are my defaults:
+unlist(knitr::opts_chunk$get(c("fig.height", "fig.width")))
+```
+
+## Goal
+
+In this tutorial we look at some of the data on wealth and life expectancy of countries over time
+used by Hans Rosling in his famous [TED talk](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen).
+The goal is to introduce some simple 1D and 2D plots constructed using `ggplot2`.
+
+### How to work on this tutorial
+
+
+* In these notes, I supply some initial plots for a topic, and then pose some questions or extensions
+as **Your turn**.
+
+* You will learn best if you try to reproduce them yourself as you go along.
+
+* Open a new R script in R Studio, say, `gapminder-tut.R`. 
+    + Type the lines into the script, and run them as you go.
+    + If you want to cheat a bit on typing, you can open the [gapminder.R](gapminder.R) script that
+    was created from this in a browser window and use some cut-and-paste.
+
+* There are a lot of steps here, and you may not complete them in this lab session.  I urge you to
+make as much progress as you can today, and treat the rest as homework. Save your script somewhere you
+can access it later.
+
+### Load the packages we will use here:
+
+```{r load-packages}
+library(ggplot2)
+library(dplyr)    # data munging
+library(scales)   # nicer axis scale labels
+```
+
+## Data
+
+The data has conviently been packaged in the R package [gapminder](https://CRAN.R-project.org/package=gapminder),
+a subset of the original data set from (http://gapminder.org).  For each of 142 countries, the package provides values for life expectancy, GDP per capita, and population, every five years, from 1952 to 2007.
+
+It is unlikely that you have this package installed, so the first step is to install it and then load it.
+
+```{r install-and-load-gapminder, eval=FALSE}
+install.packages("gapminder")
+library(gapminder)
+```
+
+**Tech note**: Here is a way to make a script more portable by testing whether a package is available before installing it.
+```{r}
+if(!require(gapminder)) {install.packages("gapminder"); library(gapminder)}
+```
+
+What variables are available, and what are their names? `str()` is your friend here.
+
+```{r gapminder-str}
+str(gapminder)
+```
+
+**Tech note**: The `gapminder` data set was constructed as a `tibble`, a generalization of a `data.frame`. The `print()` method gives an abbreviated printout. Normally, you would use `head(gapminder)` for this.
+
+```{r gapminder-print}
+gapminder
+```
+
+### Overview
+
+Normally, when starting with a new data set, it is useful to get some overview of the variables.  The simplest one is
+`summary()`.
+
+```{r gapminder-summary}
+summary(gapminder)
+```
+
+We will want to look at trends over time by `continent`. How many countries are in this data set in each continent?
+There are 12 years for each country.  Are the data complete?  `table()` gives an answer.
+
+```{r gapminder-table}
+table(gapminder$continent, gapminder$year)
+```
+
+**Tech note**: `table()` doesn't have a `data=` argument, so you have to qualify the names of variables
+using `data$variable` notation. Another way to do this is to use the `with()` function, that makes
+variables in a data set available directly.  The same table can be obtained using:
+
+```{r eval=FALSE}
+with(gapminder, {table(continent, year)})
+```
+
+
+
+## 1D plots: Bar plots for discrete variables
+
+Bar plots are often used to visualize the distribution of a discrete variable, like `continent`. With `ggplot2`,
+this is relatively easy:
+
+* map the `x` variable to `continent`
+* add a `geom_bar()` layer, that counts the observations in each category and plots them as bar lengths.
+
+```{r bar-continent1}
+ggplot(gapminder, aes(x=continent)) + geom_bar()
+```
+
+To make this (and other plots) more colorful, you can also map the `fill` attribute to `continent`. Note that adding the `fill` attribute automatically adds a legend. 
+
+```{r bar-continent2}
+ggplot(gapminder, aes(x=continent, fill=continent)) + geom_bar()
+```
+
+As you progress with `ggplot2`, you will also learn to:
+
+* change the default color schemes
+* modify labels: text, font, font size, etc.
+* change the legend position, or eliminate it when it is not needed
+* plot a transformation of a variable
+* flip (x, y) coordinates to (y,x)
+
+The next step shows several of these features:
+
+* in `geom_bar` we transform the computed `..count..` to `..count../12` so it represents the number of countries
+* add a better label for the `y` axis
+* suppress the default legend for `continent`, which is redundant here, because the continents are labeled on the
+x axis.
+
+```{r bar-continent3}
+ggplot(gapminder, aes(x=continent, fill=continent)) + 
+	geom_bar(aes(y=..count../12)) +
+	labs(y="Number of countries") +
+	guides(fill=FALSE)
+```
+
+Another `ggplot2` feature is that every plot is a `ggplot` object.  If you like a given plot, you can save it
+to some name by using `mybar <- ggplot() + ...`, or after you've done it, using `mybar <- last_plot()`
+
+```{r}
+# record a plot for future use
+mybar <- last_plot()
+```
+
+Then, we can add other layers or transform the coordinates with `coord_` functions.
+
+* `coord_trans(y="sqrt")` plots the frequencies on a square root scale
+* `coord_flip()` interchanges the X, Y axes, to make a horizontal bar chart.
+* `coord_polar()` maps (X,Y) to polar coordinates (radius, angle); a *coxcomb* chart rather than a pie chart.
+
+```{r bar-continent-coord}
+mybar + coord_trans(y="sqrt")
+mybar + coord_flip()
+mybar + coord_polar()
+```
+
+## 1D plots: density plots for continuous variables
+
+There are several continuous variables in this data set: life expectancy (`lifeExp`), population (`pop`) and
+gross domestic product per capita (`gdpPercap`) for each `year` and `country`.  For such variables,
+density plots provide a useful graphical summary.  
+
+We will start with `lifeExp`. The simplest plot uses this as the horizontal axis, `aes(x=lifeExp)` and
+then adds `geom_density()` to calculate and plot the smoothed frequency distribution.
+
+```{r lifeexp1}
+ggplot(data=gapminder, aes(x=lifeExp)) + 
+	geom_density()
+```
+
+To make such plots prettier, you can change the line thickness (`size=`), add a fill color (`fill=""`),
+and make the fill color partially transparent (`alpha=`). You can see the grid lines underneath the 
+following plots
+
+```{r lifeexp2}
+ggplot(data=gapminder, aes(x=lifeExp)) + 
+	geom_density(size=1.5, fill="pink", alpha=0.3)
+```
+
+If you want, you can also add a histogram later.  This is a little more complicated to get right, because
+historams are computed differently and need some additional arguments.
+
+```{r lifeexp3}
+ggplot(data=gapminder, aes(x=lifeExp)) + 
+	geom_density(size=1.5, fill="pink", alpha=0.5) +
+	geom_histogram(aes(y=..density..), binwidth=4, color="black", fill="lightblue", alpha=0.5)
+```
+
+I don't recommend such plots, because the density plot usually gives most of the information, and
+the histogram doesn't add much.
+
+### Differences by continent
+
+The plot of `lifeExp` is bimodal, and looks wierd.  Maybe this is hiding a difference among countries
+in different continents.  The easy way to see this in `ggplot2` is to add another aesthetic attribute,
+`fill=continent`, which is inherited in `geom_density()`. Using transparent colors (`alpha=`)
+makes it easier to see the different distributions across `continent`.
+
+```{r}
+ggplot(data=gapminder, aes(x=lifeExp, fill=continent)) +
+	geom_density(alpha=0.3)
+```
+
+It is easy to see that African countries differ markedly from the rest.
+
+### boxplots and other visual summaries
+
+Alternatively, you might want to view the distributions of life expectancy by another visual summary,
+grouped by `continent`.
+All you need to do is change the aesthetic to show `continent` on one axis, and life expectancy (`lifeExp`) on the
+other.
+
+```{r}
+gap1 <- ggplot(data=gapminder, aes(x=continent, y=lifeExp, fill=continent))
+```
+
+Then, add a `geom_boxplot()` layer:
+
+```{r boxplot}
+gap1 +
+	geom_boxplot(outlier.size=2)
+```
+
+### Your turn
+
+* Remove the legend from this plot
+* Also, make the plot horizontal
+* Instead of a boxplot, try `geom_violin()`
+
+### Effect ordering
+
+The continents are a factor, and are ordered alphabetically by default. It might be more useful to
+order them by the mean or median life expectancy.  
+
+In this example, I use the `dplyr` "pipe" notation (`%>%`) to send the `gapminder` data to the 
+`dplyr::mutate()` function, and within that, `reorder()` the continents by their median life
+expectancy. 
+
+```{r eval=FALSE}
+gapminder %>% 
+	mutate(continent = reorder(continent, lifeExp, FUN=median))
+```
+(In other situations, you could use `FUN=mean`, `FUN=sd`, or `FUN=max` to sort
+the levels by their means, standard deviatons, maximums, or any other function.)
+
+Continuing from here, you can **pipe** the result of this right into `ggplot`:
+
+```{r}
+gapminder %>% 
+	mutate(continent = reorder(continent, lifeExp, FUN=median)) %>%
+	ggplot(aes(x=continent, y=lifeExp, fill=continent)) +
+	geom_boxplot(outlier.size=2)
+```
+
+### Looking at GDP
+
+Let's look at the distribution of `gdpPercap` in a similar way, starting with the unconditional distribution.
+
+```{r}
+ggplot(data=gapminder, aes(x=gdpPercap)) + 
+	geom_density()  
+```
+
+Hmm, that is extremely positively skewed.
+
+### Your turn
+
+* As we did for `lifeExp` plot the distributions separately for each continent
+* It is probably more useful to plot GDP on a log scale. Add another layer that
+transforms the `x` axis to `log10(gdpPercap)`.
+* Make boxplots of `gdpPercap` by `continent`
+* Do the same, but plot GDP on a log scale.
+
+
+## 1.5D: Time series plots
+
+How has life expectancy changed over time?  The simplest way to to plot a line for each country over
+`year`.  To do this, we use the `group` aesthetic.
+
+```{r lifetime}
+ggplot(gapminder, aes(x=year, y=lifeExp, group=country)) +
+	geom_line()
+```
+
+What a mess! But there is also something strange here: Several countries show a very jagged pattern.
+
+One way to examine this is to find the countries with the largest measures of variability over time.
+For this, we can group the data by country and `summarise()` with `sd()` and `IQR()`.
+Note the use of `top_n()` to find the largest values and `arrange()` for sorting.
+
+```{r life-top-sd}
+gapminder %>%
+	group_by(country) %>%
+	summarise(sd=sd(lifeExp), IQR=IQR(lifeExp)) %>% 
+	top_n(8) %>%
+	arrange(desc(sd))
+```
+
+A more complete analysis would investigate the data for those countries further, or omit them for
+some purposes.
+
+### Your turn
+
+* Use the scheme above to find the means and standard deviations for all countries.
+* Make a useful plot of the distributions of the means and of the standard deviations.
+
+### Plotting a summary
+
+A better look at trends over time is to find the mean or median for each `year` and `continent` and plot those.
+
+```{r}
+gapminder %>%
+	group_by(continent, year) %>%
+	summarise(lifeExp=median(lifeExp)) %>% head()
+```
+
+One nice feature of the `dplyr` and `tidyverse` framework, is that you can pipe the
+result of such a summary directly to `ggplot()`:
+
+```{r}
+gapminder %>%
+	group_by(continent, year) %>%
+	summarise(lifeExp=median(lifeExp)) %>%
+	ggplot(aes(x=year, y=lifeExp, color=continent)) +
+     geom_line(size=1) + 
+     geom_point(size=1.5)
+```
+
+Alternatively, if you want to make several plots of such a summarized data set, save the result
+in a new object. Here I'm using a handy trick:  assign a result at the **end** of a computation
+using `-> gapyear`
+
+```{r gapyear}
+# save in a new data set
+gapminder %>%
+	group_by(continent, year) %>%
+	summarise(lifeExp=median(lifeExp)) -> gapyear
+```
+
+Then, rather than joining all the points, we could fit linear regression lines for each `continent`.
+
+```{r gaplm}
+ggplot(gapyear, aes(x=year, y=lifeExp, color=continent)) +
+	geom_point(size=1.5) +
+	geom_smooth(aes(fill=continent), method="lm")
+```
+
+### Your turn
+
+* Use a `loess` smooth rather than a linear regression line.  Which do you prefer as a description of
+changes in life expectancy over year?
+
+* Another possibility is a quadratic regression, using `y ~ poly(x, 2)` as the `formula` argument in
+`geom_smooth()`.
+
+* I don't like the default use of legends in such plots.
+    + If there is room inside the plot, I usually like to place the legend there.  Try it.
+    + **Advanced**: The package [directlabels](https://CRAN.R-project.org/package=directlabels) allows labeling curves and lines directly in the plot, which is perceptually better. There is a [collection of examples](http://directlabels.r-forge.r-project.org/docs/index.html) for various plot types. You will have to install the package first.  Try it.
+
+## 2D: Scatterplots
+
+Now let's explore the relationship between life expectancy and GDP with a scatterplot,
+which was the subject of Rosling's
+TED talk. (Actually, he did more than this, with a "moving bubble plot", using a bubble symbol ~ population,
+and animating this over time.)
+
+A basic scatterplot is set up by assigning two variables to the `x` and `y` aesthetic attributes.
+The following just creates an empty plot frame.
+```{r gap-scat1}
+plt <- ggplot(data=gapminder,
+              aes(x=gdpPercap, y=lifeExp))
+plt
+```
+
+Add the points in another layer. Because I saved the basic plot, I can just use `+ geom_point()`.
+
+```{r gap-scat2}
+plt + geom_point()
+```
+
+Or, color them by continent.  Note that we can map the `color` attribute in this layer.
+
+```{r gap-scat3}
+plt + geom_point(aes(color=continent))
+```
+
+Add a smoothed curve for all the data:
+
+```{r gap-scat4}
+plt + geom_point(aes(color=continent)) +
+    geom_smooth(method="loess") 
+```
+
+From what we saw earlier about GDP, this variable is so skewed that it is better plotted on a
+log scale:
+
+```{r gap-scat5}
+plt + geom_point(aes(color=continent)) +
+    geom_smooth(method="loess") +
+    scale_x_log10()
+```
+
+### Your turn
+
+* The last plot, on the log scale has ugly labels. Try using `scale_x_log10(labels=scales::comma)`
+* Try moving the legend for continents into the plot frame, e.g., by adding `+ theme(legend.position = c(0.8, 0.2))`.
+* Try changing the theme for this plot, e.g., by adding `+ theme_bw()`
+* Try replacing the single `loess` smoothed curve with a separate regression line for each continent.
+* Try making a "bubble" plot, mapping the `size` of each point to population (`pop`)
+
+## Going further
+
+Wouldn't it be nice to animate the relationship between life expectancy and GDP over time?
+The [plotly](https://plot.ly/r/) package, by Carson Sievert, adds a `frame` aesthetic to ggplot, and allows
+interactive, linked views of a series of frames over time.
+
+![gapminder animation using plotly](../images/gapminder-highlight-animation.gif)
+
+The plot is also interactive, in that you can hover the mouse over a point and see a pop-up window giving
+details about the country.
+
+```{r ggplotly, eval=FALSE}
+library(plotly)
+g <- crosstalk::SharedData$new(gapminder, ~continent)
+gg <- ggplot(g, aes(gdpPercap, lifeExp, color = continent, frame = year)) +
+  geom_point(aes(size = pop, ids = country)) +
+  geom_smooth(se = FALSE, method = "lm") +
+  scale_x_log10()
+ggplotly(gg) %>% 
+  highlight("plotly_hover")
+```
+
+There is an [online book describing plotly](https://plotly-book.cpsievert.me).  The image above is described in [Section 5.2](https://plotly-book.cpsievert.me/linking-animated-views.html).

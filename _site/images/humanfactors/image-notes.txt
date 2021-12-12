@@ -1,0 +1,7 @@
+from: https://www.usability.gov/how-to-and-tools/methods/eye-tracking.html
+Eye tracking for web usability
+
+As a participant looks at a webpage, the eye tracking device focuses on the pupil of the participants eye and determines the direction and concentration of their gaze. The software generates data about these actions in the form of heat maps and saccade pathways:
+Heat maps
+
+Heat maps represent where the visitor concentrated their gaze and how long they gazed at a given point. Generally, a color scale moving from blue to red indicates the duration of focus. Thus, a red spot over an area of your page might indicate that a participant, or group of participants, focused on this part of a page for a longer period of time.

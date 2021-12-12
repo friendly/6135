@@ -1,0 +1,6 @@
+to Hanoi :n :start :goal :spare        # move disks 1:n from START to GOAL 
+if :n=0 [stop]
+Hanoi :n-1 :start :spare :goal         # move disks 1:n-1 from START to SPARE
+move :n :start :goal                   # move disk n from START to GOAL
+Hanoi :n-1 :spare :goal :start         # move disks 1:n-1 from SPARE to GOAL
+end
