@@ -1,12 +1,14 @@
 
-# 6135 <img src="images/hex-logos/psy6135-hex.png" align="right" width="150px"/>
+# Psychology 6135 <img src="images/hex-logos/psy6135-hex.png" align="right" width="150px"/>
 _Psychology of Data Visualization_
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-This is the GitHub repo for my course, Psychology 6135, _Psychology of Data Visualization_
-taught at York University.
+This is the new GitHub repo for my graduate course, Psychology 6135: _Psychology of Data Visualization_
+taught at York University. The web materials for this course were previously hosted at
+http://euclid.psych.yorku.ca/www/psy6135. For ease of maintenance, the website is being migrated
+to https://friendly.github.io/6135/.
 
 ## Course Description 
 

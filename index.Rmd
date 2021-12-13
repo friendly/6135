@@ -55,11 +55,10 @@ We will consider visualization methods for a wide range of types of data from th
 
 #### Readings:
 
-- Gelman & Unwin [Infovis and Statistical Graphics: Different Goals, Different Looks, *JCGS* 2013](http://dx.doi.org/10.1080/10618600.2012.761137)
+- **Gelman & Unwin** [Infovis and Statistical Graphics: Different Goals, Different Looks, *JCGS* 2013](http://dx.doi.org/10.1080/10618600.2012.761137)
 - Howard Wainer (1984) [How to Display Data Badly. *American Statistician* **38** 137-147](http://www.rci.rutgers.edu/~roos/Courses/grstat502/wainer.pdf)
 - Jon Schwabish [The Ten Most Misleading Charts During Donald Trump’s Presidency](https://policyviz.com/2021/02/15/the-ten-most-misleading-charts-during-donald-trumps-presidency/)
 - [The data visualizations that helped us understand 2020](https://uxdesign.cc/the-data-visualizations-that-helped-us-understand-2020-6447790f821)
-
 - Check out [Additional resources for Session 1](resources.html#week1)
 
 ## Varieties of information visualization
@@ -82,13 +81,12 @@ We will consider visualization methods for a wide range of types of data from th
 
 #### Readings:
 
-  - [Data Visuaization Catalog](https://datavizcatalogue.com/) A handy compendium of most known graphical methods.  There is also a [Blog](https://datavizcatalogue.com/blog/) section with extended discussions of variations of a given chart type, e.g., this one on [Boxplots](https://datavizcatalogue.com/blog/box-plot-variations/).
-  - [Pros and Cons of Chart Taxonomies](https://medium.com/nightingale/the-pros-and-cons-of-chart-taxonomies-5c8e094578c4). Are these chart taxonomies good or evil?
-  - [12 Data visualizations that illustrate poverty's biggest challenges](https://www.one.org/us/2014/05/20/12-data-visualizations-that-illustrate-povertys-biggest-challenges/)
-  - TED talks: [Manuel Lima, A Visual History of Human Knowledge](https://www.ted.com/talks/manuel_lima_a_visual_history_of_human_knowledge)
-  - TED talks: [Hans Rosling, The Best Stats ...](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen)
-  - TED talks: [Nicholas Christakis, How Social networks Predict Epidemics](https://www.ted.com/talks/nicholas_christakis_how_social_networks_predict_epidemics)
-
+- [Data Visuaization Catalog](https://datavizcatalogue.com/) A handy compendium of most known graphical methods.  There is also a [Blog](https://datavizcatalogue.com/blog/) section with extended discussions of variations of a given chart type, e.g., this one on [Boxplots](https://datavizcatalogue.com/blog/box-plot-variations/).
+- [Pros and Cons of Chart Taxonomies](https://medium.com/nightingale/the-pros-and-cons-of-chart-taxonomies-5c8e094578c4). Are these chart taxonomies good or evil?
+- [12 Data visualizations that illustrate poverty's biggest challenges](https://www.one.org/us/2014/05/20/12-data-visualizations-that-illustrate-povertys-biggest-challenges/)
+- TED talks: [Manuel Lima, A Visual History of Human Knowledge](https://www.ted.com/talks/manuel_lima_a_visual_history_of_human_knowledge)
+- TED talks: [Hans Rosling, The Best Stats ...](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen)
+- TED talks: [Nicholas Christakis, How Social networks Predict Epidemics](https://www.ted.com/talks/nicholas_christakis_how_social_networks_predict_epidemics)
 - Check out [Additional resources for Session 2](resources.html#week2)
 
 
@@ -112,13 +110,13 @@ We will consider visualization methods for a wide range of types of data from th
 
 #### Readings:
 
-- Friendly, M. [A Brief History of Data Visualization](http://www.datavis.ca/papers/hbook.pdf)
+- **Friendly, M.** [A Brief History of Data Visualization](http://www.datavis.ca/papers/hbook.pdf)
 - Friendly etal. [The First (Known) Statistical Graph: Michael Florent van Langren and the "Secret" of Longitude](http://www.datavis.ca/papers/langren-TAS09154.pdf)
 - Friendly, M. [The Golden Age of Statistical Graphics. *Statistical Science*, 2008, 23, 502-535.](http://www.datavis.ca/papers/golden-STS268.pdf)
 - Friendly, M. & Denis, D. [The early origins and development of the scatterplot](http://www.datavis.ca/papers/friendly-scat.pdf)
 - Phan et al. [Flow Map Layout, paper](http://graphics.stanford.edu/papers/flow_map_layout/flow_map_layout.pdf); see also:
 	 [Web site](http://graphics.stanford.edu/papers/flow_map_layout/)
-- Jeff Heer, [A Brief History of Data Visualization](https://www.youtube.com/watch?v=N00g9Q9stBo), gives a lecture on his take on this   history, interpreting and extending my work from a computer science perspective.
+- **Jeff Heer**, [A Brief History of Data Visualization](https://www.youtube.com/watch?v=N00g9Q9stBo), gives a lecture on his take on this   history, interpreting and extending my work from a computer science perspective.
 
 - Check out [Additional resources for Session 3](resources.html#week3)
 	
@@ -320,9 +318,13 @@ will give a guest presentation, with the tentative title,
 #### Readings
 
 
-## 2021 Student presentations
-These will take place June 15 & 17. Details will be posted to eClass 
+## 2022 Student presentations
+These will take place in the last week of class. Details will be posted later.
 [Students page](students.html).
+
+<!-- ## 2021 Student presentations -->
+<!-- These will take place June 15 & 17. Details will be posted to eClass  -->
+<!-- [Students page](students.html). -->
 
 <!--
 ## ~~2019 Student presentations~~
