@@ -1,5 +1,6 @@
 name: "Psych6135"
 exclude: ["admin", "notes", "private", "other-slides", "students", "*.pptx", "*.bak", "*.doc"]
+output_dir: "docs"   #for GH pages: docs directory of main branch
 
 output:
   html_document:
