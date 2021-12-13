@@ -1,5 +1,6 @@
 
-# 6135 <img src="images/hex-logos/psy6135-hex.png" width="150px"/>
+# 6135 <img src="images/hex-logos/psy6135-hex.png" align="right" width="150px"/>
+_Psychology of Data Visualization_
 
 <!-- badges: start -->
 <!-- badges: end -->
