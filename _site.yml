@@ -7,6 +7,8 @@ output:
     theme: cosmo
 
 navbar:
+  logo:
+    image: images/icons/favicon_io/favicon-32x32.png
   title: "Psychology 6135: Psychology of Data Visualization"
   type: inverse
   left:
