@@ -40,11 +40,13 @@ We will consider visualization methods for a wide range of types of data from th
 
 ![](images/headers/overview.png)
 
-- **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/Overview.pdf); [4up PDF](lectures/Overview-2x2.pdf)
+#### Lecture notes  `r icon::fa("file-pdf", color="red")` 
+- [1up PDF](lectures/Overview.pdf) || [4up PDF](lectures/Overview-2x2.pdf)
+
 - **Assignment**: Please prepare a 1-2 page summary of something(s) you found on the topics below. Not for grading; I'll ask a few of you to speak on this next class.
 
     + **Blogs**: Explore one or two of the blogs or web resources listed in the lecture notes, Readings, or in [Resources](resources.html#blogs). Find a few examples of kinds of graphs you find interesting or worth exploring more.
-    + **Good/bad graphs** Explore the literature in your area, say several issues of one journal. Find one example of a data display (graph or table) that communicates particularly well, and one example of a display that communicates badly.  
+    + **Good/bad graphs**: Explore the literature in your area, say several issues of one journal. Find one example of a data display (graph or table) that communicates particularly well, and one example of a display that communicates badly.  
 
 #### Topics:  `r icon::fa("list", color="darkgreen")`
 
@@ -67,7 +69,7 @@ We will consider visualization methods for a wide range of types of data from th
 
 ![](images/headers/varieties.png)
 
-- **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/Varieties.pdf); [4up PDF](lectures/Varieties-2x2.pdf)
+- **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/Varieties.pdf) || [4up PDF](lectures/Varieties-2x2.pdf)
 - **Assignment**:
   + From the readings that you have done so far, find one example of a data graph that
   attempts to tell an interesting story of a useful topic. How well does it succeed?
@@ -97,7 +99,7 @@ We will consider visualization methods for a wide range of types of data from th
 ![](images/headers/history.png)
 
 #### Lecture notes `r icon::fa("file-pdf", color="red")`
-- Overview [1up PDF](lectures/History.pdf); [4up PDF](lectures/History-2x2.pdf)
+- Overview [1up PDF](lectures/History.pdf) || [4up PDF](lectures/History-2x2.pdf)
 - Golden Age [1up PDF](lectures/GoldenAge.pdf); [4up PDF](lectures/GoldenAge-2x2.pdf)
 
 #### Topics: `r icon::fa("list", color="darkgreen")`
@@ -126,7 +128,8 @@ We will consider visualization methods for a wide range of types of data from th
 
 ![](images/headers/perception.png)
 
-- **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/GraphPerception.pdf); [4up PDF](lectures/GraphPerception-2x2.pdf)
+#### Lecture notes  `r icon::fa("file-pdf", color="red")` 
+- [1up PDF](lectures/GraphPerception.pdf) || [4up PDF](lectures/GraphPerception-2x2.pdf)
 
 #### Topics `r icon::fa("list", color="darkgreen")`
 
@@ -163,7 +166,7 @@ also online, [HCLwizard](http://hclwizard.org).
 
 ![](images/headers/human-factors.png)
 
-- **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/HumanFactors.pdf); [4up PDF](lectures/HumanFactors-2x2.pdf)
+- **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/HumanFactors.pdf) || [4up PDF](lectures/HumanFactors-2x2.pdf)
 
 #### Topics  `r icon::fa("list", color="darkgreen")`
 
@@ -187,8 +190,8 @@ Communication: What Works](papers/Franconeri-etal-2021-WhatWorks.pdf)
 
 ![](images/headers/language.png)
 
-- **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/Language.pdf); [4up PDF](lectures/Language-2x2.pdf)
-- [Deep questions of Data Visualization](lectures/DeepQuestions.pdf); [4up](lectures/DeepQuestions-2x2.pdf)
+- **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/Language.pdf) || [4up PDF](lectures/Language-2x2.pdf)
+- **Bonus lecture**: _Deep questions of Data Visualization_ [1up PDF](lectures/DeepQuestions.pdf) || [4up](lectures/DeepQuestions-2x2.pdf)
 
 #### Topics  `r icon::fa("list", color="darkgreen")`
 
@@ -220,10 +223,10 @@ in the Hebb lab, Rm 059 BSB.
 
 - [Installing R & R Studio](http://www.datavis.ca/courses/RGraphics/install_tutorial.html) You need to install
 both R & R Studio to profit from this.
-- [Working with R Studio](lectures/RStudio.pdf); [4up](lectures/RStudio-2x2.pdf) A mini lecture to illustrate
+- [Working with R Studio](lectures/RStudio.pdf) || [4up](lectures/RStudio-2x2.pdf) A mini lecture to illustrate
 some aspects of R Studio
-- [Introduction to ggplot2](lectures/ggplot-intro.pdf); [4up](lectures/ggplot-intro-2x2.pdf)
-- **tutorial**: [ggplot2 tutorial: gapminder data](tutorials/gapminder.html); [R script for this](tutorials/gapminder.R)
+- **Introduction to ggplot2** [1up](lectures/ggplot-intro.pdf) || [4up](lectures/ggplot-intro-2x2.pdf)
+- **tutorial**: [ggplot2 tutorial: gapminder data](tutorials/gapminder.html) || [R script for this](tutorials/gapminder.R)
 
 #### Readings `r icon::fa("book-reader", color="blue")`
 
@@ -239,7 +242,7 @@ Also covers data modeling (regression), hypothesis testing, etc.
 
 ![](images/headers/ggplot-further.png)
 
-- **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/ggplot-further.pdf); [4up PDF](lectures/ggplot-further-2x2.pdf)
+- **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/ggplot-further.pdf) || [4up PDF](lectures/ggplot-further-2x2.pdf)
 - **tutorial**: [Minard meets ggplot](tutorials/Minard.html); [R script for this](tutorials/Minard.R)
 
 #### Topics  `r icon::fa("list", color="darkgreen")`
@@ -251,7 +254,7 @@ Also covers data modeling (regression), hypothesis testing, etc.
 
 #### Readings `r icon::fa("book-reader", color="blue")`
 
-- **Hadley Wickham**. [Tidy data](https://www.jstatsoft.org/v059/i10). _The Journal of Statistical Software_, vol. **59**, 2014. See also the
+- **Hadley Wickham** (2014) [Tidy data](https://www.jstatsoft.org/v059/i10). _The Journal of Statistical Software_. See also the
 [main vignette](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) for the `tidyr` package.
 - David Robinson. [broom: An R Package for Converting Statistical Analysis Objects Into Tidy Data Frames](https://arxiv.org/abs/1412.3565). See also this [broom presentation](https://opr.princeton.edu/workshops/Downloads/2016Jan_BroomRobinson.pdf)
 - Software Carpentry. [Dataframe Manipulation with dplyr](https://swcarpentry.github.io/r-novice-gapminder/13-dplyr/). A very nice interactive tutorial on manipulating data frames using `dplyr` and other tidy tools.  Contains some Challenge questions and
@@ -277,7 +280,7 @@ the gapminder data with `ggplot2`
 - **Guest lecture**: [Jim Rankin](https://www.thestar.com/authors.rankin_jim.html), *Toronto Star*. Jim's [lecture slides: Race, Crime & Policing](lectures/Rankin-Race-Crime-2002-2019PPT.pdf) (A big file)
 -->
 
-- Lecture notes: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/DataJournalism.pdf); [4up PDF](lectures/DataJournalism-2x2.pdf)
+- Lecture notes: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/DataJournalism.pdf) || [4up PDF](lectures/DataJournalism-2x2.pdf)
 
 #### Readings `r icon::fa("book-reader", color="blue")`
 
@@ -316,7 +319,7 @@ will give a guest presentation, with the tentative title,
 
 ![](images/headers/uncertainty.png)
 
-- Lecture notes: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/Uncertainty.pdf); [4up PDF](lectures/Uncertainty-2x2.pdf)
+- Lecture notes: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/Uncertainty.pdf) || [4up PDF](lectures/Uncertainty-2x2.pdf)
 
 #### Topics  `r icon::fa("list", color="darkgreen")`
 - Problems with uncertainty in visualization
