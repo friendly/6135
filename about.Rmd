@@ -16,7 +16,7 @@ output:
 * Office: ~~226 BSB~~
 * Phone: ~~x66249~~
 * Office hour: Wednesday: 11:30-12:30, but by appointment
-* Course web site: [http://euclid.psych.yorku.ca/www/psy6135/](http://euclid.psych.yorku.ca/www/psy6135/)
+* Course web site: [https://friendly.github.io/6135/](https://friendly.github.io/6135/)
 <!--
 * TAs: 
   + Nataly Beribisky <natalyb1 AR yorku DOT ca>
@@ -33,9 +33,10 @@ output:
 
 ## Class meetings
 
-* Tuesday 2:30 pm - 5:30 pm, 204 BSB. A few lab sessions will be held in the Hebb Computer lab, 159 BSB.
+* Tuesday 2:30 pm - 5:30 pm via Zoom for the immediate future. Link and instructions to be announced.
+When/if in-person classes resume: in 204 BSB. A few lab sessions will be held in the Hebb Computer lab, 159 BSB.
 <!-- 
-Link and instructions to be announced.
+
 204 BSB; lab sessions will be held in the Hebb Computer lab, 159 BSB. -->
 
 

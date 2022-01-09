@@ -40,13 +40,13 @@ We will consider visualization methods for a wide range of types of data from th
 
 ![](images/headers/overview.png)
 
-- **Lecture notes**: [1up PDF](lectures/Overview.pdf); [4up PDF](lectures/Overview-2x2.pdf)
+- **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/Overview.pdf); [4up PDF](lectures/Overview-2x2.pdf)
 - **Assignment**: Please prepare a 1-2 page summary of something(s) you found on the topics below. Not for grading; I'll ask a few of you to speak on this next class.
 
     + **Blogs**: Explore one or two of the blogs or web resources listed in the lecture notes, Readings, or in [Resources](resources.html#blogs). Find a few examples of kinds of graphs you find interesting or worth exploring more.
     + **Good/bad graphs** Explore the literature in your area, say several issues of one journal. Find one example of a data display (graph or table) that communicates particularly well, and one example of a display that communicates badly.  
 
-#### Topics:
+#### Topics:  `r icon::fa("list", color="darkgreen")`
 
 - Books, readings, blogs & web resources
 - Goals of visualization; visualization as communication
@@ -54,7 +54,8 @@ We will consider visualization methods for a wide range of types of data from th
 - Effective data display
 - Graphs: good/bad, excellent/evil
 
-#### Readings:
+#### Readings: `r icon::fa("book-reader", color="blue")` 
+**Bold face** items are considered essential.
 
 - **Gelman & Unwin** [Infovis and Statistical Graphics: Different Goals, Different Looks, *JCGS* 2013](http://dx.doi.org/10.1080/10618600.2012.761137)
 - Howard Wainer (1984) [How to Display Data Badly. *American Statistician* **38** 137-147](http://www.rci.rutgers.edu/~roos/Courses/grstat502/wainer.pdf)
@@ -66,21 +67,21 @@ We will consider visualization methods for a wide range of types of data from th
 
 ![](images/headers/varieties.png)
 
-- **Lecture notes**: [1up PDF](lectures/Varieties.pdf); [4up PDF](lectures/Varieties-2x2.pdf)
+- **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/Varieties.pdf); [4up PDF](lectures/Varieties-2x2.pdf)
 - **Assignment**:
   + From the readings that you have done so far, find one example of a data graph that
   attempts to tell an interesting story of a useful topic. How well does it succeed?
   How could it be improved?
   
 
-#### Topics:
+#### Topics: `r icon::fa("list", color="darkgreen")`
 
 - Data graphs: 1D -- 3D
 - Thematic maps
 - Network and tree visualization
 - Animation & interactive graphics
 
-#### Readings:
+#### Readings: `r icon::fa("book-reader", color="blue")`
 
 - [Data Visuaization Catalog](https://datavizcatalogue.com/) A handy compendium of most known graphical methods.  There is also a [Blog](https://datavizcatalogue.com/blog/) section with extended discussions of variations of a given chart type, e.g., this one on [Boxplots](https://datavizcatalogue.com/blog/box-plot-variations/).
 - [Pros and Cons of Chart Taxonomies](https://medium.com/nightingale/the-pros-and-cons-of-chart-taxonomies-5c8e094578c4). Are these chart taxonomies good or evil?
@@ -95,10 +96,11 @@ We will consider visualization methods for a wide range of types of data from th
 
 ![](images/headers/history.png)
 
-- **Lecture notes**: Overview [1up PDF](lectures/History.pdf); [4up PDF](lectures/History-2x2.pdf)
-- **Lecture notes**: Golden Age [1up PDF](lectures/GoldenAge.pdf); [4up PDF](lectures/GoldenAge-2x2.pdf)
+#### Lecture notes `r icon::fa("file-pdf", color="red")`
+- Overview [1up PDF](lectures/History.pdf); [4up PDF](lectures/History-2x2.pdf)
+- Golden Age [1up PDF](lectures/GoldenAge.pdf); [4up PDF](lectures/GoldenAge-2x2.pdf)
 
-#### Topics:
+#### Topics: `r icon::fa("list", color="darkgreen")`
 
 - Overview: The Milestones Project
 - The first statistical graph
@@ -109,25 +111,24 @@ We will consider visualization methods for a wide range of types of data from th
 - Case study: Re-Visions of Minard
 
 
-#### Readings:
+#### Readings: `r icon::fa("book-reader", color="blue")` 
 
 - **Friendly, M.** [A Brief History of Data Visualization](http://www.datavis.ca/papers/hbook.pdf)
+- **Jeff Heer**, [A Brief History of Data Visualization](https://www.youtube.com/watch?v=N00g9Q9stBo), gives a lecture on his take on this   history, interpreting and extending my work from a computer science perspective.
 - Friendly etal. [The First (Known) Statistical Graph: Michael Florent van Langren and the "Secret" of Longitude](http://www.datavis.ca/papers/langren-TAS09154.pdf)
 - Friendly, M. [The Golden Age of Statistical Graphics. *Statistical Science*, 2008, 23, 502-535.](http://www.datavis.ca/papers/golden-STS268.pdf)
 - Friendly, M. & Denis, D. [The early origins and development of the scatterplot](http://www.datavis.ca/papers/friendly-scat.pdf)
 - Phan et al. [Flow Map Layout, paper](http://graphics.stanford.edu/papers/flow_map_layout/flow_map_layout.pdf); see also:
 	 [Web site](http://graphics.stanford.edu/papers/flow_map_layout/)
-- **Jeff Heer**, [A Brief History of Data Visualization](https://www.youtube.com/watch?v=N00g9Q9stBo), gives a lecture on his take on this   history, interpreting and extending my work from a computer science perspective.
-
 - Check out [Additional resources for Session 3](resources.html#week3)
 	
 ## Graphical Perception
 
 ![](images/headers/perception.png)
 
-- **Lecture notes**: [1up PDF](lectures/GraphPerception.pdf); [4up PDF](lectures/GraphPerception-2x2.pdf)
+- **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/GraphPerception.pdf); [4up PDF](lectures/GraphPerception-2x2.pdf)
 
-#### Topics
+#### Topics `r icon::fa("list", color="darkgreen")`
 
 - Perception & Cognition
   - Encoding, decoding
@@ -141,17 +142,17 @@ We will consider visualization methods for a wide range of types of data from th
 	- Memory
 	- Color
 
-#### Readings
+#### Readings `r icon::fa("book-reader", color="blue")`
 
-- Cleveland & McGill (1984) [Graphical Perception... *JASA*](papers/ClevelandMcGill1984.pdf) A foundation paper on understanding aspects of graph perception.
-- Christopher Healey [Perception in Visualization](https://www.csc2.ncsu.edu/faculty/healey/PP/) A web page on this topic, including interactive demos, animations and lots of examples
+- **Cleveland & McGill** (1984) [Graphical Perception... *JASA*](papers/ClevelandMcGill1984.pdf) A foundation paper on understanding aspects of graph perception.
+- **Christopher Healey** [Perception in Visualization](https://www.csc2.ncsu.edu/faculty/healey/PP/) A web page on this topic, including interactive demos, animations and lots of examples
+- **Kennedy Elliot** [39 studies abpout human perception in 30 minutes](https://medium.com/@kennelliott/39-studies-about-human-perception-in-30-minutes-4728f9e31a73)
 - Gordon & Finch (2015) ["Statistician Heal Thyself: Have We Lost the Plot?", *JCGS*, 1210-1229, ](http://dx.doi.org/10.1080/10618600.2014.989324)
 - Zeileis etal. (2009) [Escaping RGBland: Selecting Colors for Statistical Graphics, *Computational Statistics & Data Analysis*, 53, 3259–3270.](http://epub.wu.ac.at/1692/)
 - Zeileis et al. (2020) [colorspace: A Toolbox for Manipulating and Assessing Colors and Palettes](https://doi.org/10.18637/jss.v096.i01) This is the latest, definitive work on designing color palettes for R.
 The associated web pages, http://colorspace.r-forge.r-project.org/index.html, have many vignettes and interactive color apps,
 also online, [HCLwizard](http://hclwizard.org).
 - Ware (2013), *Information Visualization: Perception for Design*, Chapter 4 (Color)
-- Kennedy Elliot [39 studies abpout human perception in 30 minutes](https://medium.com/@kennelliott/39-studies-about-human-perception-in-30-minutes-4728f9e31a73)
 - [Why Should Engineers and Scientists Be Worried About Color?](http://www.research.ibm.com/people/l/lloydt/color/color.HTM)
 - Stephen Few [Practical Rules for Using Color in Charts](http://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf)
 - Thomas Lin Pedersen [Scico and the Colour Conundrum](https://www.data-imaginist.com/2018/scico-and-the-colour-conundrum/)
@@ -162,9 +163,9 @@ also online, [HCLwizard](http://hclwizard.org).
 
 ![](images/headers/human-factors.png)
 
-- **Lecture notes**: [1up PDF](lectures/HumanFactors.pdf); [4up PDF](lectures/HumanFactors-2x2.pdf)
+- **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/HumanFactors.pdf); [4up PDF](lectures/HumanFactors-2x2.pdf)
 
-#### Topics
+#### Topics  `r icon::fa("list", color="darkgreen")`
 
 * Human factors in graphic & information design
 * Empirical study of graphs
@@ -173,23 +174,23 @@ also online, [HCLwizard](http://hclwizard.org).
 * Graphical inference
 
 
-#### Readings
+#### Readings `r icon::fa("book-reader", color="blue")`
 
-- [**Franconeri etal (2021)**, The Science of Visual Data
+- **Franconeri etal (2021)**, [The Science of Visual Data
 Communication: What Works](papers/Franconeri-etal-2021-WhatWorks.pdf)
-- [Heer &  Bostock (2010), Crowdsourcing Graphical Perception... ](papers/Heer-Bostock-2010-MTurk-CHI.pdf)
-- [Skau & Kosara (2016),  Arcs, Angles, or Areas: Individual Data Encodings in Pie and Donut Charts](https://kosara.net/papers/2016/Skau-EuroVis-2016.pdf)
-- [Haroz, Kosara, & Franconeri (2015), ISOTYPE Visualization - Working Memory, Performance, and Engagement with Pictographs](http://kosara.net/papers/2015/Haroz_CHI_2015.pdf)
-- [Buja et al. (2009) Statistical inference for exploratory data analysis and model diagnostics](papers/Buja-etal-2009.pdf)
+- Heer &  Bostock (2010), [Crowdsourcing Graphical Perception... ](papers/Heer-Bostock-2010-MTurk-CHI.pdf)
+- Skau & Kosara (2016),  [Arcs, Angles, or Areas: Individual Data Encodings in Pie and Donut Charts](https://kosara.net/papers/2016/Skau-EuroVis-2016.pdf)
+- Haroz, Kosara, & Franconeri (2015), [ISOTYPE Visualization - Working Memory, Performance, and Engagement with Pictographs](http://kosara.net/papers/2015/Haroz_CHI_2015.pdf)
+- Buja et al. (2009), [Statistical inference for exploratory data analysis and model diagnostics](papers/Buja-etal-2009.pdf)
 
 ## The Language of Graphs: from Bertin to GoG to ggplot2
 
 ![](images/headers/language.png)
 
-- **Lecture notes**: [1up PDF](lectures/Language.pdf); [4up PDF](lectures/Language-2x2.pdf)
+- **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/Language.pdf); [4up PDF](lectures/Language-2x2.pdf)
 - [Deep questions of Data Visualization](lectures/DeepQuestions.pdf); [4up](lectures/DeepQuestions-2x2.pdf)
 
-#### Topics
+#### Topics  `r icon::fa("list", color="darkgreen")`
 
 - Early attempts at standardization of graphs
 - Bertin: Semiology of Graphics
@@ -197,12 +198,13 @@ Communication: What Works](papers/Franconeri-etal-2021-WhatWorks.pdf)
 - Wilkinson: The Grammar of Graphics
 - Wickham: ggplot2
 
-#### Readings
+#### Readings `r icon::fa("book-reader", color="blue")`
 
-- [Palsky (1999), The debate on the standardization of statistical maps and diagrams (1857-1901)](http://journals.openedition.org/cybergeo/148)
-- [Wilkinson et al (2012), The Language of Graphics, JCGS, 9(3), 530-543](http://amstat.tandfonline.com/doi/abs/10.1080/10618600.2000.10474897)
-- [Wickham (2010), A layered grammar of graphics, JCGS, 19(1), 3-28](https://doi.org/10.1198/jcgs.2009.07098)
-- [Kruchten (2020), Remaking Figures from Bertin's Semiology of Graphics](https://nicolas.kruchten.com/semiology_of_graphics/)
+- **Wilkinson et al (2000)**, [The Language of Graphics, JCGS, 9(3), 530-543](http://amstat.tandfonline.com/doi/abs/10.1080/10618600.2000.10474897)
+- **Wickham (2010)**, [A layered grammar of graphics, JCGS, 19(1), 3-28](https://doi.org/10.1198/jcgs.2009.07098); also a
+[local copy](papers/Wickham2010-layered-grammar.pdf)
+- Palsky (1999), [The debate on the standardization of statistical maps and diagrams (1857-1901)](http://journals.openedition.org/cybergeo/148)
+- Kruchten (2020), [Remaking Figures from Bertin's Semiology of Graphics](https://nicolas.kruchten.com/semiology_of_graphics/)
 - Check out [Additional resources for Session 6](resources.html#week6)
 
 
@@ -214,7 +216,7 @@ The next two sessions, devoted to developing graphs with `ggplot2` and related m
 in the Hebb lab, Rm 059 BSB.
 
 
-#### Lecture notes & tutorial
+#### Lecture notes & tutorial `r icon::fa("file-pdf", color="red")`
 
 - [Installing R & R Studio](http://www.datavis.ca/courses/RGraphics/install_tutorial.html) You need to install
 both R & R Studio to profit from this.
@@ -223,12 +225,10 @@ some aspects of R Studio
 - [Introduction to ggplot2](lectures/ggplot-intro.pdf); [4up](lectures/ggplot-intro-2x2.pdf)
 - **tutorial**: [ggplot2 tutorial: gapminder data](tutorials/gapminder.html); [R script for this](tutorials/gapminder.R)
 
-#### Readings
+#### Readings `r icon::fa("book-reader", color="blue")`
 
 - [getting started with ggplot](http://ggplot2.tidyverse.org/) This web page describes installing `ggplot2` and the `tidyverse` of related packages.  It also contains some useful links for learning to use `ggplot`.
-
 - The online chapter, [Data Visualization](http://r4ds.had.co.nz/data-visualisation.html) of the book, [R for Data Science](http://r4ds.had.co.nz/) is an excellent brief introduction to `ggplot2`.  Another chapter in this book, [Graphics for Communication](http://r4ds.had.co.nz/graphics-for-communication.html) takes up some more advanced topics.
-
 - A free online book, [An Introduction to Statistical and Data Sciences via R](https://moderndive.com/).
 The focus is on the `tidyverse` of R packages for data manipulation and `ggplot2` for graphics.
 Also covers data modeling (regression), hypothesis testing, etc.
@@ -239,24 +239,22 @@ Also covers data modeling (regression), hypothesis testing, etc.
 
 ![](images/headers/ggplot-further.png)
 
-- **Lecture notes**: [1up PDF](lectures/ggplot-further.pdf); [4up PDF](lectures/ggplot-further-2x2.pdf)
+- **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/ggplot-further.pdf); [4up PDF](lectures/ggplot-further-2x2.pdf)
 - **tutorial**: [Minard meets ggplot](tutorials/Minard.html); [R script for this](tutorials/Minard.R)
 
-#### Topics
+#### Topics  `r icon::fa("list", color="darkgreen")`
 
 * Data wrangling: getting your data into shape
 * Visualizing models: broom
 * ggplot2 extensions
 * tables in R
 
-#### Readings
+#### Readings `r icon::fa("book-reader", color="blue")`
 
-* Hadley Wickham. [Tidy data](https://www.jstatsoft.org/v059/i10). _The Journal of Statistical Software_, vol. **59**, 2014. See also the
+- **Hadley Wickham**. [Tidy data](https://www.jstatsoft.org/v059/i10). _The Journal of Statistical Software_, vol. **59**, 2014. See also the
 [main vignette](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) for the `tidyr` package.
-
-* David Robinson. [broom: An R Package for Converting Statistical Analysis Objects Into Tidy Data Frames](https://arxiv.org/abs/1412.3565). See also this [broom presentation](https://opr.princeton.edu/workshops/Downloads/2016Jan_BroomRobinson.pdf)
-
-* Software Carpentry. [Dataframe Manipulation with dplyr](https://swcarpentry.github.io/r-novice-gapminder/13-dplyr/). A very nice interactive tutorial on manipulating data frames using `dplyr` and other tidy tools.  Contains some Challenge questions and
+- David Robinson. [broom: An R Package for Converting Statistical Analysis Objects Into Tidy Data Frames](https://arxiv.org/abs/1412.3565). See also this [broom presentation](https://opr.princeton.edu/workshops/Downloads/2016Jan_BroomRobinson.pdf)
+- Software Carpentry. [Dataframe Manipulation with dplyr](https://swcarpentry.github.io/r-novice-gapminder/13-dplyr/). A very nice interactive tutorial on manipulating data frames using `dplyr` and other tidy tools.  Contains some Challenge questions and
 nice diagrams showing the effects of `select`, `group_by` and other tidy verbs.
 This is part of a larger series, [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/).
 
@@ -279,9 +277,9 @@ the gapminder data with `ggplot2`
 - **Guest lecture**: [Jim Rankin](https://www.thestar.com/authors.rankin_jim.html), *Toronto Star*. Jim's [lecture slides: Race, Crime & Policing](lectures/Rankin-Race-Crime-2002-2019PPT.pdf) (A big file)
 -->
 
-- Lecture notes: [1up PDF](lectures/DataJournalism.pdf); [4up PDF](lectures/DataJournalism-2x2.pdf)
+- Lecture notes: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/DataJournalism.pdf); [4up PDF](lectures/DataJournalism-2x2.pdf)
 
-#### Readings
+#### Readings `r icon::fa("book-reader", color="blue")`
 
 - [12 brilliant data journalism projects of 2021](https://datajournalism.com/read/blog/best-data-journalism-projects-2021)
 <!--
@@ -318,9 +316,9 @@ will give a guest presentation, with the tentative title,
 
 ![](images/headers/uncertainty.png)
 
-- Lecture notes: [1up PDF](lectures/Uncertainty.pdf); [4up PDF](lectures/Uncertainty-2x2.pdf)
+- Lecture notes: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/Uncertainty.pdf); [4up PDF](lectures/Uncertainty-2x2.pdf)
 
-#### Topics
+#### Topics  `r icon::fa("list", color="darkgreen")`
 - Problems with uncertainty in visualization
 - Visualizing distributions
 - “Error bars”
@@ -328,15 +326,15 @@ will give a guest presentation, with the tentative title,
 - Hypothetical outcome plots
 - Cartographic uncertainty
 
-#### Readings
+#### Readings `r icon::fa("book-reader", color="blue")`
 
-- Padilla, Kay & Hullman [Uncertainty Visualization](papers/Uncertainty_Visualization_Padilla_Kay_Hullman_2020.pdf)
-- Claus Wilke [Chapter 16 from _Fundamentals of Data Visualization_](https://clauswilke.com/dataviz/visualizing-uncertainty.html)
+- **Padilla, Kay & Hullman (2020)**, [Uncertainty Visualization](papers/Uncertainty_Visualization_Padilla_Kay_Hullman_2020.pdf)
+- **Claus Wilke** [Chapter 16 from _Fundamentals of Data Visualization_](https://clauswilke.com/dataviz/visualizing-uncertainty.html)
 - Paulina Levontin and others [Visualising Uncertainty: A short introduction](https://www.researchgate.net/publication/337289688_Visualising_Uncertainty_A_short_introduction)
 
 
 
-## 2022 Student presentations
+## 2022 Student presentations `r icon::fa("chalkboard-teacher", color="red")`
 These will take place in the last week of class. Details will be posted later.
 [Students page](students.html).
 
