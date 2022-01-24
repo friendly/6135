@@ -103,3 +103,11 @@ to the topic. (~ 5 min.).
   Prepare a brief research proposal (~ 5-6 pages) on a data visualization topic. This can an empirical study of
   some aspect of data visualization, an historical review, or a proposal for development or implementation of
   a graphical method. You are permitted to do this work with one other person. This will be due on Friday, June 25, the week following the last class.
+
+## Re-use policy
+
+![](images/icons/cc-by-nc-sa-icon.png)
+
+The lecture slides, tutorials and R scripts linked here are available under a Creative Commons Attribution-NonCommercial-ShareAlike license. They are available to everybody under the terms of this license and can be shared.
+
+All other materials, notably course videos and support material files, should not be copied beyond your personal machines and hence are not available for redisitrbution.

@@ -100,7 +100,7 @@ We will consider visualization methods for a wide range of types of data from th
 
 #### Lecture notes `r icon::fa("file-pdf", color="red")`
 - Overview [1up PDF](lectures/History.pdf) || [4up PDF](lectures/History-2x2.pdf)
-- Golden Age [1up PDF](lectures/GoldenAge.pdf); [4up PDF](lectures/GoldenAge-2x2.pdf)
+- Golden Age [1up PDF](lectures/GoldenAge.pdf) || [4up PDF](lectures/GoldenAge-2x2.pdf)
 
 #### Topics: `r icon::fa("list", color="darkgreen")`
 
@@ -117,8 +117,8 @@ We will consider visualization methods for a wide range of types of data from th
 
 - **Friendly, M.** [A Brief History of Data Visualization](http://www.datavis.ca/papers/hbook.pdf)
 - **Jeff Heer**, [A Brief History of Data Visualization](https://www.youtube.com/watch?v=N00g9Q9stBo), gives a lecture on his take on this   history, interpreting and extending my work from a computer science perspective.
+- **Friendly, M.** [The Golden Age of Statistical Graphics. *Statistical Science*, 2008, 23, 502-535.](http://www.datavis.ca/papers/golden-STS268.pdf)
 - Friendly etal. [The First (Known) Statistical Graph: Michael Florent van Langren and the "Secret" of Longitude](http://www.datavis.ca/papers/langren-TAS09154.pdf)
-- Friendly, M. [The Golden Age of Statistical Graphics. *Statistical Science*, 2008, 23, 502-535.](http://www.datavis.ca/papers/golden-STS268.pdf)
 - Friendly, M. & Denis, D. [The early origins and development of the scatterplot](http://www.datavis.ca/papers/friendly-scat.pdf)
 - Phan et al. [Flow Map Layout, paper](http://graphics.stanford.edu/papers/flow_map_layout/flow_map_layout.pdf); see also:
 	 [Web site](http://graphics.stanford.edu/papers/flow_map_layout/)
@@ -216,7 +216,7 @@ Communication: What Works](papers/Franconeri-etal-2021-WhatWorks.pdf)
 ![](images/headers/ggplot-intro.png)
 
 The next two sessions, devoted to developing graphs with `ggplot2` and related methods will take place
-in the Hebb lab, Rm 059 BSB.
+in the Hebb lab, Rm 059 BSB if possible.
 
 
 #### Lecture notes & tutorial `r icon::fa("file-pdf", color="red")`
