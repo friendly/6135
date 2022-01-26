@@ -36,7 +36,7 @@ This course will examine a variety of issues related to data visualization from 
 We will consider visualization methods for a wide range of types of data from the points of view of both the viewer and designer/producer of graphic displays. 
 </div>
 
-## Overview & Introduction
+## Overview & Introduction {#overview}
 
 ![](images/headers/overview.png)
 
@@ -65,7 +65,7 @@ We will consider visualization methods for a wide range of types of data from th
 - [The data visualizations that helped us understand 2020](https://uxdesign.cc/the-data-visualizations-that-helped-us-understand-2020-6447790f821)
 - Check out [Additional resources for Session 1](resources.html#week1)
 
-## Varieties of information visualization
+## Varieties of information visualization {#varieties}
 
 ![](images/headers/varieties.png)
 
@@ -94,7 +94,7 @@ We will consider visualization methods for a wide range of types of data from th
 - Check out [Additional resources for Session 2](resources.html#week2)
 
 
-## History of data visualization
+## History of data visualization {#history}
 
 ![](images/headers/history.png)
 
@@ -124,7 +124,7 @@ We will consider visualization methods for a wide range of types of data from th
 	 [Web site](http://graphics.stanford.edu/papers/flow_map_layout/)
 - Check out [Additional resources for Session 3](resources.html#week3)
 	
-## Graphical Perception
+## Graphical Perception {#perception}
 
 ![](images/headers/perception.png)
 
@@ -162,7 +162,7 @@ also online, [HCLwizard](http://hclwizard.org).
 - Check out [Additional resources for Session 4](resources.html#week4)
 
 
-## Human factors research: How to tell what works
+## Human factors research: How to tell what works {#human-factors}
 
 ![](images/headers/human-factors.png)
 
@@ -186,7 +186,7 @@ Communication: What Works](papers/Franconeri-etal-2021-WhatWorks.pdf)
 - Haroz, Kosara, & Franconeri (2015), [ISOTYPE Visualization - Working Memory, Performance, and Engagement with Pictographs](http://kosara.net/papers/2015/Haroz_CHI_2015.pdf)
 - Buja et al. (2009), [Statistical inference for exploratory data analysis and model diagnostics](papers/Buja-etal-2009.pdf)
 
-## The Language of Graphs: from Bertin to GoG to ggplot2
+## The Language of Graphs: from Bertin to GoG to ggplot2 {#language}
 
 ![](images/headers/language.png)
 
@@ -211,7 +211,7 @@ Communication: What Works](papers/Franconeri-etal-2021-WhatWorks.pdf)
 - Check out [Additional resources for Session 6](resources.html#week6)
 
 
-## ggplot2: Basics
+## ggplot2: Basics {#ggplot-basics}
 
 ![](images/headers/ggplot-intro.png)
 
@@ -238,7 +238,7 @@ Also covers data modeling (regression), hypothesis testing, etc.
 
 
 
-## ggplot2: Going further in the tidyverse
+## ggplot2: Going further in the tidyverse {#tidyverse}
 
 ![](images/headers/ggplot-further.png)
 
@@ -273,7 +273,7 @@ Compile Report (Ctrl+Shift+K).
 the gapminder data with `ggplot2`
 * [gapminder data: Using `broom` for tidy model visualization](R/gapminder-broom.R). Shows the tools used to fit a collection of models for `lifeExp` and visualize various model summaries.
 
-## Data Journalism
+## Data Journalism {#data-journalism}
 
 ![](images/headers/data-journalism.png)
 <!--
@@ -315,7 +315,7 @@ will give a guest presentation, with the tentative title,
 
 -->
 
-## Visualizing Uncertainty
+## Visualizing Uncertainty {#uncertainty}
 
 ![](images/headers/uncertainty.png)
 

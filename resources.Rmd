@@ -257,6 +257,9 @@ A very good online resource to easily poke at your datasets.
 * [The Johnny Cash Project](http://www.thejohnnycashproject.com).
 A very interesting project that used crowdsourcing like Amazon Mechanical Turk for its creative content.
 
+* [Visualization of geographical data.](https://volaya.github.io/gis-book/en/Visualization.html).
+Chapter 1 has an overview of visual variables, as applied to mapping.
+
 
 ### Session 7 {#week7}
 
