@@ -13,6 +13,34 @@ output:
       in_header: header.html
 
 ---
+
+```{r echo = FALSE}
+# function to color inline text
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+```
+
+```{css, echo = FALSE}
+
+h2 {
+  color: #f56477;
+  font-weight: bold;
+}
+
+h3, h4 {
+  color: #ab4653;
+  font-weight: bold;
+}
+
+```
+
+
 <center>
 <img src="images/hex-logos/psy6135-hex.png" width="150px"/>
 </center>
