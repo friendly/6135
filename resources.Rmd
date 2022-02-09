@@ -49,17 +49,20 @@ tab(class="cellpadding", width="800px",
   	                         href="https://www.amazon.ca/Truthful-Art-Data-Charts-Communication/dp/0321934075"),
   	       ". Information graphics from a communication perspective.", br(),
            "Blog:", aself("http://www.thefunctionalart.com/"))
-  	),
-  tr(
-  	tabfig("Kosslyn", "images/books/kosslyn-MindEye.png", 
-  	       "https://global.oup.com/academic/product/graph-design-for-the-eye-and-mind-9780195311846", width=width),
-  	tabtxt("Steven Kosslyn,",  a("Graph Design for the Eye and Mind",
-  	       href="https://global.oup.com/academic/product/graph-design-for-the-eye-and-mind-9780195311846"),
-  	       ". A cognitive psychologist looks at graphs and presents some do's and don'ts."
-           )
   	)
 )
 ```
+
+  <!-- tr( -->
+  <!-- 	tabfig("Kosslyn", "images/books/kosslyn-MindEye.png",  -->
+  <!-- 	       "https://global.oup.com/academic/product/graph-design-for-the-eye-and-mind-9780195311846", width=width), -->
+  <!-- 	tabtxt("Steven Kosslyn,",  a("Graph Design for the Eye and Mind", -->
+  <!-- 	       href="https://global.oup.com/academic/product/graph-design-for-the-eye-and-mind-9780195311846"), -->
+  <!-- 	       ". A cognitive psychologist looks at graphs and presents some do's and don'ts." -->
+  <!--          ) -->
+  <!-- 	) -->
+
+
 
 ### More books I recommend {#other-texts}
 

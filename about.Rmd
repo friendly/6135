@@ -79,8 +79,9 @@ Grades will be based on the following components:
 Each session, 1-2 of you will lead a brief discussion on one of the readings, sub-topics or an application related
 to the topic. (~ 5 min.).  
 
-    + It may be helpful to prepare a one-page handout or other visual materials. 
-    + You can send post these on [eClass](https://eclass.yorku.ca/eclass/user/index.php?id=37950) 
+    + It may be helpful to prepare a one-page handout, or your slides, or or other visual materials. 
+    + You can send these to the [class listserv](mailto:psyc6135@yorku.ca).
+    <!-- post these on [eClass](https://eclass.yorku.ca/eclass/user/index.php?id=37950)  -->
     <!-- + With your permission, I will post these to the [students page](students.html) -->
 
 
@@ -106,7 +107,7 @@ to the topic. (~ 5 min.).
 
 ## Re-use policy
 
-![](images/icons/cc-by-nc-sa-icon.png)
+![](images/icons/cc-by-nc-sa-icon.png){width="20%"}
 
 The lecture slides, tutorials and R scripts linked here are available under a Creative Commons Attribution-NonCommercial-ShareAlike license. They are available to everybody under the terms of this license and can be shared.
 
