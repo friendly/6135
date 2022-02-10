@@ -1,8 +1,10 @@
 ---
 title: "ggplot2 tutorial: gapminder data"
 author: "Michael Friendly"
-date: "January 29, 2018"
-output: html_document
+date: "February 10, 2022"
+output: 
+  html_document:
+    code_folding: "show"
 ---
 
 
@@ -23,6 +25,19 @@ knitr::opts_chunk$set(
 unlist(knitr::opts_chunk$get(c("fig.height", "fig.width")))
 ```
 
+```{r klippy, echo=FALSE, include=TRUE, purl=FALSE}
+klippy::klippy()
+```
+
+```{css, echo=FALSE, purl=FALSE}
+kbd {
+  font-family: monospace;
+  border-radius: 2px;
+  padding: 2px;
+  border: 1px solid black;
+}
+```
+
 ## Goal
 
 In this tutorial we look at some of the data on wealth and life expectancy of countries over time
@@ -36,6 +51,7 @@ The goal is to introduce some simple 1D and 2D plots constructed using `ggplot2`
 as **Your turn**.
 
 * You will learn best if you try to reproduce them yourself as you go along.
+You can click <kbd>Code</kbd> || <kbd>Hide</kbd> for individual chunks. When code is shown, the icon at the upper left <img src="clipboard.png" height=24 width=24> will copy it to the clipboard.
 
 * Open a new R script in R Studio, say, `gapminder-tut.R`. 
     + Type the lines into the script, and run them as you go.
@@ -56,7 +72,7 @@ library(scales)   # nicer axis scale labels
 
 ## Data
 
-The data has conviently been packaged in the R package [gapminder](https://CRAN.R-project.org/package=gapminder),
+The data has conveniently been packaged in the R package [gapminder](https://CRAN.R-project.org/package=gapminder),
 a subset of the original data set from (http://gapminder.org).  For each of 142 countries, the package provides values for life expectancy, GDP per capita, and population, every five years, from 1952 to 2007.
 
 It is unlikely that you have this package installed, so the first step is to install it and then load it.
@@ -137,7 +153,8 @@ As you progress with `ggplot2`, you will also learn to:
 
 The next step shows several of these features:
 
-* in `geom_bar` we transform the computed `..count..` to `..count../12` so it represents the number of countries
+* in `geom_bar` we transform the computed `..count..` to `..count../12`  so it represents the number of countries. 
+`12 = length(unique(gapminder$year))` is the number of years of data for each country
 * add a better label for the `y` axis
 * suppress the default legend for `continent`, which is redundant here, because the continents are labeled on the
 x axis.
@@ -183,25 +200,45 @@ ggplot(data=gapminder, aes(x=lifeExp)) +
 	geom_density()
 ```
 
-To make such plots prettier, you can change the line thickness (`size=`), add a fill color (`fill=""`),
-and make the fill color partially transparent (`alpha=`). You can see the grid lines underneath the 
-following plots
+**Tech note:** The smoothness of the density curve is controlled with a bandwidth, `bw =` 
+or `adjust =` argument. 
+Larger `bw` values give smoother curves. The default is calculated from the data. 
+The `adjust` argument is easier to use: it multiplies the default by that factor.
+Try running the following lines:
+
+```{r bw-adjust, eval=FALSE}
+ggplot(data=gapminder, aes(x=lifeExp)) + geom_density(adjust = 0.25)
+
+ggplot(data=gapminder, aes(x=lifeExp)) + geom_density(adjust = 4)
+
+```
+
+
+
+To make these plots prettier, you can:
+
+* change the line thickness (`size=`); 
+* add a fill color (`fill=""`);
+* make the fill color partially transparent (`alpha=`):  you can therefore see the grid lines underneath the 
+following plot.
 
 ```{r lifeexp2}
 ggplot(data=gapminder, aes(x=lifeExp)) + 
 	geom_density(size=1.5, fill="pink", alpha=0.3)
 ```
 
-If you want, you can also add a histogram later.  This is a little more complicated to get right, because
-historams are computed differently and need some additional arguments.
+If you want, you can also add a histogram.  This is a little more complicated to get right, because
+histograms are computed differently and need some additional arguments. In particular, the aesthetic
+`y = ..density..` refers to the density that is calculated internally by `geom_histogram`.
 
 ```{r lifeexp3}
 ggplot(data=gapminder, aes(x=lifeExp)) + 
 	geom_density(size=1.5, fill="pink", alpha=0.5) +
-	geom_histogram(aes(y=..density..), binwidth=4, color="black", fill="lightblue", alpha=0.5)
+	geom_histogram(aes(y=..density..), 
+	               binwidth=4, color="black", fill="lightblue", alpha=0.5)
 ```
 
-I don't recommend such plots, because the density plot usually gives most of the information, and
+I don't recommend such plots in general, because the density plot usually gives most of the information, and
 the histogram doesn't add much.
 
 ### Differences by continent
@@ -429,7 +466,7 @@ Wouldn't it be nice to animate the relationship between life expectancy and GDP 
 The [plotly](https://plot.ly/r/) package, by Carson Sievert, adds a `frame` aesthetic to ggplot, and allows
 interactive, linked views of a series of frames over time.
 
-![gapminder animation using plotly](../images/gapminder-highlight-animation.gif)
+![](../images/gapminder-highlight-animation.gif)
 
 The plot is also interactive, in that you can hover the mouse over a point and see a pop-up window giving
 details about the country.
