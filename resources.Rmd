@@ -326,9 +326,13 @@ tab(class="cellpadding", width="800px",
 )
 ```
 
-## R 
+## R {#R}
 
-* Instructions to install R and R Studio for [Windows](R/installing-r-rstudio-windows.pdf) and [Mac](R/installing-r-rstudio-mac.pdf).
+* Instructions to install R and R Studio for [Windows](R/installing-r-rstudio-windows.pdf) and [Mac](R/installing-r-rstudio-mac.pdf). 
+
+* My [install-packages.R](R/install-pkgs.R) R script, to install the most useful packages for this course.
+
+* [R Studio cheatsheets](R/rstudio-cheat-sheets.pdf) A handy collection of cheat sheets for R, R Studio and a number of the most useful R packages.
 
 * [Happy git and github for the useR](http://happygitwithr.com/) provides a good overview of how to use Git and GitHub in conjunction with an R-based workflow.
 

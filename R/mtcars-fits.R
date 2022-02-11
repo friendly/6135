@@ -6,8 +6,11 @@ library(tidyr)
 library(broom)
 library(modelr)
 library(distributional)
+library(here)
 
-setwd("C:/Users/friendly/Dropbox/Documents/6135/images/uncertainty")
+#setwd("C:/Users/friendly/Dropbox/Documents/6135/images/uncertainty")
+path <- here()
+setwd(here("images/uncertainty"))
 
 p1 <-
   ggplot(mtcars, aes(x = hp, y=mpg)) +
