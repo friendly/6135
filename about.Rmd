@@ -93,6 +93,7 @@ to the topic. (~ 5 min.).
     + You should prepare a brief **topic proposal** and send it to me by email by the end of Reading Week, Feb. 26.
     <!-- post it to eClass or discuss it with one of us by email by Jun 1. -->
     This is ungraded, but intended to help you shape your topic.
+
     + Your in-class presentation should be accompanied by a slide show or other visual materials. It would be best to
     post your presentation materials _in advance_, preferably by a link to cloud storage or as an email attachment to
     the [class listserv](mailto:psyc6135@yorku.ca).
