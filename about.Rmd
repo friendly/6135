@@ -86,27 +86,30 @@ to the topic. (~ 5 min.).
 
 
 * **Class presentation** (40%)
-  In the last week, each person will give a ~ 20 min presentation on a topic of research, application, or software related to data visualization. The topic is not restricted to things covered in the lectures. You'll find a few random suggested topics on the [Resources page](resources.html), but you can also get a sense of the range and scope of projects from
+  In the last week, each person will give a ~ 20-25 min presentation on a topic of research, application, or software related to data visualization. The topic is not restricted to things covered in the lectures. You'll find a few random suggested topics on the [Resources page](resources.html), but you can also get a sense of the range and scope of projects from
   those listed on the [Students page](students.html)
   <!-- You are permitted to do this work with one other person. -->
 
     + You should prepare a brief **topic proposal** and send it to me by email by the end of Reading Week, Feb. 26.
     <!-- post it to eClass or discuss it with one of us by email by Jun 1. -->
-    This is ungraded, but intended to help you with your topic.
-    + Your in-class presentation should be accompanied by a slide show or other visual materials. 
+    This is ungraded, but intended to help you shape your topic.
+    + Your in-class presentation should be accompanied by a slide show or other visual materials. It would be best to
+    post your presentation materials _in advance_, preferably by a link to cloud storage or as an email attachment to
+    the [class listserv](mailto:psyc6135@yorku.ca).
     <!-- We encourage students to prepare -->
     <!-- and record an audio/video of your presentation _in advance_ and upload to eClass or share a link.  -->
     <!-- We would prefer to do this offline, in advance --- meaning you can record an audio/video of your presentation in advance and upload to eClass or share a link. In class discussion can then be abbreviated. -->
-    Those who do post their presentation in advance will be given extra credit.
+    <!-- Those who do post their presentation in advance will be given extra credit. -->
     
     + Evaluation of the presentation will be done by peer review as well as by the instructor. A rating form will provided.
 
 
 * **Research proposal** (40%)
-  Prepare a brief research proposal (~ 5-6 pages) on a data visualization topic. This can an empirical study of
+  Prepare a brief research proposal (~ 5-8 pages) on a data visualization topic. This can an empirical study of
   some aspect of data visualization, an historical review, or a proposal for development or implementation of
-  a graphical method. You are permitted to do this work with one other person. This will be due on 
-  Friday, April 22, the week following the last class.
+  a graphical method. The topic should not be identical to that of your presentation.
+  <!-- You are permitted to do this work with one other person.  -->
+  This will be due on  Friday, April 22, the week following the last class.
 
 ## Re-use policy
 
