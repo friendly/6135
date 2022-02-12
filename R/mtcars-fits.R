@@ -1,12 +1,17 @@
-library(ggplot2)
-library(ggdist)
+---
+title: Illustrate plots showing uncertainty for fitted models
+author: Michael Friendly
+---
+  
+library(ggplot2)        # Plots Using the Grammar of Graphics
+library(ggdist)         # Visualizations of Distributions and Uncertainty
 
-library(dplyr)
-library(tidyr)
-library(broom)
-library(modelr)
-library(distributional)
-library(here)
+library(dplyr)          # A Grammar of Data Manipulation
+library(tidyr)          # Tidy Messy Data
+library(broom)          # Convert Statistical Objects into Tidy Tibbles
+library(modelr)         # Modelling Functions that Work with the Pipe
+library(distributional) # Vectorised Probability Distributions
+library(here)           # A Simpler Way to Find Your Files
 
 #setwd("C:/Users/friendly/Dropbox/Documents/6135/images/uncertainty")
 path <- here()

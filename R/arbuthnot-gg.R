@@ -6,7 +6,7 @@
 
 #' ## Load the data & ggplot2
 data(Arbuthnot, package="HistData")
-library(ggplot2)
+library(ggplot2) # Plots Using the Grammar of Graphics  
 
 #' ## basic plot: points & lines
 #' 
@@ -33,4 +33,6 @@ arbuthplot +
            label="Arbuthnot's data on the\nMale / Female Sex Ratio", size=5.5) +
   theme_bw() + 
   theme(text = element_text(size = 16))
+
+
 
