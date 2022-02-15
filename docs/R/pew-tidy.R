@@ -8,9 +8,9 @@
 
 #' ## Load packages
 
-library(dplyr)
-library(tidyr)
-library(ggplot2)
+library(dplyr)    # A Grammar of Data Manipulation
+library(tidyr)    # Tidy Messy Data
+library(ggplot2)  # Plot Using the Grammar of Graphics
 
 #' ## read a data set
 pew <- read.delim(
@@ -63,11 +63,12 @@ spread(pew_long, income, frequency)
 
 
 #' Another way to convert wide to long
-library(reshape2)
+library(reshape2) # Flexibly Reshape Data: A Reboot of the Reshape Package
 pew_tidy <- melt(
   data = pew1,
   id = "religion",
   variable.name = "income",
   value.name = "frequency"
 )
+
 

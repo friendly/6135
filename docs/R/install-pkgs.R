@@ -11,6 +11,7 @@ pkgs <- c("broom", "candisc", "car", "corrgram", "dplyr", "effects", "ggbiplot",
           "ggplot2", "glue",  "heplots", "knitr", "learnr", "MASS", "modelsummary", 
           "palmerpenguins", "stargazer", "rgl", "tidyverse", "visreg") 
 
+
 # install the above, along with any dependencies
 install.packages(pkgs, dependencies=TRUE)
 # update any recently modified packages

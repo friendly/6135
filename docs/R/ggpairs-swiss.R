@@ -7,9 +7,9 @@
 # example from: https://www.r-bloggers.com/multiple-regression-lines-in-ggpairs/
 
 data("swiss", package="datasets")
-require(GGally)
-require(ggplot2)
-require(dplyr)
+require(GGally)     # Extension to 'ggplot2'
+require(ggplot2)    # Plots Using the Grammar of Graphics
+require(dplyr)      # A Grammar of Data Manipulation
 
 ggpairs(swiss, columns=1:5) + theme_bw()
 
@@ -35,5 +35,6 @@ my_fn <- function(data, mapping, ...){
 ggpairs(swiss, columns = 1:4, 
 	lower = list(continuous = my_fn(swiss, alpha=0.5)),
 	upper = list(continuous = my_fn))
+
 
 
