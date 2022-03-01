@@ -1,7 +1,7 @@
----
-title: Illustrate plots showing uncertainty for fitted models
-author: Michael Friendly
----
+#' ---
+#' title: Illustrate plots showing uncertainty for fitted models
+#' author: Michael Friendly
+#' ---
   
 library(ggplot2)        # Plots Using the Grammar of Graphics
 library(ggdist)         # Visualizations of Distributions and Uncertainty
@@ -28,7 +28,11 @@ p1
 
 p1 +
 	annotate("text", x = 250, y = 34, label = "Data", size=8)
+
+# save a png
 ggsave(file="mtcars-data.png", height=5, width=5)
+# save as svg
+ggsave(file="mtcars-data.svg", height=5, width=5)
 
 # add error
 n <- nrow(mtcars)
