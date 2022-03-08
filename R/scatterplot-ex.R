@@ -83,11 +83,14 @@ ggplot(mtcars, aes(y=mpg, x=wt)) +
   theme_minimal(base_size = 14) +
   geom_smooth(method = "lm", formula = y~x, 
                  color="red", fill="pink", size=2) +
-  geom_smooth(method = "loess", formula = y~x, # se=FALSE,
-              color="blue", fill="lightblue", size=2) +
+  geom_smooth(method = "loess", formula = y~x, 
+              color="blue", size=2) +
+
+  # do the animation, by layers
   transition_layers(layer_length = 1, transition_length = 2,
                     from_blank = FALSE) +
-  enter_fade() + enter_grow()
+  enter_fade() + 
+  enter_grow()
 
 animate(anim, nframes=20, fps = 2, start_pause = 3, end_pause = 3, rewind=FALSE)
 
@@ -104,14 +107,17 @@ ggplot(mtcars, aes(y=mpg, x=wt)) +
   theme_minimal(base_size = 14) +
   geom_smooth(method = "lm", formula = y~x, 
               color="red", fill="pink", size=2) +
+  geom_smooth(method = "loess", formula = y~x, 
+              color="blue", size=2) +
   annotate("text", x = 4.5, y = 30, label = modtxt, size=6) +
   geom_segment(data=mtfit, 
-             aes(y=mpg, x=wt, yend=fit, xend=wt)) +
+               aes(y=mpg, x=wt, yend=fit, xend=wt)) +
   transition_layers(layer_length = 1, transition_length = 2,
                   from_blank = FALSE) +
-  enter_fade() + enter_grow()
+  enter_fade() + 
+  enter_grow()
 
-#animate(anim2, nframes=40, fps = 2, start_pause=3, end_pause=5)
+animate(anim2, nframes=40, fps = 2, start_pause=3, end_pause=5)
 
 path <- here(file.path("images", "varieties", "scattercars2.gif"))
 anim_save(path, anim2, nframes=40, fps = 2,
