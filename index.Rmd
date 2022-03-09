@@ -266,7 +266,7 @@ Also covers data modeling (regression), hypothesis testing, etc.
 
 #### R examples
 
-* Plot Arbuthnot’s data with ggplot2 (arbuthnot-gg.R)[R/arbuthnot-gg.R]. Output: (arbuthnot-gg.html)[R/arbuthnot-gg.html]
+* Plot Arbuthnot’s data with ggplot2 [arbuthnot-gg.R](R/arbuthnot-gg.R). Output: [arbuthnot-gg.html](R/arbuthnot-gg.html)
 * Plots of cars data with ggplot2: [gg-cars.R](R/gg-cars.R). Output: [gg-cars.html](R/gg-cars.html)
 * Playfair Balance of Trade data: [playfair-east-indies.R](R/playfair-east-indies.R). Output: [playfair-east-indies.html](R/playfair-east-indies.html)
 

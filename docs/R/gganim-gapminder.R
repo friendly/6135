@@ -105,8 +105,11 @@ gapminder::gapminder %>%
   ggplot(aes(lifeExp, y = factor(year), fill=year)) + 
   geom_density_ridges(alpha = .6, color = "white",
                       scale = 2.5, rel_min_height = .01) +
-  
+  scale_fill_viridis_c() +
   xlab("Life Expectancy") + 
   ylab("Year") +
   guides(fill = "none") +
   theme_ridges()
+
+path <- here(file.path("images", "ggplot2"))
+ggsave(file.path(path, "gap-ggridges.png"), height = 4, width = 4 )
