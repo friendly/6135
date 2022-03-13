@@ -195,6 +195,7 @@ also online, [HCLwizard](http://hclwizard.org).
 ![](images/headers/human-factors.png)
 
 - **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/HumanFactors.pdf) || [4up PDF](lectures/HumanFactors-2x2.pdf)
+- Guest lecture: Andrea Giambelli, [Design, Storytelling and Data Vis](Andrea-YorkU-Talk.pdf)
 
 #### Topics  `r icon::fa("list", color="darkgreen")`
 
@@ -276,6 +277,7 @@ Also covers data modeling (regression), hypothesis testing, etc.
 ![](images/headers/ggplot-further.png)
 
 - **Lecture notes**: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/ggplot-further.pdf) || [4up PDF](lectures/ggplot-further-2x2.pdf)
+- **Lecture notes**: Bootstrapping  `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/bootstrap.pdf) || [4up PDF](lectures/bootstrap-2x2.pdf)
 - **tutorial**: [Minard meets ggplot](tutorials/Minard.html); [R script for this](tutorials/Minard.R)
 
 #### Topics  `r icon::fa("list", color="darkgreen")`
