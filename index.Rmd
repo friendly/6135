@@ -308,6 +308,27 @@ Compile Report (Ctrl+Shift+K).
 the gapminder data with `ggplot2`
 * [gapminder data: Using `broom` for tidy model visualization](R/gapminder-broom.R). Shows the tools used to fit a collection of models for `lifeExp` and visualize various model summaries.
 
+
+## Visualizing Uncertainty {#uncertainty}
+
+![](images/headers/uncertainty.png)
+
+- Lecture notes: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/Uncertainty.pdf) || [4up PDF](lectures/Uncertainty-2x2.pdf)
+
+#### Topics  `r icon::fa("list", color="darkgreen")`
+- Problems with uncertainty in visualization
+- Visualizing distributions
+- “Error bars”
+- Uncertainty in fitted curves
+- Hypothetical outcome plots
+- Cartographic uncertainty
+
+#### Readings `r icon::fa("book-reader", color="blue")`
+
+- **Padilla, Kay & Hullman (2020)**, [Uncertainty Visualization](papers/Uncertainty_Visualization_Padilla_Kay_Hullman_2020.pdf)
+- **Claus Wilke** [Chapter 16 from _Fundamentals of Data Visualization_](https://clauswilke.com/dataviz/visualizing-uncertainty.html)
+- Paulina Levontin and others [Visualising Uncertainty: A short introduction](https://www.researchgate.net/publication/337289688_Visualising_Uncertainty_A_short_introduction)
+
 ## Data Journalism {#data-journalism}
 
 ![](images/headers/data-journalism.png)
@@ -349,27 +370,6 @@ will give a guest presentation, with the tentative title,
 - [ePlant](http://www.waese.com/ePlant.html), a data visualization system allowing plant biologists visualize the natural connections between DNA sequences, natural variation (polymorphisms), molecular structures, protein-protein interactions, and gene expression patterns at multiple levels.
 
 -->
-
-## Visualizing Uncertainty {#uncertainty}
-
-![](images/headers/uncertainty.png)
-
-- Lecture notes: `r icon::fa("file-pdf", color="red")` [1up PDF](lectures/Uncertainty.pdf) || [4up PDF](lectures/Uncertainty-2x2.pdf)
-
-#### Topics  `r icon::fa("list", color="darkgreen")`
-- Problems with uncertainty in visualization
-- Visualizing distributions
-- “Error bars”
-- Uncertainty in fitted curves
-- Hypothetical outcome plots
-- Cartographic uncertainty
-
-#### Readings `r icon::fa("book-reader", color="blue")`
-
-- **Padilla, Kay & Hullman (2020)**, [Uncertainty Visualization](papers/Uncertainty_Visualization_Padilla_Kay_Hullman_2020.pdf)
-- **Claus Wilke** [Chapter 16 from _Fundamentals of Data Visualization_](https://clauswilke.com/dataviz/visualizing-uncertainty.html)
-- Paulina Levontin and others [Visualising Uncertainty: A short introduction](https://www.researchgate.net/publication/337289688_Visualising_Uncertainty_A_short_introduction)
-
 
 
 ## 2022 Student presentations `r icon::fa("chalkboard-teacher", color="red")`
