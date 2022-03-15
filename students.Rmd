@@ -11,12 +11,19 @@ This page exists only to recognize the contributions of past students in this co
 
 All materials linked on this page are the intellectual property of the students in this course.  They may not be
 reproduced or used in any other manner without express permission of the student involved.
+Don't even think about it.
 
 ## 2022
 
-### Discussion leader mini presentations
+### Discussion leader mini presentations  `r icon::fa("microphone", color="#ab4653")`
 
 - Emma Ritchie [Florence Nightingale & Women in the History of Data Visualization](students/2022/mini-pres/Ritchie-Nightingale_Jan25.pptx)
+- Tasfia Ahsan [Grammar of Graphics -> Sentences](students/2022/mini/Ahsan-grammar_of_graphics_Mar1.pdf)
+- Naomi Martinez Gomez [Discecting a ggplot2-based function](students/2022/mini/Naomi-mini_discussion.pptx)
+- Udi Alter [plotly & ggplotly: Going slightly beyond the tidyverse](students/2022/mini/Alter-mini-presentation.pdf)
+
+### Class presentations  `r icon::fa("microphone", color="#ab4653")`
+TBA
 
 ## 2021
 
