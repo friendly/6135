@@ -4,10 +4,11 @@ library(here)
 
 setwd(here("images/Rstudio"))
 
+set.seed(42)
 
 iris_tab <-
 iris %>%
-  slice(1:5) %>%
+  sample_n(5) %>%
   gt() %>%
   tab_header(
     title = "Anderson's Iris Data",
@@ -35,7 +36,7 @@ iris_tab <-
     Sepal.Length = "Length",
     Sepal.Width = "Width",
     Petal.Length = "Length",
-    Petal.Width = "Width",
+    Petal.Width = "Width"
   ) %>%
   tab_options(
     heading.background.color = "#c6dbef",
