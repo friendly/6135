@@ -1,1 +1,12 @@
+DDJ questions:
+* What have been the most influential developments in DDJ in the last two years?
+
 https://gijn.org/2020/03/26/data-journalism-top-10-covid-19s-spread-death-rates-and-curve-flattening-the-shape-of-dreams-transphobia-tracking/
+
+https://www.storybench.org/how-the-wall-street-journal-visualized-the-500-conflicts-of-interest-of-the-trumps/
+“The most difficult part of many visualization projects, and certainly of this one, was distilling a complex, messy dataset into a clean visualization with a clear takeaway,” says Eastwood.
+
+
+https://datajournalism.com/read/blog/best-data-journalism-projects-2021
+
+
