@@ -200,6 +200,8 @@ gif <- function(x_sample, tib, scale=1) {
   map(1:15, ~final_plot(tib))
 }
 
+#gif(x_sample, tib, SCALE)
+
 saveGIF(gif(x_sample, tib, SCALE),
         interval = 0.4, # animation speed
         ani.width = 720,
