@@ -1,7 +1,25 @@
-DDJ questions:
+# DDJ questions:
 * What have been the most influential developments in DDJ in the last two years?
 
 https://gijn.org/2020/03/26/data-journalism-top-10-covid-19s-spread-death-rates-and-curve-flattening-the-shape-of-dreams-transphobia-tracking/
+
+
+# NYT Election needle - Will Oremus
+https://gen.medium.com/how-i-learned-to-stop-worrying-and-love-the-needle-9bfed8f41023
+
+Four years ago, a New York Times election graphic earned a place in media
+infamy. For much of the night, “the needle” — a quivering indicator of which
+candidate is more likely to win, updated in real time as data pours in — showed
+Hillary Clinton as the favorite. And then, suddenly, it didn’t.
+
+As the needle swung in Trump’s direction around 9 p.m., it became much more than
+a data visualization. For Clinton voters, it became an encapsulation of
+everything that was going terribly, unfathomably wrong: The fate of the country
+and democracy distilled to a lone meter that was suddenly pointing to “red
+alert.” Pundits and media theorists would later dissect its journalistic merits
+and failings, but its memory lives on most vividly as a jittery icon of liberal
+trauma.
+
 
 https://www.storybench.org/how-the-wall-street-journal-visualized-the-500-conflicts-of-interest-of-the-trumps/
 “The most difficult part of many visualization projects, and certainly of this one, was distilling a complex, messy dataset into a clean visualization with a clear takeaway,” says Eastwood.
@@ -9,4 +27,70 @@ https://www.storybench.org/how-the-wall-street-journal-visualized-the-500-confli
 
 https://datajournalism.com/read/blog/best-data-journalism-projects-2021
 
+
+Wall Street Journal
+https://www.wsj.com/graphics/donald-trump-potential-conflicts-of-interest/
+
+
+# Reuters COVID tracker
+https://graphics.reuters.com/world-coronavirus-tracker-and-maps/vaccination-rollout-and-access/
+
+many data journalists faced the challenge of creating live trackers that pulled data from different sources to generate real-time graphics with text, telling us the story of the pandemic
+
+We spoke to Prasanta Kumar Dutta, from Reuters’ design and development team,
+about what differentiated this tracker from the rest: “Reuters also took on the
+hard task of tracking the vaccination policies that determined who had access to
+COVID-19 vaccines in countries around the world. That meant creating a unifying
+structure to catalogue the different phases of each country's vaccination
+rollout plan.”
+
+# Panama Papers - International Consortium of Investigative Journalists
+
+January 2017 - The Panama Papers expose the internal operations of one of the
+world’s leading firms in incorporation of offshore entities, Panama-
+headquartered Mossack Fonseca. The 2.6 terabyte trove of data at the core of
+this investigation contains nearly 40 years of records, and includes information
+about more than 210,000 companies in 21 offshore jurisdictions.
+
+ The 2.6 terabytes of data that make up the Panama Papers files were obtained by German newspaper Süddeutsche Zeitung and shared with ICIJ and more than 100 media partners.
+
+Our network of trusted members encompasses 280 of the best investigative reporters from more than 100 countries and territories. 
+
+# Satelite Journalism
+https://reutersinstitute.politics.ox.ac.uk/sites/default/files/2018-10/Mark%20Corcoran%2C%20Satellite%20Journalism_1.pdf
+
+An exponential growth in the number of small, privately owned satellites has opened wide new vistas
+for investigative reporting.
+
+Nearly 500 satellites and
+other space objects were sent into Earth orbit or beyond in 2017, nearly doubling the
+number launched in 2016 (UN, 2018)
+
+So, what’s in it for the media?
+Journalists have been quick to exploit these new opportunities to cover events where it may
+be too difficult, dangerous or costly to put reporting teams on the ground. Media access to
+satellite company images data bases has resulted, in some cases, journalists gaining a near
+real-time reporting source for breaking stories.
+
+Satellite imagery has already provided ‘smoking-gun’ evidence for award-winning
+investigative reporting of human rights abuses (Htusan et al., 2015). Digital, TV and print all
+carry growing numbers of satellite imagery-led exposes of environmental destruction in
+remote locations such as the Amazon (Weir, 2017), before and after imagery of natural
+disasters (Murphy, 2018), analyses of military build-ups such as China’s construction of
+artificial islands in the South China Sea (Wu et al., 2018), missile launches and nuclear
+testing in North Korea (Fifield and Taylor, 2018).
+
+Satellite imagery has provided ‘smoking-gun’ evidence for:
+investigative reporting of human rights abuses (Htusan et al., 2015)
+exposure of environmental destruction in remote locations such as the Amazon (Weir, 2017)
+before and after imagery of natural disasters (Murphy, 2018)
+analyses of military build-ups such as China’s construction of artificial islands in the South China Sea (Wu et al., 2018)
+missile launches and nuclear testing in North Korea (Fifield and Taylor, 2018)
+
+Environmental monitoring: The La Pampa gold mine in Peru. In 2016, mining operations were extended
+south of the Malinowski River, illegally entering the Tambopata National Reserve—a protected forest. The
+Amazon Conservation Association used Planet data to publish a series of alerts which tracked hundreds of
+hectares of illegal expansion and mapped alterations to the course of the Malinowski River. According to
+Planet, the Peruvian government intervened and actively targeted illegal mining operations inside the
+reserve (4 images – Planet Labs
 
