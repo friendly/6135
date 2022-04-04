@@ -24,7 +24,12 @@ Don't even think about it.
 - Stephanie Bell [Mapping Uncertainty For Climate and Temperature Data](students/2022/mini/Bell-Mapping Uncertainty in Geodata.pptx)
 
 ### Class presentations  `r icon::fa("microphone", color="#ab4653")`
-TBA
+
+- Tasfia Ahsan [Misconceptions in News Stories]
+- Udi Alter [Flexdashboard]
+- Stephanie Bell [Graph Literacy]
+- Naomi Martinez Gomez [Shiny for Data Visualization]
+- Emma Ritchie [Visualizing Qualitative Data]
 
 ## 2021
 
