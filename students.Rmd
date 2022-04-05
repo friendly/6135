@@ -25,11 +25,11 @@ Don't even think about it.
 
 ### Class presentations  `r icon::fa("microphone", color="#ab4653")`
 
-- Tasfia Ahsan [Misconceptions in News Stories](students/2022/presentations/)
+- Tasfia Ahsan [That’s fake news! Misconceptions in News Stories](students/2022/presentations/Ahsan_ProjectPresentation.pdf)
 - Udi Alter [Flexdashboard](students/2022/presentations/)
-- Stephanie Bell [Graph Literacy](students/2022/presentations/)
-- Naomi Martinez Gomez [Shiny for Data Visualization](students/2022/presentations/)
-- Emma Ritchie [Visualizing Qualitative Data](students/2022/presentations/)
+- Stephanie Bell [Graph Literacy](students/2022/presentationsBell-EvaluatingGraphicalLiteracy.pptx/)
+- Naomi Martinez Gomez [Shiny for Data Visualization](students/2022/presentations/Martinez-ShinyDataViz.pdf)
+- Emma Ritchie [Visualizing Qualitative Data](students/2022/presentations/Ritchie-6135 Presentation.pptx)
 
 ## 2021
 
