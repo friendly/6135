@@ -26,7 +26,7 @@ Don't even think about it.
 ### Class presentations  `r icon::fa("microphone", color="#ab4653")`
 
 - Tasfia Ahsan [That’s fake news! Misconceptions in News Stories](students/2022/presentations/Ahsan_ProjectPresentation.pdf)
-- Udi Alter [Flexdashboard](students/2022/presentations/)
+- Udi Alter [Flexdashboard](students/2022/presentations/Alter-classpresentation.pdf) || [Flexdashboard example](students/2022/presentations/flexdashboard.zip)
 - Stephanie Bell [Graph Literacy](students/2022/presentations/Bell-EvaluatingGraphicalLiteracy.pptx/)
 - Naomi Martinez Gomez [Shiny for Data Visualization](students/2022/presentations/Martinez-ShinyDataViz.pdf)
 - Emma Ritchie [Visualizing Qualitative Data](students/2022/presentations/Ritchie-6135 Presentation.pptx)
