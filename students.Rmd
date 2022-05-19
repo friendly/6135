@@ -34,7 +34,7 @@ Don't even think about it.
 ### Research projects  `r icon::fa("book-open", color="#ab4653")`
 
 - Tasfia Ahsan [Using data comics to make data more understandable in the field of medicine](students/2022/proposal/Ahsan_6135_Final_Paper.pdf)
-- Udi Alter [Raising the Bar Graph: Upgrading to Interactive Dynamic Data Visualizations in Psychology](students/2022/proposal/Alter-finalproject.html)
+- Udi Alter [Raising the Bar Graph: Upgrading to Interactive Dynamic Data Visualizations in Psychology](students/2022/proposal/Alter-finalproject.html) Winner of the 2002 **Jim Rankin Award**
 - Stephanie Bell [Representation Matters: A Proposed Visual Diagnostic of the State of LGBTQ+ Representation in American Television Media](students/2022/proposal/Bell-RepresentationMatters.docx)
 - Naomi Martinez Gomez [The Absolute Judgement of Statistical Graphics: A Proposal](students/2022/proposal/Martinez_Proposal_PSYC6135.pdf)
 - Emma Ritchie [Visualizing the Relationship Between Simultaneous Alcohol and Marijuana Use](students/2022/proposal/Ritchie-6135FinalPaper.docx)
