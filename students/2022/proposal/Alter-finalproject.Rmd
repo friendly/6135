@@ -1,0 +1,177 @@
+---
+title: "Raising the Bar Graph: Upgrading to Interactive Dynamic Data Visualizations in Psychology"
+author: "Udi Alter"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 6
+    toc_float: yes
+    theme: readable
+    code_download: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<br>
+
+> “Via dynamic and interactive graphics, today’s technology allows students to visualize externally what they have difficulty representing mentally.”
+>
+
+ --- <cite>[David Moreau (2015), p. 2.](https://doi.org/10.3389/fpsyg.2015.00342)</cite>
+
+<br><br>
+
+
+Research on human perception have taught us a lot about how to better communicate data through illustrations and graphics. Visualizing data-driven results continues to improve through psychological research and technological innovations. Today, researchers have greater capacity to collect better-quality data and in larger quantities (e.g., online surveys, cell phone applications, wearable technologies, social media, Google Analytics, etc.). In order to preserve the integrity and purpose of our graphs, data visualizations must be able to accommodate this surge in information volume and complexity of the digital age. Yet, despite the exponential growth in computing power and software tools, psychology researchers continue to rely mostly on static data visualizations.
+
+## The (Optical) Illusion of Current Data Visualization Practices
+
+Static visualizations are entirely acceptable and appropriate for many purposes (as I hope the figures in this paper), however, as we transition into the big data era, relying only on static graphics may not be enough ([Heer & Kandel, 2012](https://doi.org/10.1145/2331042.2331058 )). Static graphs can limit the type and amount of information one wishes to communicate, or the speed and comprehension of details the reader is meant to perceive; certain types of static graphs can often be no more than “visual tables” ([Weissgerber et al., 2015, p. 1](https://doi.org/10.1371/journal.pbio.1002128)). In a 2014 systematic review of research articles published in the top 25% physiology journals, the authors found that the most common type of data visualizations are static graphs. And specifically, static bar graphs ([Weissgerber et al., 2015](https://doi.org/10.1371/journal.pbio.1002128)). Although a recent^[Some less recent systematic reviews exist, see [Best et al. (2001)](https://doi.org/10.1016/s0376-6357(01)00156-5 ) and [Cleveland (1984)](https://doi.org/10.2307/2683400). Results from these reviews do not differ dramatically from those of the [#barbarplots project (2017)](https://www.kickstarter.com/projects/1474588473/barbarplots) and [Weissgerber et al. (2015)](https://doi.org/10.1371/journal.pbio.1002128).]  systematic review in psychological research has yet to be published (to my knowledge), it appears that psychology suffers from the same graph use issues as physiology and other disciplines. The [#barbarplots project (2017)](https://www.kickstarter.com/projects/1474588473/barbarplots) examined 131 research articles from the first six month of 2016 in four high impact psychology journals and found that there is a substantial presence of static bar graphs. Particularly, from a total of 104 graphs presented, 55% of figures were static bar graphs.
+<br><br>
+Static bar graphs have been heavily criticized (especially with continuous data) for increasing the risk of misinterpreting research findings and providing limited information ([Cooper et al., 2002](https://doi.org/10.1067/mem.2002.127327); [Gelman, 2017](http://andrewgelman.com/2017/07/16/graphs-comparisons-case-study); [Lane & Sándor, 2009](https://doi.org/10.1037/a0016620); [Schriger et al., 2006](https://doi.org/10.1016/j.annemergmed.2006.06.017); [Saxon, 2015](https://doi.org/10.1186/s12915-015-0169-6); [Weissgerber et al., 2015](https://doi.org/10.1371/journal.pbio.1002128)). For example, a static bar graph can portray potentially countless different distributions (e.g., bimodal, skewed, containing outliers, difference in sample size) the same way if their means and variability are similar (see Figure 1). 
+
+<div class="panel panel-default"> 
+![**Figure 1. Many different datasets can lead to the same static bar graph.** The full data may suggest different conclusions from the summary statistics. The means and standard errors (SEs) for the four example datasets shown in Panels B–E are all within 0.5 units of the means and SEs shown in the bar graph (Panel A). In Panel B, the distribution in both groups appears symmetric. Although the data suggest a small difference between groups, there is substantial overlap between groups. In Panel C, the apparent difference between groups is driven by an outlier. Panel D suggests a possible bimodal distribution. Additional data are needed to confirm that the distribution is bimodal and to determine whether this effect is explained by a covariate. In Panel E, the smaller range of values in group two may simply be because there are only three observations. Additional data for group two would be needed to determine whether the groups are different. Figure and caption adapted from Weissgerber et al. (2015).](Fig1.png){width=100%}
+</div>
+
+This can mislead readers to make a certain set of assumptions (e.g., normality, equal sample size and variability, no outliers, etc.) which in reality might have never been met. In addition, if non-independent – or paired – data are presented using static bar graphs, readers might falsely infer independence and ignore within-subject differences (or lack thereof; see Figure 2).
+
+<div class="panel panel-default"> 
+![**Figure 2. Additional problems with using static bar graphs to show paired data.** The bar graph (mean ± SE) suggests that the groups are independent and provides no information about whether changes are consistent across individuals (Panel A). The scatterplots shown in the Panels B–D clearly demonstrate that the data are paired. Each scatterplot reveals very different patterns of change, even though the means and SEs differ by less than 0.3 units. The lower scatterplots showing the differences between measurements allow readers to quickly assess the direction, magnitude, and distribution of the changes. The solid lines show the median difference. In Panel B, values for every subject are higher in the second condition. In Panel C, there are no consistent differences between the two conditions. Panel D suggests that there may be distinct subgroups of “responders” and “non-responders.” Figure and caption taken from Weissgerber et al. (2015)..](Fig2.png){width=100%}
+</div>
+
+Of course, there are numerous types of static data visualizations, other than bar graphs, that might be better suited for the researcher or data scientist’s needs (e.g., scatterplots, line graphs, violin plots). Yet, static graphs (unintentionally) force the reader to look at the data through a single lens – only the one that the authors intended. The authors have complete and utter control over the type of graph, which variables go in, the scaling or truncation of axes, the angle or point of view (e.g., in a 3D plot), the colours, sizes, and more. Many static graphs can also be inaccessible to some readers. For example, readers who are colour blind or have difficulty with depth perception, graphs that include very small or too many labels, etc. 
+<br><br>
+Furthermore, static figures prevent readers from exploring the visualized data independently and assessing data-driven conclusions impartially: readers cannot manipulate the graph, inspect particular observations, rescale the axes, or visualize different analyses. By doing so, we unintentionally limit the information presented and therefore transparency. This might sound normal; it is the default after all, we have been seeing static figures in academic journals for decades. But we now have the capacity to allow readers to share control over how the data is visualized, so why do we not make it the new “normal?”
+<br><br>
+This unintentional lack of transparency is problematic in data visualization as it is in other research aspects such as reporting practices (e.g., limited/ambiguous reporting, excluding analyses due to lack of statistical significance, etc.). Reporting practices, among other research facets, have been directly addressed and are improving thanks to various taskforces, the [open science framework (OSF)](https://osf.io/), and more. Given recent concerns about the replication crisis, publication bias, and lack of transparency in psychological research, a reform in data visualization should also be considered. 
+
+
+## Enter Beyond-Static Graphics
+
+Interactive and dynamic data visualizations can accommodate virtually endless amount and types of information. In fact, with interactive dynamic visualizations, readers can tailor and modify the graphic to display the details of their choosing. But, before we go deeper into why we should implement these data visualization methods, we first need to define what are interactive and dynamic visualizations. In this paper, I define three types of non-static data visualizations: interactive, dynamic, and interactive dynamic data visualizations. However, I will mostly focus on the latter type, interactive dynamic, due its advanced features and benefits.
+<br><br>
+In an **interactive data visualization (IDV)** the user^[I will use the terms user, reader, and viewer interchangeably from now on when referring to the “audience” or consumers of the graphics, as opposed to the researcher, author, or scientists who design/produce the graphics.]  can probe the presentation to view certain aspects of the data (e.g., value on another variable), and thus interact with the display directly instead of using menus or cross-referencing a table ([Ward et al., 2015](https://doi.org/10.1201/9780429108433)). Other interactive features may include scaling or zooming in and out on a particular slice of data, highlighting certain categories or values, rotating (in 3D graphics) or panning over, and more. An example of IDV is presented in Figure 3 and can be accessed [here](https://plotly.com/r/3d-scatter-plots/).
+
+
+```{r Figure 3, echo=FALSE, warning=F, message=FALSE}
+library(plotly)
+
+mtcars$am[which(mtcars$am == 0)] <- 'Automatic'
+mtcars$am[which(mtcars$am == 1)] <- 'Manual'
+mtcars$am <- as.factor(mtcars$am)
+
+fig <- plot_ly(mtcars, x = ~wt, y = ~hp, z = ~qsec, color = ~am, colors = c('#BF382A', '#0C4B8E'))
+fig <- fig %>% add_markers()
+fig <- fig %>% layout(scene = list(xaxis = list(title = 'Weight'),
+                     yaxis = list(title = 'Gross horsepower'),
+                     zaxis = list(title = '1/4 mile time')))
+
+fig
+```
+<div class="panel panel-default">
+**Figure 3. Interactive data visualization.** This is a 3D scatter plot with interactive features. The dataset presented is ‘mtcars’ from the ‘datasets’ R package ([R Core Team, 2022](https://www.R-project.org/)). The plot displays the relationship between different vehicle types (i.e., automatic in red and manual in blue), weight (x axis), time it takes to drive a quarter of a mile in minutes (y axis), and horsepower (z axis). The user can rotate the plot 360°, zoom in and out, pan the “camera” over, highlight one or more categories (e.g., red; automatic), hover over any individual observations to see its coordinates, and download a snapshot of the current position of the plot.
+</div>
+**Dynamic data visualizations (DDV)** are representations of data that can change their graphical make-up while presented ([Ploetzner & Lowe, 2004](https://doi.org/10.1016/j.learninstruc.2004.06.001); [Schnotz et al., 1999](https://doi.org/10.1007/BF03172968)). [Kaput (1992)](https://doi.org/10.2307/749579) considered time as a dimension in DDV. This is, of course, true when visualizing time-series, hierarchical, or longitudinal designs, or to depict a process (e.g., neuron firing). However, in other designs, I argue, any variable – whether categorical or continuous – can serve as a dimension in DDV (e.g., treatment condition, IQ, etc.). In DDV, displayed values of the outcome can change (while still presented) as a function of another variable (e.g., time, group). In a linear, or automatic DDV, changes transpire on their own and cannot be altered by the user or reader. An example of DDV is presented in Figure 4 and is available [here](https://plotly.com/ggplot2/animations/#:~:text=Play-,Mulitple%20Trace%20Animations,-library(plotly)%0Alibrary).
+
+
+```{r Figure 4, echo=FALSE, warning=F, message=FALSE}
+library(plotly)
+library(ggplot2)
+library(gapminder)
+
+
+p <- ggplot(gapminder, aes(gdpPercap, lifeExp, color = continent)) +
+  geom_point(aes(size = pop, frame = year, ids = country)) +
+  scale_x_log10()
+
+ggplotly(p)
+```
+<div class="panel panel-default">
+**Figure 4. Dynamic data visualization.** This is a scatter plot with dynamic features. The dataset presented comes from the ‘gapminder’ R package ([Bryan, 2017](https://github.com/jennybc/gapminder)). The plot displays the relationship between gross domestic product per capita (gdpPercap; x axis) and life expectancy in years (lifeExp; y axis) across different times, from 1952 to 2007 (bottom scale). The user can zoom in and out, highlight one or more categories (e.g., blue; Europe), hover over any individual observations to see specific details (as seen in the red box), and when the “play” button is pressed (bottom left corner), changes across the years can be seen via animation.
+</div>
+
+Lastly, as its name suggests, **interactive dynamic data visualizations (IDDV)** combine elements from both IDV and DDV and is therefore the best of both worlds. In IDDV, any change in the graphical structure follows a direct action from the user. This way, users have control over – or,  can manipulate – how the data is displayed ([Ploetzner & Lowe, 2004](https://doi.org/10.1016/j.learninstruc.2004.06.001)). In many cases, the viewer even has control over how the data is analyzed (see below [example by Ellis & Merdian, 2015)](https://psychology.shinyapps.io/example3/). [Schwan and Riempp (2004)](https://doi.org/10.1016/j.learninstruc.2004.06.005) noted that IDDV “enable the user to adapt the presentation to [their] individual cognitive needs” (p. 296). An example of IDDV is presented in Figure 5 and is available [here](https://haozhu233.shinyapps.io/shinyMRI-contest/).
+<br><br>
+
+```{r Figure 5, echo=FALSE, warning=F, message=FALSE, out.width = '100%'}
+library(shiny)
+knitr::include_app("https://vac-lshtm.shinyapps.io/ncov_tracker/")
+```
+
+<div class="panel panel-default">
+**Figure 5. Interactive dynamic data visualization.** This app allows users to visualize and analyze COVID-19 and SARS geographic and descriptive data across time using both interactive and dynamic features created by [Parker (2022)](https://vac-lshtm.shinyapps.io/ncov_tracker/). Users can browse the different tabs at the top, adjust the date on the left blue scale, hover over any region or observation, apply filters/masks, pan over, zoom, view the raw data, and create a customized line graph.
+</div>
+
+Although there are mixed conclusions about the effectiveness of IDV and DDV (e.g., [Hegarty, 2004](https://doi.org/10.1016/j.learninstruc.2004.06.007); [Hood et al., 2019](https://doi.org/10.3389/fpsyg.2019.02986); [Ploetzner & Lowe, 2004](https://doi.org/10.1016/j.learninstruc.2004.06.001); [Rolfes et al., 2020](https://doi.org/10.3389/fpsyg.2020.00693); [Schnotz et al., 1999](https://doi.org/10.1007/BF03172968); [Schwan & Riempp, 2004](https://doi.org/10.1016/j.learninstruc.2004.06.005)), there is a growing body of literature advocating for the use of IDDV in both education and research settings (e.g., [Ellis & Merdian, 2015](https://doi.org/10.3389/fpsyg.2015.01782); [Heer, & Shneiderman, 2012](https://doi.org/10.1145/2133806.2133821); [Rolfes et al., 2020]((https://doi.org/10.3389/fpsyg.2020.00693)); [Ward et al., 2015](https://doi.org/10.1201/9780429108433)). 
+<br>
+
+## Why We Should Use Interactive Dynamic Graphics in Psychology
+
+
+
+There are many clear advantages to incorporating IDDV in academic articles and teaching. In this paper, I focus only on a few key reasons relating to open research practices, live data updates after visualization deployment, and effective data communication:
+<br>
+
+### IDDV Incite Transparent Research Practices
+
+
+
+
+Concerns about the credibility of previously published results in psychological research inspired new standards of recommended practices such as preregistration, registered reports, open data, shared analyses, etc. IDDV are much more aligned with the new standards of transparent research than static graphs. Thoughtful IDDV allow careful inspection of every dimension of the data, whereas with static visualizations, this is usually impossible or can make the graph too complex to comprehend. More advanced IDDV can even grant the reader the ability to explore and reanalyze the data on their own. This is perhaps one of the highest levels of open research practices. For example, in the IDDV [example created by Ellis and Merdian (2015)](https://psychology.shinyapps.io/example3/) using R Shiny app, the user can select the variables of their choice, differentiate by group, apply different filters or masks, and recalculate the regression equation and correlation coefficient (see Figure 6).
+<br><br>
+```{r Figure 6, echo=FALSE, warning=F, message=FALSE, out.width = '100%'}
+library(shiny)
+knitr::include_app("https://psychology.shinyapps.io/example3/")
+```
+<div class="panel panel-default">
+**Figure 6. Interactive dynamic example with exploratory data analysis applications.** This interactive dynamic figure allows the user to select the variables of their choice (from the dropdown menus at the top left), differentiate by group (male, female), apply different filters or masks (previous victim, not previous victim), and recalculate the regression equation and correlation coefficient (bottom right table). The user can also inspect the data using a different graph type (e.g., boxplot) by switching to the Boxplot tab above the figure.
+</div>
+Furthermore, with tools such as R Shiny, where the data and analyses are stored on the author’s server, users can have all the benefits of having access to the full dataset without compromising participant confidentiality. One of the main factors preventing researchers from making their data openly available to external evaluators is the risk of breaching ethical protocols and exposing private information. However, using IDDV, the data can still be investigated and reanalyzed by the user without actually having to share the data. Note that we could explore and visualize data in the [Ellis and Merdian (2015) example](https://psychology.shinyapps.io/example3/) above without having access to the Fear of Crime dataset.
+<br>
+
+
+### Live Data Visualizations
+
+
+
+
+IDDV can continue to receive new data and update its visual structure accordingly, even after its deployment. Normally, once a static plot or graph are produced, the figure cannot be changed. This can influence our conclusions, too; once a paper is finalized, the figures are produced, scientists publish their paper and (usually) never look back. However, in the current era of big data and cloud technology, it is possible and often useful to stream and visualize our data live as it is being collected. Imagine you are conducting a study looking at various transactions on a social media platform (e.g., Facebook, Twitter, Instagram). Using IDDV, researchers can follow and visualize their data in real-time as social transactions take place. For example, there is an existing dashboard visualizing a livestream downloads of R packages from CRAN ([Sievert et al., 2022](https://pkgs.rstudio.com/flexdashboard/); see Figure 7). A similar app was attempted by [Hadley Wickham (2019)](https://hadley.shinyapps.io/cran-downloads/). This novel approach opens a lot of investigative avenues and provides useful tools to expend the arsenal of data visualization and research capabilities. 
+<br><br>
+
+```{r Figure 7, echo=FALSE, warning=F, message=FALSE, out.width = '100%'}
+library(shiny)
+knitr::include_app("https://jjallaire.shinyapps.io/shiny-crandash/")
+```
+<div class="panel panel-default">
+**Figure 7. Interactive dynamic Live Data Visualization.** livestream of download logs from [cran.rstudio.com](https://cran.rstudio.com/). This Shiny app illustrates the names and frequencies of R packages downloaded by users. Viewers can also manipulate the rate and capacity of the visualization, scan the raw logs in the top tab, review the source code, and share this app on various social media platforms.
+</div>
+
+
+
+
+
+
+### IDDV are More Effective at Communicating Data
+
+
+
+
+As [Moreau](https://doi.org/10.3389/fpsyg.2015.00342) beautifully put it, *“[v]ia dynamic and interactive graphics, today’s technology allows students to visualize externally what they have difficulty representing mentally”* (2015, p. 2). In a recent study, [Hood and colleagues (2020)](https://doi.org/10.3389/fpsyg.2019.02986 ) found that IDDV figures in digital publications were more effective at communicating main effects and null relationships than static graphs. In another study by [Rolfes et al. (2020)](https://doi.org/10.3389/fpsyg.2020.00693), students who were given materials visualized using IDDV performed significantly better than students in the static visualization group. These results suggest that IDDV might be more effective in communicating data. Furthermore, IDDV make active exploration possible where readers are free to interact with their data rather than trying to absorb it passively; functional engagement improves learning, interest, and comprehension ([Bodemer et al., 2004](https://doi.org/10.1016/j.learninstruc.2004.06.006)). This is particularly helpful because direct interaction with visual content facilitates the involvement of the motor system ([Wraga et al., 2003](https://doi.org/10.1016/S0278-2626(03)00033-2)), which is essential for achieving deeper levels of understanding ([Moreau, 2015](https://doi.org/10.3389/fpsyg.2015.00342)).
+<br>
+
+## Concluding Remarks
+
+
+
+Designing and creating IDDV used to be a software developer’s job and required extensive programming skills in Java, HTML, or CSS. This certainly might have been an obstacle and deterrent for many. Fortunately, however, this is no longer the case. Nowadays, scientists and authors with working knowledge of R ([R Core Team, 2022](https://www.R-project.org/)) can generate their own free IDDV using packages such as `Shiny` ([RStudio Team, 2022](http://www.rstudio.com/)), `flexdashboard` ([Sievert et al., 2022](https://pkgs.rstudio.com/flexdashboard/)) and `esquisse` ([Meyer & Perrier, 2022](https://github.com/dreamRs/esquisse)) relatively easily. Of course, making IDDV is also possible without programming at all when using [Tableau](https://www.tableau.com/), [Figma](https://www.figma.com/), and more. Though, these platforms might include fees.
+<br><br>
+IDDV also make graphs and figures much more accessible. IDDV allow users without prior software knowledge or fee-dependent license to explore and analyze data. The user-friendly interface implemented in most IDDV does not require programming abilities or downloading/purchasing software, which are otherwise required to manipulate and analyze data. In addition, shifting the control of various visual features (e.g., colour, position, size, speed) to the user can make graphs more convenient. Each user can tailor the graph to their own individual needs. To that extent, IDDV can accommodate wider range of abilities (e.g., colour blind, short sightedness, slow/quick processing speed, etc.).
+<br><br>
+That said, it is important to note that IDDV are not a silver bullet. Incorporating interactive and dynamic features to your graphs carelessly will not make them better. Designing your IDDV requires a lot of thought, planning, and work, probably even more than static graphs. For this reason, as with static graphics, it is useful for individuals to follow recommend practices and familiarize themselves with taxonomy and techniques (e.g., [Heer & Schneiderman, 2012](https://doi.org/10.1145/2133806.2133821)).
+<br><br>
+Incorporating IDDV into mainstream academia will not be easy, it certainly will require a long adjustment period and a steep learning curve (pun not intended). However, continuing to integrate new technologies into the field of data visualization is inevitable: it will happen in academia as it is happening in industry where large corporations have already begun applying the “fourth paradigm” (Tansley & Tolle, 2009) of advanced computing and (big) data-driven scientific breakthroughs.
+<br><br>
+Finally, the examples, reasons, and topics in this paper only begin to scratch the surface. Dynamic and interactive data visualizations are not entirely new. In fact, one occurrence of an interactive system for visualizing probability plots dates back to the late 1960s (Fowlkes, 1969, as cited in [Friendly, 2008](https://doi.org/10.1007/978-3-540-33037-0_2)). Still, there is much more to learn about how interactive and dynamic features affect our perception and how we can harness these tools to improve data communication. 
+

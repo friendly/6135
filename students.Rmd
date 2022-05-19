@@ -31,6 +31,15 @@ Don't even think about it.
 - Naomi Martinez Gomez [Shiny for Data Visualization](students/2022/presentations/Martinez-ShinyDataViz.pdf)
 - Emma Ritchie [Visualizing Qualitative Data](students/2022/presentations/Ritchie-6135 Presentation.pptx)
 
+### Research projects  `r icon::fa("book-open", color="#ab4653")`
+
+- Tasfia Ahsan [Using data comics to make data more understandable in the field of medicine](students/2022/proposal/Ahsan_6135_Final_Paper.pdf)
+- Udi Alter [Raising the Bar Graph: Upgrading to Interactive Dynamic Data Visualizations in Psychology](students/2022/proposal/Alter-finalproject.html)
+- Stephanie Bell [Representation Matters: A Proposed Visual Diagnostic of the State of LGBTQ+ Representation in American Television Media](students/2022/proposal/Bell-RepresentationMatters.docx)
+- Naomi Martinez Gomez [The Absolute Judgement of Statistical Graphics: A Proposal](students/2022/proposal/Martinez_Proposal_PSYC6135.pdf)
+- Emma Ritchie [Visualizing the Relationship Between Simultaneous Alcohol and Marijuana Use](students/2022/proposal/Ritchie-6135FinalPaper.docx)
+
+
 ## 2021
 
 ### Discussion leader mini presentations  `r icon::fa("microphone", color="#ab4653")`
