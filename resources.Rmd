@@ -189,6 +189,8 @@ These are additional resources related to weekly topics, many of which were orig
 
 - Take a look at some of the visualizations selected by Andy Kirk as his picks for the [Best visualizations in August 2021](https://www.visualisingdata.com/2021/12/best-of-the-visualisation-web-august-2021/)
 
+- [How People Actually Lie With Charts](https://vdl.sci.utah.edu/blog/2023/04/17/misleading/). What makes a visualization misleading? Some _awfully_ nice examples dealing with COVID-19 data.
+
 ### Session 2: Varieties Data Visualization {#week2}
 
 ![](images/headers/30-day-topics-snip.png)

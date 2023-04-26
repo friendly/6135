@@ -27,7 +27,7 @@ tidy(gapmod)
 #' ## plot the predicted effects for the model terms
 plot(allEffects(gapmod))
 
-#' #' ## now, separate models for continents
+#' ## now, separate models for continents
 #' models <- gapminder %>%
 #' 	filter(continent != "Oceania") %>%
 #' 	group_by(continent) %>%
@@ -35,13 +35,13 @@ plot(allEffects(gapmod))
 #' 	            data=.)
 #' 	  )
 #' 
-#' #' what is our models object?
+#' what is our models object?
 #' models
 #' 
-#' #' ## view model summary statistics
+#' ## view model summary statistics
 #' models %>% glance(mod)
 
-#' #' ## plot R^2 values
+#' ## plot R^2 values
 #' 
 #' models %>%
 #' 	glance(mod) %>%
