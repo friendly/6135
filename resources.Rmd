@@ -18,7 +18,7 @@ source("R/tabfig.R")
 
 ![](images/varieties/FT-graph-overview-snip2.png)
 
-- Royal Statistical Society [Best Practices for Data Visualisation](https://royal-statistical-society.github.io/datavisguide/)
+- Royal Statistical Society [Best Practices for Data Visualisation](https://royal-statistical-society.github.io/datavisguide/): Insights, advice, and examples (with code) to make data outputs more readable, accessible, and impactful.
 - [Financial Times Visual Vocabulary](papers/Visual-vocabulary.pdf). A large cheatsheet poster for fining types of graphs to use for different purposes.  
 - [Checklist For Good Graphical Practice](GraphicsChecklist.html)
 - [Twenty rules for good graphics](https://robjhyndman.com/hyndsight/graphics/). This post by Rob Hyndman, describes some _best practices_ for producing
