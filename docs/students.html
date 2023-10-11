@@ -13,7 +13,7 @@
 
 <title>Student Presentations</title>
 
-<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -32,7 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.3.1/css/fontawesome-all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -143,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -176,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -185,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -307,8 +305,8 @@ even think about it.</p>
 <div id="section" class="section level2">
 <h2>2022</h2>
 <div id="discussion-leader-mini-presentations" class="section level3">
-<h3>Discussion leader mini presentations
-<i class="fas  fa-microphone " style="color:#ab4653;"></i></h3>
+<h3>Discussion leader mini presentations</h3>
+<i class="fas  fa-microphone " style="color:#ab4653;"></i>
 <ul>
 <li>Emma Ritchie <a
 href="students/2022/mini-pres/Ritchie-Nightingale_Jan25.pptx">Florence
@@ -328,8 +326,8 @@ Uncertainty For Climate and Temperature Data</a></li>
 </ul>
 </div>
 <div id="class-presentations" class="section level3">
-<h3>Class presentations
-<i class="fas  fa-microphone " style="color:#ab4653;"></i></h3>
+<h3>Class presentations</h3>
+<i class="fas  fa-microphone " style="color:#ab4653;"></i>
 <ul>
 <li>Tasfia Ahsan <a
 href="students/2022/presentations/Ahsan_ProjectPresentation.pdf">That’s
@@ -350,8 +348,8 @@ Qualitative Data</a></li>
 </ul>
 </div>
 <div id="research-projects" class="section level3">
-<h3>Research projects
-<i class="fas  fa-book-open " style="color:#ab4653;"></i></h3>
+<h3>Research projects</h3>
+<i class="fas  fa-book-open " style="color:#ab4653;"></i>
 <ul>
 <li>Tasfia Ahsan <a
 href="students/2022/proposal/Ahsan_6135_Final_Paper.pdf">Using data
@@ -377,8 +375,8 @@ the Relationship Between Simultaneous Alcohol and Marijuana Use</a></li>
 <div id="section-1" class="section level2">
 <h2>2021</h2>
 <div id="discussion-leader-mini-presentations-1" class="section level3">
-<h3>Discussion leader mini presentations
-<i class="fas  fa-microphone " style="color:#ab4653;"></i></h3>
+<h3>Discussion leader mini presentations</h3>
+<i class="fas  fa-microphone " style="color:#ab4653;"></i>
 <ul>
 <li>Samantha Chan <a
 href="students/2021/mini-pres/Chan-Crowdsourcing.pdf">Crowdsourcing and
@@ -419,8 +417,8 @@ impact on social change</a></li>
 </ul>
 </div>
 <div id="class-project-presentations" class="section level3">
-<h3>Class project presentations
-<i class="fas  fa-microphone " style="color:#ab4653;"></i></h3>
+<h3>Class project presentations</h3>
+<i class="fas  fa-microphone " style="color:#ab4653;"></i>
 <ul>
 <li>Stephanie Raposo &amp; Chantell Ivanski <a
 href="students/2021/presentations/Ivanski_Raposo_Graphs%20in%20Media.pdf">Did

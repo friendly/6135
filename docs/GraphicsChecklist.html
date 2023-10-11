@@ -13,7 +13,7 @@
 
 <title>A Checklist For Good Graphical Practice</title>
 
-<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -141,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -174,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -183,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -290,20 +287,29 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">A Checklist For Good Graphical Practice</h1>
+<h1 class="title toc-ignore">A Checklist For Good Graphical
+Practice</h1>
 
 </div>
 
 
-<div id="a-checklist-for-good-graphical-practice" class="section level2">
+<div id="a-checklist-for-good-graphical-practice"
+class="section level2">
 <h2>A Checklist For Good Graphical Practice</h2>
-<p>From: <a href="http://dx.doi.org/10.1080/10618600.2014.989324">Gordon &amp; Finch (2015) “Statistician Heal Thyself: Have We Lost the Plot?”, <em>JCGS</em>, 1210-1229,</a></p>
-<p>These questions and suggestions are a useful set to apply to graphs designed for presentation purposes. I don’t agree with all of them, but they are a very good start for things to think about in graphical practice.</p>
-<div id="how-clear-is-your-purpose-in-communication" class="section level3">
+<p>From: <a href="http://dx.doi.org/10.1080/10618600.2014.989324">Gordon
+&amp; Finch (2015) “Statistician Heal Thyself: Have We Lost the Plot?”,
+<em>JCGS</em>, 1210-1229,</a></p>
+<p>These questions and suggestions are a useful set to apply to graphs
+designed for presentation purposes. I don’t agree with all of them, but
+they are a very good start for things to think about in graphical
+practice.</p>
+<div id="how-clear-is-your-purpose-in-communication"
+class="section level3">
 <h3>How clear is your purpose in communication?</h3>
 <ul>
 <li>What relationships or patterns can you identify in the graph?</li>
-<li>Are these the relationships or patterns you intended to represent?</li>
+<li>Are these the relationships or patterns you intended to
+represent?</li>
 <li>Can the viewer identify the patterns you wish to illustrate?</li>
 <li>Are the important comparisons you wish to show salient?</li>
 </ul>
@@ -319,14 +325,19 @@ $(document).ready(function () {
 <li>Is the graph large enough?</li>
 <li>Would ordering groups or variables plotted improve the graph?</li>
 <li>Are all the graph labels horizontal?</li>
-<li>Use points to plot estimates (e.g., means, proportions) rather than bars.</li>
+<li>Use points to plot estimates (e.g., means, proportions) rather than
+bars.</li>
 </ul>
 </div>
-<div id="choose-standard-forms-fit-for-your-purpose." class="section level2">
+<div id="choose-standard-forms-fit-for-your-purpose."
+class="section level2">
 <h2>Choose standard forms fit for your purpose.</h2>
 <ul>
-<li>Use bars around points to indicate the precision of the estimates.</li>
-<li>Plot the estimates of interest (e.g., mean differences with confidence intervals) rather than standard summary statistics (group means).</li>
+<li>Use bars around points to indicate the precision of the
+estimates.</li>
+<li>Plot the estimates of interest (e.g., mean differences with
+confidence intervals) rather than standard summary statistics (group
+means).</li>
 <li>Plot inferences to support stories about models.</li>
 <li>Plot data to support stories about distributions and variation.</li>
 </ul>
@@ -337,22 +348,28 @@ $(document).ready(function () {
 <li>Can all the data points be seen?</li>
 <li>Are patterns in the data clear?</li>
 <li>Are the fonts large enough?</li>
-<li>Would it help to use jittering, or another form of representing multiple, identical values?</li>
+<li>Would it help to use jittering, or another form of representing
+multiple, identical values?</li>
 </ul>
 </div>
 <div id="would-panels-help" class="section level2">
 <h2>Would panels help?</h2>
 <ul>
-<li>Are there grouping variables that can be used to panel the graph?</li>
-<li>Do the grouping variables correspond to the variation of interest?</li>
+<li>Are there grouping variables that can be used to panel the
+graph?</li>
+<li>Do the grouping variables correspond to the variation of
+interest?</li>
 <li>Would additional panels help?</li>
 </ul>
 </div>
-<div id="align-quantities-to-be-compared-on-a-common-scale." class="section level2">
+<div id="align-quantities-to-be-compared-on-a-common-scale."
+class="section level2">
 <h2>Align quantities to be compared on a common scale.</h2>
 <ul>
-<li>Has distortion of the data been avoided by using the same scales for the same measurement?</li>
-<li>Are measurements made on the same scale plotted on the same scale?</li>
+<li>Has distortion of the data been avoided by using the same scales for
+the same measurement?</li>
+<li>Are measurements made on the same scale plotted on the same
+scale?</li>
 <li>Would transposition improve the graph?</li>
 </ul>
 </div>
@@ -362,18 +379,22 @@ $(document).ready(function () {
 <li>Light gray grid lines will help with accurate interpretation.</li>
 </ul>
 </div>
-<div id="are-all-the-elements-of-the-graph-defined" class="section level2">
+<div id="are-all-the-elements-of-the-graph-defined"
+class="section level2">
 <h2>Are all the elements of the graph defined?</h2>
 <ul>
 <li>What do points on the graph correspond to?</li>
-<li>Are estimates (e.g., means, proportions) plotted on the graph clearly defined?</li>
+<li>Are estimates (e.g., means, proportions) plotted on the graph
+clearly defined?</li>
 <li>Are bars around points on the graph clearly defined?</li>
 </ul>
 </div>
-<div id="how-much-decoding-work-does-the-viewer-have-to-do" class="section level2">
+<div id="how-much-decoding-work-does-the-viewer-have-to-do"
+class="section level2">
 <h2>How much decoding work does the viewer have to do?</h2>
 <ul>
-<li>Is it easy for someone unfamiliar with your data to interpret your graph?</li>
+<li>Is it easy for someone unfamiliar with your data to interpret your
+graph?</li>
 <li>Does the graph stand alone?</li>
 <li>Try it on a friend!</li>
 </ul>

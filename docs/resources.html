@@ -13,7 +13,7 @@
 
 <title>Resources</title>
 
-<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -29,14 +29,14 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -147,11 +147,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -180,8 +184,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -189,16 +193,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -378,12 +375,32 @@ div.tocify {
 <h2>General, tutorials</h2>
 <p><img src="images/varieties/FT-graph-overview-snip2.png" /></p>
 <ul>
-<li><p><a href="papers/Visual-vocabulary.pdf">Financial Times Visual Vocabulary</a>. A large cheatsheet poster for fining types of graphs to use for different purposes.<br />
+<li><p>Royal Statistical Society <a
+href="https://royal-statistical-society.github.io/datavisguide/">Best
+Practices for Data Visualisation</a></p></li>
+<li><p><a href="papers/Visual-vocabulary.pdf">Financial Times Visual
+Vocabulary</a>. A large cheatsheet poster for fining types of graphs to
+use for different purposes.<br />
 </p></li>
-<li><p><a href="GraphicsChecklist.html">Checklist For Good Graphical Practice</a></p></li>
-<li><p><a href="https://robjhyndman.com/hyndsight/graphics/">Twenty rules for good graphics</a>. This post by Rob Hyndman, describes some <em>best practices</em> for producing graphs for journal publication.</p></li>
-<li><p><a href="https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf">British Ecological Society’s Guide to Reproducible Science</a>. The guide proposes a simple reproducible project workflow, and a guide to organizing projects for reproducibility. The Programming section provides concrete tips and traps to avoid (example: use relative, not absolute pathnames), and the Reproducible Reports section provides a step-by-step guide for generating reports with R Markdown.</p></li>
-<li><p><a href="https://michaelbuhrmester.wordpress.com/mechanical-turk-guide/">Amazon Mechanical Turk Guide for Social Scientists</a> A guide for setting up online data collection tasks on <a href="http://www.mturk.com/">Amazon Mechanical Turk</a></p></li>
+<li><p><a href="GraphicsChecklist.html">Checklist For Good Graphical
+Practice</a></p></li>
+<li><p><a href="https://robjhyndman.com/hyndsight/graphics/">Twenty
+rules for good graphics</a>. This post by Rob Hyndman, describes some
+<em>best practices</em> for producing graphs for journal
+publication.</p></li>
+<li><p><a
+href="https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf">British
+Ecological Society’s Guide to Reproducible Science</a>. The guide
+proposes a simple reproducible project workflow, and a guide to
+organizing projects for reproducibility. The Programming section
+provides concrete tips and traps to avoid (example: use relative, not
+absolute pathnames), and the Reproducible Reports section provides a
+step-by-step guide for generating reports with R Markdown.</p></li>
+<li><p><a
+href="https://michaelbuhrmester.wordpress.com/mechanical-turk-guide/">Amazon
+Mechanical Turk Guide for Social Scientists</a> A guide for setting up
+online data collection tasks on <a href="http://www.mturk.com/">Amazon
+Mechanical Turk</a></p></li>
 </ul>
 </div>
 <div id="books" class="section level2">
@@ -422,7 +439,13 @@ Blog:
 </td>
 </tr>
 </table>
-<p><!-- tr( --> <!--  tabfig("Kosslyn", "images/books/kosslyn-MindEye.png",  --> <!--         "https://global.oup.com/academic/product/graph-design-for-the-eye-and-mind-9780195311846", width=width), --> <!--  tabtxt("Steven Kosslyn,",  a("Graph Design for the Eye and Mind", --> <!--         href="https://global.oup.com/academic/product/graph-design-for-the-eye-and-mind-9780195311846"), --> <!--         ". A cognitive psychologist looks at graphs and presents some do's and don'ts." --> <!--          ) --> <!--  ) --></p>
+<p><!-- tr( -->
+<!--  tabfig("Kosslyn", "images/books/kosslyn-MindEye.png",  -->
+<!--         "https://global.oup.com/academic/product/graph-design-for-the-eye-and-mind-9780195311846", width=width), -->
+<!--  tabtxt("Steven Kosslyn,",  a("Graph Design for the Eye and Mind", -->
+<!--         href="https://global.oup.com/academic/product/graph-design-for-the-eye-and-mind-9780195311846"), -->
+<!--         ". A cognitive psychologist looks at graphs and presents some do's and don'ts." -->
+<!--          ) --> <!--  ) --></p>
 </div>
 <div id="other-texts" class="section level3">
 <h3>More books I recommend</h3>
@@ -484,7 +507,8 @@ Howard Wainer,
 </div>
 <div id="tufte" class="section level3">
 <h3>Tufte Stufte</h3>
-<p>Four books by Edward Tufte largely defined the landscape for data visualization and information design.</p>
+<p>Four books by Edward Tufte largely defined the landscape for data
+visualization and information design.</p>
 <table class="cellpadding" height="160px" width="800px">
 <tr>
 <td>
@@ -513,7 +537,8 @@ Howard Wainer,
 </div>
 <div id="blogs" class="section level2">
 <h2>Blogs &amp; Web Resources</h2>
-<p>The following blogs are a rich source of information on visual design, data graphics and the history of data visualization.</p>
+<p>The following blogs are a rich source of information on visual
+design, data graphics and the history of data visualization.</p>
 <table class="cellpadding" width="800px">
 <tr>
 <td>
@@ -607,77 +632,176 @@ Among other things, Kirk provides a monthly digest of his picks for the Best in 
 </div>
 <div id="weekly" class="section level2">
 <h2>Additional session resources</h2>
-<p>These are additional resources related to weekly topics, many of which were originally suggested by Borzu Talaie (Thx!). Feel free to suggest other topics that can be added to these lists.</p>
+<p>These are additional resources related to weekly topics, many of
+which were originally suggested by Borzu Talaie (Thx!). Feel free to
+suggest other topics that can be added to these lists.</p>
 <div id="week1" class="section level3">
 <h3>Session 1: Overview</h3>
 <ul>
-<li><p><a href="https://docs.google.com/presentation/d/14zGLucWYnU6qQXzEfmpCuDi3YJ-fKqO3wZ7F1WX5iXk/edit#slide=id.gd38455501d_0_9">Graphical Gaffes by Ben Jones</a>. A collection of <em>What Not to Do</em> in Graphics.</p></li>
-<li><p>Take a look at some of the visualizations selected by Andy Kirk as his picks for the <a href="https://www.visualisingdata.com/2021/12/best-of-the-visualisation-web-august-2021/">Best visualizations in August 2021</a></p></li>
+<li><p><a
+href="https://docs.google.com/presentation/d/14zGLucWYnU6qQXzEfmpCuDi3YJ-fKqO3wZ7F1WX5iXk/edit#slide=id.gd38455501d_0_9">Graphical
+Gaffes by Ben Jones</a>. A collection of <em>What Not to Do</em> in
+Graphics.</p></li>
+<li><p>Take a look at some of the visualizations selected by Andy Kirk
+as his picks for the <a
+href="https://www.visualisingdata.com/2021/12/best-of-the-visualisation-web-august-2021/">Best
+visualizations in August 2021</a></p></li>
+<li><p><a
+href="https://vdl.sci.utah.edu/blog/2023/04/17/misleading/">How People
+Actually Lie With Charts</a>. What makes a visualization misleading?
+Some <em>awfully</em> nice examples dealing with COVID-19 data.</p></li>
 </ul>
 </div>
 <div id="week2" class="section level3">
 <h3>Session 2: Varieties Data Visualization</h3>
 <p><img src="images/headers/30-day-topics-snip.png" /></p>
 <ul>
-<li><a href="https://github.com/Z3tt/30DayChartChallenge_Collection2021">30 Day Chart Challenge</a> This collection, currated by Cederic Scherer, contains examples of graphs and charts designed to show visualizations classified by type and topic. But, more generally, follow #30DayChartChallenge on Twitter.</li>
+<li><a
+href="https://github.com/Z3tt/30DayChartChallenge_Collection2021">30 Day
+Chart Challenge</a> This collection, currated by Cederic Scherer,
+contains examples of graphs and charts designed to show visualizations
+classified by type and topic. But, more generally, follow
+#30DayChartChallenge on Twitter.</li>
 </ul>
 </div>
 <div id="week3" class="section level3">
 <h3>Session 3: History of Data Visualization</h3>
 <ul>
-<li><p><a href="https://richardbrath.wordpress.com/2018/12/31/album-de-statistique-graphique/">Album de Statistique Graphique</a> A blog post by Richard Brath picks out some features in this remarkable series of statistical albums</p></li>
-<li><p><a href="http://drones.pitchinteractive.com">Out of Sight, Out of Mind</a> A great example in storytelling with data</p></li>
-<li><p><a href="http://datajournalism.stanford.edu/index.html">Journalism in the Age of Data</a> A very interesting video report on data as a storytelling medium – a bit outdated, but still holds some interesting content. (There is an annotated version, which requires Flashplayer)</p></li>
-<li><p>Douglas Engelbert <a href="https://www.youtube.com/watch?v=AN0bP8764do">Inventor of the computer mouse as a pointing system</a>. Also check out his 1968 demo nicknamed: <a href="https://www.youtube.com/watch?v=yJDv-zdhzMY">The Mother of All Demos</a>.</p></li>
-<li><p>Katharine Harmon <a href="https://www.amazon.ca/Map-Art-Contemporary-Artists-Cartography/dp/1568989725/ref=sr_1_1?ie=UTF8&amp;qid=1548080669&amp;sr=8-1&amp;keywords=map+as+art">The Map as Art</a></p></li>
+<li><p><a
+href="https://richardbrath.wordpress.com/2018/12/31/album-de-statistique-graphique/">Album
+de Statistique Graphique</a> A blog post by Richard Brath picks out some
+features in this remarkable series of statistical albums</p></li>
+<li><p><a href="http://drones.pitchinteractive.com">Out of Sight, Out of
+Mind</a> A great example in storytelling with data</p></li>
+<li><p><a
+href="http://datajournalism.stanford.edu/index.html">Journalism in the
+Age of Data</a> A very interesting video report on data as a
+storytelling medium – a bit outdated, but still holds some interesting
+content. (There is an annotated version, which requires
+Flashplayer)</p></li>
+<li><p>Douglas Engelbert <a
+href="https://www.youtube.com/watch?v=AN0bP8764do">Inventor of the
+computer mouse as a pointing system</a>. Also check out his 1968 demo
+nicknamed: <a href="https://www.youtube.com/watch?v=yJDv-zdhzMY">The
+Mother of All Demos</a>.</p></li>
+<li><p>Katharine Harmon <a
+href="https://www.amazon.ca/Map-Art-Contemporary-Artists-Cartography/dp/1568989725/ref=sr_1_1?ie=UTF8&amp;qid=1548080669&amp;sr=8-1&amp;keywords=map+as+art">The
+Map as Art</a></p></li>
 </ul>
-<p>She also has another good book on maps called: <a href="https://www.amazon.ca/You-Are-Here-Geographies-Imagination/dp/1568984308/ref=sr_1_2?s=books&amp;ie=UTF8&amp;qid=1548080732&amp;sr=1-2">You Are Here</a></p>
+<p>She also has another good book on maps called: <a
+href="https://www.amazon.ca/You-Are-Here-Geographies-Imagination/dp/1568984308/ref=sr_1_2?s=books&amp;ie=UTF8&amp;qid=1548080732&amp;sr=1-2">You
+Are Here</a></p>
 </div>
 <div id="week4" class="section level3">
 <h3>Session 4: Graphical perception</h3>
 <ul>
-<li><p><a href="https://www.illusionsindex.org/">The Illusions Index</a> is a fully searchable, curated collection of illusions. <strong>Warning</strong>: Some may blow your mind!</p></li>
-<li><p>Captain Disillusion video <a href="https://www.youtube.com/watch?v=FTKP0Y9MVus">CD Color</a>. “The most important thing to know about color is that it doesn’t exist.”</p></li>
-<li><p>Emil Hvitfeldt has compiled a <a href="https://github.com/EmilHvitfeldt/r-color-palettes">Comprehensive list of color palettes available in R</a> with examples of each.</p></li>
+<li><p><a href="https://www.illusionsindex.org/">The Illusions Index</a>
+is a fully searchable, curated collection of illusions.
+<strong>Warning</strong>: Some may blow your mind!</p></li>
+<li><p>Captain Disillusion video <a
+href="https://www.youtube.com/watch?v=FTKP0Y9MVus">CD Color</a>. “The
+most important thing to know about color is that it doesn’t
+exist.”</p></li>
+<li><p>Emil Hvitfeldt has compiled a <a
+href="https://github.com/EmilHvitfeldt/r-color-palettes">Comprehensive
+list of color palettes available in R</a> with examples of
+each.</p></li>
 </ul>
 </div>
 <div id="week5" class="section level3">
 <h3>Session 5: Human Factors</h3>
 <ul>
-<li><p>How do we read pie charts? You might think you read pie charts by angle, but you don’t. Robert Kosera lays out some evidence in this Youtube video <a href="https://youtu.be/NxmHDNNTFyk">The Science of Pie Charts</a>.</p></li>
-<li><p>Alan Lundgard &amp; Arvind Satyanarayan <a href="http://vis.csail.mit.edu/pubs/vis-text-model">Accessible Visualization via Natural Language Descriptions: A Four-Level Model of Semantic Content</a>. Considers how to write figure captions or alt-text to better communicate and contextualize graph insights, and to improve their accessibility for readers with disabilities.</p></li>
-<li><p>Nancy Organ <a href="https://towardsdatascience.com/an-incomplete-guide-to-accessible-data-visualization-33f15bfcc400">An Incomplete Guide to Accessible Data Visualization</a></p></li>
-<li><p><a href="https://github.com/dataviza11y/resources">Dataviz Accessibility Resources</a> lists a wealth of papers, blogs, software tools, etc. on data visualization accessibility</p></li>
-<li><p><a href="https://onlinelibrary.wiley.com/doi/10.1111/cgf.14298">Accessible Visualization: Design Space, Opportunities, and Challenges</a>. This paper gives a comprehensive survey of papers published for the last 20 years on visualization accessibility.</p></li>
+<li><p>How do we read pie charts? You might think you read pie charts by
+angle, but you don’t. Robert Kosera lays out some evidence in this
+Youtube video <a href="https://youtu.be/NxmHDNNTFyk">The Science of Pie
+Charts</a>.</p></li>
+<li><p>Alan Lundgard &amp; Arvind Satyanarayan <a
+href="http://vis.csail.mit.edu/pubs/vis-text-model">Accessible
+Visualization via Natural Language Descriptions: A Four-Level Model of
+Semantic Content</a>. Considers how to write figure captions or alt-text
+to better communicate and contextualize graph insights, and to improve
+their accessibility for readers with disabilities.</p></li>
+<li><p>Nancy Organ <a
+href="https://towardsdatascience.com/an-incomplete-guide-to-accessible-data-visualization-33f15bfcc400">An
+Incomplete Guide to Accessible Data Visualization</a></p></li>
+<li><p><a href="https://github.com/dataviza11y/resources">Dataviz
+Accessibility Resources</a> lists a wealth of papers, blogs, software
+tools, etc. on data visualization accessibility</p></li>
+<li><p><a
+href="https://onlinelibrary.wiley.com/doi/10.1111/cgf.14298">Accessible
+Visualization: Design Space, Opportunities, and Challenges</a>. This
+paper gives a comprehensive survey of papers published for the last 20
+years on visualization accessibility.</p></li>
 </ul>
 </div>
 <div id="week6" class="section level3">
 <h3>Session 6: The Language of Graphs</h3>
 <ul>
-<li><p><a href="https://wilkelab.org/SDS375/">Claus Wilke, SDS 375/395 Data Visualization in R</a> This is a comprehensive course in R graphics (mainly ggplot2 &amp; friends), based on Wilke’s <a href="https://clauswilke.com/dataviz/"><em>Fundamentals of Data Visualization</em></a>.</p></li>
-<li><p><a href="https://www.jerthorp.com">Jer Thorp</a>. National Geographic video: <a href="https://www.youtube.com/watch?v=dmzdqRIS7SI">Numbers that paint the picture</a>. Look for his OOH/AAH metaphors at the 8:20 marker.</p></li>
-<li><p>Cole Nussbaumer: <a href="https://www.amazon.ca/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257/ref=sr_1_1?keywords=storytelling+with+data&amp;qid=1549739814&amp;s=gateway&amp;sr=8-1">Storytelling with Data</a>. For those interested in the narrative side of Dataviz</p></li>
-<li><p><a href="https://rawgraphs.io">Raw graphics</a>. A very good online resource to easily poke at your datasets.</p></li>
-<li><p><a href="http://www.thejohnnycashproject.com">The Johnny Cash Project</a>. A very interesting project that used crowdsourcing like Amazon Mechanical Turk for its creative content.</p></li>
-<li><p><a href="https://volaya.github.io/gis-book/en/Visualization.html">Visualization of geographical data.</a>. Chapter 1 has an overview of visual variables, as applied to mapping.</p></li>
+<li><p><a href="https://wilkelab.org/SDS375/">Claus Wilke, SDS 375/395
+Data Visualization in R</a> This is a comprehensive course in R graphics
+(mainly ggplot2 &amp; friends), based on Wilke’s <a
+href="https://clauswilke.com/dataviz/"><em>Fundamentals of Data
+Visualization</em></a>.</p></li>
+<li><p><a href="https://www.jerthorp.com">Jer Thorp</a>. National
+Geographic video: <a
+href="https://www.youtube.com/watch?v=dmzdqRIS7SI">Numbers that paint
+the picture</a>. Look for his OOH/AAH metaphors at the 8:20
+marker.</p></li>
+<li><p>Cole Nussbaumer: <a
+href="https://www.amazon.ca/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257/ref=sr_1_1?keywords=storytelling+with+data&amp;qid=1549739814&amp;s=gateway&amp;sr=8-1">Storytelling
+with Data</a>. For those interested in the narrative side of
+Dataviz</p></li>
+<li><p><a href="https://rawgraphs.io">Raw graphics</a>. A very good
+online resource to easily poke at your datasets.</p></li>
+<li><p><a href="http://www.thejohnnycashproject.com">The Johnny Cash
+Project</a>. A very interesting project that used crowdsourcing like
+Amazon Mechanical Turk for its creative content.</p></li>
+<li><p><a
+href="https://volaya.github.io/gis-book/en/Visualization.html">Visualization
+of geographical data.</a>. Chapter 1 has an overview of visual
+variables, as applied to mapping.</p></li>
 </ul>
 </div>
 <div id="week7" class="section level3">
 <h3>Session 7</h3>
 <ul>
-<li><p><a href="https://www.netflix.com/title/80095881">The Secret Rules of Modern Living: Algorithms</a>. A documentary on Netflix.</p></li>
-<li><p>Adding other sensory attributions to data: <a href="http://listen.hatnote.com">Listen to wikipedia</a>. Use Chrome web browser and make sure you enable sound in the top menu.</p></li>
-<li><p><a href="https://www.superhi.com/courses/data-visualization-with-d3">Data Visualization and D3</a> A very good online resource (although a bit pricy) if you are interested in learning D3. Here is the <a href="papers/superhi-data-visualization-syllabus.pdf">course syllabus</a>.</p></li>
+<li><p><a href="https://www.netflix.com/title/80095881">The Secret Rules
+of Modern Living: Algorithms</a>. A documentary on Netflix.</p></li>
+<li><p>Adding other sensory attributions to data: <a
+href="http://listen.hatnote.com">Listen to wikipedia</a>. Use Chrome web
+browser and make sure you enable sound in the top menu.</p></li>
+<li><p><a
+href="https://www.superhi.com/courses/data-visualization-with-d3">Data
+Visualization and D3</a> A very good online resource (although a bit
+pricy) if you are interested in learning D3. Here is the <a
+href="papers/superhi-data-visualization-syllabus.pdf">course
+syllabus</a>.</p></li>
 </ul>
 </div>
 <div id="week10" class="section level3">
 <h3>Session 10</h3>
 <ul>
-<li><p>Nate Silver is the guy behind the <a href="http://fivethirtyeight.com">FiveThirtyEight</a> website. Trained as a statistician, he predicted Obama’s win in 2008! See his book: <a href="https://www.amazon.ca/Signal-Noise-Many-Predictions-Fail-but/dp/159420411X/ref=sr_1_1?keywords=nate+silver&amp;qid=1552770263&amp;s=gateway&amp;sr=8-1">The Signal and the Noise: Why So Many Predictions Fail – but Some Don’t</a></p></li>
-<li><p>Swing-O-Matic: <a href="https://fivethirtyeight.com/features/how-demographics-will-shape-the-2016-election/">How Demographics Will Shape The 2016 Election</a></p></li>
-<li><p><a href="http://krisztinaszucs.com/vizmarathon/">Krisztina Szucs</a> – a quick analysis on two of her projects by <a href="papers/Krisztina%20Szucs–ANobel.pdf">Angela Nobel</a> Borzu: I really like her work on the frequency of the spread of diseases</p></li>
-<li><p><a href="https://pudding.cool/2017/03/music-history/">How Music Taste Evolved</a> (by the Pudding). Borzu: In my opinion, this project is one of the most engaging dataviz projects in terms of storytelling. Enjoy!</p></li>
-<li><p>Hans Rosling: <a href="https://www.youtube.com/watch?v=Z8t4k0Q8e8Y">200 years in 4 minutes</a> – another example/approach in storytelling with data</p></li>
+<li><p>Nate Silver is the guy behind the <a
+href="http://fivethirtyeight.com">FiveThirtyEight</a> website. Trained
+as a statistician, he predicted Obama’s win in 2008! See his book: <a
+href="https://www.amazon.ca/Signal-Noise-Many-Predictions-Fail-but/dp/159420411X/ref=sr_1_1?keywords=nate+silver&amp;qid=1552770263&amp;s=gateway&amp;sr=8-1">The
+Signal and the Noise: Why So Many Predictions Fail – but Some
+Don’t</a></p></li>
+<li><p>Swing-O-Matic: <a
+href="https://fivethirtyeight.com/features/how-demographics-will-shape-the-2016-election/">How
+Demographics Will Shape The 2016 Election</a></p></li>
+<li><p><a href="http://krisztinaszucs.com/vizmarathon/">Krisztina
+Szucs</a> – a quick analysis on two of her projects by <a
+href="papers/Krisztina%20Szucs–ANobel.pdf">Angela Nobel</a> Borzu: I
+really like her work on the frequency of the spread of diseases</p></li>
+<li><p><a href="https://pudding.cool/2017/03/music-history/">How Music
+Taste Evolved</a> (by the Pudding). Borzu: In my opinion, this project
+is one of the most engaging dataviz projects in terms of storytelling.
+Enjoy!</p></li>
+<li><p>Hans Rosling: <a
+href="https://www.youtube.com/watch?v=Z8t4k0Q8e8Y">200 years in 4
+minutes</a> – another example/approach in storytelling with
+data</p></li>
 </ul>
 </div>
 </div>
@@ -736,21 +860,56 @@ Extended discussions of variations of a given chart type.
 <div id="R" class="section level2">
 <h2>R</h2>
 <ul>
-<li><p>Instructions to install R and R Studio for <a href="R/installing-r-rstudio-windows.pdf">Windows</a> and <a href="R/installing-r-rstudio-mac.pdf">Mac</a>.</p></li>
-<li><p>My <a href="R/install-pkgs.R">install-packages.R</a> R script, to install the most useful packages for this course.</p></li>
-<li><p><a href="R/rstudio-cheat-sheets.pdf">R Studio cheatsheets</a> A handy collection of cheat sheets for R, R Studio and a number of the most useful R packages.</p></li>
-<li><p><a href="http://happygitwithr.com/">Happy git and github for the useR</a> provides a good overview of how to use Git and GitHub in conjunction with an R-based workflow.</p></li>
-<li><p><a href="https://github.com/simonmunzert/rscraping-aapor-2017">A primer on web scraping with R</a> by Simon Munzert. Includes slides from a workshop and lots of links to resources.</p></li>
-<li><p><a href="https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html">Flipbook introduction to ggplot2</a> by Gina Reynolds. An introduction to <code>ggplot2</code> showing the effect of each bit of code for a plot.</p></li>
+<li><p>Instructions to install R and R Studio for <a
+href="R/installing-r-rstudio-windows.pdf">Windows</a> and <a
+href="R/installing-r-rstudio-mac.pdf">Mac</a>.</p></li>
+<li><p>My <a href="R/install-pkgs.R">install-packages.R</a> R script, to
+install the most useful packages for this course.</p></li>
+<li><p><a href="R/rstudio-cheat-sheets.pdf">R Studio cheatsheets</a> A
+handy collection of cheat sheets for R, R Studio and a number of the
+most useful R packages.</p></li>
+<li><p><a href="http://happygitwithr.com/">Happy git and github for the
+useR</a> provides a good overview of how to use Git and GitHub in
+conjunction with an R-based workflow.</p></li>
+<li><p><a href="https://github.com/simonmunzert/rscraping-aapor-2017">A
+primer on web scraping with R</a> by Simon Munzert. Includes slides from
+a workshop and lots of links to resources.</p></li>
+<li><p><a
+href="https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html">Flipbook
+introduction to ggplot2</a> by Gina Reynolds. An introduction to
+<code>ggplot2</code> showing the effect of each bit of code for a
+plot.</p></li>
 </ul>
 </div>
 <div id="project-ideas" class="section level2">
 <h2>Presentation/project ideas</h2>
-<p>Here are a few ideas (in no particular order) for the course presentation or project:</p>
+<p>Here are a few ideas (in no particular order) for the course
+presentation or project:</p>
 <ul>
-<li><p><a href="http://blog.revolutionanalytics.com/2017/12/police-data-challenge.html">Winners of the ASA Police Data Challenge student visualization contest</a>. The American Statistical Association teamed up with the <a href="https://www.policedatainitiative.org/">Police Data Initiative</a>, which provides open data from local law enforcement agencies in the US, to create a competition for high school and college students to analyze crime data from Baltimore, Seattle and Cincinnati. Explore some data and create your own visualization.</p></li>
-<li><p>Somewhat related, <a href="https://www.openintro.org/data/index.php">OpenIntro</a> maintains a large set of datasets, one of which details <a href="https://www.openintro.org/data/index.php?data=fatal_police_shootings">Fatal police shootings</a> by on-duty officers since Jan. 2015. Collected by the Washington Post. This includes 6400 incidents, with many variables on the nature of the incident and the age, race, sex of the victim.</p></li>
-<li><p><a href="https://thebestschools.org/features/most-influential-psychologists-world/">The 50 Most Influential Living Psychologists</a>. This page gives brief biographies of a collection of 50 living psychologists called the most influential in the world. How can this collection be visualized in terms of their attributes (area of psychology, age, gender, …)? You’ll need to scrape the data from the web page. Here is a start on that:</p></li>
+<li><p><a
+href="http://blog.revolutionanalytics.com/2017/12/police-data-challenge.html">Winners
+of the ASA Police Data Challenge student visualization contest</a>. The
+American Statistical Association teamed up with the <a
+href="https://www.policedatainitiative.org/">Police Data Initiative</a>,
+which provides open data from local law enforcement agencies in the US,
+to create a competition for high school and college students to analyze
+crime data from Baltimore, Seattle and Cincinnati. Explore some data and
+create your own visualization.</p></li>
+<li><p>Somewhat related, <a
+href="https://www.openintro.org/data/index.php">OpenIntro</a> maintains
+a large set of datasets, one of which details <a
+href="https://www.openintro.org/data/index.php?data=fatal_police_shootings">Fatal
+police shootings</a> by on-duty officers since Jan. 2015. Collected by
+the Washington Post. This includes 6400 incidents, with many variables
+on the nature of the incident and the age, race, sex of the
+victim.</p></li>
+<li><p><a
+href="https://thebestschools.org/features/most-influential-psychologists-world/">The
+50 Most Influential Living Psychologists</a>. This page gives brief
+biographies of a collection of 50 living psychologists called the most
+influential in the world. How can this collection be visualized in terms
+of their attributes (area of psychology, age, gender, …)? You’ll need to
+scrape the data from the web page. Here is a start on that:</p></li>
 </ul>
 <pre class="r"><code>library(rvest)
 library(stringr)
@@ -760,16 +919,45 @@ items &lt;- page %&gt;% html_nodes(&quot;h3&quot;) %&gt;% html_text()
 items &lt;- items[grep(&quot;More&quot;, items, invert=TRUE)]
 items &lt;- sub(&quot;^\\d+\\. &quot;, &quot;&quot;, items, perl=TRUE)</code></pre>
 <ul>
-<li><p><a href="http://ieeexplore.ieee.org/abstract/document/5613434/">Graphical inference for Info Vis</a>. Wickham et al. (2010) describe a graphical “lineup” technique for doing statistical inference with graphs and human judges. Do a literature review of this topic and design a possible experimental use of this technique. There is an R package, <a href="https://cran.r-project.org/package=nullabor">nullabor</a> with this <a href="https://cran.r-project.org/web/packages/nullabor/vignettes/nullabor.html">vignette</a> for contstructing such graphical displays.</p></li>
-<li><p>Best practices for research presentations using data graphics: How to best communicate your results in a conference presentation or in a poster?</p></li>
-<li><p>Redesigning maps for usability: One of the best early examples is <a href="https://tfl.gov.uk/corporate/about-tfl/culture-and-heritage/art-and-design/harry-becks-tube-map">Harry Beck’s London Tube Map</a>, which has become iconic. But there have been many other additions to the literature on this topic. Some local examples of maps that could use a design-overhaul are:</p>
+<li><p><a
+href="http://ieeexplore.ieee.org/abstract/document/5613434/">Graphical
+inference for Info Vis</a>. Wickham et al. (2010) describe a graphical
+“lineup” technique for doing statistical inference with graphs and human
+judges. Do a literature review of this topic and design a possible
+experimental use of this technique. There is an R package, <a
+href="https://cran.r-project.org/package=nullabor">nullabor</a> with
+this <a
+href="https://cran.r-project.org/web/packages/nullabor/vignettes/nullabor.html">vignette</a>
+for contstructing such graphical displays.</p></li>
+<li><p>Best practices for research presentations using data graphics:
+How to best communicate your results in a conference presentation or in
+a poster?</p></li>
+<li><p>Redesigning maps for usability: One of the best early examples is
+<a
+href="https://tfl.gov.uk/corporate/about-tfl/culture-and-heritage/art-and-design/harry-becks-tube-map">Harry
+Beck’s London Tube Map</a>, which has become iconic. But there have been
+many other additions to the literature on this topic. Some local
+examples of maps that could use a design-overhaul are:</p>
 <ul>
-<li>The <a href="http://torontopath.com/path-map/">Toronto PATH map</a>, showing the 30 km of walkways underneath a large part of the dpowntown core.</li>
-<li>The <a href="http://maps.info.yorku.ca/files/2013/02/KEELE_Map_Colour.pdf">York Campus Map</a>, showing all buildings on the Keele Campus.</li>
+<li>The <a href="http://torontopath.com/path-map/">Toronto PATH map</a>,
+showing the 30 km of walkways underneath a large part of the dpowntown
+core.</li>
+<li>The <a
+href="http://maps.info.yorku.ca/files/2013/02/KEELE_Map_Colour.pdf">York
+Campus Map</a>, showing all buildings on the Keele Campus.</li>
 </ul></li>
-<li><p>Language of Graphs: Characteristics of different computer languages for graphics, including aspects of syntax, semantics and expressive power. See me for some pointers and references.</p></li>
-<li><p>Online experiments: More and more psychologists are using computer-controlled methods of data collection, either with specific software for personal computers or with web-based or cloud-based application. Some of these use graphics, either for stimulus presentation or for displaying results.</p></li>
-<li><p>Measures of graph literacy: In many studies of graph perception, it is useful to measure a construct of ability to understand graphic information (“graph literacy”). What is the state of the art on this topic?</p></li>
+<li><p>Language of Graphs: Characteristics of different computer
+languages for graphics, including aspects of syntax, semantics and
+expressive power. See me for some pointers and references.</p></li>
+<li><p>Online experiments: More and more psychologists are using
+computer-controlled methods of data collection, either with specific
+software for personal computers or with web-based or cloud-based
+application. Some of these use graphics, either for stimulus
+presentation or for displaying results.</p></li>
+<li><p>Measures of graph literacy: In many studies of graph perception,
+it is useful to measure a construct of ability to understand graphic
+information (“graph literacy”). What is the state of the art on this
+topic?</p></li>
 </ul>
 </div>
 
