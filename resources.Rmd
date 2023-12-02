@@ -14,6 +14,12 @@ output:
 source("R/tabfig.R")
 ```
 
+This page lists various resources for the course in general, as well as additional links or topics related to individual lectures beyond what
+is listed on the [main course page](./). If you find a link that doesn't
+work, or could be replaced by something better or more recent, 
+[please let me know by filing an issue](https://github.com/friendly/6135/issues).
+
+
 ## General, tutorials {#tutorials}
 
 ![](images/varieties/FT-graph-overview-snip2.png)
