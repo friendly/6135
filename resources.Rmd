@@ -20,9 +20,9 @@ source("R/tabfig.R")
 
 - Royal Statistical Society [Best Practices for Data Visualisation](https://royal-statistical-society.github.io/datavisguide/): Insights, advice, and examples (with code) to make data outputs more readable, accessible, and impactful.
 - [Financial Times Visual Vocabulary](papers/Visual-vocabulary.pdf). A large cheatsheet poster for fining types of graphs to use for different purposes.  
-- [Checklist For Good Graphical Practice](GraphicsChecklist.html)
+- [Checklist For Good Graphical Practice](GraphicsChecklist.html). From From: Gordon & Finch (2015), a useful set of questions and suggestions to apply to graphs designed for presentation purposes.
 - [Twenty rules for good graphics](https://robjhyndman.com/hyndsight/graphics/). This post by Rob Hyndman, describes some _best practices_ for producing
-graphs for journal publication.
+graphs for _journal publication_.
 
 - [British Ecological Society's Guide to Reproducible Science](https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf). The guide proposes a simple reproducible project workflow, and a guide to organizing projects for reproducibility. The Programming section provides concrete tips and traps to avoid (example: use relative, not absolute pathnames), and the Reproducible Reports section provides a step-by-step guide for generating reports with R Markdown.
 
@@ -185,6 +185,8 @@ tab(class="cellpadding", width="800px",
 These are additional resources related to weekly topics, many of which were originally suggested by Borzu Talaie (Thx!). Feel free to suggest other topics that can be added to these lists.
 
 ### Session 1: Overview {#week1}
+
+- Data Visualization Society [Information is Beautiful Awards, 2023](https://www.informationisbeautifulawards.com/showcase?action=index&award=2023&controller=showcase&page=1&pcategory=winner&type=awards). A showcase of winners from the annual competitions.
 
 - [Graphical Gaffes by Ben Jones](https://docs.google.com/presentation/d/14zGLucWYnU6qQXzEfmpCuDi3YJ-fKqO3wZ7F1WX5iXk/edit#slide=id.gd38455501d_0_9). A collection of _What Not to Do_ in Graphics.
 
