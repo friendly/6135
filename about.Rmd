@@ -13,9 +13,10 @@ output:
 * Michael Friendly [datavis.ca home page](http://datavis.ca)
 * Email: friendly AT yorku DOT ca
 * Twitter: [@datavisFriendly](http://twitter.com/datavisFriendly); [#psy6135](https://twitter.com/search?q=%23psy6135)
-* Office: ~~226 BSB~~
-* Phone: ~~x66249~~
-* Office hour: Wednesday: 11:30-12:30, but by appointment
+* GitHub: [friendly](https://github.com/friendly/)
+* Office: 226 BSB
+* Phone: ~~x66249~~ 
+* Office hour: Wednesday: 11:30-12:30, but by appointment and mostly via [Zoom](https://yorku.zoom.us/my/friendly).
 * Course web site: [https://friendly.github.io/6135/](https://friendly.github.io/6135/)
 <!--
 * TAs: 
@@ -33,8 +34,8 @@ output:
 
 ## Class meetings {#meetings}
 
-* Tuesday 2:30 pm - 5:30 pm via Zoom for the immediate future. Link and instructions to be announced.
-When/if in-person classes resume: in 204 BSB. A few lab sessions will be held in the Hebb Computer lab, 159 BSB.
+* Thu., 2:30 pm - 5:30 pm, 207 BSB.
+A few lab sessions will be held in the Hebb Computer lab, 159 BSB.
 <!-- 
 
 204 BSB; lab sessions will be held in the Hebb Computer lab, 159 BSB. -->
@@ -73,6 +74,10 @@ This course will examine a variety of issues related to data visualization from 
 We will consider visualization methods for a wide range of types of data from the points of view of both the viewer and designer/producer of graphic displays. 
 
 ## Evaluation {#evaluation}
+<img src="images/icons/construction.png" height=20>
+The description below reflects the course when it was last taught in 2022.
+The components and weights for evaluation are still being considered.
+
 Grades will be based on the following components:
 
 * **Discussion leader** (20%)
