@@ -81,7 +81,7 @@ We will consider visualization methods for a wide range of types of data from th
     + **Blogs**: Explore one or two of the blogs or web resources listed in the lecture notes, Readings, or in [Resources](resources.html#blogs). Find a few examples of kinds of graphs you find interesting or worth exploring more.
     + **Good/bad graphs**: Explore the literature in your area, say several issues of one journal. Find one example of a data display (graph or table) that communicates particularly well, and one example of a display that communicates badly.  
 
-#### Topics:  `r icon::fa("list", color="darkgreen")`
+#### <img src="images/icons/list.png" height=20> Topics:  
 
 - Books, readings, blogs & web resources
 - Goals of visualization; visualization as communication
@@ -109,7 +109,7 @@ We will consider visualization methods for a wide range of types of data from th
   How could it be improved?
   
 
-#### Topics: `r icon::fa("list", color="darkgreen")`
+#### <img src="images/icons/list.png" height=20> Topics: 
 
 - Data graphs: 1D -- 3D
 - Thematic maps
@@ -135,7 +135,7 @@ We will consider visualization methods for a wide range of types of data from th
 - Overview [1up PDF](lectures/History.pdf) || [4up PDF](lectures/History-2x2.pdf)
 - Golden Age [1up PDF](lectures/GoldenAge.pdf) || [4up PDF](lectures/GoldenAge-2x2.pdf)
 
-#### Topics: `r icon::fa("list", color="darkgreen")`
+#### <img src="images/icons/list.png" height=20> Topics: 
 
 - Overview: The Milestones Project
 - The first statistical graph
@@ -164,7 +164,7 @@ We will consider visualization methods for a wide range of types of data from th
 #### <img src="images/icons/PDF_icon.png" height=20> Lecture notes  
 - [1up PDF](lectures/GraphPerception.pdf) || [4up PDF](lectures/GraphPerception-2x2.pdf)
 
-#### Topics `r icon::fa("list", color="darkgreen")`
+#### <img src="images/icons/list.png" height=20> Topics:
 
 - Perception & Cognition
   - Encoding, decoding
@@ -202,7 +202,7 @@ also online, [HCLwizard](http://hclwizard.org).
 #### <img src="images/icons/PDF_icon.png" height=20> **Lecture notes**:  [1up PDF](lectures/HumanFactors.pdf) || [4up PDF](lectures/HumanFactors-2x2.pdf)
 <!-- - Guest lecture: Andrea Giambelli, [Design, Storytelling and Data Vis](Andrea-YorkU-Talk.pdf) -->
 
-#### Topics  `r icon::fa("list", color="darkgreen")`
+#### <img src="images/icons/list.png" height=20> Topics:
 
 * Human factors in graphic & information design
 * Empirical study of graphs
@@ -227,7 +227,7 @@ Communication: What Works](papers/Franconeri-etal-2021-WhatWorks.pdf)
 #### <img src="images/icons/PDF_icon.png" height=20> **Lecture notes**:  [1up PDF](lectures/Language.pdf) || [4up PDF](lectures/Language-2x2.pdf)
 - **Bonus lecture**: _Deep questions of Data Visualization_ [1up PDF](lectures/DeepQuestions.pdf) || [4up](lectures/DeepQuestions-2x2.pdf)
 
-#### Topics  `r icon::fa("list", color="darkgreen")`
+#### <img src="images/icons/list.png" height=20> Topics:
 
 - Early attempts at standardization of graphs
 - Bertin: Semiology of Graphics
@@ -285,7 +285,7 @@ Also covers data modeling (regression), hypothesis testing, etc.
 - **Bootstrapping**   [1up PDF](lectures/bootstrap.pdf) || [4up PDF](lectures/bootstrap-2x2.pdf)
 - **tutorial**: [Minard meets ggplot](tutorials/Minard.html); [R script for this](tutorials/Minard.R)
 
-#### Topics  `r icon::fa("list", color="darkgreen")`
+#### <img src="images/icons/list.png" height=20> Topics:
 
 * Data wrangling: getting your data into shape
 * Visualizing models: broom
@@ -320,7 +320,7 @@ the gapminder data with `ggplot2`
 
 #### <img src="images/icons/PDF_icon.png" height=20> Lecture notes:  [1up PDF](lectures/Uncertainty.pdf) || [4up PDF](lectures/Uncertainty-2x2.pdf)
 
-#### Topics  `r icon::fa("list", color="darkgreen")`
+#### <img src="images/icons/list.png" height=20> Topics:
 - Problems with uncertainty in visualization
 - Visualizing distributions
 - “Error bars”
