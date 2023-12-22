@@ -93,7 +93,7 @@ We will consider visualization methods for a wide range of types of data from th
 **Bold face** items are considered essential.
 
 - **Gelman & Unwin** [Infovis and Statistical Graphics: Different Goals, Different Looks, *JCGS* 2013](http://dx.doi.org/10.1080/10618600.2012.761137)
-- Howard Wainer (1984) [How to Display Data Badly. *American Statistician* **38** 137-147](http://www.rci.rutgers.edu/~roos/Courses/grstat502/wainer.pdf)
+- Howard Wainer (1984) [How to Display Data Badly. *American Statistician* **38** 137-147](https://www.jstor.org/stable/2683253)
 - Jon Schwabish [The Ten Most Misleading Charts During Donald Trump’s Presidency](https://policyviz.com/2021/02/15/the-ten-most-misleading-charts-during-donald-trumps-presidency/)
 - [The data visualizations that helped us understand 2020](https://uxdesign.cc/the-data-visualizations-that-helped-us-understand-2020-6447790f821)
 - Check out [Additional resources for Session 1](resources.html#week1)
@@ -184,7 +184,7 @@ We will consider visualization methods for a wide range of types of data from th
 - **Christopher Healey** [Perception in Visualization](https://www.csc2.ncsu.edu/faculty/healey/PP/) A web page on this topic, including interactive demos, animations and lots of examples
 - **Kennedy Elliot** [39 studies abpout human perception in 30 minutes](https://medium.com/@kennelliott/39-studies-about-human-perception-in-30-minutes-4728f9e31a73)
 - Gordon & Finch (2015) ["Statistician Heal Thyself: Have We Lost the Plot?", *JCGS*, 1210-1229, ](http://dx.doi.org/10.1080/10618600.2014.989324)
-- Zeileis etal. (2009) [Escaping RGBland: Selecting Colors for Statistical Graphics, *Computational Statistics & Data Analysis*, 53, 3259–3270.](http://epub.wu.ac.at/1692/)
+- Zeileis etal. (2009) [Escaping RGBland: Selecting Colors for Statistical Graphics, *Computational Statistics & Data Analysis*, 53, 3259–3270.](https://www.zeileis.org/papers/Zeileis+Hornik+Murrell-2009.pdf)
 - Zeileis et al. (2020) [colorspace: A Toolbox for Manipulating and Assessing Colors and Palettes](https://doi.org/10.18637/jss.v096.i01) This is the latest, definitive work on designing color palettes for R.
 The associated web pages, http://colorspace.r-forge.r-project.org/index.html, have many vignettes and interactive color apps,
 also online, [HCLwizard](http://hclwizard.org).
@@ -296,10 +296,10 @@ Also covers data modeling (regression), hypothesis testing, etc.
 
 - **Hadley Wickham** (2014) [Tidy data](https://www.jstatsoft.org/v059/i10). _The Journal of Statistical Software_. See also the
 [main vignette](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) for the `tidyr` package.
-- David Robinson. [broom: An R Package for Converting Statistical Analysis Objects Into Tidy Data Frames](https://arxiv.org/abs/1412.3565). See also this [broom presentation](https://opr.princeton.edu/workshops/Downloads/2016Jan_BroomRobinson.pdf)
-- Software Carpentry. [Dataframe Manipulation with dplyr](https://swcarpentry.github.io/r-novice-gapminder/13-dplyr/). A very nice interactive tutorial on manipulating data frames using `dplyr` and other tidy tools.  Contains some Challenge questions and
+- David Robinson. [broom: An R Package for Converting Statistical Analysis Objects Into Tidy Data Frames](https://arxiv.org/abs/1412.3565). See also this [broom presentation](https://pop.princeton.edu/sites/g/files/toruqf496/files/documents/2018May_Broom_0.pdf)
+- Software Carpentry. [Dataframe Manipulation with dplyr](https://ucsbcarpentry.github.io/2020-10-09-ReprodR-online/13-dplyr/index.html). A very nice interactive tutorial on manipulating data frames using `dplyr` and other tidy tools.  Contains some Challenge questions and
 nice diagrams showing the effects of `select`, `group_by` and other tidy verbs.
-This is part of a larger series, [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/).
+This is part of a larger series, [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/.
 
 #### <img src="images/icons/R_logo-small.png" height=20> R examples
 
