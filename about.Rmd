@@ -77,8 +77,8 @@ The components and weights for evaluation are still being considered.
 Grades will be based on the following components:
 
 * **Discussion leader** (20%)
-Each session, 1-2 of you will lead a brief discussion on one of the readings, sub-topics or an application related
-to the topic. (~ 5 min.).  
+Each session, I ask that 1-2 of you will serve as discussion leader for a brief discussion on one of the readings, sub-topics or an application related
+to the topic. (~ 5 min.).  I will circulate a sign-up sheet for this in the first class.
 
     + It may be helpful to prepare a one-page handout, or your slides, or or other visual materials. 
     + You can send these to the [class listserv](mailto:psyc6135@yorku.ca).
@@ -87,11 +87,11 @@ to the topic. (~ 5 min.).
 
 
 * **Class presentation** (40%)
-  In the last week, each person will give a ~ 20-25 min presentation on a topic of research, application, or software related to data visualization. The topic is not restricted to things covered in the lectures. You'll find a few random suggested topics on the [Resources page](resources.html), but you can also get a sense of the range and scope of projects from
+  In the last week or two, each person will give a ~ 20-25 min presentation on a topic of research, application, or software related to data visualization. The topic is not restricted to things covered in the lectures. You'll find a few random suggested topics on the [Resources page](resources.html), but you can also get a sense of the range and scope of projects from
   those listed on the [Students page](students.html)
   <!-- You are permitted to do this work with one other person. -->
 
-    + You should prepare a brief **topic proposal** and send it to me by email by the end of Reading Week, Feb. 26.
+    + You should prepare a brief **topic proposal** and send it to me by email by the end of Reading Week, Feb. 23.
     <!-- post it to eClass or discuss it with one of us by email by Jun 1. -->
     This is ungraded, but intended to help you shape your topic.
 
@@ -111,12 +111,12 @@ to the topic. (~ 5 min.).
   some aspect of data visualization, an historical review, or a proposal for development or implementation of
   a graphical method. The topic should not be identical to that of your presentation.
   <!-- You are permitted to do this work with one other person.  -->
-  This will be due on  Friday, April 22, the week following the last class.
+  This will be due at the end of the exam period, ~ April 25.
 
 ## Re-use policy
 
 ![](images/icons/cc-by-nc-sa-icon.png){width="20%"}
 
-The lecture slides, tutorials and R scripts linked here are available under a Creative Commons Attribution-NonCommercial-ShareAlike license. They are available to everybody under the terms of this license and can be shared.
+The lecture slides, tutorials and R scripts linked here are available under a Creative Commons Attribution-NonCommercial-ShareAlike license. They are available to everybody under the terms of this license and can be shared, but must be appropriately attributed to me with links to this site.
 
-All other materials, notably course videos and support material files, should not be copied beyond your personal machines and hence are not available for redisitrbution.
+All other materials, notably course videos and support material files, should not be copied beyond your personal machines and hence are not available for redistribution.

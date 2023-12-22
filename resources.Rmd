@@ -32,7 +32,7 @@ graphs for _journal publication_.
 
 - [British Ecological Society's Guide to Reproducible Science](https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf). The guide proposes a simple reproducible project workflow, and a guide to organizing projects for reproducibility. The Programming section provides concrete tips and traps to avoid (example: use relative, not absolute pathnames), and the Reproducible Reports section provides a step-by-step guide for generating reports with R Markdown.
 
-- [Amazon Mechanical Turk Guide for Social Scientists](https://michaelbuhrmester.wordpress.com/mechanical-turk-guide/) A guide for setting up online data collection tasks on [Amazon Mechanical Turk](http://www.mturk.com/)
+<!-- - [Amazon Mechanical Turk Guide for Social Scientists](https://michaelbuhrmester.wordpress.com/mechanical-turk-guide/) A guide for setting up online data collection tasks on [Amazon Mechanical Turk](http://www.mturk.com/) -->
 
 ## Books {#books}
 
@@ -56,7 +56,16 @@ tab(class="cellpadding", width="800px",
   	                         href="https://www.amazon.ca/Truthful-Art-Data-Charts-Communication/dp/0321934075"),
   	       ". Information graphics from a communication perspective.", br(),
            "Blog:", aself("http://www.thefunctionalart.com/"))
+  	),
+  tr(
+  	tabfig("Wilke", "images/books/Wilke-FundamentalsOfDataVis.png", 
+  	       "https://clauswilke.com/dataviz/", width=width),
+  	tabtxt("Claus Wilke,",  a("Fundamentals of Data Visualization",
+  	                         href="https://clauswilke.com/dataviz/"),
+  	       ". Well thought out, a wide range of topics, good practical advice, lots of examples.
+  	        It was written entirely using R Studio and the `bookdown` package, and now online.")
   	)
+
 )
 ```
 
@@ -84,14 +93,14 @@ tab(class="cellpadding", width="800px",
   	       ". Everything you've ever wanted to know about the history of data visualization: Who did what, when and why.."
            )
   	),
-  tr(
-  	tabfig("Wilke", "images/books/Wilke-FundamentalsOfDataVis.png", 
-  	       "https://clauswilke.com/dataviz/", width=width),
-  	tabtxt("Claus Wilke,",  a("Fundamentals of Data Visualization",
-  	                         href="https://clauswilke.com/dataviz/"),
-  	       ". Well thought out, a wide range of topics, good practical advice, lots of examples.
-  	        It was written entirely using R Studio and the `bookdown` package, and now online.")
-  	),
+  # tr(
+  # 	tabfig("Wilke", "images/books/Wilke-FundamentalsOfDataVis.png", 
+  # 	       "https://clauswilke.com/dataviz/", width=width),
+  # 	tabtxt("Claus Wilke,",  a("Fundamentals of Data Visualization",
+  # 	                         href="https://clauswilke.com/dataviz/"),
+  # 	       ". Well thought out, a wide range of topics, good practical advice, lots of examples.
+  # 	        It was written entirely using R Studio and the `bookdown` package, and now online.")
+  # 	),
   tr(
   	tabfig("Munzner", "images/books/munzner.png", 
   	       "https://www.crcpress.com/Visualization-Analysis-and-Design/Munzner/p/book/9781466508910", width=width),
