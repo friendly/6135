@@ -299,7 +299,7 @@ Also covers data modeling (regression), hypothesis testing, etc.
 - David Robinson. [broom: An R Package for Converting Statistical Analysis Objects Into Tidy Data Frames](https://arxiv.org/abs/1412.3565). See also this [broom presentation](https://pop.princeton.edu/sites/g/files/toruqf496/files/documents/2018May_Broom_0.pdf)
 - Software Carpentry. [Dataframe Manipulation with dplyr](https://ucsbcarpentry.github.io/2020-10-09-ReprodR-online/13-dplyr/index.html). A very nice interactive tutorial on manipulating data frames using `dplyr` and other tidy tools.  Contains some Challenge questions and
 nice diagrams showing the effects of `select`, `group_by` and other tidy verbs.
-This is part of a larger series, [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/).
+This is part of a larger series, [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/.
 
 #### <img src="images/icons/R_logo-small.png" height=20> R examples
 
