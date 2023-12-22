@@ -377,7 +377,7 @@ will give a guest presentation, with the tentative title,
 -->
 
 
-## 2024 Student presentations `r icon::fa("chalkboard-teacher", color="red")`
+## <img src="images/icons/teacher.png" height=30> 2024 Student presentations
 These will take place in the last week of class. Details will be posted later.
 [Students page](students.html).
 
