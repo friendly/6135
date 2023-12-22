@@ -157,7 +157,7 @@ tab(class="cellpadding", width="800px",
   	),
   tr(
   	tabfig("FlowingData", "images/blogs/flowingdata.png", "http://flowingdata.com/", width=width),
-  	tabtxt("Nathan Yau,", aself("flowingdata.com/"),
+  	tabtxt("Nathan Yau,", aself("http://flowingdata.com/"),
   	       "A large number of blog posts illustrating data visualization methods with tutorials on how do do these with R and other software.")
   	),
 
