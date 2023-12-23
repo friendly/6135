@@ -216,7 +216,7 @@ These are additional resources related to weekly topics, many of which were orig
 * [30 Day Chart Challenge](https://github.com/Z3tt/30DayChartChallenge_Collection2021)
 This collection, currated by Cederic Scherer, contains examples of graphs and charts
 designed to show visualizations classified by type and topic.  But, more generally,
-follow #30DayChartChallenge on Twitter.
+follow [#30DayChartChallenge](https://twitter.com/30DayChartChall) on Twitter.
 
 
 ### Session 3: History of Data Visualization {#week3}
@@ -385,16 +385,22 @@ items <- sub("^\\d+\\. ", "", items, perl=TRUE)
 - [Graphical inference for Info Vis](http://ieeexplore.ieee.org/abstract/document/5613434/). Wickham et al. (2010) describe a graphical "lineup" technique for doing statistical inference with graphs and human judges.  Do a literature review of this topic and design a possible experimental use of this technique. There is an R package, [nullabor](https://cran.r-project.org/package=nullabor) with this
 [vignette](https://cran.r-project.org/web/packages/nullabor/vignettes/nullabor.html) for contstructing such graphical displays.
 
-- Best practices for research presentations using data graphics: How to best communicate your results in a conference presentation or in a poster?
+- **Best practices** for research presentations using data graphics: How to best communicate your results in a conference presentation or in a poster?
 
-- Redesigning maps for usability: One of the best early examples is [Harry Beck's London Tube Map](https://tfl.gov.uk/corporate/about-tfl/culture-and-heritage/art-and-design/harry-becks-tube-map), which has become iconic. But there have been many other additions to the literature on this topic.  Some local examples of maps that could use a design-overhaul are:
+- **Redesigning maps** for usability: One of the best early examples is [Harry Beck's London Tube Map](https://tfl.gov.uk/corporate/about-tfl/culture-and-heritage/art-and-design/harry-becks-tube-map), which has become iconic. But there have been many other additions to the literature on this topic.  Some local examples of maps that could use a design-overhaul are:
     * The [Toronto PATH map](http://torontopath.com/path-map/), showing the 30 km of walkways underneath a large part of the dpowntown core.
     * The [York Campus Map](http://maps.info.yorku.ca/files/2013/02/KEELE_Map_Colour.pdf), showing all buildings on the Keele Campus.  
 
-- Language of Graphs: Characteristics of different computer languages for graphics, including aspects of syntax, semantics and expressive power. See me for some pointers and references.
+- **Language of Graphs**: Characteristics of different computer languages for graphics, including aspects of syntax, semantics and expressive power. See me for some pointers and references.
+  * Nicolas Kruchten [Metrics for Reasoning About the Usability of Visualization Notations](https://medium.com/multiple-views-visualization-research-explained/metrics-for-reasoning-about-the-usability-of-visualization-notations-6c03b9292780)
 
-- Online experiments: More and more psychologists are using computer-controlled methods of data collection, either with specific software for personal computers or with web-based or cloud-based application.  Some of these use graphics, either for stimulus presentation or for displaying results.
+- **Online experiments**: More and more psychologists are using computer-controlled methods of data collection, either with specific software for personal computers or with web-based or cloud-based application.  Some of these use graphics, either for stimulus presentation or for displaying results.
 
-- Measures of graph literacy: In many studies of graph perception, it is useful to measure a construct of ability to understand graphic information ("graph literacy"). What is the state of the art on this topic?
+- **Measures of graph literacy**: In many studies of graph perception, it is useful to measure a construct of ability to understand graphic information ("graph literacy"). What is the state of the art on this topic?
+
+- **Accessibility**: Making graphics accessible to the visually impaired. A simple example is **ALT** text, now increasingly used.  Are there standards or tools available? 
+  * Somewhat related: Data **sonification & haptics**-- using sound and other modalities.
+
+
 
 
