@@ -201,7 +201,12 @@ These are additional resources related to weekly topics, many of which were orig
 
 ### Session 1: Overview {#week1}
 
+![](images/headers/what-makes-good-vis-banner.png)
+
 - Data Visualization Society [Information is Beautiful Awards, 2023](https://www.informationisbeautifulawards.com/showcase?action=index&award=2023&controller=showcase&page=1&pcategory=winner&type=awards). A showcase of winners from the annual competitions.
+
+- [Foundations of Data Visualization](https://posit-conf-2023.github.io/dataviz-storytelling/materials/01-foundations.html)
+Cédric Scherer, Session 1 of a workshop, [Designing Data Visualizations to Successfully Tell a Story](https://posit-conf-2023.github.io/dataviz-storytelling/)
 
 - [Graphical Gaffes by Ben Jones](https://docs.google.com/presentation/d/14zGLucWYnU6qQXzEfmpCuDi3YJ-fKqO3wZ7F1WX5iXk/edit#slide=id.gd38455501d_0_9). A collection of _What Not to Do_ in Graphics.
 
@@ -209,12 +214,13 @@ These are additional resources related to weekly topics, many of which were orig
 
 - [How People Actually Lie With Charts](https://vdl.sci.utah.edu/blog/2023/04/17/misleading/). What makes a visualization misleading? Some _awfully_ nice examples dealing with COVID-19 data.
 
+
 ### Session 2: Varieties Data Visualization {#week2}
 
 ![](images/headers/30-day-topics-snip.png)
 
 * [30 Day Chart Challenge](https://github.com/Z3tt/30DayChartChallenge_Collection2021)
-This collection, currated by Cederic Scherer, contains examples of graphs and charts
+This collection, currated by Cédric Scherer, contains examples of graphs and charts
 designed to show visualizations classified by type and topic.  But, more generally,
 follow [#30DayChartChallenge](https://twitter.com/30DayChartChall) on Twitter.
 
@@ -223,6 +229,9 @@ A great example in storytelling with data: history of drone strikes in Pakistan
 
 
 ### Session 3: History of Data Visualization {#week3}
+
+![](images/headers/Geschts-roots.png)
+
 
 * [Album de Statistique Graphique](https://richardbrath.wordpress.com/2018/12/31/album-de-statistique-graphique/)
 A blog post by Richard Brath picks out some features in this remarkable series of statistical albums
