@@ -218,18 +218,17 @@ This collection, currated by Cederic Scherer, contains examples of graphs and ch
 designed to show visualizations classified by type and topic.  But, more generally,
 follow [#30DayChartChallenge](https://twitter.com/30DayChartChall) on Twitter.
 
+* [Out of Sight, Out of Mind](http://drones.pitchinteractive.com)
+A great example in storytelling with data: history of drone strikes in Pakistan
+
 
 ### Session 3: History of Data Visualization {#week3}
 
 * [Album de Statistique Graphique](https://richardbrath.wordpress.com/2018/12/31/album-de-statistique-graphique/)
 A blog post by Richard Brath picks out some features in this remarkable series of statistical albums
 
-* [Out of Sight, Out of Mind](http://drones.pitchinteractive.com)
-A great example in storytelling with data
+* Salomé Esteves [The people DataViz’s history ignores: a step forward to an intersectional history of Data Visualization](papers/Esteves-People_DataViz_history_ignores.pdf). An attempt to broaden the history of dataviz.
 
-* [Journalism in the Age of Data](http://datajournalism.stanford.edu/index.html)
-A very interesting video report on data as a storytelling medium – a bit outdated, but still holds some interesting content.
-(There is an annotated version, which requires Flashplayer)
 
 * Douglas Engelbert
 [Inventor of the computer mouse as a pointing system](https://www.youtube.com/watch?v=AN0bP8764do).
@@ -296,7 +295,16 @@ Use Chrome web browser and make sure you enable sound in the top menu.
 A very good online resource (although a bit pricy) if you are interested in learning D3. Here is the 
 [course syllabus](papers/superhi-data-visualization-syllabus.pdf).
 
-### Session 10 {#week10}
+### Session 8 {#week7}
+
+### Session 9: Visualizing Uncertainty {#week7}
+
+### Session 10: Data Journalism {#week10}
+
+* [Journalism in the Age of Data](http://datajournalism.stanford.edu/index.html)
+A very interesting video report on data as a storytelling medium – a bit outdated, but still holds some interesting content.
+(There is an annotated version, which requires Flashplayer)
+
 
 * Nate Silver is the guy behind the [FiveThirtyEight](http://fivethirtyeight.com) website. 
 Trained as a statistician, he predicted Obama’s win in 2008!
