@@ -236,18 +236,20 @@ A great example in storytelling with data: history of drone strikes in Pakistan
 * [Album de Statistique Graphique](https://richardbrath.wordpress.com/2018/12/31/album-de-statistique-graphique/)
 A blog post by Richard Brath picks out some features in this remarkable series of statistical albums
 
-* Salomé Esteves [The people DataViz’s history ignores: a step forward to an intersectional history of Data Visualization](papers/Esteves-People_DataViz_history_ignores.pdf). An attempt to broaden the history of dataviz.
+* Salomé Esteves [The people DataViz’s history ignores: a step forward to an intersectional history of Data Visualization](papers/Esteves-People_DataViz_history_ignores.pdf). An attempt to broaden the history of dataviz, recognizing women and people of color.
 
 
-* Douglas Engelbert
-[Inventor of the computer mouse as a pointing system](https://www.youtube.com/watch?v=AN0bP8764do).
-Also check out his 1968 demo nicknamed: [The Mother of All Demos](https://www.youtube.com/watch?v=yJDv-zdhzMY).
+<!-- * Douglas Engelbert -->
+<!-- [Inventor of the computer mouse as a pointing system](https://www.youtube.com/watch?v=AN0bP8764do). -->
+<!-- Also check out his 1968 demo nicknamed: [The Mother of All Demos](https://www.youtube.com/watch?v=yJDv-zdhzMY). -->
 
 * Katharine Harmon [The Map as Art](https://www.amazon.ca/Map-Art-Contemporary-Artists-Cartography/dp/1568989725/ref=sr_1_1?ie=UTF8&qid=1548080669&sr=8-1&keywords=map+as+art)
 
 She also has another good book on maps called: [You Are Here](https://www.amazon.ca/You-Are-Here-Geographies-Imagination/dp/1568984308/ref=sr_1_2?s=books&ie=UTF8&qid=1548080732&sr=1-2)
 
 ### Session 4: Graphical perception {#week4}
+
+![](images/headers/integral-separable-snip.png)
 
 * [The Illusions Index](https://www.illusionsindex.org/) is a fully searchable, curated collection of illusions.
 **Warning**: Some may blow your mind!
@@ -258,6 +260,8 @@ She also has another good book on maps called: [You Are Here](https://www.amazon
 * Emil Hvitfeldt has compiled a [Comprehensive list of color palettes available in R](https://github.com/EmilHvitfeldt/r-color-palettes) with examples of each.
 
 ### Session 5: Human Factors {#week5}
+
+![](images/headers/human-factors-brain.png)
 
 * How do we read pie charts? You might think you read pie charts by angle, but you don't. Robert Kosera
 lays out some evidence in this Youtube video [The Science of Pie Charts](https://youtu.be/NxmHDNNTFyk).
@@ -292,7 +296,7 @@ A very interesting project that used crowdsourcing like Amazon Mechanical Turk f
 Chapter 1 has an overview of visual variables, as applied to mapping.
 
 
-### Session 7 {#week7}
+### Session 7: ggplot2 basics {#week7}
 
 
 * [The Secret Rules of Modern Living: Algorithms](https://www.netflix.com/title/80095881). A documentary on Netflix.
@@ -304,9 +308,12 @@ Use Chrome web browser and make sure you enable sound in the top menu.
 A very good online resource (although a bit pricy) if you are interested in learning D3. Here is the 
 [course syllabus](papers/superhi-data-visualization-syllabus.pdf).
 
-### Session 8 {#week7}
+### Session 8: Going further in the tidyverse {#week8}
 
-### Session 9: Visualizing Uncertainty {#week7}
+* Cédric Scherer [Engaging and Beautiful Data Visualizations with ggplot2](https://posit-conf-2023.github.io/dataviz-ggplot2/). A one-day workshop for those who already know a bit of ggplot2, but want to take their graphs to the next level.
+
+
+### Session 9: Visualizing Uncertainty {#week9}
 
 ### Session 10: Data Journalism {#week10}
 
@@ -381,12 +388,12 @@ tab(class="cellpadding", width="800px",
 
 Here are a few ideas (in no particular order) for the course presentation or project:
 
-- [Winners of the ASA Police Data Challenge student visualization contest](http://blog.revolutionanalytics.com/2017/12/police-data-challenge.html). The American Statistical Association teamed up with the [Police Data Initiative](https://www.policedatainitiative.org/), which provides open data from local law enforcement agencies in the US, to create a competition for high school and college students to analyze crime data from Baltimore, Seattle and Cincinnati.  Explore some data and create your own visualization.
+* [Winners of the ASA Police Data Challenge student visualization contest](http://blog.revolutionanalytics.com/2017/12/police-data-challenge.html). The American Statistical Association teamed up with the [Police Data Initiative](https://www.policedatainitiative.org/), which provides open data from local law enforcement agencies in the US, to create a competition for high school and college students to analyze crime data from Baltimore, Seattle and Cincinnati.  Explore some data and create your own visualization.
 
-- Somewhat related, [OpenIntro](https://www.openintro.org/data/index.php) maintains a large set of datasets, one of which details [Fatal police shootings](https://www.openintro.org/data/index.php?data=fatal_police_shootings) by on-duty officers since Jan. 2015.
+* Somewhat related, [OpenIntro](https://www.openintro.org/data/index.php) maintains a large set of datasets, one of which details [Fatal police shootings](https://www.openintro.org/data/index.php?data=fatal_police_shootings) by on-duty officers since Jan. 2015.
 Collected by the Washington Post. This includes 6400 incidents, with many variables on the nature of the incident and the age, race, sex of the victim.
 
-- [The 50 Most Influential Living Psychologists](https://thebestschools.org/features/most-influential-psychologists-world/). This page gives brief biographies of a collection of 50 living psychologists called the most influential in the world. How can this collection be visualized in terms of their attributes (area of psychology, age, gender, ...)?  You'll need to scrape the data from the web page.  Here is a start on that:
+* [The 50 Most Influential Living Psychologists](https://thebestschools.org/features/most-influential-psychologists-world/). This page gives brief biographies of a collection of 50 living psychologists called the most influential in the world. How can this collection be visualized in terms of their attributes (area of psychology, age, gender, ...)?  You'll need to scrape the data from the web page.  Here is a start on that:
 
 ```{r influential, eval=FALSE}
 library(rvest)
@@ -399,25 +406,28 @@ items <- sub("^\\d+\\. ", "", items, perl=TRUE)
 ```
 
 
-- [Graphical inference for Info Vis](http://ieeexplore.ieee.org/abstract/document/5613434/). Wickham et al. (2010) describe a graphical "lineup" technique for doing statistical inference with graphs and human judges.  Do a literature review of this topic and design a possible experimental use of this technique. There is an R package, [nullabor](https://cran.r-project.org/package=nullabor) with this
+* [Graphical inference for Info Vis](http://ieeexplore.ieee.org/abstract/document/5613434/). Wickham et al. (2010) describe a graphical "lineup" technique for doing statistical inference with graphs and human judges.  Do a literature review of this topic and design a possible experimental use of this technique. There is an R package, [nullabor](https://cran.r-project.org/package=nullabor) with this
 [vignette](https://cran.r-project.org/web/packages/nullabor/vignettes/nullabor.html) for contstructing such graphical displays.
 
-- **Best practices** for research presentations using data graphics: How to best communicate your results in a conference presentation or in a poster?
+* **Best practices** for research presentations using data graphics: How to best communicate your results in a conference presentation or in a poster?
 
-- **Redesigning maps** for usability: One of the best early examples is [Harry Beck's London Tube Map](https://tfl.gov.uk/corporate/about-tfl/culture-and-heritage/art-and-design/harry-becks-tube-map), which has become iconic. But there have been many other additions to the literature on this topic.  Some local examples of maps that could use a design-overhaul are:
+* **Redesigning maps** for usability: One of the best early examples is [Harry Beck's London Tube Map](https://tfl.gov.uk/corporate/about-tfl/culture-and-heritage/art-and-design/harry-becks-tube-map), which has become iconic. But there have been many other additions to the literature on this topic.  Some local examples of maps that could use a design-overhaul are:
     * The [Toronto PATH map](http://torontopath.com/path-map/), showing the 30 km of walkways underneath a large part of the dpowntown core.
     * The [York Campus Map](http://maps.info.yorku.ca/files/2013/02/KEELE_Map_Colour.pdf), showing all buildings on the Keele Campus.  
 
-- **Language of Graphs**: Characteristics of different computer languages for graphics, including aspects of syntax, semantics and expressive power. See me for some pointers and references.
+* **Language of Graphs**: Characteristics of different computer languages for graphics, including aspects of syntax, semantics and expressive power. See me for some pointers and references.
   * Nicolas Kruchten [Metrics for Reasoning About the Usability of Visualization Notations](https://medium.com/multiple-views-visualization-research-explained/metrics-for-reasoning-about-the-usability-of-visualization-notations-6c03b9292780)
 
-- **Online experiments**: More and more psychologists are using computer-controlled methods of data collection, either with specific software for personal computers or with web-based or cloud-based application.  Some of these use graphics, either for stimulus presentation or for displaying results.
+* **Online experiments**: More and more psychologists are using computer-controlled methods of data collection, either with specific software for personal computers or with web-based or cloud-based application.  Some of these use graphics, either for stimulus presentation or for displaying results.
 
-- **Measures of graph literacy**: In many studies of graph perception, it is useful to measure a construct of ability to understand graphic information ("graph literacy"). What is the state of the art on this topic?
+* **Measures of graph literacy**: In many studies of graph perception, it is useful to measure a construct of ability to understand graphic information ("graph literacy"). What is the state of the art on this topic?
 
-- **Accessibility**: Making graphics accessible to the visually impaired. A simple example is **ALT** text, now increasingly used.  Are there standards or tools available? 
+* **Accessibility**: Making graphics accessible to the visually impaired. A simple example is **ALT** text, now increasingly used.  Are there standards or tools available? See the links under [Human factors](#week5) above.
   * Somewhat related: Data **sonification & haptics**-- using sound and other modalities.
 
+* **Other graphic software**: 
+  + [Observable](https://observablehq.com/), a dynamic, extensible graphics system built on [D3](https://d3js.org/), a free, open-source JavaScript library for visualizing data
+  + [Figma](https://www.figma.com/), a graphic design system
 
 
 
