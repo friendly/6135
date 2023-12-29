@@ -93,14 +93,15 @@ tab(class="cellpadding", width="800px",
   	       ". Everything you've ever wanted to know about the history of data visualization: Who did what, when and why.."
            )
   	),
-  # tr(
-  # 	tabfig("Wilke", "images/books/Wilke-FundamentalsOfDataVis.png", 
-  # 	       "https://clauswilke.com/dataviz/", width=width),
-  # 	tabtxt("Claus Wilke,",  a("Fundamentals of Data Visualization",
-  # 	                         href="https://clauswilke.com/dataviz/"),
-  # 	       ". Well thought out, a wide range of topics, good practical advice, lots of examples.
-  # 	        It was written entirely using R Studio and the `bookdown` package, and now online.")
-  # 	),
+  tr(
+  	tabfig("Christiansen", "images/books/Wilke-FundamentalsOfDataVis.png",
+  	       "https://www.buildingsciencegraphics.com/", width=width),
+  	tabtxt("Jen Christiansen,",  a("Building Science Graphics",
+  	                         href="https://www.buildingsciencegraphics.com/"),
+  	       ". An illustrated guide to communicating science through diagrams
+           and visualizations. Beautifully illustrated itself, it outlines a process
+           for creating graphics using evidence-based design strategies.")
+  	),
   tr(
   	tabfig("Munzner", "images/books/munzner.png", 
   	       "https://www.crcpress.com/Visualization-Analysis-and-Design/Munzner/p/book/9781466508910", width=width),
