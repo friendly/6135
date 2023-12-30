@@ -299,11 +299,11 @@ Chapter 1 has an overview of visual variables, as applied to mapping.
 
 ### Session 7: ggplot2 basics {#week7}
 
+* Deepali Kank's [Tidy Tuesday 2023](https://github.com/deepdk/TidyTuesday_2023) collection of
+R scripts using `ggplot2` and `tidyverse` principles to produce some lovely graphics. See the
+[Tidy Tuesday Github site](https://github.com/rfordatascience/tidytuesday) for details of the
+topics.
 
-* [The Secret Rules of Modern Living: Algorithms](https://www.netflix.com/title/80095881). A documentary on Netflix.
-
-* Adding other sensory attributions to data: [Listen to wikipedia](http://listen.hatnote.com).
-Use Chrome web browser and make sure you enable sound in the top menu.
 
 * [Data Visualization and D3](https://www.superhi.com/courses/data-visualization-with-d3)
 A very good online resource (although a bit pricy) if you are interested in learning D3. Here is the 
@@ -337,7 +337,7 @@ Borzu: In my opinion, this project is one of the most engaging dataviz projects 
 
 * Hans Rosling: [200 years in 4 minutes](https://www.youtube.com/watch?v=Z8t4k0Q8e8Y) – another example/approach in storytelling with data
 
-
+## Other
 
 ## Software for graphics in [R](https://r-project.org) {#Rblogs}
 
@@ -426,9 +426,10 @@ items <- sub("^\\d+\\. ", "", items, perl=TRUE)
 * **Accessibility**: Making graphics accessible to the visually impaired. A simple example is **ALT** text, now increasingly used.  Are there standards or tools available? See the links under [Human factors](#week5) above.
   * Somewhat related: Data **sonification & haptics**-- using sound and other modalities.
 
-* **Other graphic software**: 
+* **Other dataviz & graphic software**: 
   + [Observable](https://observablehq.com/), a dynamic, extensible graphics system built on [D3](https://d3js.org/), a free, open-source JavaScript library for visualizing data
-  + [Figma](https://www.figma.com/), a graphic design system
+  + [Figma](https://www.figma.com/), a graphic design system, often used to "gussy-up" plots done with R.
+  + Python graphics libraries: [plotnine](https://plotnine.readthedocs.io/en/v0.12.4/), an implementation of a grammar of graphics in Python based on `ggplot2`.  There are many other [Python libraries for data visualization](https://www.knowledgehut.com/blog/business-intelligence-and-visualization/python-data-visualization-libraries): [matplotlib](https://matplotlib.org/), [plotly](https://plotly.com/), ...
 
 
 

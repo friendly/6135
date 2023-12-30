@@ -81,3 +81,12 @@ qqPlot(lm(prestige ~ income + education + type, data=Duncan),
 
 
 qqtest(Prestige$income, main="Prestige$income")
+
+
+# cqplot
+
+library(heplots)
+cqplot(Prestige[, 1:4], id.n = 2)
+
+cqplot(Prestige[, 1:4], id.n = 2, detrend = TRUE, ylim = c(-4, 20))
+

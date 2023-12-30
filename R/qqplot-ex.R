@@ -35,3 +35,18 @@ gg <- ggplot(data = dat, mapping = aes(sample = value)) +
   labs(x = "Theoretical Quantiles", y = "Sample Quantiles") +
   theme_bw(base_size = 15)
 gg
+
+
+# another way: https://stackoverflow.com/questions/14958814/how-can-i-label-the-points-of-a-quantile-quantile-plot-composed-with-ggplot2
+
+ggplot_build(gg)$data[[4]] |> str()
+
+df.new <- ggplot_build(gg)$data[[4]]
+df.new$name <- dat$id[order(df.new$x)]
+head(df.new)
+
+
+# cqplots
+
+library(heplots)
+
