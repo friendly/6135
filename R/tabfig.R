@@ -1,5 +1,5 @@
 library(htmltools)
-lubrary(glue)
+library(glue)
 
 # table tags
 tab <- function (...)
