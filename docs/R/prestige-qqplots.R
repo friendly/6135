@@ -14,32 +14,26 @@ ggplot(Prestige, aes(x=income)) +
        axis.text.y=element_blank()) +
  labs(y="Frequency")
 
-
 qqPlot(~income, data=Prestige, envelope=FALSE, grid=FALSE, pch=16)
 
 # theoretical conf band
 qqPlot(~income, data=Prestige, 
-       envelope=list(col="lightblue", alpha=0.5,
-                     level = .95,
-                     simulate = FALSE), 
-       grid=FALSE, pch=16)
+       envelope=list(col="lightblue", alpha=0.5), grid=FALSE, pch=16)
 
 # try qqplotr
 
 ggplot(data = Prestige, aes(sample = income)) +
- stat_qq_band(conf = .95, fill="lightblue", alpha=0.5) +
+ stat_qq_band(fill="lightblue", alpha=0.5) +
  stat_qq_line(color="blue") +
  stat_qq_point() +
- labs(x = "Normal Quantiles", y = "Income Quantiles") +
-  theme_bw(base_size = 14)
+ labs(x = "Normal Quantiles", y = "Income Quantiles")
 
 # detrended 
 ggplot(data = Prestige, aes(sample = prestige)) +
- stat_qq_band(conf = .95, fill="lightblue", alpha=0.5, detrend=TRUE) +
+ stat_qq_band(fill="lightblue", alpha=0.5, detrend=TRUE) +
  stat_qq_line(color="blue", detrend=TRUE) +
  stat_qq_point(size=2, detrend=TRUE) +
- labs(x = "Normal Quantiles", y = "Detrended Prestige Quantiles") + 
- theme_bw(base_size = 14)
+ labs(x = "Normal Quantiles", y = "Detrended Prestige Quantiles")
 
 
 
@@ -81,12 +75,3 @@ qqPlot(lm(prestige ~ income + education + type, data=Duncan),
 
 
 qqtest(Prestige$income, main="Prestige$income")
-
-
-# cqplot
-
-library(heplots)
-cqplot(Prestige[, 1:4], id.n = 2)
-
-cqplot(Prestige[, 1:4], id.n = 2, detrend = TRUE, ylim = c(-4, 20))
-
