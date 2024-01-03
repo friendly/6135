@@ -41,8 +41,9 @@ TabFigText <- function(author, name,
 }
 
 if(FALSE) {
-  # tabfig("Wainer", "images/books/Wainer-graphic-discovery.png", 
-  #        "https://press.princeton.edu/titles/7820.html", width=width)
+  width <- "160px"
+  tabfig("Wainer", "images/books/Wainer-graphic-discovery.png",
+         "https://press.princeton.edu/titles/7820.html", width=width)
   tabtxt("Howard Wainer,",  a("Graphic discovery: a trout in the milk and other visual adventures",
                               href="https://press.princeton.edu/titles/7820.html"),
          ". A collection of essays on the history of graphics and other topics.")
