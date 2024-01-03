@@ -211,6 +211,8 @@ Cédric Scherer, Session 1 of a workshop, [Designing Data Visualizations to Succ
 
 - [Graphical Gaffes by Ben Jones](https://docs.google.com/presentation/d/14zGLucWYnU6qQXzEfmpCuDi3YJ-fKqO3wZ7F1WX5iXk/edit#slide=id.gd38455501d_0_9). A collection of _What Not to Do_ in Graphics.
 
+- Scientific Amercan's [Best Science Graphics of 2023](https://www.scientificamerican.com/article/see-the-best-science-graphics-of-2023/)
+
 - Take a look at some of the visualizations selected by Andy Kirk as his picks for the [Best visualizations in August 2021](https://www.visualisingdata.com/2021/12/best-of-the-visualisation-web-august-2021/)
 
 - [How People Actually Lie With Charts](https://vdl.sci.utah.edu/blog/2023/04/17/misleading/). What makes a visualization misleading? Some _awfully_ nice examples dealing with COVID-19 data.
@@ -377,7 +379,9 @@ tab(class="cellpadding", width="800px",
 
 * My [install-packages.R](R/install-pkgs.R) R script, to install the most useful packages for this course.
 
-* [R Studio cheatsheets](R/rstudio-cheat-sheets.pdf) A handy collection of cheat sheets for R, R Studio and a number of the most useful R packages.
+* [R Studio cheatsheets](R/rstudio-cheat-sheets.pdf). A handy collection of cheat sheets for R, R Studio and a number of the most useful R packages.
+
+* [R for Social Scientists](https://datacarpentry.org/r-socialsci/). A short course introduction to R, covering also data wrangling with `dplyr` and `tidyr`, graphics with `ggplot2`, using Rmarkdown for documents, ...
 
 * [Happy git and github for the useR](http://happygitwithr.com/) provides a good overview of how to use Git and GitHub in conjunction with an R-based workflow.
 
