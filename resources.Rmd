@@ -246,9 +246,7 @@ A blog post by Richard Brath picks out some features in this remarkable series o
 <!-- [Inventor of the computer mouse as a pointing system](https://www.youtube.com/watch?v=AN0bP8764do). -->
 <!-- Also check out his 1968 demo nicknamed: [The Mother of All Demos](https://www.youtube.com/watch?v=yJDv-zdhzMY). -->
 
-* Katharine Harmon [The Map as Art](https://www.amazon.ca/Map-Art-Contemporary-Artists-Cartography/dp/1568989725/ref=sr_1_1?ie=UTF8&qid=1548080669&sr=8-1&keywords=map+as+art)
-
-She also has another good book on maps called: [You Are Here](https://www.amazon.ca/You-Are-Here-Geographies-Imagination/dp/1568984308/ref=sr_1_2?s=books&ie=UTF8&qid=1548080732&sr=1-2)
+* Katharine Harmon [The Map as Art](https://www.amazon.ca/Map-Art-Contemporary-Artists-Cartography/dp/1568989725/ref=sr_1_1?ie=UTF8&qid=1548080669&sr=8-1&keywords=map+as+art). She also has another good book on maps called: [You Are Here](https://www.amazon.ca/You-Are-Here-Geographies-Imagination/dp/1568984308/ref=sr_1_2?s=books&ie=UTF8&qid=1548080732&sr=1-2)
 
 ### Session 4: Graphical perception {#week4}
 
@@ -280,6 +278,8 @@ Considers how to write figure captions or alt-text to better communicate and con
 
 ### Session 6: The Language of Graphs {#week6}
 
+![](images/GoG/gog-framework2.png)
+
 * [Claus Wilke, SDS 375/395 Data Visualization in R](https://wilkelab.org/SDS375/)
 This is a comprehensive course in R graphics (mainly ggplot2 & friends), 
 based on Wilke's [_Fundamentals of Data Visualization_](https://clauswilke.com/dataviz/).
@@ -301,6 +301,8 @@ Chapter 1 has an overview of visual variables, as applied to mapping.
 
 ### Session 7: ggplot2 basics {#week7}
 
+![](images/ggplot2/ggplot-1.png)
+
 * Deepali Kank's [Tidy Tuesday 2023](https://github.com/deepdk/TidyTuesday_2023) collection of
 R scripts using `ggplot2` and `tidyverse` principles to produce some lovely graphics. See the
 [Tidy Tuesday Github site](https://github.com/rfordatascience/tidytuesday) for details of the
@@ -313,10 +315,19 @@ A very good online resource (although a bit pricy) if you are interested in lear
 
 ### Session 8: Going further in the tidyverse {#week8}
 
+![](images/ggplot2/tidyverse2.png)
+
 * Cédric Scherer [Engaging and Beautiful Data Visualizations with ggplot2](https://posit-conf-2023.github.io/dataviz-ggplot2/). A one-day workshop for those who already know a bit of ggplot2, but want to take their graphs to the next level.
 
 
 ### Session 9: Visualizing Uncertainty {#week9}
+
+![](images/uncertainty/weiskopf-fbinf-02-793819-g002.jpg)
+
+
+* David Weiskopf [Uncertainty Visualization: Concepts, Methods, and Applications in Biological Data Visualization](https://www.frontiersin.org/articles/10.3389/fbinf.2022.793819/full)
+
+* [Cartography and Visualization: The Visualization of Uncertainty](https://www.e-education.psu.edu/geog486/node/693)
 
 ### Session 10: Data Journalism {#week10}
 
