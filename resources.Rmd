@@ -11,6 +11,7 @@ output:
 ---
 
 ```{r tabfig, echo=FALSE}
+knitr::opts_chunk$set(warning = FALSE)
 source("R/tabfig.R")
 ```
 
