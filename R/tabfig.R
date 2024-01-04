@@ -56,4 +56,26 @@ if(FALSE) {
     website = "https://press.princeton.edu/titles/7820.html",
     desc = "A collection of essays on the history of graphics and other topics."
   )
+  
+  tr(
+    tabfig("Ware", "images/books/ware.jpg", 
+           "https://www.elsevier.com/books/information-visualization/ware/978-0-12-381464-7", width=width),
+    tabtxt("Colin Ware,",  a("Information Visualization, 3rd Ed.",
+                             href="https://www.elsevier.com/books/information-visualization/ware/978-0-12-381464-7"),
+           ". What perceptual science has to say about data visualization, from a bottom-up perspective.", br(),
+           "Course notes at", aself("http://ccom.unh.edu/vislab/VisCourse/index.html"))
+  )
+  
+  tr(
+    TabFigText(
+      author = "Ware",
+      name = "Colin Ware",
+      img = "images/books/ware.jpg",
+      title = "Information Visualization, 3rd Ed.",
+      website = "https://www.elsevier.com/books/information-visualization/ware/978-0-12-381464-7",
+      desc = "What perceptual science has to say about data visualization, from a bottom-up perspective.", 
+      extra = paste("Course notes at", aself("http://ccom.unh.edu/vislab/VisCourse/index.html")))
+    )
+    
+  
 }
