@@ -104,7 +104,7 @@ We will consider visualization methods for a wide range of types of data from th
 
 #### <img src="images/icons/PDF_icon.png" height=20> **Lecture notes**:  [1up PDF](lectures/Varieties.pdf) || [4up PDF](lectures/Varieties-2x2.pdf)
 - **Assignment**:
-  + From the readings that you have done so far, find one example of a data graph that
+  + From the readings up to and including this week, find one example of a data graph that
   attempts to tell an interesting story of a useful topic. How well does it succeed?
   How could it be improved?
   
@@ -118,9 +118,10 @@ We will consider visualization methods for a wide range of types of data from th
 
 #### <img src="images/icons/book.png" height=20> Readings: 
 
+- **Amanda Makulec** [Pros and Cons of Chart Taxonomies](https://medium.com/nightingale/the-pros-and-cons-of-chart-taxonomies-5c8e094578c4). Are these chart taxonomies good or evil?
 - [Data Visuaization Catalog](https://datavizcatalogue.com/) A handy compendium of most known graphical methods.  There is also a [Blog](https://datavizcatalogue.com/blog/) section with extended discussions of variations of a given chart type, e.g., this one on [Boxplots](https://datavizcatalogue.com/blog/box-plot-variations/).
-- [Pros and Cons of Chart Taxonomies](https://medium.com/nightingale/the-pros-and-cons-of-chart-taxonomies-5c8e094578c4). Are these chart taxonomies good or evil?
-- [12 Data visualizations that illustrate poverty's biggest challenges](https://www.one.org/us/2014/05/20/12-data-visualizations-that-illustrate-povertys-biggest-challenges/)
+- Friendly & RJ Andrews, [The radiant diagrams of Florence Nightingale](https://www.datavis.ca/papers/Nightingale-radiant.pdf)
+- Turner Shaw [12 Data visualizations that illustrate poverty's biggest challenges](https://www.one.org/us/2014/05/20/12-data-visualizations-that-illustrate-povertys-biggest-challenges/)
 - TED talks: [Manuel Lima, A Visual History of Human Knowledge](https://www.ted.com/talks/manuel_lima_a_visual_history_of_human_knowledge)
 - TED talks: [Hans Rosling, The Best Stats ...](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen)
 - TED talks: [Nicholas Christakis, How Social networks Predict Epidemics](https://www.ted.com/talks/nicholas_christakis_how_social_networks_predict_epidemics)
