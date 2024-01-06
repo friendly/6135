@@ -265,6 +265,8 @@ A blog post by Richard Brath picks out some features in this remarkable series o
 
 ![](images/headers/human-factors-brain.png)
 
+* Ben Schneiderman's [The Eight Golden Rules of Interface Design](http://www.cs.umd.edu/~ben/goldenrules.html) distills the vast corpus of user interface design into a few key principles.
+
 * How do we read pie charts? You might think you read pie charts by angle, but you don't. Robert Kosera
 lays out some evidence in this Youtube video [The Science of Pie Charts](https://youtu.be/NxmHDNNTFyk).
 
