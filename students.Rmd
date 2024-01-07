@@ -15,7 +15,7 @@ Don't even think about it.
 
 ## 2022
 
-### Discussion leader mini presentations  `r icon::fa("microphone", color="#ab4653")`
+### Discussion leader mini presentations  <img src="images/icons/teacher.png" height=30>
 
 - Emma Ritchie [Florence Nightingale & Women in the History of Data Visualization](students/2022/mini-pres/Ritchie-Nightingale_Jan25.pptx)
 - Tasfia Ahsan [Grammar of Graphics -> Sentences](students/2022/mini/Ahsan-grammar_of_graphics_Mar1.pdf)
@@ -23,7 +23,7 @@ Don't even think about it.
 - Udi Alter [plotly & ggplotly: Going slightly beyond the tidyverse](students/2022/mini/Alter-mini-presentation.pdf)
 - Stephanie Bell [Mapping Uncertainty For Climate and Temperature Data](students/2022/mini/Bell-Mapping Uncertainty in Geodata.pptx)
 
-### Class presentations  `r icon::fa("microphone", color="#ab4653")`
+### Class presentations  <img src="images/icons/teacher.png" height=30>
 
 - Tasfia Ahsan [That’s fake news! Misconceptions in News Stories](students/2022/presentations/Ahsan_ProjectPresentation.pdf)
 - Udi Alter [Flexdashboard](students/2022/presentations/Alter-classpresentation.pdf) || [Flexdashboard example](students/2022/presentations/flexdashboard.zip)
@@ -31,7 +31,7 @@ Don't even think about it.
 - Naomi Martinez Gomez [Shiny for Data Visualization](students/2022/presentations/Martinez-ShinyDataViz.pdf)
 - Emma Ritchie [Visualizing Qualitative Data](students/2022/presentations/Ritchie-6135 Presentation.pptx)
 
-### Research projects  `r icon::fa("book-open", color="#ab4653")`
+### Research projects  <img src="images/icons/research.png" height=30>
 
 - Tasfia Ahsan [Using data comics to make data more understandable in the field of medicine](students/2022/proposal/Ahsan_6135_Final_Paper.pdf)
 - Udi Alter [Raising the Bar Graph: Upgrading to Interactive Dynamic Data Visualizations in Psychology](students/2022/proposal/Alter-finalproject.html) Winner of the 2002 **Jim Rankin Award**
@@ -42,7 +42,8 @@ Don't even think about it.
 
 ## 2021
 
-### Discussion leader mini presentations  `r icon::fa("microphone", color="#ab4653")`
+### Discussion leader mini presentations  <img src="images/icons/teacher.png" height=30>
+
 - Samantha Chan [Crowdsourcing and Information Visualization Evaluation](students/2021/mini-pres/Chan-Crowdsourcing.pdf)
 - Samantha Chan & Traci Fabri [Infographics and Knowledge Translation](students/2021/mini-pres/Chan-Fabri-Data Visualization_Infographics.pdf)
 - Chantell Ivanski [Colors in data visualization](students/2021/mini-pres/ChantelleIvanski-Colours in Data Visualization.pdf)
@@ -56,7 +57,7 @@ Don't even think about it.
 - Alyssia Wilson [Data Visualization During A Pandemic](students/2021/mini-pres/Wilson-Data visualization druing the pandemic.pdf)
 - Cassandra Wyers [Nightingale’s impact on social change](students/2021/mini-pres/Wyers-Nightingale impact on social change.pdf)
 
-### Class project presentations  `r icon::fa("microphone", color="#ab4653")`
+### Class project presentations  <img src="images/icons/teacher.png" height=30>
 
 - Stephanie Raposo & Chantell Ivanski [Did you see that? The role of graphics in media articles](students/2021/presentations/Ivanski_Raposo_Graphs in Media.pdf)
 - Ruth Vanstone & Krista Mitchnick [Making data accessible: Tactile and sonified data](students/2021/presentations/Mitchnick_Vanstone_Data accessibility.pdf)

@@ -107,7 +107,7 @@ to the topic. (~ 5 min.).  I will circulate a sign-up sheet for this in the firs
 
 
 * **Research proposal** (40%)
-  Prepare a brief research proposal (~ 5-8 pages) on a data visualization topic. This can an empirical study of
+  Prepare a brief research proposal (~ 6-9 pages) on a data visualization topic. This can an empirical study of
   some aspect of data visualization, an historical review, or a proposal for development or implementation of
   a graphical method. The topic should not be identical to that of your presentation.
   <!-- You are permitted to do this work with one other person.  -->

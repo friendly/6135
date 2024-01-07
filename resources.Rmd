@@ -223,6 +223,9 @@ Cédric Scherer, Session 1 of a workshop, [Designing Data Visualizations to Succ
 
 ![](images/headers/30-day-topics-snip.png)
 
+* Financial Times [Visual Vocabulary](images/varieties/C:\Dropbox\Documents\6135\images\varieties\VisualVocabulary-poster.pdf) poster, showing examples of different chart types depending on what
+you want to show.
+
 * [30 Day Chart Challenge](https://github.com/Z3tt/30DayChartChallenge_Collection2021)
 This collection, currated by Cédric Scherer, contains examples of graphs and charts
 designed to show visualizations classified by type and topic.  But, more generally,
@@ -403,7 +406,7 @@ tab(class="cellpadding", width="800px",
 
 - [Flipbook introduction to ggplot2](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html) by Gina Reynolds. An introduction to `ggplot2` showing the effect of each bit of code for a plot.  
 
-## Presentation/project ideas {#project-ideas}
+## Presentation/project ideas <img src="images/icons/teacher.png" height=30>  {#project-ideas}
 
 Here are a few ideas (in no particular order) for the course presentation or project:
 
