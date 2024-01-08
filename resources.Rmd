@@ -325,6 +325,7 @@ A very good online resource (although a bit pricy) if you are interested in lear
 
 * Cédric Scherer [Engaging and Beautiful Data Visualizations with ggplot2](https://posit-conf-2023.github.io/dataviz-ggplot2/). A one-day workshop for those who already know a bit of ggplot2, but want to take their graphs to the next level.
 
+* Frank Harrell's [R Workflow](https://hbiostat.org/rflow/), intended to foster best practices in reproducible data documentation and manipulation, statistical analysis, graphics, and reporting. Very complete, but relies heavily on Harrell's [Hmisc](https://cran.r-project.org/package=Hmisc) package.
 
 ### Session 9: Visualizing Uncertainty {#week9}
 
@@ -336,6 +337,8 @@ A very good online resource (although a bit pricy) if you are interested in lear
 * [Cartography and Visualization: The Visualization of Uncertainty](https://www.e-education.psu.edu/geog486/node/693)
 
 ### Session 10: Data Journalism {#week10}
+
+![](images/headers/gun-deaths-banner.png)
 
 * [Journalism in the Age of Data](http://datajournalism.stanford.edu/index.html)
 A very interesting video report on data as a storytelling medium – a bit outdated, but still holds some interesting content.
@@ -356,7 +359,6 @@ Borzu: In my opinion, this project is one of the most engaging dataviz projects 
 
 * Hans Rosling: [200 years in 4 minutes](https://www.youtube.com/watch?v=Z8t4k0Q8e8Y) – another example/approach in storytelling with data
 
-## Other
 
 ## Software for graphics in [R](https://r-project.org) {#Rblogs}
 
