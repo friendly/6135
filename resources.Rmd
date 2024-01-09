@@ -447,7 +447,8 @@ items <- sub("^\\d+\\. ", "", items, perl=TRUE)
 * **Measures of graph literacy**: In many studies of graph perception, it is useful to measure a construct of ability to understand graphic information ("graph literacy"). What is the state of the art on this topic?
 
 * **Accessibility**: Making graphics accessible to the visually impaired. A simple example is **ALT** text, now increasingly used.  Are there standards or tools available? See the links under [Human factors](#week5) above.
-  * Somewhat related: Data **sonification & haptics**-- using sound and other modalities.
+
+  * Somewhat related: Data **sonification & haptics**-- using sound and other modalities, e.g., [Loud Numbers](https://www.loudnumbers.net/); the [Data Sonification Archive](https://sonification.design/); Google's [TwoTone](https://twotone.io/), a free open-source web app to turn data into music
 
 * **Other dataviz & graphic software**: 
   + [Observable](https://observablehq.com/), a dynamic, extensible graphics system built on [D3](https://d3js.org/), a free, open-source JavaScript library for visualizing data
