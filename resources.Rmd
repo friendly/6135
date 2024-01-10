@@ -44,15 +44,18 @@ width <- "160px"
 tab(class="cellpadding", width="800px",
   tr(
   	tabfig("Ware", "images/books/ware.jpg", 
-  	       "https://www.elsevier.com/books/information-visualization/ware/978-0-12-381464-7", width=width),
+  	       "https://www.elsevier.com/books/information-visualization/ware/978-0-12-381464-7",
+  	       width=width),
   	tabtxt("Colin Ware,",  a("Information Visualization, 3rd Ed.",
   	                         href="https://www.elsevier.com/books/information-visualization/ware/978-0-12-381464-7"),
   	       ". What perceptual science has to say about data visualization, from a bottom-up perspective.", br(),
            "Course notes at", aself("http://ccom.unh.edu/vislab/VisCourse/index.html"))
   	),
   tr(
-  	tabfig("Cairo", "images/books/Cairo-TruthfulArt.png", 
-  	       "https://www.amazon.ca/Truthful-Art-Data-Charts-Communication/dp/0321934075", width=width),
+  	tabfig("Cairo", 
+  	       "images/books/Cairo-TruthfulArt.png", 
+  	       "https://www.amazon.ca/Truthful-Art-Data-Charts-Communication/dp/0321934075",
+  	       width=width),
   	tabtxt("Alberto Cairo,",  a("The Truthful Art",
   	                         href="https://www.amazon.ca/Truthful-Art-Data-Charts-Communication/dp/0321934075"),
   	       ". Information graphics from a communication perspective.", br(),
@@ -89,35 +92,60 @@ tab(class="cellpadding", width="800px",
   tr(
   	tabfig("FriendlyWainer", "images/books/FriendlyWainer2021.png", 
   	       "https://www.hup.harvard.edu/catalog.php?isbn=9780674975231", width=width),
-  	tabtxt("Michael Frriendly & Howard Wainer,",  a("A History of Data Visualization and Graphic Communicantion",
+  	tabtxt("Michael Friendly & Howard Wainer,",  
+  	       a("A History of Data Visualization and Graphic Communicantion",
   	       href="https://www.hup.harvard.edu/catalog.php?isbn=9780674975231"),
   	       ". Everything you've ever wanted to know about the history of data visualization: Who did what, when and why.."
            )
   	),
   tr(
-  	tabfig("Christiansen", "images/books/Wilke-FundamentalsOfDataVis.png",
+  	tabfig("Christiansen", "images/books/Building-Science-Graphics.png",
   	       "https://www.buildingsciencegraphics.com/", width=width),
-  	tabtxt("Jen Christiansen,",  a("Building Science Graphics",
-  	                         href="https://www.buildingsciencegraphics.com/"),
+  	tabtxt("Jen Christiansen,",  
+  	       a("Building Science Graphics",
+  	         href="https://www.buildingsciencegraphics.com/"),
   	       ". An illustrated guide to communicating science through diagrams
            and visualizations. Beautifully illustrated itself, it outlines a process
            for creating graphics using evidence-based design strategies.")
   	),
   tr(
-  	tabfig("Munzner", "images/books/munzner.png", 
-  	       "https://www.crcpress.com/Visualization-Analysis-and-Design/Munzner/p/book/9781466508910", width=width),
-  	tabtxt("Tamara Munzner,",  a("Visualization Analysis & Design",
-  	                         href="https://www.crcpress.com/Visualization-Analysis-and-Design/Munzner/p/book/9781466508910"),
-  	       ". An attractive new book combining computer science and design perspectives.", br(),
+  	tabfig("Munzner", 
+  	       "images/books/munzner.png", 
+  	       "https://www.crcpress.com/Visualization-Analysis-and-Design/Munzner/p/book/9781466508910", 
+  	       width=width),
+  	tabtxt("Tamara Munzner,",  
+  	       a("Visualization Analysis & Design",
+  	         href="https://www.crcpress.com/Visualization-Analysis-and-Design/Munzner/p/book/9781466508910"),
+  	       ". An attractive new book combining computer science and design perspectives.",
+  	       br(),
            "Web page at", aself("http://www.cs.ubc.ca/~tmm/vadbook/"), "with lots of illustrations and lectures")
   	),
   tr(
-  	tabfig("Wainer", "images/books/Wainer-graphic-discovery.png", 
-  	       "https://press.princeton.edu/titles/7820.html", width=width),
-  	tabtxt("Howard Wainer,",  a("Graphic discovery: a trout in the milk and other visual adventures",
-  	                         href="https://press.princeton.edu/titles/7820.html"),
+  	tabfig("Wainer", 
+  	       "images/books/Wainer-graphic-discovery.png", 
+  	       "https://press.princeton.edu/titles/7820.html", 
+  	       width=width),
+  	tabtxt("Howard Wainer,",  
+  	       a("Graphic discovery: a trout in the milk and other visual adventures",
+  	         href="https://press.princeton.edu/titles/7820.html"),
   	       ". A collection of essays on the history of graphics and other topics.")
-  	)
+  	),
+
+  tr(
+    tabfig(
+      name = "Koponen",
+      img = "images/books/Koponen-DataVisHandbook.jpg",
+      href = "https://www.datavizhandbook.info/",
+      width = width
+    ),
+    tabtxt(
+      "Koponen & Hilden",
+      a("Handbook of Data Visualization", href="https://www.datavizhandbook.info/"),
+      ". A practical guide for creating compelling graphics to explain and explore data, primarily aimed at designers, journalists, researchers, analysts, and other professionals who want to learn the basics of visualization",
+      br(),
+      "Some content on", a("Google books", href = "https://www.google.ca/books/edition/Data_Visualization_Handbook/PbybDwAAQBAJ?hl=en&gbpv=1&printsec=frontcover")
+    )
+  )
 
 )
 ```
