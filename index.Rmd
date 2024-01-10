@@ -26,20 +26,6 @@ colorize <- function(x, color) {
 }
 ```
 
-<!-- ```{css, echo = FALSE} -->
-
-<!-- h2 { -->
-<!--   color: #f56477; -->
-<!--   font-weight: bold; -->
-<!-- } -->
-
-<!-- h3, h4 { -->
-<!--   color: #ab4653;       /* Hippie pink */ -->
-<!--   font-weight: bold; -->
-<!-- } -->
-
-<!-- ``` -->
-
 
 <center>
 <img src="images/hex-logos/psy6135-hex.png" width="150px"/>
@@ -74,9 +60,9 @@ We will consider visualization methods for a wide range of types of data from th
 
 <!-- #### Lecture notes  `r icon::fa("file-pdf", color="red")`  -->
 #### <img src="images/icons/PDF_icon.png" height=20> Lecture notes   
-- [1up PDF](lectures/Overview.pdf) || [4up PDF](lectures/Overview-2x2.pdf)
+- [1up PDF](lectures/Overview.pdf) || [4up PDF](lectures/Overview-2x2.pdf) || [PPT](lectures/Overview.pptx)
 
-- **Assignment**: Please prepare a 1-2 page summary of something(s) you found on the topics below. Not for grading; I'll ask a few of you to speak on this next class.
+- **Assignment**: Please prepare a 1-2 page summary of something(s) you found on the topics below for next week. Not for grading; I'll ask a few of you to speak on this next class.
 
     + **Blogs**: Explore one or two of the blogs or web resources listed in the lecture notes, Readings, or in [Resources](resources.html#blogs). Find a few examples of kinds of graphs you find interesting or worth exploring more.
     + **Good/bad graphs**: Explore the literature in your area, say several issues of one journal. Find one example of a data display (graph or table) that communicates particularly well, and one example of a display that communicates badly.  
