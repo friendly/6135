@@ -116,7 +116,7 @@ tab(class="cellpadding", width="800px",
   	tabtxt("Tamara Munzner,",  
   	       a("Visualization Analysis & Design",
   	         href="https://www.crcpress.com/Visualization-Analysis-and-Design/Munzner/p/book/9781466508910"),
-  	       ". An attractive new book combining computer science and design perspectives.",
+  	       ". An attractive recent book combining computer science and design perspectives.",
   	       br(),
            "Web page at", aself("http://www.cs.ubc.ca/~tmm/vadbook/"), "with lots of illustrations and lectures")
   	),
@@ -141,7 +141,7 @@ tab(class="cellpadding", width="800px",
     tabtxt(
       "Koponen & Hilden",
       a("Handbook of Data Visualization", href="https://www.datavizhandbook.info/"),
-      ". A practical guide for creating compelling graphics to explain and explore data, primarily aimed at designers, journalists, researchers, analysts, and other professionals who want to learn the basics of visualization",
+      ". A practical guide for creating compelling graphics to explain and explore data, primarily aimed at designers, journalists, researchers, analysts, and other professionals who want to learn the basics of visualization. Lovely illustrations!",
       br(),
       "Some content on", a("Google books", href = "https://www.google.ca/books/edition/Data_Visualization_Handbook/PbybDwAAQBAJ?hl=en&gbpv=1&printsec=frontcover")
     )
