@@ -301,6 +301,8 @@ A blog post by Richard Brath picks out some features in this remarkable series o
 * How do we read pie charts? You might think you read pie charts by angle, but you don't. Robert Kosera
 lays out some evidence in this Youtube video [The Science of Pie Charts](https://youtu.be/NxmHDNNTFyk).
 
+* The New York Times [You Draw It: How Family Income Predicts Children’s College Chances](https://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-family-income-affects-childrens-college-chances.html) is an interactive app that asks you to draw what you think is the relationship between family income and percent of children who go to college. Robinson et al. [Eye Fitting Straight Lines in the Modern Era](https://www.tandfonline.com/doi/full/10.1080/10618600.2022.2140668) use this to study how people fit lines to data points by eye.
+
 * Alan Lundgard & Arvind Satyanarayan [Accessible Visualization via Natural Language Descriptions: A Four-Level Model of Semantic Content](http://vis.csail.mit.edu/pubs/vis-text-model).
 Considers how to write figure captions or alt-text to better communicate and contextualize graph insights, and to improve their accessibility for readers with disabilities.
 
