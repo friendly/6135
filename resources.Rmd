@@ -180,43 +180,57 @@ The following blogs are a rich source of information on visual design, data grap
 width <- "320px"
 tab(class="cellpadding", width="800px",
   tr(
-  	tabfig("datavis.ca", "images/blogs/datavis.ca.png", "http://datavis.ca", width=width),
+  	tabfig("datavis.ca", 
+  	       "images/blogs/datavis.ca.png", 
+  	       "http://datavis.ca", width=width),
   	tabtxt("My web site,", aself("http://datavis.ca"),
   	       ". Contains the ", a("Milestone Project", href="http://datavis.ca/milestones"), "on the history of data vis, the ",
            a("Data Visualization gallery", href="http://datavis.ca/milestones"), "links to books, papers, courses, and software.")
   	),
   tr(
-  	tabfig("FlowingData", "images/blogs/flowingdata.png", "http://flowingdata.com/", width=width),
+  	tabfig("FlowingData", 
+  	       "images/blogs/flowingdata.png", 
+  	       "http://flowingdata.com/", width=width),
   	tabtxt("Nathan Yau,", aself("http://flowingdata.com/"),
   	       "A large number of blog posts illustrating data visualization methods with tutorials on how do do these with R and other software.")
   	),
 
   tr(
-  	tabfig("Junk Charts", "images/blogs/junkcharts.png", "http://junkcharts.typepad.com/", width=width),
+  	tabfig("Junk Charts", 
+  	       "images/blogs/junkcharts.png", 
+  	       "http://junkcharts.typepad.com/", width=width),
   	tabtxt("Kaiser Fung,", aself("http://junkcharts.typepad.com/"),
   	       "Fung discusses a variety of data displays and how they can be improved.")
   	),
   
   tr(
-  	tabfig("Data Stories", "images/blogs/datastories.png", "http://datastori.es/", width=width),
+  	tabfig("Data Stories", 
+  	       "images/blogs/datastories.png", 
+  	       "http://datastori.es/", width=width),
   	tabtxt("A podcast on data visualization with Enrico Bertini and Moritz Stefaner,",
   	       aself("http://datastori.es/"), 
   	       ". Interviews with over 100 graphic designers & developers.")
   	),
 	tr(
-		tabfig("Kantar", "images/blogs/kantar.png", "https://www.informationisbeautifulawards.com", width=width),
+		tabfig("Kantar", 
+		       "images/blogs/kantar.png", 
+		       "https://www.informationisbeautifulawards.com", width=width),
 		tabtxt("Kantar Information is Beautiful Awards ",
 		       aself("https://www.informationisbeautifulawards.com"), 
 		       "Celebrates excellence and beauty in data visualizations,infographics, interactives & information art. ")
 		),
 	tr(
-		tabfig("Info We Trust", "images/blogs/infowetrust.png", "http://infowetrust.com/", width=width),
+		tabfig("Info We Trust", 
+		       "images/blogs/infowetrust.png", 
+		       "http://infowetrust.com/", width=width),
 		tabtxt("Raymond Andrews, ",
 		       aself("http://infowetrust.com/"), 
 		       "A visual storyteller delights with graphic stories from the history of data visualization. ")
 		),
 	tr(
-		tabfig("Visualizing Data", "images/blogs/VD_Logo.png", "https://www.visualisingdata.com/blog/", width=width),
+		tabfig("Visualizing Data", 
+		       "images/blogs/VD_Logo.png", 
+		       "https://www.visualisingdata.com/blog/", width=width),
 		tabtxt("Andy Kirk, ",
 		       aself("https://www.visualisingdata.com/blog/"), 
 		       "Among other things, Kirk provides a monthly digest of his picks for the Best in Data Visualization.")

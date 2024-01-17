@@ -150,3 +150,8 @@ Koponen & Hilden, Data Visualization Handbook
 The data visualization handbook is a practical guide to creating compelling graphics to explain or explore data. It is primarily aimed for designers, journalists, researchers, analysts, and other professionals who want to learn the basics of visualization
 Web page: https://www.datavizhandbook.info/
 Some content: https://www.google.ca/books/edition/Data_Visualization_Handbook/PbybDwAAQBAJ?hl=en&gbpv=1&printsec=frontcover
+
+# Color
+
+* Colors in Data Visualization
+https://github.com/MI2-Education/2021Z-DataVisualizationTechniques/blob/master/projects/project1/krzyzinski_wojciechowski_zolkowski/krzyzinski_wojciechowski_zolkowski.pdf

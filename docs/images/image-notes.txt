@@ -144,14 +144,14 @@ https://gestalten.com/products/visual-journalism
 10 Happiest counties in 2023
 https://twitter.com/TheEditorDiary/status/1742939764003893567/photo/1
 
-------------------------------------------------------
-# Fun / math images
+## Books
 
-Target the vertex
-https://junkiyoshi.com/openframeworks20240106/
+Koponen & Hilden, Data Visualization Handbook
+The data visualization handbook is a practical guide to creating compelling graphics to explain or explore data. It is primarily aimed for designers, journalists, researchers, analysts, and other professionals who want to learn the basics of visualization
+Web page: https://www.datavizhandbook.info/
+Some content: https://www.google.ca/books/edition/Data_Visualization_Handbook/PbybDwAAQBAJ?hl=en&gbpv=1&printsec=frontcover
 
-https://x.com/junkiyoshi/status/1743607557569348088?s=20
+# Color
 
-Polygon laps
-https://beesandbombs.tumblr.com/post/161295765794/polygon-laps
-
+* Colors in Data Visualization
+https://github.com/MI2-Education/2021Z-DataVisualizationTechniques/blob/master/projects/project1/krzyzinski_wojciechowski_zolkowski/krzyzinski_wojciechowski_zolkowski.pdf
