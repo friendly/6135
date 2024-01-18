@@ -88,7 +88,7 @@ We will consider visualization methods for a wide range of types of data from th
 
 ![](images/headers/varieties.png)
 
-#### <img src="images/icons/PDF_icon.png" height=20> **Lecture notes**:  [1up PDF](lectures/Varieties.pdf) || [4up PDF](lectures/Varieties-2x2.pdf)
+#### <img src="images/icons/PDF_icon.png" height=20> **Lecture notes**:  [1up PDF](lectures/Varieties.pdf) || [4up PDF](lectures/Varieties-2x2.pdf) || [PPT](lectures/Varieties.pptx)
 - **Assignment**:
   + From the readings up to and including this week, find one example of a data graph that
   attempts to tell an interesting story of a useful topic. How well does it succeed?
