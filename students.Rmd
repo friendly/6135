@@ -15,6 +15,10 @@ Don't even think about it.
 
 ## 2024
 
+<center>
+<img src="images/2024-team-6135.png" width="450px"/>
+</center>
+
 ### Discussion leader mini presentations  <img src="images/icons/teacher.png" height=30>
 
 - Kathryn Pierce [Hans Rosling: Revolutionizing Global Understanding](students/2024/mini-pres/Katheryn-presentation.pptx)
@@ -80,7 +84,7 @@ Don't even think about it.
 ## 2019
 
 <center>
-<img src="images/class-group-book.jpg" width="250px"/>
+<img src="images/class-group-book.jpg" width="300px"/>
 </center>
 
 ### Discussion leader mini presentations
