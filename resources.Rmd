@@ -260,6 +260,9 @@ Cédric Scherer, Session 1 of a workshop, [Designing Data Visualizations to Succ
 
 - [How People Actually Lie With Charts](https://vdl.sci.utah.edu/blog/2023/04/17/misleading/). What makes a visualization misleading? Some _awfully_ nice examples dealing with COVID-19 data.
 
+- [Friends Don't Let Friends](https://github.com/cxli233/FriendsDontLetFriends). Friends don't let friends make certain types of data visualization - What are they and why are they bad.
+
+- [You can’t unsee it – the impact of a good visual for scientific data](https://blogs.egu.eu/divisions/cr/2024/01/22/you-cant-unsee-it-the-impact-of-a-good-visual-for-scientific-data/). A collection of high-impact infographics dealing with climate change.
 
 ### Session 2: Varieties Data Visualization {#week2}
 
