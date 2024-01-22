@@ -22,10 +22,10 @@ Don't even think about it.
 ### Discussion leader mini presentations  <img src="images/icons/teacher.png" height=30>
 
 - Emma Ritchie [Florence Nightingale & Women in the History of Data Visualization](students/2022/mini-pres/Ritchie-Nightingale_Jan25.pptx)
-- Tasfia Ahsan [Grammar of Graphics -> Sentences](students/2022/mini/Ahsan-grammar_of_graphics_Mar1.pdf)
-- Naomi Martinez Gomez [Discecting a ggplot2-based function](students/2022/mini/Naomi-mini_discussion.pptx)
-- Udi Alter [plotly & ggplotly: Going slightly beyond the tidyverse](students/2022/mini/Alter-mini-presentation.pdf)
-- Stephanie Bell [Mapping Uncertainty For Climate and Temperature Data](students/2022/mini/Bell-Mapping Uncertainty in Geodata.pptx)
+- Tasfia Ahsan [Grammar of Graphics -> Sentences](students/2022/mini-pres/Ahsan-grammar_of_graphics_Mar1.pdf)
+- Naomi Martinez Gomez [Discecting a ggplot2-based function](students/2022/mini-pres/Naomi-mini_discussion.pptx)
+- Udi Alter [plotly & ggplotly: Going slightly beyond the tidyverse](students/2022/mini-pres/Alter-mini-presentation.pdf)
+- Stephanie Bell [Mapping Uncertainty For Climate and Temperature Data](students/2022/mini-pres/Bell-Mapping Uncertainty in Geodata.pptx)
 
 ### Class presentations  <img src="images/icons/teacher.png" height=30>
 
