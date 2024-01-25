@@ -22,6 +22,7 @@ Don't even think about it.
 ### Discussion leader mini presentations  <img src="images/icons/teacher.png" height=30>
 
 - Kathryn Pierce [Hans Rosling: Revolutionizing Global Understanding](students/2024/mini-pres/Katheryn-presentation.pptx)
+- Carmel Camilieri [How Visualizations Gave Birth to Modern Day Epidemiology](students/2024/mini-pres/Carmel-data_viz_presentation.pdf)
 
 ## 2022
 
