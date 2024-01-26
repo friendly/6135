@@ -502,5 +502,8 @@ items <- sub("^\\d+\\. ", "", items, perl=TRUE)
   + [Figma](https://www.figma.com/), a graphic design system, often used to "gussy-up" plots done with R.
   + Python graphics libraries: [plotnine](https://plotnine.readthedocs.io/en/v0.12.4/), an implementation of a grammar of graphics in Python based on `ggplot2`.  There are many other [Python libraries for data visualization](https://www.knowledgehut.com/blog/business-intelligence-and-visualization/python-data-visualization-libraries): [matplotlib](https://matplotlib.org/), [plotly](https://plotly.com/), ...
 
-
+* **Data physicalization**: representation of data by physical objects
+  + [Opportunities and Challenges for Data Physicalization](http://yvonnejansen.me/dataphys)
+  + [Data physicalization wiki](http://dataphys.org/). A collection of links and resources on the topic.
+  + [Making with Data: Physical Design and Craft in a Data-Driven World](https://makingwithdata.org/). an edited book on the topic.
 
