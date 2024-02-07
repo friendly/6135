@@ -163,3 +163,20 @@ So on a map of this data (precipitation), the blue areas assumed to be wettest w
 Jet not only introduces false patterns, it requires one to override intuition and connotation.
 
 https://twitter.com/CedScherer/status/1749896592109326537
+
+color/black-and-white-trick 
+The viral image was created by artist and developer
+Øyvind Kolås, a prominent developer in the GIMP open-source image editor
+project. Kolås took a Creative Commons photo by Chuwa (Francis), converted it to
+black-and-white, and carefully overlaid red, orange, yellow, blue, and green
+grid lines over it.
+
+“An over-saturated colored grid overlayed on a grayscale image causes the grayscale cells to be perceived as having color,” Kolås says.
+
+-----------------
+Animation
+
+from: https://medium.com/data-storytelling-corner/what-makes-a-data-visual-awesome-eight-beauties-with-my-reasons-why-b9842d7280b4
+This example shows relationship progression (over time) from first meeting to marriage.
+Each dot represents a person, a colour the relationship phase that each person is in. The chart represents 1000 “average” people. The animation on the left is the timeline for relationship progression in the 1970s. The time on the right is the progression in the 2010s.
+https://flowingdata.com/2019/03/26/relationship-stages/

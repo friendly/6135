@@ -496,6 +496,7 @@ items <- sub("^\\d+\\. ", "", items, perl=TRUE)
 * **Accessibility**: Making graphics accessible to the visually impaired. A simple example is **ALT** text, now increasingly used.  Are there standards or tools available? See the links under [Human factors](#week5) above.
 
   * Somewhat related: Data **sonification & haptics**-- using sound and other modalities, e.g., [Loud Numbers](https://www.loudnumbers.net/); the [Data Sonification Archive](https://sonification.design/); Google's [TwoTone](https://twotone.io/), a free open-source web app to turn data into music
+  * [Erie: A Declarative Grammar for Data Sonification](https://arxiv.org/abs/2402.00156). Describes how a sonification maps data variables to sound variables like time, pitch, and volume. E.g., an auditory histogram can map bins to time and the count to pitch.
 
 * **Other dataviz & graphic software**: 
   + [Observable](https://observablehq.com/), a dynamic, extensible graphics system built on [D3](https://d3js.org/), a free, open-source JavaScript library for visualizing data
