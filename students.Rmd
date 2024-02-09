@@ -23,6 +23,8 @@ Don't even think about it.
 
 - Kathryn Pierce [Hans Rosling: Revolutionizing Global Understanding](students/2024/mini-pres/Katheryn-presentation.pptx)
 - Carmel Camilieri [How Visualizations Gave Birth to Modern Day Epidemiology](students/2024/mini-pres/Carmel-data_viz_presentation.pdf)
+- Marcus Meng [Chart junk: Trash and Treasure](students/2024/mini-pres/Marcus-Presentation-Feb1.pptx)
+- Spencer Arshinoff [Individual Differences in Graphical Perception](students/2024/mini-pres/Arshinoff-2024-Feb8.pptx)
 
 ## 2022
 
