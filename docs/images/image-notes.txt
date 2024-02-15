@@ -180,3 +180,6 @@ from: https://medium.com/data-storytelling-corner/what-makes-a-data-visual-aweso
 This example shows relationship progression (over time) from first meeting to marriage.
 Each dot represents a person, a colour the relationship phase that each person is in. The chart represents 1000 “average” people. The animation on the left is the timeline for relationship progression in the 1970s. The time on the right is the progression in the 2010s.
 https://flowingdata.com/2019/03/26/relationship-stages/
+
+ggplot2: Valentine survey
+https://bsky.app/profile/cedricscherer.com/post/3klfuuua3nu25
