@@ -337,7 +337,7 @@ the gapminder data with `ggplot2`
 <!--
 - [Jim Rankin, "The Quest for Electronic Data: Where Alice meets Monty Python meets Colonel Jessep"](papers/Brokering Access_Rankin_Final.pdf)
 -->
-- [8 fantastic examples of data journalism](https://www.import.io/post/8-fantastic-examples-of-data-journalism/)
+- [12 brilliant data journalism projects of 2021](https://datajournalism.com/read/blog/best-data-journalism-projects-2021)
 - [The Data Journalism Handbook](https://datajournalismhandbook.org/). An edited online collection of short articles
 on various aspects of data journalism, now into a second volume.  Highly recommended.
 <!-- - Video: [Jo Craven Mcginty, "It's Not What You Said. It's What They Heard."](https://youtu.be/E1-VVmQDYCs?t=190) -- Wall Street Journal columnist gives the Presidential Invited Address at the American Statistical Association. -->
