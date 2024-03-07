@@ -26,6 +26,7 @@ Don't even think about it.
 - Marcus Meng [Chart junk: Trash and Treasure](students/2024/mini-pres/Marcus-Presentation-Feb1.pptx)
 - Spencer Arshinoff [Individual Differences in Graphical Perception](students/2024/mini-pres/Arshinoff-2024-Feb8.pptx)
 - Laura Bondi [Data Storytelling](students/2024/mini-pres/Bondi-Language_of_Graphs-MiniPresentation.pptx)
+- Grbriel Crone & Jean-Marc Moke [Duel of the Defaults: Graphical Defaults in point-and-click vs. code-based software](students/2024/mini-pres/Moke-Crone-Duel of the Defaults.pptx)
 
 ### Class presentations  <img src="images/icons/teacher.png" height=30>
 
