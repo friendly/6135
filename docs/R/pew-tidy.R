@@ -26,6 +26,8 @@ pew <- read.delim(
 #' ## Use `gather` to convert to long format
 pew_long <- gather(pew1, "income", "frequency", 2:6)
 
+pivot_longer(pew1, 2:6, names_to = "income", values_to ="frequency")
+
 #' ## pipes
 #' We can combine several steps using the "pipe" operator, `%>%`
 
