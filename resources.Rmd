@@ -387,6 +387,10 @@ A very good online resource (although a bit pricy) if you are interested in lear
 
 ![](images/headers/gun-deaths-banner.png)
 
+* [Data Journalism Toolkit](https://ksj.mit.edu/resource/data-journalism-tools/toolkits-and-programs/).
+A collection of tools to help journalists acquire, analyze, visualize, map, and otherwise make use of
+data in reporting.
+
 * [Journalism in the Age of Data](http://datajournalism.stanford.edu/index.html)
 A very interesting video report on data as a storytelling medium – a bit outdated, but still holds some interesting content.
 (There is an annotated version, which requires Flashplayer)
