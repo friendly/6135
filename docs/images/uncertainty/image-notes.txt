@@ -1,0 +1,17 @@
+# Visualizing Uncertainty
+
+## Hypothetical outcome plots
+https://medium.com/hci-design-at-uw/hypothetical-outcomes-plots-experiencing-the-uncertain-b9ea60d7c740
+
+## Forrestplots
+https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/forest.html
+
+## Orchard plot
+Plots for moderator (interaction) effects
+Janas et al
+Avian colouration in a polluted world: a meta-analysis
+https://onlinelibrary.wiley.com/doi/10.1111/brv.13067
+https://doi.org/10.1111/brv.13067
+
+Herein, we provide the first meta-analytical summary of these results and examine whether there is an interaction between the mechanism of colour production (carotenoid-based, melanin-based and structural) and the type of anthropogenic factor (categorised as heavy metals, persistent organic pollutants, urbanisation, or other)
+ 
