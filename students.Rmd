@@ -28,6 +28,7 @@ Don't even think about it.
 - Laura Bondi [Data Storytelling](students/2024/mini-pres/Bondi-Language_of_Graphs-MiniPresentation.pptx)
 - Garbriel Crone & Jean-Marc Moke [Duel of the Defaults: Graphical Defaults in point-and-click vs. code-based software](students/2024/mini-pres/Moke-Crone-Duel of the Defaults.pptx)
 - Arjun Singh [Visualizing Longitudinal Data](https://arjun10g.github.io/Vizualizing-Longitudinal-Data/)
+- Adina Levi & Shaya Samet [Visualizing Uncertainty](students/2024/mini-pres/Adina-Shaya-Uncertainty.pdf)
 
 ### Class presentations  <img src="images/icons/teacher.png" height=30>
 
