@@ -496,6 +496,9 @@ items <- sub("^\\d+\\. ", "", items, perl=TRUE)
 * **Online experiments**: More and more psychologists are using computer-controlled methods of data collection, either with specific software for personal computers or with web-based or cloud-based application.  Some of these use graphics, either for stimulus presentation or for displaying results.
 
 * **Measures of graph literacy**: In many studies of graph perception, it is useful to measure a construct of ability to understand graphic information ("graph literacy"). What is the state of the art on this topic?
+  * Michael Correll [The Mythos of Visualization Literacy](https://mcorrell.medium.com/the-mythos-of-visualization-literacy-5dd02db56254)
+  * Lee et al. [VLAT : Development of a Visualization Literacy Assessment Test](https://www.bckwon.com/pdf/vlat.pdf)
+  * Mirta Galesic [Graph Literacy: A Cross-Cultural Comparison](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=2c8dbb39ecec6e6ca27aabe1f84a134c4adef60a)
   * Related: [Aphantasia](https://en.wikipedia.org/wiki/Aphantasia) - inability to "see" mental images, and some scales for measuring the same.
 
 * **Accessibility**: Making graphics accessible to the visually impaired. A simple example is **ALT** text, now increasingly used.  Are there standards or tools available? See the links under [Human factors](#week5) above.

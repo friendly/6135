@@ -183,3 +183,11 @@ https://flowingdata.com/2019/03/26/relationship-stages/
 
 ggplot2: Valentine survey
 https://bsky.app/profile/cedricscherer.com/post/3klfuuua3nu25
+
+
+AI:
+https://stephanieevergreen.com/can-ai-write-great-chart-titles/
+
+https://twitter.com/wyunnn/status/1770473031993045105
+Our paper on human-AI collaboration in data storytelling, accepted by CHI 2024, is now available on arXiv! http://arxiv.org/abs/2309.15723
+
