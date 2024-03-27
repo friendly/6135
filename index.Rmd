@@ -346,6 +346,7 @@ resources, tutorials and online tools.
 - Twitter: [@WSJGraphics](https://twitter.com/WSJGraphics), [@nytgraphics](https://twitter.com/nytgraphics). Explore some of the topics/examples they've posted. 
 - Twitter: [@ddjournalism](https://twitter.com/ddjournalism) posts some interesting examples of Data Driven Journalism.
 - [Data Journalism Top 10: COVID-19’s Spread, Death Rates, and Curve Flattening](https://gijn.org/2020/03/26/data-journalism-top-10-covid-19s-spread-death-rates-and-curve-flattening-the-shape-of-dreams-transphobia-tracking/)
+- Check out [Additional resources for data journalism](resources.html#week10)
 
 
 <!--

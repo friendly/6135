@@ -410,6 +410,8 @@ Borzu: In my opinion, this project is one of the most engaging dataviz projects 
 
 * Hans Rosling: [200 years in 4 minutes](https://www.youtube.com/watch?v=Z8t4k0Q8e8Y) – another example/approach in storytelling with data
 
+* Mark Corcoran: [Satellite Journalism – The Big Picture](https://reutersinstitute.politics.ox.ac.uk/sites/default/files/2018-10/Mark%20Corcoran%2C%20Satellite%20Journalism_1.pdf)
+
 
 ## Software for graphics in [R](https://r-project.org) {#Rblogs}
 
