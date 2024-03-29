@@ -29,6 +29,7 @@ Don't even think about it.
 - Gabriel Crone & Jean-Marc Moke [Duel of the Defaults: Graphical Defaults in point-and-click vs. code-based software](students/2024/mini-pres/Moke-Crone-Duel of the Defaults.pptx)
 - Arjun Singh [Visualizing Longitudinal Data](https://arjun10g.github.io/Vizualizing-Longitudinal-Data/)
 - Adina Levi & Shaya Samet [Visualizing Uncertainty](students/2024/mini-pres/Adina-Shaya-Uncertainty.pdf)
+- Michelle Blumberg & Natasha Baptist-Mohseni [Data Journalism in the Digital Era](students/2024/mini-pres/Nat-Michelle-DataJournalism-Discussion.pptx)
 
 ### Class presentations  <img src="images/icons/teacher.png" height=30>
 
