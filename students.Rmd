@@ -33,7 +33,7 @@ Don't even think about it.
 
 ### Class presentations  <img src="images/icons/teacher.png" height=30>
 
-- Natasha Baptist-Mohseni & Michelle Blumberg [Using Data Visualization to Improve Neuropsychological Feedback](students/2024/presentations/Adina-Shaya-PSYC6135_Healthcare.pdf)
+- Natasha Baptist-Mohseni & Michelle Blumberg [Using Data Visualization to Improve Neuropsychological Feedback](students/2024/presentations/PSYC6135 Presentation_Nat & Michelle.pdf)
 - Carmel Camilleri [The use of visualizations and data in modern day European soccer](students/2024/presentations/Camillier-DataViz-soccer.pdf)
 - Adina Levi & Shaya Samet [Data Visualization in Healthcare](students/2024/presentations/Adina-Shaya-PSYC6135_Healthcare.pdf)
 - Arjun Singh [Gohan The Husky! A Journey Through Time and Space](https://arjun10g.github.io/Puppy-Pres-2/)
