@@ -33,17 +33,16 @@ Don't even think about it.
 
 ### Class presentations  <img src="images/icons/teacher.png" height=30>
 
-- Natasha Baptist-Mohseni & Michelle Blumberg [Using Data Visualization to Improve Neuropsychological Feedback](students/2024/presentations/PSYC6135 Presentation_Nat & Michelle.pdf)
+- Natasha Baptist-Mohseni & Michelle Blumberg [Using Data Visualization to Improve Neuropsychological Feedback](students/2024/presentations/PSYC6135-Presentation_Nat-Michelle.pdf)
 - Carmel Camilleri [The use of visualizations and data in modern day European soccer](students/2024/presentations/Camillier-DataViz-soccer.pdf)
 - Adina Levi & Shaya Samet [Data Visualization in Healthcare](students/2024/presentations/Adina-Shaya-PSYC6135_Healthcare.pdf)
 - Arjun Singh [Gohan The Husky! A Journey Through Time and Space](https://arjun10g.github.io/Puppy-Pres-2/)
-
-- Laura Bandi [Aesthetics and Colour Use in Data Visualizations]()
-- Spencer Arshinoff [Data Physicalization]()
-- Gabriel Crone [Making the invisible visible: Visualizing latent variables in Structural Equation Modeling]()
-- Xianze Meng [Approaches to Visualizing Neuroscience Data]()
-- Jean-Marc Moke [Strategic Business Decisions Vizualised]()
-- Kathryn Pierce [Intersection of Cartography and Data Visualization]()
+- Laura Bandi [Aesthetics and Colour Use in Data Visualizations](students/2024/presentations/Bandi-Color.pdf)
+- Spencer Arshinoff [Data Physicalization](students/2024/presentations/)
+- Gabriel Crone [Making the invisible visible: Visualizing latent variables in Structural Equation Modeling](students/2024/presentations/Crone-Visualizing-SEM.pdf)
+- Xianze Meng [Approaches to Visualizing Neuroscience Data](students/2024/presentations/)
+- Jean-Marc Moke [Strategic Business Decisions Vizualised](students/2024/VisualizingBusinessStories_Moke_PSYC6135.pptx)
+- Kathryn Pierce [Satellite Journalism](students/2024/presentations/)
 
 ## 2022
 
