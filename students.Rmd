@@ -38,11 +38,11 @@ Don't even think about it.
 - Adina Levi & Shaya Samet [Data Visualization in Healthcare](students/2024/presentations/Adina-Shaya-PSYC6135_Healthcare.pdf)
 - Arjun Singh [Gohan The Husky! A Journey Through Time and Space](https://arjun10g.github.io/Puppy-Pres-2/)
 - Laura Bandi [Aesthetics and Colour Use in Data Visualizations](students/2024/presentations/Bandi-Color.pdf)
-- Spencer Arshinoff [Data Physicalization](students/2024/presentations/)
+- Spencer Arshinoff [Data Physicalization](students/2024/presentations/Arshinoff-Data_Physicalization_Presentation.pptx)
 - Gabriel Crone [Making the invisible visible: Visualizing latent variables in Structural Equation Modeling](students/2024/presentations/Crone-Visualizing-SEM.pdf)
-- Xianze Meng [Approaches to Visualizing Neuroscience Data](students/2024/presentations/)
-- Jean-Marc Moke [Strategic Business Decisions Vizualised](students/2024/VisualizingBusinessStories_Moke_PSYC6135.pptx)
-- Kathryn Pierce [Satellite Journalism](students/2024/presentations/)
+- Xianze Meng [Approaches to Visualizing Neuroscience Data](students/2024/presentations/Meng-DataVisualizationNeuroscience.pptx)
+- Jean-Marc Moke [Strategic Business Decisions Vizualised](students/2024/presentations/VisualizingBusinessStories_Moke_PSYC6135.pptx)
+- Kathryn Pierce [Satellite Journalism](students/2024/presentations/Pierce-Satellite_Journalism.pdf)
 
 ## 2022
 
