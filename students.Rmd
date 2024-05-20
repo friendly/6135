@@ -13,7 +13,10 @@ All materials linked on this page are the intellectual property of the students 
 reproduced or used in any other manner without express permission of the student involved.
 Don't even think about it.
 
-## 2024
+Jump to: [2024](#2024) <||> [2022](#2022) <||> [2021](#2021) <||> [2019](#2019) <||> [2018](#2018) 
+
+
+## 2024 {#2024}
 
 <center>
 <img src="images/class-photos/2024-team-6135.png" width="450px"/>
@@ -54,10 +57,11 @@ Don't even think about it.
 - Adina Levi [The Effectiveness of Data Visualizations in Facilitating Informed Decision-Making Processes During Pregnancy](students/2024/final-paper/Levi_FinalPaper2024.docx)
 - Xianze Meng [Figures and captions – The Scroll-maggedon in Modern Publications](XianzeMeng-Research Proposal.pdf)
 - Shaya Samet [Exploring the Influence of Data Visualization on Trends in the National Hockey League](Samet_Psyc6135_Paper.docx)
+- Arjunvir Singh [Interactive Data Visualization](https://arjun10g.github.io/Interactive-Viz/)
 
 
 
-## 2022
+## 2022 {#2022}
 
 ### Discussion leader mini presentations  <img src="images/icons/teacher.png" height=30>
 
@@ -84,7 +88,7 @@ Don't even think about it.
 - Emma Ritchie [Visualizing the Relationship Between Simultaneous Alcohol and Marijuana Use](students/2022/proposal/Ritchie-6135FinalPaper.docx)
 
 
-## 2021
+## 2021 {#2021}
 
 <center>
 <img src="images/class-photos/Class-photo2-2021-06-17-cropped.png" width="450px"/>
@@ -119,7 +123,7 @@ Don't even think about it.
 
 
 
-## 2019
+## 2019 {#2019}
 
 <center>
 <img src="images/class-group-book.jpg" width="300px"/>
@@ -161,7 +165,7 @@ Here is the [6135 Presentations 2019](https://docs.google.com/spreadsheets/d/1gr
 - [Vanessa Rowlin - Visualization of Baseball Pitcher Data](students/2019/presentation/PSYC6135_VRowlin_BaseballPitchFX.pdf)
 - [KB Zaidi - Data Visualization of Brain activity](students/2019/presentation/Zadi-VisualizingBrainActivity .pdf)
 
-## 2018
+## 2018 {#2018}
 
 The items below remain here only to provide some examples of the topics chosen by former students and how they
 approached them.
