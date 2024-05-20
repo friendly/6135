@@ -44,6 +44,19 @@ Don't even think about it.
 - Jean-Marc Moke [Strategic Business Decisions Vizualised](students/2024/presentations/VisualizingBusinessStories_Moke_PSYC6135.pptx)
 - Kathryn Pierce [Satellite Journalism](students/2024/presentations/Pierce-Satellite_Journalism.pdf)
 
+### Research projects  <img src="images/icons/research.png" height=30>
+
+- Spencer Arshinoff [The Role of Spoken Language in Graphical Perception](students/2024/final-paper/Arshinoff-6135 Final Paper.docx)
+- Natasha Baptist-Mohseni [To Bleed or Not to Bleed: Period Poverty in an Age of Data Journalism](students/2024/final-paper/Babtist-Mosheni-6135 Final Project.docx)
+- Michelle Blumberg [Using Knowledge Visualization to Improve Health Knowledge Translation]()
+- Carmel Camilleri [TidyVerse Trek: Embark on Your Data Odyssey](students/2024/final-paper/CarmelCamilleri-Research Proposal.pdf)
+- Gabriel Crone [Have Psychologists Lost The Plot? Analyzing the Quantity and Quality of Data Graphics in Psychology Papers](students/2024/final-paper/GabrielCrone_Final Data Viz Paper.pdf)
+- Adina Levi [The Effectiveness of Data Visualizations in Facilitating Informed Decision-Making Processes During Pregnancy](students/2024/final-paper/Levi_FinalPaper2024.docx)
+- Xianze Meng [Figures and captions – The Scroll-maggedon in Modern Publications](XianzeMeng-Research Proposal.pdf)
+- Shaya Samet [Exploring the Influence of Data Visualization on Trends in the National Hockey League](Samet_Psyc6135_Paper.docx)
+
+
+
 ## 2022
 
 ### Discussion leader mini presentations  <img src="images/icons/teacher.png" height=30>
