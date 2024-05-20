@@ -47,6 +47,15 @@ Jump to: [2024](#2024) <||> [2022](#2022) <||> [2021](#2021) <||> [2019](#2019) 
 - Jean-Marc Moke [Strategic Business Decisions Vizualised](students/2024/presentations/VisualizingBusinessStories_Moke_PSYC6135.pptx)
 - Kathryn Pierce [Satellite Journalism](students/2024/presentations/Pierce-Satellite_Journalism.pdf)
 
+<img src="images/JimRankinAward.png" width="120px"/>
+
+Winners of the 2024  **Jim Rankin Award**:
+
+- 🥇 Spencer Arshinoff 
+- 🥈 Gabriel Crone
+- Honorable mention: Laura Bandi
+
+
 ### Research projects  <img src="images/icons/research.png" height=30>
 
 - Spencer Arshinoff [The Role of Spoken Language in Graphical Perception](students/2024/final-paper/Arshinoff-6135 Final Paper.docx)
@@ -58,6 +67,7 @@ Jump to: [2024](#2024) <||> [2022](#2022) <||> [2021](#2021) <||> [2019](#2019) 
 - Xianze Meng [Figures and captions – The Scroll-maggedon in Modern Publications](XianzeMeng-Research Proposal.pdf)
 - Shaya Samet [Exploring the Influence of Data Visualization on Trends in the National Hockey League](Samet_Psyc6135_Paper.docx)
 - Arjunvir Singh [Interactive Data Visualization](https://arjun10g.github.io/Interactive-Viz/)
+
 
 
 
