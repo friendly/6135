@@ -34,7 +34,7 @@ Jump to: [2024](#2024) <||> [2022](#2022) <||> [2021](#2021) <||> [2019](#2019) 
 - Adina Levi & Shaya Samet [Visualizing Uncertainty](students/2024/mini-pres/Adina-Shaya-Uncertainty.pdf)
 - Michelle Blumberg & Natasha Baptist-Mohseni [Data Journalism in the Digital Era](students/2024/mini-pres/Nat-Michelle-DataJournalism-Discussion.pptx)
 
-### Class presentations  <img src="images/icons/teacher.png" height=30>
+### Class presentations  <img src="images/icons/teacher.png" height=30> {#2024-presentations}
 
 - Natasha Baptist-Mohseni & Michelle Blumberg [Using Data Visualization to Improve Neuropsychological Feedback](students/2024/presentations/PSYC6135-Presentation_Nat-Michelle.pdf)
 - Carmel Camilleri [The use of visualizations and data in modern day European soccer](students/2024/presentations/Camillier-DataViz-soccer.pdf)
@@ -49,14 +49,14 @@ Jump to: [2024](#2024) <||> [2022](#2022) <||> [2021](#2021) <||> [2019](#2019) 
 
 <img src="images/JimRankinAward.png" width="120px"/>
 
-Winners of the 2024  **Jim Rankin Award**:
+Winners of the 2024  **Jim Rankin Award**: {#2024-rankin}
 
-- 🥇 Spencer Arshinoff - Data Physicalization
-- 🥈 Gabriel Crone - Visualizing latent variables in SEM
-- Honorable mention: Laura Bandi - Aesthetics and Colour Use in Data Visualizations
+- 🥇 Spencer Arshinoff - [Data Physicalization](students/2024/presentations/Arshinoff-Data_Physicalization_Presentation.pptx)
+- 🥈 Gabriel Crone - [Visualizing latent variables in SEM](students/2024/presentations/Crone-Visualizing-SEM.pdf)
+- Honorable mention: Laura Bandi - [Aesthetics and Colour Use in Data Visualizations](students/2024/presentations/Bandi-Color.pdf)
 
 
-### Research projects  <img src="images/icons/research.png" height=30>
+### Research projects  <img src="images/icons/research.png" height=30> {#2024-projects}
 
 - Spencer Arshinoff [The Role of Spoken Language in Graphical Perception](students/2024/final-paper/Arshinoff-6135 Final Paper.docx)
 - Natasha Baptist-Mohseni [To Bleed or Not to Bleed: Period Poverty in an Age of Data Journalism](students/2024/final-paper/Babtist-Mosheni-6135 Final Project.docx)
