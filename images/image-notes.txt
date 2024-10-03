@@ -199,3 +199,14 @@ https://stephanieevergreen.com/can-ai-write-great-chart-titles/
 https://twitter.com/wyunnn/status/1770473031993045105
 Our paper on human-AI collaboration in data storytelling, accepted by CHI 2024, is now available on arXiv! http://arxiv.org/abs/2309.15723
 
+----------------------------------
+Butterfly chart of US 2024 election
+https://x.com/338Canada/status/1818664195266666589
+from https://t.co/gRPQE5EWqJ
+
+
+Word Rain cloud 
+
+From word clouds to Word Rain: Revisiting the classic word cloud to visualize climate change texts
+https://journals.sagepub.com/doi/10.1177/14738716241236188
+Figure 8. Bigram word rain visualizing the coverage for the GEMET glossary for the IPCC report “Climate Change 2021: The Physical Science Basis, Summary for Policymakers.”62 Words and expressions already included in the glossary are underlined and their corresponding vertical bar is displayed in a gray color.

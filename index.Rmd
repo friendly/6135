@@ -81,7 +81,8 @@ We will consider visualization methods for a wide range of types of data from th
 - **Gelman & Unwin** [Infovis and Statistical Graphics: Different Goals, Different Looks, *JCGS* 2013](http://dx.doi.org/10.1080/10618600.2012.761137)
 - Howard Wainer (1984) [How to Display Data Badly. *American Statistician* **38** 137-147](https://www.jstor.org/stable/2683253)
 - Jon Schwabish [The Ten Most Misleading Charts During Donald Trump’s Presidency](https://policyviz.com/2021/02/15/the-ten-most-misleading-charts-during-donald-trumps-presidency/)
-- [The data visualizations that helped us understand 2020](https://uxdesign.cc/the-data-visualizations-that-helped-us-understand-2020-6447790f821)
+- Nguyen etal. 2021 [Examining data visualization pitfalls in scientific publications](papers/Nguyen2021-dataviz-pitfalls.pdf)
+- Kevin Zimmerman [The data visualizations that helped us understand 2020](https://uxdesign.cc/the-data-visualizations-that-helped-us-understand-2020-6447790f821)
 - Check out [Additional resources for Session 1](resources.html#week1)
 
 ## Varieties of information visualization {#varieties}
