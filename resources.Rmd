@@ -264,6 +264,8 @@ Cédric Scherer, Session 1 of a workshop, [Designing Data Visualizations to Succ
 
 - [You can’t unsee it – the impact of a good visual for scientific data](https://blogs.egu.eu/divisions/cr/2024/01/22/you-cant-unsee-it-the-impact-of-a-good-visual-for-scientific-data/). A collection of high-impact infographics dealing with climate change.
 
+- [Advanced Techniques in Lying Using Data Visualizations](https://towardsdatascience.com/advanced-techniques-in-lying-using-data-visualizations-794278c09844). Discover the power of chart design to manipulate an audience towards any narrative.
+
 ### Session 2: Varieties Data Visualization {#week2}
 
 ![](images/headers/30-day-topics-snip.png)

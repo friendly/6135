@@ -210,3 +210,13 @@ Word Rain cloud
 From word clouds to Word Rain: Revisiting the classic word cloud to visualize climate change texts
 https://journals.sagepub.com/doi/10.1177/14738716241236188
 Figure 8. Bigram word rain visualizing the coverage for the GEMET glossary for the IPCC report “Climate Change 2021: The Physical Science Basis, Summary for Policymakers.”62 Words and expressions already included in the glossary are underlined and their corresponding vertical bar is displayed in a gray color.
+
+-----------------------------------
+color/world-on-fire-{mono, diverging}
+https://towardsdatascience.com/advanced-techniques-in-lying-using-data-visualizations-794278c09844
+
+Another way of presenting the data to suit your agenda is using colors. For most people, the color red is associated with something bad. Presenting a chart with a wall of red can be very effective in providing a sense of fear, crisis, alarm etc. to the audience. Climate change is a particularly great topic to use red as it’s also used to symbolize heat and fire.
+
+A chart by The Guardian in the article “What’s happening with the climate crisis and heat-trapping emissions in Australia” perfectly executes the use of red.
+Notice how every country on the map is red, even countries that produce zero fossil fuel emissions would be highlighted in a pinky red. Using the exact same data, without a full red color scale, produces a chart with a much less fearful punch to it, such as the one below:
+
