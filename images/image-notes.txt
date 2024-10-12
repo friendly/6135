@@ -220,3 +220,12 @@ Another way of presenting the data to suit your agenda is using colors. For most
 A chart by The Guardian in the article “What’s happening with the climate crisis and heat-trapping emissions in Australia” perfectly executes the use of red.
 Notice how every country on the map is red, even countries that produce zero fossil fuel emissions would be highlighted in a pinky red. Using the exact same data, without a full red color scale, produces a chart with a much less fearful punch to it, such as the one below:
 
+-------------------------
+
+??? Lovely animation -- like 48 illuminated sandworms from Dune crawling eastward.
+
+You should add: 
+  Wait for what happens at 22-01-12 (0:31)
+  What happens in Kansas (?) at 21-03-06 (0:19)
+
+https://x.com/datavisFriendly/status/1842593367680864643

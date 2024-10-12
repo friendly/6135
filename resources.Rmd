@@ -331,6 +331,8 @@ Considers how to write figure captions or alt-text to better communicate and con
 
 * [Accessible Visualization: Design Space, Opportunities, and Challenges](https://onlinelibrary.wiley.com/doi/10.1111/cgf.14298). This paper gives a comprehensive survey of papers published for the last 20 years on visualization accessibility.
 
+* [What to consider when choosing colors for race, ethnicity, and world regions](https://blog.datawrapper.de/colors-for-race-ethnicity-world-regions/). Some ideas for thinking about use of color in a social/emotional context.
+
 ### Session 6: The Language of Graphs {#week6}
 
 ![](images/GoG/gog-framework2.png)

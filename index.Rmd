@@ -208,6 +208,7 @@ Communication: What Works](papers/Franconeri-etal-2021-WhatWorks.pdf)
 - Skau & Kosara (2016),  [Arcs, Angles, or Areas: Individual Data Encodings in Pie and Donut Charts](https://kosara.net/papers/2016/Skau-EuroVis-2016.pdf)
 - Haroz, Kosara, & Franconeri (2015), [ISOTYPE Visualization - Working Memory, Performance, and Engagement with Pictographs](http://kosara.net/papers/2015/Haroz_CHI_2015.pdf)
 - Buja et al. (2009), [Statistical inference for exploratory data analysis and model diagnostics](papers/Buja-etal-2009.pdf)
+- Check out [Additional resources for Session 5](resources.html#week5)
 
 ## The Language of Graphs: from Bertin to GoG to ggplot2 {#language}
 
