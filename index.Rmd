@@ -50,7 +50,7 @@ This course will examine a variety of issues related to data visualization from 
 We will consider visualization methods for a wide range of types of data from the points of view of both the viewer and designer/producer of graphic displays. 
 </div>
 
-<img src="images/icons/construction.png" height=20> These web pages reflect the course when it was last taught in 2022. Much will remain the same, but details, readings and assignments are being reconsidered for this year. If you find a link that doesn't work, or could be replaced by something better or more recent, 
+<img src="images/icons/construction.png" height=20> These web pages reflect the course when it was last taught in 2023. Most will remain the same, but details, readings and assignments are being reconsidered for this year. If you find a link that doesn't work, or could be replaced by something better or more recent, 
 [please let me know by filing an issue](https://github.com/friendly/6135/issues).
 <img src="images/icons/construction.png" height=20> 
 

@@ -58,7 +58,7 @@ PLOS
 http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0123507
 
 Fig 1: Probability density functions of the number of roll call vote agreements between pairs of the same-party (SP) and those pairs of cross-party (CP) pairs. The plots show the steady divergence of CPs and SP agreement rates over time.
-Fig 2: Each member of the U.S. House of Representatives from 1949–2012 is drawn as a single node. Republican (R) representatives are in red and Democrat (D) representatives are in blue, party affiliation changes are not reflected. Edges are drawn between members who agree above the Congress’ threshold value of votes. The threshold value is the number of agreements where any pair exhibiting this number of agreements is equally likely to comprised of two members of the same party (e.g. D-D or R-R), or a cross-party pair (e.g. D-R). Each node is sized relative to its total number of connections; edges are thicker if the pair agrees on more votes. The starting year of each 2-year Congress is written above the network. The network is drawn using a linear-attraction linear-repulsion model with Barnes Hut optimization
+Fig 2: Each member of the U.S. House of Representatives from 1949?2012 is drawn as a single node. Republican (R) representatives are in red and Democrat (D) representatives are in blue, party affiliation changes are not reflected. Edges are drawn between members who agree above the Congress? threshold value of votes. The threshold value is the number of agreements where any pair exhibiting this number of agreements is equally likely to comprised of two members of the same party (e.g. D-D or R-R), or a cross-party pair (e.g. D-R). Each node is sized relative to its total number of connections; edges are thicker if the pair agrees on more votes. The starting year of each 2-year Congress is written above the network. The network is drawn using a linear-attraction linear-repulsion model with Barnes Hut optimization
 
 # Contour maps
 
@@ -110,7 +110,7 @@ https://blogs.sas.com/content/sastraining/2017/11/29/when-and-where-have-they-le
 ## Pantheon
 http://visualoop.com/blog/83382/pantheon-by-valerio-pellegrini
 
-The infographic shows the first 100 historical figures in order of influence according to Pantheon, a macro-connections group project of the MIT Media Lab of Boston, which took into account various parameters such as Wikipedia and the volume by Charles Murray “Human Accomplishmen. The Pursuit of Excellence in the Arts and Sciences, 800 BC”. 
+The infographic shows the first 100 historical figures in order of influence according to Pantheon, a macro-connections group project of the MIT Media Lab of Boston, which took into account various parameters such as Wikipedia and the volume by Charles Murray ?Human Accomplishmen. The Pursuit of Excellence in the Arts and Sciences, 800 BC?. 
 
 
 ## Infographics
@@ -120,7 +120,7 @@ From: https://medium.com/nightingale/how-to-create-wonder-with-data-and-a-physic
 
 One way to evoke wonder is to make the reader feel small in comparison. This stunning graphic from Reuters brilliantly invokes a sense of wonder by visualizing the vastness of the plastic pollution problem we face.
 
-By combining data about the number of plastic bottles sold and an illustration of New York City, this graphic made me feel extreme awe at the extent of the problem. This pile is looming over the city — the same city that feels enormous when I’m in it.
+By combining data about the number of plastic bottles sold and an illustration of New York City, this graphic made me feel extreme awe at the extent of the problem. This pile is looming over the city ? the same city that feels enormous when I?m in it.
 
 I already used reusable water bottles, but this graphic made me re-evaluate all the other places that I used plastic in my life and seek out alternatives (e.g., reusable plastic bags!). Wonder, care, act.
 
@@ -166,12 +166,12 @@ https://twitter.com/CedScherer/status/1749896592109326537
 
 color/black-and-white-trick 
 The viral image was created by artist and developer
-Øyvind Kolås, a prominent developer in the GIMP open-source image editor
-project. Kolås took a Creative Commons photo by Chuwa (Francis), converted it to
+?yvind Kol?s, a prominent developer in the GIMP open-source image editor
+project. Kol?s took a Creative Commons photo by Chuwa (Francis), converted it to
 black-and-white, and carefully overlaid red, orange, yellow, blue, and green
 grid lines over it.
 
-“An over-saturated colored grid overlayed on a grayscale image causes the grayscale cells to be perceived as having color,” Kolås says.
+?An over-saturated colored grid overlayed on a grayscale image causes the grayscale cells to be perceived as having color,? Kol?s says.
 
 The misuse of colour in science communication
     Fabio Crameri, Grace E. Shephard & Philip J. Heron 
@@ -182,11 +182,32 @@ The misuse of colour in science communication
     
     
 -----------------
+Many images added:
+
+[master 15d6811] many images added
+ 17 files changed, 41 insertions(+), 2 deletions(-)
+ create mode 100644 images/animation/BC-land-vs-people-static.png
+ create mode 100644 images/animation/BC-land-vs-people.gif
+ create mode 100644 images/animation/BC-land_vs_people.gif
+ create mode 100644 images/animation/BC-land_vs_people.mov
+ create mode 100644 images/books/Unwin-GmooG.webp
+ create mode 100644 images/elections/Axios-ingeractive.png
+ create mode 100644 images/elections/derSpiegel-paths-to-victory2024.jpg
+ create mode 100644 images/ggplot2/performance.jpg
+ create mode 100644 images/graphical-abstracts.png
+ create mode 100644 images/humanfactors/color-buddy.jpeg
+ create mode 100644 images/maps/pudding-abortion-maze-map.png
+ create mode 100644 images/network/movies-connections.webp
+ create mode 100644 images/network/movies-eigenvector-centrality.webp
+ create mode 100644 images/varieties/chart-types.png
+ create mode 100644 papers/2024_EduVis_PCP_Barriers.pdf
+
+---------------
 Animation
 
 from: https://medium.com/data-storytelling-corner/what-makes-a-data-visual-awesome-eight-beauties-with-my-reasons-why-b9842d7280b4
 This example shows relationship progression (over time) from first meeting to marriage.
-Each dot represents a person, a colour the relationship phase that each person is in. The chart represents 1000 “average” people. The animation on the left is the timeline for relationship progression in the 1970s. The time on the right is the progression in the 2010s.
+Each dot represents a person, a colour the relationship phase that each person is in. The chart represents 1000 ?average? people. The animation on the left is the timeline for relationship progression in the 1970s. The time on the right is the progression in the 2010s.
 https://flowingdata.com/2019/03/26/relationship-stages/
 
 ggplot2: Valentine survey
@@ -209,15 +230,15 @@ Word Rain cloud
 
 From word clouds to Word Rain: Revisiting the classic word cloud to visualize climate change texts
 https://journals.sagepub.com/doi/10.1177/14738716241236188
-Figure 8. Bigram word rain visualizing the coverage for the GEMET glossary for the IPCC report “Climate Change 2021: The Physical Science Basis, Summary for Policymakers.”62 Words and expressions already included in the glossary are underlined and their corresponding vertical bar is displayed in a gray color.
+Figure 8. Bigram word rain visualizing the coverage for the GEMET glossary for the IPCC report ?Climate Change 2021: The Physical Science Basis, Summary for Policymakers.?62 Words and expressions already included in the glossary are underlined and their corresponding vertical bar is displayed in a gray color.
 
 -----------------------------------
 color/world-on-fire-{mono, diverging}
 https://towardsdatascience.com/advanced-techniques-in-lying-using-data-visualizations-794278c09844
 
-Another way of presenting the data to suit your agenda is using colors. For most people, the color red is associated with something bad. Presenting a chart with a wall of red can be very effective in providing a sense of fear, crisis, alarm etc. to the audience. Climate change is a particularly great topic to use red as it’s also used to symbolize heat and fire.
+Another way of presenting the data to suit your agenda is using colors. For most people, the color red is associated with something bad. Presenting a chart with a wall of red can be very effective in providing a sense of fear, crisis, alarm etc. to the audience. Climate change is a particularly great topic to use red as it?s also used to symbolize heat and fire.
 
-A chart by The Guardian in the article “What’s happening with the climate crisis and heat-trapping emissions in Australia” perfectly executes the use of red.
+A chart by The Guardian in the article ?What?s happening with the climate crisis and heat-trapping emissions in Australia? perfectly executes the use of red.
 Notice how every country on the map is red, even countries that produce zero fossil fuel emissions would be highlighted in a pinky red. Using the exact same data, without a full red color scale, produces a chart with a much less fearful punch to it, such as the one below:
 
 -------------------------
@@ -229,3 +250,41 @@ You should add:
   What happens in Kansas (?) at 21-03-06 (0:19)
 
 https://x.com/datavisFriendly/status/1842593367680864643
+
+-----------------------------
+
+Quantifying 'The Kevin Bacon Game': A Statistical Exploration of Hollywood?s Most Connected Actors
+Daniel Parris, Stat Significant: "Examining 'Six Degrees of Kevin Bacon' and its statistical underpinnings."
+
+networks/movie-network.webp
+https://fanfare.pub/quantifying-the-kevin-bacon-game-a-statistical-exploration-of-hollywood-s-most-connected-actors-bf4fcaa186a3
+
+------------ 
+
+Mixing Linters with GUIs: A Color Palette Design Probe
+Andrew McNutt, Maureen C. Stone, Jeffrey Heer
+https://arxiv.org/abs/2407.21285
+https://arxiv.org/abs/2407.21285
+Color Buddy App: https://color-buddy.netlify.app/
+
+image: humanfactors/ColorBuddy.jpeg
+ALT: A screenshot of our application for color palette editing. On the left side is a scatter plot with dots that can be dragged and dropped, on the right hand side are a collection of evaluation rules for that palette showing if the palette passed or failed those rules.
+
+Abstract: Visualization linters are end-user facing evaluators that automatically identify potential chart issues. These spell-checker like systems offer a blend of interpretability and customization that is not found in other forms of automated assistance. However, existing linters do not model context and have primarily targeted users who do not need assistance, resulting in obvious -- even annoying -- advice. We investigate these issues within the domain of color palette design, which serves as a microcosm of visualization design concerns. We contribute a GUI-based color palette linter as a design probe that covers perception, accessibility, context, and other design criteria, and use it to explore visual explanations, integrated fixes, and user defined linting rules. Through a formative interview study and theory-driven analysis, we find that linters can be meaningfully integrated into graphical contexts thereby addressing many of their core issues. We discuss implications for integrating linters into visualization tools, developing improved assertion languages, and supporting end-user tunable advice -- all laying the groundwork for more effective visualization linters in any context.
+
+-----------------------------------
+animation/BC-land-vs-people.gif
+
+BC Election 2024
+A quick updated on the ?land doesn?t vote, people do? theme.
+https://doodles.mountainmath.ca/posts/2024-10-20-bc-election-2024/
+
+An interesting perceptual thing: the people-vote version at the end doesn't show that the election is nearly a toss-up.
+
+The clustering of the orange NDP dots make them look like "more" compared to the scattered blue ones
+
+-------------------------------
+Graphical abstracts
+graphical-abstracts.png
+https://www.buildingsciencegraphics.com/science-communication-fundamentals
+Data from Karen Cheng et al., ?Proving the Value of Visual Design in Scientific Communication,? Information Design Journal, Vol. 23 (2017); Image Credit: Jen Christiansen
