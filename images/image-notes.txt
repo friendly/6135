@@ -229,3 +229,41 @@ You should add:
   What happens in Kansas (?) at 21-03-06 (0:19)
 
 https://x.com/datavisFriendly/status/1842593367680864643
+
+-----------------------------
+
+Quantifying 'The Kevin Bacon Game': A Statistical Exploration of Hollywood’s Most Connected Actors
+Daniel Parris, Stat Significant: "Examining 'Six Degrees of Kevin Bacon' and its statistical underpinnings."
+
+networks/movie-network.webp
+https://fanfare.pub/quantifying-the-kevin-bacon-game-a-statistical-exploration-of-hollywood-s-most-connected-actors-bf4fcaa186a3
+
+------------ 
+
+Mixing Linters with GUIs: A Color Palette Design Probe
+Andrew McNutt, Maureen C. Stone, Jeffrey Heer
+https://arxiv.org/abs/2407.21285
+https://arxiv.org/abs/2407.21285
+Color Buddy App: https://color-buddy.netlify.app/
+
+image: humanfactors/ColorBuddy.jpeg
+ALT: A screenshot of our application for color palette editing. On the left side is a scatter plot with dots that can be dragged and dropped, on the right hand side are a collection of evaluation rules for that palette showing if the palette passed or failed those rules.
+
+Abstract: Visualization linters are end-user facing evaluators that automatically identify potential chart issues. These spell-checker like systems offer a blend of interpretability and customization that is not found in other forms of automated assistance. However, existing linters do not model context and have primarily targeted users who do not need assistance, resulting in obvious -- even annoying -- advice. We investigate these issues within the domain of color palette design, which serves as a microcosm of visualization design concerns. We contribute a GUI-based color palette linter as a design probe that covers perception, accessibility, context, and other design criteria, and use it to explore visual explanations, integrated fixes, and user defined linting rules. Through a formative interview study and theory-driven analysis, we find that linters can be meaningfully integrated into graphical contexts thereby addressing many of their core issues. We discuss implications for integrating linters into visualization tools, developing improved assertion languages, and supporting end-user tunable advice -- all laying the groundwork for more effective visualization linters in any context.
+
+-----------------------------------
+animation/BC-land-vs-people.gif
+
+BC Election 2024
+A quick updated on the “land doesn’t vote, people do” theme.
+https://doodles.mountainmath.ca/posts/2024-10-20-bc-election-2024/
+
+An interesting perceptual thing: the people-vote version at the end doesn't show that the election is nearly a toss-up.
+
+The clustering of the orange NDP dots make them look like "more" compared to the scattered blue ones
+
+-------------------------------
+Graphical abstracts
+graphical-abstracts.png
+https://www.buildingsciencegraphics.com/science-communication-fundamentals
+Data from Karen Cheng et al., “Proving the Value of Visual Design in Scientific Communication,” Information Design Journal, Vol. 23 (2017); Image Credit: Jen Christiansen
