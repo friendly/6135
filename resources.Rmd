@@ -120,16 +120,16 @@ tab(class="cellpadding", width="800px",
   	       br(),
            "Web page at", aself("http://www.cs.ubc.ca/~tmm/vadbook/"), "with lots of illustrations and lectures")
   	),
-  tr(
-  	tabfig("Wainer", 
-  	       "images/books/Wainer-graphic-discovery.png", 
-  	       "https://press.princeton.edu/titles/7820.html", 
-  	       width=width),
-  	tabtxt("Howard Wainer,",  
-  	       a("Graphic discovery: a trout in the milk and other visual adventures",
-  	         href="https://press.princeton.edu/titles/7820.html"),
-  	       ". A collection of essays on the history of graphics and other topics.")
-  	),
+  # tr(
+  # 	tabfig("Wainer", 
+  # 	       "images/books/Wainer-graphic-discovery.png", 
+  # 	       "https://press.princeton.edu/titles/7820.html", 
+  # 	       width=width),
+  # 	tabtxt("Howard Wainer,",  
+  # 	       a("Graphic discovery: a trout in the milk and other visual adventures",
+  # 	         href="https://press.princeton.edu/titles/7820.html"),
+  # 	       ". A collection of essays on the history of graphics and other topics.")
+  # 	),
 
   tr(
     tabfig(
@@ -145,6 +145,22 @@ tab(class="cellpadding", width="800px",
       br(),
       "Some content on", a("Google books", href = "https://www.google.ca/books/edition/Data_Visualization_Handbook/PbybDwAAQBAJ?hl=en&gbpv=1&printsec=frontcover")
     )
+  ),
+  tr(
+    tabfig(
+      name = "Unwin",
+      img = "images/books/Unwin-GmooG.webp",
+      href = "https://www.routledge.com/Getting-more-out-of-Graphics-Practice-and-Principles-of-Data-Visualisation/Unwin/p/book/9780367673994",
+      width = width
+    ),
+    tabtxt(
+      "Antony Unwin",
+      a("Getting (More out of) Graphics", href="https://www.routledge.com/Getting-more-out-of-Graphics-Practice-and-Principles-of-Data-Visualisation/Unwin/p/book/9780367673994"),
+      ". A lovely collection of 25 case studies using ggplot2, followed by discussion of factors affecting understanding graphics.",
+      br(),
+      "The {GmooG} package contains datasets, and code for all figures available on ", a("GitHub", href = "https://github.com/antonr4/GmooGkodes")
+    )
+    
   )
 
 )
@@ -238,6 +254,16 @@ tab(class="cellpadding", width="800px",
   
 )
 ```
+
+### Newsletters
+
+Want to get an occasional inbox dataviz fix? Here are some newsletters I enjoy.
+
+* RJ Andrews [Chartography](https://www.chartography.net/). Information-design insights and inspiration. Featuring charts and more, from yesteryear to today.
+
+* Alberto Cairo - [The Art of Insight](https://theartofinsight.substack.com/). A highly personal newsletter about data visualization, information design, data literacy — and many other topics.
+
+* Giuseppe Sollazzo - [Quantum of Salazzo](http://puntofisso.us5.list-manage.com/subscribe)
 
 ## Additional session resources {#weekly}
 
@@ -360,15 +386,22 @@ Chapter 1 has an overview of visual variables, as applied to mapping.
 
 ![](images/ggplot2/ggplot-1.png)
 
+* Grolemund, G. (2014). [Hands-On Programming with R: Write Your Own Functions and Simulations](https://rstudio-education.github.io/hopr/). Online
+book that provides a good introduction to programming in R.
+
 * Deepali Kank's [Tidy Tuesday 2023](https://github.com/deepdk/TidyTuesday_2023) collection of
 R scripts using `ggplot2` and `tidyverse` principles to produce some lovely graphics. See the
 [Tidy Tuesday Github site](https://github.com/rfordatascience/tidytuesday) for details of the
 topics.
 
-
 * [Data Visualization and D3](https://www.superhi.com/courses/data-visualization-with-d3)
 A very good online resource (although a bit pricy) if you are interested in learning D3. Here is the 
 [course syllabus](papers/superhi-data-visualization-syllabus.pdf).
+
+* [ggplot2 extensions - gallery](https://exts.ggplot2.tidyverse.org/gallery/). There are now > 130
+additional packages that extend ggplot2 with new geoms, themes, data types, ...
+
+* Sharon Machlis, [12 ggplot extensions for snazzier R graphics](https://www.infoworld.com/article/2336125/12-ggplot-extensions-for-snazzier-r-graphics.html). For everything from styling text and customizing color palettes to creating your own geoms, these ggplot2 add-ons deserve a place in your R data visualization toolkit
 
 ### Session 8: Going further in the tidyverse {#week8}
 

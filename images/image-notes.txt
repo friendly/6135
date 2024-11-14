@@ -288,3 +288,19 @@ Graphical abstracts
 graphical-abstracts.png
 https://www.buildingsciencegraphics.com/science-communication-fundamentals
 Data from Karen Cheng et al., ?Proving the Value of Visual Design in Scientific Communication,? Information Design Journal, Vol. 23 (2017); Image Credit: Jen Christiansen
+
+
+--------------
+Data by Design
+
+History of data vis -- fabulous layout, design, telling some important stories
+https://dataxdesign.io/ 
+
+
+### Newsletters
+
+Alberto Cairo, The Art of Insight
+https://theartofinsight.substack.com/
+
+Giuseppe Sollazzo - Quantum of Salazzo
+http://puntofisso.us5.list-manage.com/subscribe
