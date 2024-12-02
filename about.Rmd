@@ -12,7 +12,7 @@ output:
 
 * Michael Friendly [datavis.ca home page](http://datavis.ca)
 * Email: friendly AT yorku DOT ca
-* Twitter: [@datavisFriendly](http://twitter.com/datavisFriendly); [#psy6135](https://twitter.com/search?q=%23psy6135) 
+* X/Twitter: [@datavisFriendly](http://twitter.com/datavisFriendly); [#psy6135](https://twitter.com/search?q=%23psy6135) 
 * BlueSky: [@datavisfriendly.bsky.social](https://bsky.app/profile/datavisfriendly.bsky.social)
 * Office: ~~226 BSB~~
 * Phone: ~~x66249~~
@@ -30,7 +30,7 @@ output:
 
 * Photo mosaic of me (composed of images from the history of data vis); click on the image for a larger version
 
-<a href="images/MichaelFriendly-Mosaic-50pct-cropped.jpg"><img src="images/MichaelFriendly-Mosaic-50pct-cropped.jpg" width="300px"></a>
+<a href="images/perception/MichaelFriendly-Mosaic-50pct-cropped.jpg"><img src="images/perception/MichaelFriendly-Mosaic-50pct-cropped.jpg" width="300px"></a>
 
 ## Class meetings {#meetings}
 
