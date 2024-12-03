@@ -9,7 +9,7 @@ output:
 navbar:
   logo:
     image: images/icons/favicon_io/favicon-32x32.png
-  title: "Psychology 6135: Psychology of Data Visualization"
+  title: "Psy 6135: Psychology of Data Visualization"
   type: inverse
   left:
     - text: "Home"
