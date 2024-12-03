@@ -10,13 +10,13 @@ output:
 
 ## Instructor
 
-* Michael Friendly [datavis.ca home page](http://datavis.ca)
-* Email: friendly AT yorku DOT ca
-* X/Twitter: [@datavisFriendly](http://twitter.com/datavisFriendly); [#psy6135](https://twitter.com/search?q=%23psy6135) 
-* BlueSky: [@datavisfriendly.bsky.social](https://bsky.app/profile/datavisfriendly.bsky.social)
-* Office: ~~226 BSB~~
+* ⚡ Michael Friendly [datavis.ca home page](http://datavis.ca)
+* 📫 Email: friendly AT yorku DOT ca
+* 𝕏 Twitter: [@datavisFriendly](http://twitter.com/datavisFriendly); [#psy6135](https://twitter.com/search?q=%23psy6135) 
+* 🦋 BlueSky: [@datavisfriendly.bsky.social](https://bsky.app/profile/datavisfriendly.bsky.social) Where I mostly am these days.
+* Office: ~~226 BSB~~ 
 * Phone: ~~x66249~~
-* Office hour: Wednesday: 11:30-12:30, but by appointment and mostly via [Zoom](https://yorku.zoom.us/my/friendly).
+* 💬 Office hour: Wednesday: 11:30-12:30, but by appointment and mostly via [Zoom](https://yorku.zoom.us/my/friendly).
 * Course web site: [https://friendly.github.io/6135/](https://friendly.github.io/6135/)
 <!--
 * TAs: 
@@ -30,12 +30,12 @@ output:
 
 * Photo mosaic of me (composed of images from the history of data vis); click on the image for a larger version
 
-<a href="images/perception/MichaelFriendly-Mosaic-50pct-cropped.jpg"><img src="images/perception/MichaelFriendly-Mosaic-50pct-cropped.jpg" width="300px"></a>
+<a href="images/perception/MichaelFriendly-Mosaic-50pct-cropped.jpg"><img src="images/perception/MichaelFriendly-Mosaic-50pct-cropped.jpg" width="250px"></a>
 
 ## Class meetings {#meetings}
 
-* Thu., 2:30 pm - 5:30 pm, 207 BSB.
-A few lab sessions will be held in the Hebb Computer lab, 159 BSB.
+* Thu., 2:30 pm - 5:30 pm, [207 Behavioural Science Building](https://maps.info.yorku.ca/2010/06/behavioural-science/).
+* A few lab sessions may be held in the Hebb Computer lab, 159 BSB, but you're advised to bring a laptop to class.
 
 
 <!--
@@ -50,12 +50,14 @@ Students in the course are automatically subscribed.
 The link is: https://eclass.yorku.ca/eclass/user/index.php?id=37950
 -->
 
-## Summary
-
-This course is designed as a lecture/seminar dealing with data visualization from a largely psychological and historical perspective. 
 
 ## Course Description {#description}
 
+### Summary
+
+This course is designed as a lecture/seminar dealing with data visualization from a largely psychological and historical perspective. 
+
+### Full description
 Information visualization is the pictorial representation of data. 
 
 * Successful visualizations capitalize on our capacity to recognize and understand patterns presented in information displays. 
@@ -73,7 +75,7 @@ We will consider visualization methods for a wide range of types of data from th
 ## Evaluation {#evaluation}
 <img src="images/icons/construction.png" height=20>
 The description below reflects the course when it was last taught in 2023.
-The components and weights for evaluation are still being considered.
+The components and weights for evaluation are still being considered, but are likely to remain the same.
 
 Grades will be based on the following components:
 
@@ -87,12 +89,12 @@ to the topic. (~ 5 min.).  I will circulate a sign-up sheet for this in the firs
     <!-- + With your permission, I will post these to the [students page](students.html) -->
 
 
-* **Class presentation** (40%)
+* **Class presentation** (40%) {#presentations}
   In the last week or two, each person will give a ~ 20-25 min presentation on a topic of research, application, or software related to data visualization. The topic is not restricted to things covered in the lectures. You'll find a few random suggested topics on the [Resources page](resources.html), but you can also get a sense of the range and scope of projects from
   those listed on the [Students page](students.html)
   <!-- You are permitted to do this work with one other person. -->
 
-    + You should prepare a brief **topic proposal** and send it to me by email by the end of Reading Week, Feb. 23.
+    + You should prepare a brief **topic proposal** and send it to me by email by the end of Reading Week, Feb. 21.
     <!-- post it to eClass or discuss it with one of us by email by Jun 1. -->
     This is ungraded, but intended to help you shape your topic.
 
@@ -108,16 +110,22 @@ to the topic. (~ 5 min.).  I will circulate a sign-up sheet for this in the firs
 
 
 * **Research proposal** (40%)
-  Prepare a brief research proposal (~ 6-9 pages) on a data visualization topic. This can an empirical study of
-  some aspect of data visualization, an historical review, or a proposal for development or implementation of
-  a graphical method. The topic should not be identical to that of your presentation.
+  Prepare a brief research paper/proposal (normally ~ 6-9 pages) on a data visualization topic. This can be: 
+  
+  + a proposal for an empirical study of some aspect of data visualization, 
+  + an application of visualization methods to a substantative topic, 
+  + an historical review, or 
+  + a something leading to the development or implementation of a graphical method. 
+  
+  The topic should not be identical to that of your presentation and should not be just a repetition of
+  work you've done for other courses.
   <!-- You are permitted to do this work with one other person.  -->
   This will be due at the end of the exam period, ~ April 25.
 
-## Re-use policy
+### Re-use policy
 
 ![](images/icons/cc-by-nc-sa-icon.png){width="20%"}
 
-The lecture slides, tutorials and R scripts linked here are available under a Creative Commons Attribution-NonCommercial-ShareAlike license. They are available to everybody under the terms of this license and can be shared, but must be appropriately attributed to me with links to this site.
+The lecture slides, tutorials and R scripts linked here are available under a [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. They are available to everybody under the terms of this license and can be shared, but must be appropriately **attributed to me** with [links to this site](https://friendly.github.io/6135/).
 
-All other materials, notably course videos and support material files, should not be copied beyond your personal machines and hence are not available for redistribution.
+All other materials, notably course videos, student presentations and support material files, should not be copied beyond your personal machines and hence are not available for redistribution.

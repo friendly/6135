@@ -90,7 +90,8 @@ We will consider visualization methods for a wide range of types of data from th
 ![](images/headers/varieties.png)
 
 #### <img src="images/icons/PDF_icon.png" height=20> **Lecture notes**:  [1up PDF](lectures/Varieties.pdf) || [4up PDF](lectures/Varieties-2x2.pdf) || [PPT](lectures/Varieties.pptx)
-- **Bonus**: Guest presentation by [RJ Andrews: Florence Nightingale](lectures/2024-RJAndrews-Friendly.pdf)
+<!-- - **Bonus**: Guest presentation by [RJ Andrews: Florence Nightingale](lectures/2024-RJAndrews-Friendly.pdf) -->
+
 - **Assignment**:
   + From the readings up to and including this week, find one example of a data graph that
   attempts to tell an interesting story of a useful topic. How well does it succeed?
@@ -121,7 +122,7 @@ We will consider visualization methods for a wide range of types of data from th
 ![](images/headers/history.png)
 
 #### <img src="images/icons/PDF_icon.png" height=20> Lecture notes 
-- Overview [1up PDF](lectures/History.pdf) || [4up PDF](lectures/History-2x2.pdf)
+- History [1up PDF](lectures/History.pdf) || [4up PDF](lectures/History-2x2.pdf) || [PPT](lectures/History.pptx)
 - Golden Age [1up PDF](lectures/GoldenAge.pdf) || [4up PDF](lectures/GoldenAge-2x2.pdf)
 
 #### <img src="images/icons/list.png" height=20> Topics: 
@@ -151,7 +152,7 @@ We will consider visualization methods for a wide range of types of data from th
 ![](images/headers/perception.png)
 
 #### <img src="images/icons/PDF_icon.png" height=20> Lecture notes  
-- [1up PDF](lectures/GraphPerception.pdf) || [4up PDF](lectures/GraphPerception-2x2.pdf)
+- [1up PDF](lectures/GraphPerception.pdf) || [4up PDF](lectures/GraphPerception-2x2.pdf) || [PPT](lectures/GraphPerception.pptx)
 
 #### <img src="images/icons/list.png" height=20> Topics:
 
@@ -369,8 +370,10 @@ will give a guest presentation, with the tentative title,
 -->
 
 
-## <img src="images/icons/teacher.png" height=30> 2024 Student presentations
-These will take place in the last week of class. Details will be posted later.
+<!-- ## <img src="images/icons/teacher.png" height=30> 2024 Student presentations -->
+## 2024 Student presentations <img src="images/icons/teacher.png" height=30> 
+These will take place in the last two weeks of class. Details will be posted later, but see
+[Presentations](about.html#presentations) and
 [Students page](students.html).
 
 <!-- ## 2021 Student presentations -->
@@ -389,3 +392,10 @@ See the [6135 Presentations spreatsheet](https://docs.google.com/spreadsheets/d/
 
 -->
 
+### Re-use policy
+
+![](images/icons/cc-by-nc-sa-icon.png){width="15%"}
+
+The lecture slides, tutorials and R scripts linked here are available under a [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. They are available to everybody under the terms of this license and can be shared, but must be appropriately **attributed to me** with [links to this site](https://friendly.github.io/6135/).
+
+All other materials, notably course videos, student presentations and support material files, should not be copied beyond your personal machines and hence are not available for redistribution.

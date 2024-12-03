@@ -25,5 +25,6 @@ navbar:
       href: students.html
       icon: fa-users fa-2x
   right:
-    - icon: fab fa-twitter fa-2x
+    - icon: fab fa-bluesky fa-2x
       href: https://twitter.com/datavisFriendly
+

@@ -160,7 +160,20 @@ tab(class="cellpadding", width="800px",
       br(),
       "The {GmooG} package contains datasets, and code for all figures available on ", a("GitHub", href = "https://github.com/antonr4/GmooGkodes")
     )
-    
+  ),
+  
+  tr(
+    tabfig(
+      name = "Mariott",
+      img = "images/books/GoldenAge.jpg",
+      href = "https://www.routledge.com/The-Golden-Age-of-Data-Visualization-How-Did-We-Get-Here/Marriott/p/book/9781032830773",
+      width = width
+    ),
+    tabtxt(
+      "Kim Marriot",
+      a("The Golden Age of Data Visualization", "https://www.routledge.com/The-Golden-Age-of-Data-Visualization-How-Did-We-Get-Here/Marriott/p/book/9781032830773"),
+      ". Traces the deep roots of data visualization from the earliest times to the present. A tour-de-force, meticulously researched."
+    )
   )
 
 )
@@ -257,17 +270,18 @@ tab(class="cellpadding", width="800px",
 
 ### Newsletters
 
-Want to get an occasional inbox dataviz fix? Here are some newsletters I enjoy.
+Want to get an occasional inbox dataviz fix? Here are some newsletters I enjoy:
 
-* RJ Andrews [Chartography](https://www.chartography.net/). Information-design insights and inspiration. Featuring charts and more, from yesteryear to today.
+* 📕 RJ Andrews [Chartography](https://www.chartography.net/). Information-design insights and inspiration. Featuring charts and more, from yesteryear to today.
 
-* Alberto Cairo - [The Art of Insight](https://theartofinsight.substack.com/). A highly personal newsletter about data visualization, information design, data literacy — and many other topics.
+* 📕 Alberto Cairo - [The Art of Insight](https://theartofinsight.substack.com/). A highly personal newsletter about data visualization, information design, data literacy — and many other topics.
 
-* Giuseppe Sollazzo - [Quantum of Salazzo](http://puntofisso.us5.list-manage.com/subscribe)
+* 📕 Giuseppe Sollazzo - [Quantum of Salazzo](http://puntofisso.us5.list-manage.com/subscribe). Features nice
+topical examples, tools and tutorials, data analysis, interactive applications and more.
 
 ## Additional session resources {#weekly}
 
-These are additional resources related to weekly topics, many of which were originally suggested by Borzu Talaie (Thx!). Feel free to suggest other topics that can be added to these lists.
+These are additional resources related to weekly topics, many of which were originally suggested by former student Borzu Talaie (Thx!). Feel free to suggest other topics that can be added to these lists.
 
 ### Session 1: Overview {#week1}
 
@@ -336,6 +350,10 @@ A blog post by Richard Brath picks out some features in this remarkable series o
 "The most important thing to know about color is that it doesn't exist."
 
 * Emil Hvitfeldt has compiled a [Comprehensive list of color palettes available in R](https://github.com/EmilHvitfeldt/r-color-palettes) with examples of each.
+
+* McNutt, Stone & Heer, [Color Buddy App](https://color-buddy.netlify.app/). A GUI for
+choosing color palettes to meet various design considerations. Based on the paper
+[Mixing Linters with GUIs: A Color Palette Design Probe](https://arxiv.org/abs/2407.21285)
 
 ### Session 5: Human Factors {#week5}
 
