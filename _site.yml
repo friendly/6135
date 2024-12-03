@@ -26,5 +26,5 @@ navbar:
       icon: fa-users fa-2x
   right:
     - icon: fab fa-bluesky fa-2x
-      href: https://twitter.com/datavisFriendly
+      href: https://bsky.app/profile/datavisfriendly.bsky.social
 
