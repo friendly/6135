@@ -1,3 +1,5 @@
+See: https://stackoverflow.com/questions/38331198/add-regression-plane-to-3d-scatter-plot-in-plotly
+
 library(plotly)
 
 data(Prestige, package = "carData")
