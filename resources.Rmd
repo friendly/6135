@@ -408,6 +408,8 @@ Chapter 1 has an overview of visual variables, as applied to mapping.
 * Grolemund, G. (2014). [Hands-On Programming with R: Write Your Own Functions and Simulations](https://rstudio-education.github.io/hopr/). Online
 book that provides a good introduction to programming in R.
 
+* Andrew Heiss [Data Visualization with R](https://datavizf24.classes.andrewheiss.com/) A full-featured course with lots of online material
+
 * Deepali Kank's [Tidy Tuesday 2023](https://github.com/deepdk/TidyTuesday_2023) collection of
 R scripts using `ggplot2` and `tidyverse` principles to produce some lovely graphics. See the
 [Tidy Tuesday Github site](https://github.com/rfordatascience/tidytuesday) for details of the
