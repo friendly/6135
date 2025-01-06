@@ -52,7 +52,7 @@ This course will examine a variety of issues related to data visualization from 
 We will consider visualization methods for a wide range of types of data from the points of view of both the viewer and designer/producer of graphic displays. 
 </div>
 
-<img src="images/icons/construction.png" height=20> These web pages reflect the course when it was last taught in 2023. Most will remain the same, but details, readings and assignments are being reconsidered for this year. If you find a link that doesn't work, or could be replaced by something better or more recent, 
+<img src="images/icons/construction.png" height=20> These web pages will be revised as the course proceeds. If you find a link that doesn't work, or could be replaced by something better or more recent, 
 [please let me know by filing an issue](https://github.com/friendly/6135/issues).
 <img src="images/icons/construction.png" height=20> 
 
@@ -78,7 +78,7 @@ We will consider visualization methods for a wide range of types of data from th
 - Graphs: good/bad, excellent/evil
 
 #### <img src="images/icons/book.png" height=20> Readings: 
-**Bold face** items are considered essential.
+**Bold face** items are considered essential. Please read one or more of the others.
 
 - **Gelman & Unwin** [Infovis and Statistical Graphics: Different Goals, Different Looks, *JCGS* 2013](http://dx.doi.org/10.1080/10618600.2012.761137)
 - Howard Wainer (1984) [How to Display Data Badly. *American Statistician* **38** 137-147](https://www.jstor.org/stable/2683253)
@@ -258,6 +258,7 @@ some aspects of R Studio
 
 #### <img src="images/icons/book.png" height=20> Readings:
 
+- [R Workshop Book](https://www.r-workshop.org/). For those _entirely new_ to R: a short, beginner-level introduction to R based on a workshop by Rebecca L. Barter. It introduces RStudio and Quarto, fundamentals of R, tidyverse and ggplot2.
 - [getting started with ggplot](http://ggplot2.tidyverse.org/) This web page describes installing `ggplot2` and the `tidyverse` of related packages.  It also contains some useful links for learning to use `ggplot`.
 - The online chapter, [Data Visualization](http://r4ds.had.co.nz/data-visualisation.html) of the book, [R for Data Science](http://r4ds.had.co.nz/) is an excellent brief introduction to `ggplot2`.  Another chapter in this book, [Graphics for Communication](http://r4ds.had.co.nz/graphics-for-communication.html) takes up some more advanced topics.
 - A free online book, [An Introduction to Statistical and Data Sciences via R](https://moderndive.com/).
@@ -357,24 +358,10 @@ resources, tutorials and online tools.
 - Check out [Additional resources for data journalism](resources.html#week10)
 
 
-<!--
-## ~~Telling Stories with Pictures: Tales from a graphic designer~~
-
-![](images/headers/JamieWaese.png)
-
-[Jamie Waese](http://www.waese.com/), Senior Manager of the Data Visualization Lab for the TD Bank Group
-will give a guest presentation, with the tentative title,
-*My travels from children's TV to visualizing plant biology to directing data visualization efforts for a major bank.*
-
-#### Readings
-
-- [ePlant](http://www.waese.com/ePlant.html), a data visualization system allowing plant biologists visualize the natural connections between DNA sequences, natural variation (polymorphisms), molecular structures, protein-protein interactions, and gene expression patterns at multiple levels.
-
--->
 
 
 <!-- ## <img src="images/icons/teacher.png" height=30> 2024 Student presentations -->
-## 2024 Student presentations <img src="images/icons/teacher.png" height=30> 
+## 2025 Student presentations <img src="images/icons/teacher.png" height=30> 
 These will take place in the last two weeks of class. Details will be posted later, but see
 [Presentations](about.html#presentations) and
 [Students page](students.html).
