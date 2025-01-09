@@ -80,7 +80,7 @@ The components and weights for evaluation are still being considered, but are li
 
 Grades will be based on the following components:
 
-* **Discussion leader** (20%)
+### Discussion leader (20%)
 Each session, I ask that 1-2 of you will serve as discussion leader for a brief discussion on one of the readings, sub-topics or an application related
 to the topic. (~ 5 min.).  I will circulate a sign-up sheet for this in the first class.
 
@@ -90,7 +90,7 @@ to the topic. (~ 5 min.).  I will circulate a sign-up sheet for this in the firs
     <!-- + With your permission, I will post these to the [students page](students.html) -->
 
 
-* **Class presentation** (40%) {#presentations}
+### Class presentation {#presentation} (40%)
   In the last week or two, each person will give a ~ 20-25 min presentation on a topic of research, application, or software related to data visualization. The topic is not restricted to things covered in the lectures. You'll find a few random suggested topics on the [Resources page](resources.html), but you can also get a sense of the range and scope of projects from
   those listed on the [Students page](students.html)
   <!-- You are permitted to do this work with one other person. -->
@@ -110,7 +110,7 @@ to the topic. (~ 5 min.).  I will circulate a sign-up sheet for this in the firs
     + Evaluation of the presentation will be done by peer review as well as by the instructor. A rating form will provided.
 
 
-* **Research proposal** (40%)
+### Research proposal {#proposal} (40%)
   Prepare a brief research paper/proposal (normally ~ 6-9 pages) on a data visualization topic. This can be: 
   
   + a proposal for an empirical study of some aspect of data visualization, 
