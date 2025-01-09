@@ -324,3 +324,14 @@ https://www.reddit.com/r/quilting/comments/1hcw7kk/the_distance_traveled_politic
 
 This is a snapshot in time for how far women have to travel to access abortion services in the United States as of May 2024
 
+--------------------
+Ware-dataviz-diagram
+The physical environment contains the social environment from which data is gathered and stored, then transformed to be displayed by  graphics engine by means of visual mappings that are processed visually and cognitively by an information analyst who performs data explorations that results in further data transformations and view manipulations that modify the mappings. 
+
+# resource for ggplot:
+
+Andrew Heiss [Data Visualization with R](https://datavizsp25.classes.andrewheiss.com/). 
+A complete course on data visualization using `ggplot2` and related packages.
+Contains lecture slides, examples, videos, ...
+
+

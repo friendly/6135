@@ -386,6 +386,7 @@ Considers how to write figure captions or alt-text to better communicate and con
 This is a comprehensive course in R graphics (mainly ggplot2 & friends), 
 based on Wilke's [_Fundamentals of Data Visualization_](https://clauswilke.com/dataviz/).
 
+
 * [Jer Thorp](https://www.jerthorp.com). National Geographic video: [Numbers that paint the picture](https://www.youtube.com/watch?v=dmzdqRIS7SI).
 Look for his OOH/AAH metaphors at the 8:20 marker.
 
@@ -408,7 +409,8 @@ Chapter 1 has an overview of visual variables, as applied to mapping.
 * Grolemund, G. (2014). [Hands-On Programming with R: Write Your Own Functions and Simulations](https://rstudio-education.github.io/hopr/). Online
 book that provides a good introduction to programming in R.
 
-* Andrew Heiss [Data Visualization with R](https://datavizf24.classes.andrewheiss.com/) A full-featured course with lots of online material
+* Andrew Heiss [Data Visualization with R](https://datavizsp25.classes.andrewheiss.com/). A complete course on data visualization using `ggplot2` and related packages. Contains lecture slides, examples, videos, and a whole lot more.
+
 
 * Deepali Kank's [Tidy Tuesday 2023](https://github.com/deepdk/TidyTuesday_2023) collection of
 R scripts using `ggplot2` and `tidyverse` principles to produce some lovely graphics. See the
