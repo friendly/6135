@@ -84,22 +84,23 @@ Grades will be based on the following components:
 Each session, I ask that 1-2 of you will serve as discussion leader for a brief discussion on one of the readings, sub-topics or an application related
 to the topic. (~ 5 min.).  I will circulate a sign-up sheet for this in the first class.
 
-    + It may be helpful to prepare a one-page handout, or your slides, or or other visual materials. 
-    + You can send these to the [class listserv](mailto:psyc6135@yorku.ca).
+* It may be helpful to prepare a one-page handout, or your slides, or or other visual materials. 
+* You can send these to the [class listserv](mailto:psyc6135@yorku.ca).
+
     <!-- post these on [eClass](https://eclass.yorku.ca/eclass/user/index.php?id=37950)  -->
     <!-- + With your permission, I will post these to the [students page](students.html) -->
 
 
-### Class presentation {#presentation} (40%)
+### Class presentation (40%) {#presentation} 
   In the last week or two, each person will give a ~ 20-25 min presentation on a topic of research, application, or software related to data visualization. The topic is not restricted to things covered in the lectures. You'll find a few random suggested topics on the [Resources page](resources.html), but you can also get a sense of the range and scope of projects from
   those listed on the [Students page](students.html)
   <!-- You are permitted to do this work with one other person. -->
 
-    + You should prepare a brief **topic proposal** and send it to me by email by the end of Reading Week, Feb. 21.
+* You should prepare a brief **topic proposal** and send it to me by email by the end of Reading Week, Feb. 21.
     <!-- post it to eClass or discuss it with one of us by email by Jun 1. -->
     This is ungraded, but intended to help you shape your topic.
 
-    + Your in-class presentation should be accompanied by a slide show or other visual materials. It would be best to
+* Your in-class presentation should be accompanied by a slide show or other visual materials. It would be best to
     post your presentation materials _in advance_, preferably by a link to cloud storage or as an email attachment to
     the [class listserv](mailto:psyc6135@yorku.ca).
     <!-- We encourage students to prepare -->
@@ -107,10 +108,10 @@ to the topic. (~ 5 min.).  I will circulate a sign-up sheet for this in the firs
     <!-- We would prefer to do this offline, in advance --- meaning you can record an audio/video of your presentation in advance and upload to eClass or share a link. In class discussion can then be abbreviated. -->
     <!-- Those who do post their presentation in advance will be given extra credit. -->
     
-    + Evaluation of the presentation will be done by peer review as well as by the instructor. A rating form will provided.
+* Evaluation of the presentation will be done by peer review as well as by the instructor. A rating form will provided.
 
 
-### Research proposal {#proposal} (40%)
+### Research proposal (40%) {#proposal}
   Prepare a brief research paper/proposal (normally ~ 6-9 pages) on a data visualization topic. This can be: 
   
   + a proposal for an empirical study of some aspect of data visualization, 
