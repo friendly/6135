@@ -27,7 +27,10 @@ work, or could be replaced by something better or more recent,
 ![](images/varieties/FT-graph-overview-snip2.png)
 
 - Royal Statistical Society [Best Practices for Data Visualisation](https://royal-statistical-society.github.io/datavisguide/): Insights, advice, and examples (with code) to make data outputs more readable, accessible, and impactful.
+(The Quarto source text & examples for this are on [Github](https://github.com/royal-statistical-society/datavisguide).)
+
 - [Financial Times Visual Vocabulary](papers/Visual-vocabulary.pdf). A large cheatsheet poster for fining types of graphs to use for different purposes.  
+
 - [Checklist For Good Graphical Practice](GraphicsChecklist.html). From From: Gordon & Finch (2015), a useful set of questions and suggestions to apply to graphs designed for presentation purposes.
 - [Twenty rules for good graphics](https://robjhyndman.com/hyndsight/graphics/). This post by Rob Hyndman, describes some _best practices_ for producing
 graphs for _journal publication_.
@@ -306,6 +309,9 @@ Cédric Scherer, Session 1 of a workshop, [Designing Data Visualizations to Succ
 - [You can’t unsee it – the impact of a good visual for scientific data](https://blogs.egu.eu/divisions/cr/2024/01/22/you-cant-unsee-it-the-impact-of-a-good-visual-for-scientific-data/). A collection of high-impact infographics dealing with climate change.
 
 - [Advanced Techniques in Lying Using Data Visualizations](https://towardsdatascience.com/advanced-techniques-in-lying-using-data-visualizations-794278c09844). Discover the power of chart design to manipulate an audience towards any narrative.
+
+- [Why you sometimes need to break the rules in data viz](https://medium.economist.com/why-you-sometimes-need-to-break-the-rules-in-data-viz-4d8ece284919).
+Best practices help us to avoid common pitfalls in data visualisation — but we shouldn’t follow them blindly.
 
 ### Session 2: Varieties Data Visualization {#week2}
 

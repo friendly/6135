@@ -111,6 +111,7 @@ We will consider visualization methods for a wide range of types of data from th
 #### <img src="images/icons/book.png" height=20> Readings: 
 
 - **Amanda Makulec** [Pros and Cons of Chart Taxonomies](https://medium.com/nightingale/the-pros-and-cons-of-chart-taxonomies-5c8e094578c4). Are these chart taxonomies good or evil?
+- **Holtz Yan** [R Graph Gallery](https://r-graph-gallery.com/) A catalog of graphical methods classified by goal, with examples of each and R code. There is a related [online book](https://www.kyle-w-brown.com/R-Gallery/) that walks through a variety of examples.
 - [Data Visuaization Catalog](https://datavizcatalogue.com/) A handy compendium of most known graphical methods.  There is also a [Blog](https://datavizcatalogue.com/blog/) section with extended discussions of variations of a given chart type, e.g., this one on [Boxplots](https://datavizcatalogue.com/blog/box-plot-variations/).
 - Friendly & RJ Andrews, [The radiant diagrams of Florence Nightingale](https://www.datavis.ca/papers/Nightingale-radiant.pdf)
 - Turner Shaw [12 Data visualizations that illustrate poverty's biggest challenges](https://www.one.org/us/2014/05/20/12-data-visualizations-that-illustrate-povertys-biggest-challenges/)
