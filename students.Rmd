@@ -14,8 +14,11 @@ All materials linked on this page are the intellectual property of the students 
 reproduced or used in any other manner without express permission of the student involved.
 Don't even think about it.
 
-Jump to: [2024](#2024) <||> [2022](#2022) <||> [2021](#2021) <||> [2019](#2019) <||> [2018](#2018) 
+Jump to: [2025](#2025) <||> [2024](#2024) <||> [2022](#2022) <||> [2021](#2021) <||> [2019](#2019) <||> [2018](#2018) 
 
+## 2025 {#2025}
+
+### Discussion leader mini presentations  <img src="images/icons/teacher.png" height=30>
 
 ## 2024 {#2024}
 
@@ -52,7 +55,7 @@ Jump to: [2024](#2024) <||> [2022](#2022) <||> [2021](#2021) <||> [2019](#2019) 
 
 Winners of the 2024  **Jim Rankin Award**: {#2024-rankin}
 
-<img src="images/gabe-crone-rankin-book.jpg width="100px"/>
+<img src="images/gabe-crone-rankin-book.jpg" width="100px"/>
 
 - 🥇 Spencer Arshinoff - [Data Physicalization](students/2024/presentations/Arshinoff-Data_Physicalization_Presentation.pptx)
 - 🥈 Gabriel Crone - [Visualizing latent variables in SEM](students/2024/presentations/Crone-Visualizing-SEM.pdf)

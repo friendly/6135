@@ -15,7 +15,7 @@ output:
 * 📫 Email: friendly AT yorku DOT ca
 * 𝕏 Twitter: [@datavisFriendly](http://twitter.com/datavisFriendly); [#psy6135](https://twitter.com/search?q=%23psy6135) 
 * 🦋 BlueSky: [@datavisfriendly.bsky.social](https://bsky.app/profile/datavisfriendly.bsky.social) Where I mostly am these days.
-* Office: ~~226 BSB~~ 
+* Office: 226 BSB
 * Phone: ~~x66249~~
 * 💬 Office hour: Wednesday: 11:30-12:30, but by appointment and mostly via [Zoom](https://yorku.zoom.us/my/friendly).
 * Course web site: [https://friendly.github.io/6135/](https://friendly.github.io/6135/)
