@@ -8,28 +8,42 @@ options(gganimate.nframes = 25)
 
 path <- here(file.path("images", "ggplot2"))
 
-anim <-
+# identify a few countries
+ids <- c("Brazil", "Canada", "China", "Cuba", "Haiti", "India", "United States")
+
+plt  <-
 ggplot(gapminder, aes(x = gdpPercap, y = lifeExp, 
-                      size = pop, colour = country)) +
-  geom_point(alpha = 0.7, show.legend = FALSE) +
-  scale_colour_manual(values = country_colors) +
-  scale_size(range = c(2, 15)) +
+                      size = pop, colour = continent)) +
+  geom_point(alpha = 0.4, show.legend = FALSE) +
+  geom_text(data = subset(gapminder, country %in% ids),
+            aes(label = country), size = 6,
+            nudge_y = 4) +
+  scale_size(range = c(1, 16)) +
   scale_x_log10(labels = scales::comma) +
   theme_bw() + 
   theme(legend.position = "none",
-        plot.title = element_text(size = 25),
-        axis.title = element_text(size = 20 )) +
+        plot.title = element_text(size = 25,
+                                  margin=margin(t=40,b=-30)),
+        axis.title = element_text(size = 20 )) 
 
   # Here comes the gganimate specific bits
-#  geom_text(aes(x=4000, y=40, label=round(year)), colour="lightgrey", alpha=0.5, size = 40) +
-  labs(title = 'Year: {frame_time}', x = 'GDP per capita', y = 'life expectancy') +
+
+anim <- plt +
+  labs(title = 'Year: {frame_time}', 
+       x = 'GDP per capita (log scale)', 
+       y = 'life expectancy') +
   transition_time(year) +
   ease_aes('linear')
 
-animate(anim, nframes=55, fps = 3, start_pause = 3, end_pause = 3, rewind=FALSE)
+# play it on-screen
+animate(anim, nframes=55, fps = 3, 
+        start_pause = 3, end_pause = 3, 
+        rewind=FALSE)
+
 filename <- file.path(path, "gap-bubble1.gif") 
 anim_save(filename, anim, nframes=55, fps = 3,
           start_pause = 3, end_pause = 3, rewind=FALSE)
+
 
 
 

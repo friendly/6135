@@ -209,6 +209,8 @@ also online, [HCLwizard](http://hclwizard.org).
 
 - **Franconeri etal (2021)**, [The Science of Visual Data
 Communication: What Works](papers/Franconeri-etal-2021-WhatWorks.pdf)
+- **Padilla etal (2018)**, [Decision making with visualizations: A
+cognitive framework across disciplines](papers/Padilla2018-cognitive-decision.pdf)
 - Heer &  Bostock (2010), [Crowdsourcing Graphical Perception... ](papers/Heer-Bostock-2010-MTurk-CHI.pdf)
 - Skau & Kosara (2016),  [Arcs, Angles, or Areas: Individual Data Encodings in Pie and Donut Charts](https://kosara.net/papers/2016/Skau-EuroVis-2016.pdf)
 - Haroz, Kosara, & Franconeri (2015), [ISOTYPE Visualization - Working Memory, Performance, and Engagement with Pictographs](http://kosara.net/papers/2015/Haroz_CHI_2015.pdf)
