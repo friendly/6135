@@ -24,6 +24,10 @@ Jump to: [2025](#2025) <||> [2024](#2024) <||> [2022](#2022) <||> [2021](#2021) 
 
 ### Discussion leader mini presentations  <img src="images/icons/teacher.png" height=30>
 
+- Camille Proszanski [Storytelling in graphs](students/2025/MiniPres/Proszanski_Storytelling_in_graphs.docx)
+- Iroshini Gunasekera [Visualizing weather through history](students/2025/MiniPres/Iroshini_Visualizing_weather.pptx)
+
+
 ## 2024 {#2024}
 
 <center>
