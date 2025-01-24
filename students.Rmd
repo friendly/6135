@@ -19,7 +19,7 @@ Jump to: [2025](#2025) <||> [2024](#2024) <||> [2022](#2022) <||> [2021](#2021) 
 ## 2025 {#2025}
 
 <center>
-<img src="images/class-photos/2025-class1.jpg" width="450px"/>
+<img id=expand src="images/class-photos/2025-team-6135.png" width="450px"/>
 </center>
 <br/>
 
@@ -32,7 +32,7 @@ Jump to: [2025](#2025) <||> [2024](#2024) <||> [2022](#2022) <||> [2021](#2021) 
 ## 2024 {#2024}
 
 <center>
-<img src="images/class-photos/2024-team-6135.png" width="450px"/>
+<img id=expand src="images/class-photos/2024-team-6135.png" width="450px"/>
 </center>
 <br/>
 
@@ -61,7 +61,7 @@ Jump to: [2025](#2025) <||> [2024](#2024) <||> [2022](#2022) <||> [2021](#2021) 
 - Jean-Marc Moke [Strategic Business Decisions Vizualised](students/2024/presentations/VisualizingBusinessStories_Moke_PSYC6135.pptx)
 - Kathryn Pierce [Satellite Journalism](students/2024/presentations/Pierce-Satellite_Journalism.pdf)
 
-<img src="images/JimRankinAward.png" width="120px"/>
+<img id=expand src="images/JimRankinAward.png" width="120px"/>
 
 Winners of the 2024  **Jim Rankin Award**: {#2024-rankin}
 

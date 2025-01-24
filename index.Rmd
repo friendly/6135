@@ -125,7 +125,8 @@ We will consider visualization methods for a wide range of types of data from th
 
 ![](images/headers/history.png)
 
-#### <img src="images/icons/PDF_icon.png" height=20> Lecture notes 
+#### <img src="images/icons/PDF_icon.png" height=20> Lecture notes
+- **Guest lecture**, Alberto Cairo [Decisions in Visualization Design](lectures/AlbertoCairo2025-compressed.pdf)
 - History [1up PDF](lectures/History.pdf) || [4up PDF](lectures/History-2x2.pdf) || [PPT](lectures/History.pptx)
 - Golden Age [1up PDF](lectures/GoldenAge.pdf) || [4up PDF](lectures/GoldenAge-2x2.pdf)
 

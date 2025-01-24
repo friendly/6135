@@ -28,3 +28,12 @@ h3, h4 {
   font-weight: bold;
 }
 
+/* https://stackoverflow.com/questions/31527841/i-would-like-to-make-my-image-pop-out-larger-when-i-click-on-it */
+/*
+#expand {
+    width: 100%;
+}
+*/
+#expand:hover {
+    transform: scale(1.5);
+}
