@@ -8,7 +8,7 @@ output:
       in_header: header.html
 ---
 
-This page exists only to recognize the contributions of past students in this course and to serve as examples and guidance for current students. 
+This page exists only to recognize the contributions of past students in this course and to serve as examples and guidance for current students. It is also a tribute to their work and enthusiasm!
 
 All materials linked on this page are the intellectual property of the students in this course.  They may not be
 reproduced or used in any other manner without express permission of the student involved.
@@ -23,10 +23,20 @@ Jump to: [2025](#2025) <||> [2024](#2024) <||> [2022](#2022) <||> [2021](#2021) 
 </center>
 <br/>
 
+### Assignment: Graphs that tell an interesting story
+
+Find one example of a data graph that attempts to tell an interesting story of a useful topic. How well does it succeed? How could it be improved?
+
+<center>
+<img id=expand src="students/2025/Assign2/assign2-collage.png" width="450px"/>
+</center>
+<br/>
+
 ### Discussion leader mini presentations  <img src="images/icons/teacher.png" height=30>
 
 - Camille Proszanski [From Thematic Maps to Brain Maps](students/2025/MiniPres/Prozanski-Thematic maps to Brain Maps.pptx)
 - Iroshini Gunasekera [Visualizing weather through history](students/2025/MiniPres/Iroshini_Visualizing_weather.pptx)
+- Hannah Tran and Courtney Chan [Biases in Data Visualization](students/2025/MiniPres/Tran_Chan-Biases-in-Graph-Making.pptx)
 
 
 ## 2024 {#2024}
