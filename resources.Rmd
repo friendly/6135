@@ -548,7 +548,7 @@ tab(class="cellpadding", width="800px",
 
 * My [install-packages.R](R/install-pkgs.R) R script, to install the most useful packages for this course.
 
-* [R Studio cheatsheets](R/rstudio-cheat-sheets.pdf). A handy collection of cheat sheets for R, R Studio and a number of the most useful R packages.
+* [R Studio cheatsheets](R/rstudio-cheat-sheets-rev3.pdf). A handy collection of cheat sheets for R, R Studio and a number of the most useful R packages.
 
 * [R for Social Scientists](https://datacarpentry.org/r-socialsci/). A short course introduction to R, covering also data wrangling with `dplyr` and `tidyr`, graphics with `ggplot2`, using Rmarkdown for documents, ...
 
