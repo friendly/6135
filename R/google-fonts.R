@@ -1,33 +1,43 @@
 #' ---
 #' title: Using Google fonts with ggplot2
+#' output:
+#'   html_document:
+#'     theme: readable
+#'     code_download: true
+#'   word_document: default    
 #' ---
+
 # from: https://albert-rapp.de/posts/ggplot2-tips/08_fonts_and_icons/08_fonts_and_icons.html
 
+#' ## Load packages
 library(tidyverse)
 library(showtext)
 library(ggtext)
 library(gghighlight)
 library(glue)
 
-# Import fonts
-# First argument = google name, 
-# Secont name = font name in R
+#' ## Import fonts
+#' First argument = google name, 
+#' Second name = font name in R
 font_add_google('Lora', 'lora')
 font_add_google('Lobster', 'lobster')
 font_add_google('Anton', 'anton')
 font_add_google('Fira Sans', 'firasans')
 font_add_google('Syne Mono', 'syne')
 
-# Important step to enable showtext font rendering!
+#' ## Enable `showtext()` font rendering!
 showtext_auto()
 
+#' ## Make a tibble with some fonts, x & y positions, and a text `label` to show
 tib <- tibble(
   family = c('firasans', 'lora', 'lobster', 'anton', 'syne'),
   x = 0,
   y = seq(.9, .1, length.out = 5),
   label = glue('Showtext {family}. What a font!')
 )
+tib
 
+#' ## Use `geom_text()` to show them
 tib %>%
   ggplot(aes(x, y, label = label)) +
   geom_text(family = tib$family, size = 12, hjust = 0, col = 'dodgerblue4') +
