@@ -552,7 +552,7 @@ tab(class="cellpadding", width="800px",
 
 * [R for Social Scientists](https://datacarpentry.org/r-socialsci/). A short course introduction to R, covering also data wrangling with `dplyr` and `tidyr`, graphics with `ggplot2`, using Rmarkdown for documents, ...
 
-* [Happy git and github for the useR](http://happygitwithr.com/) provides a good overview of how to use Git and GitHub in conjunction with an R-based workflow.
+* [Happy git and github for the useR](http://happygitwithr.com/) provides a good overview of how to use [Git](https://git-scm.com/) and [GitHub](https://github.com/) in conjunction with an R-based workflow.
 
 - [A primer on web scraping with R](https://github.com/simonmunzert/rscraping-aapor-2017) by Simon Munzert. Includes slides from a workshop and lots of links to resources.
 
