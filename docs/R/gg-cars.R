@@ -1,10 +1,19 @@
 #' ---
-#' title: "Plots of cars data with ggplot2"
+#' title: "Plots of mtcars data with ggplot2"
 #' author: "Michael Friendly"
 #' category: "ggplot2"
-#' date: "06 Apr 2017"
+#' date: "`r format(Sys.Date())`"
+#' output:
+#'   html_document:
+#'     theme: readable
+#'     code_download: true
+#'   word_document: default    
 #' ---
 
+#+ echo=FALSE
+knitr::opts_chunk$set(warning=FALSE, 
+                      message=FALSE, 
+                      R.options=list(digits=4))
 
 #' ## Load the `mtcars` data
 data(mtcars, package="datasets")
@@ -22,37 +31,46 @@ legend("topright", legend=levels(mtcars$cyl),
                    col=levels(mtcars$cyl))
 
 #' ## Plots with ggplot2
+
+#' ### Basic plot: `mpg` vs. `hp`
+#' Specify aesthetic mappings for `x=hp` and `y=mpg` to setup the coordinates, then
+#' add points with `geom_point()`
 library(ggplot2)
-ggplot(mtcars, aes(x=hp, y=mpg, color=cyl, shape=cyl)) +
+ggplot(mtcars, aes(x=hp, y=mpg)) +
+  geom_point(size=3)
+
+
+#' ### Distinguish cars by number of cylinders
+#' Use color and shape as additional aesthetics. 
+#' To do this,  make `cyl` a factor because ggplot now requires discrete variables to be factors.
+library(dplyr)
+mtcars <- mtcars |>
+  mutate(cyl = as.factor(cyl))
+
+ggplot(mtcars, aes(x=hp, y=mpg, 
+                   color=cyl, 
+                   shape=cyl)) +
 	geom_point(size=3)
 
-#' ### add separate regression lines
+#' ### Add separate regression lines
+#' `geom_smooth()` inherits the aesthetics for `color` and `shape`, so it draws a separate regression line
+#' for each value of `cyl`
 ggplot(mtcars, aes(x=hp, y=mpg, color=cyl, shape=cyl)) +
 	geom_point(size=3) +
 	geom_smooth(method="lm", aes(fill=cyl)) 
 
-#' ### add overall smooth
+#' ### Add overall smooth
+#' If I add a `geom_smooth` overriding `color`, this will be used for all the data
 ggplot(mtcars, aes(x=hp, y=mpg)) +
 	geom_point(size=3, aes(color=cyl, shape=cyl)) +
-	geom_smooth(method="loess", color="black", se=FALSE) +
+	geom_smooth(method="loess", color="black", se=FALSE, lwd = 2) +
 	geom_smooth(method="lm", aes(color=cyl, fill=cyl)) 
 
-#' ### change the theme
-last_plot() + theme_bw()
+#' ### Change the theme
+last_plot() + theme_bw(base_size = 14)
 
-#' ### break it down into stages
-plt <-
-ggplot(mtcars, aes(x=hp, y=mpg, color=cyl, shape=cyl)) +
-	geom_point(size=3) 
 
-plt +
-		geom_smooth(method="lm", aes(fill=cyl)) 
-
-plt +
-		geom_smooth(method="lm", aes(fill=cyl)) +
-	  geom_smooth(method="loess", color="black", se=FALSE) +
-
-#' ## faceting
+#' ## Faceting
 plt <-
 ggplot(mtcars, aes(x=hp, y=mpg, color=cyl, shape=cyl)) +
 	geom_point(size=3) +
@@ -60,7 +78,7 @@ ggplot(mtcars, aes(x=hp, y=mpg, color=cyl, shape=cyl)) +
 
 plt + facet_wrap(~cyl)
 
-#' ## labeling points, change theme, 
+#' ## Labeling points, change theme, 
 plt2 <- ggplot(mtcars, aes(x=wt, y=mpg)) +
   geom_point(color = 'red', size=2) +
   geom_smooth(method="loess") +
@@ -71,7 +89,7 @@ plt2 + geom_text(aes(label = rownames(mtcars)))
 library(ggrepel)
 plt2 + geom_text_repel(aes(label = rownames(mtcars)))
 
-#' ### only label points with large residuals
+#' ### Only label points with large residuals
 
 mod <- loess( mpg ~ wt, data=mtcars)
 resids <- residuals(mod)

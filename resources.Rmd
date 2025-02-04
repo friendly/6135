@@ -124,17 +124,8 @@ tab(class="cellpadding", width="800px",
   	       br(),
            "Web page at", aself("http://www.cs.ubc.ca/~tmm/vadbook/"), "with lots of illustrations and lectures")
   	),
-  # tr(
-  # 	tabfig("Wainer", 
-  # 	       "images/books/Wainer-graphic-discovery.png", 
-  # 	       "https://press.princeton.edu/titles/7820.html", 
-  # 	       width=width),
-  # 	tabtxt("Howard Wainer,",  
-  # 	       a("Graphic discovery: a trout in the milk and other visual adventures",
-  # 	         href="https://press.princeton.edu/titles/7820.html"),
-  # 	       ". A collection of essays on the history of graphics and other topics.")
-  # 	),
 
+  
   tr(
     tabfig(
       name = "Koponen",
@@ -143,7 +134,7 @@ tab(class="cellpadding", width="800px",
       width = width
     ),
     tabtxt(
-      "Koponen & Hilden",
+      "Koponen & Hilden, ",
       a("Handbook of Data Visualization", href="https://www.datavizhandbook.info/"),
       ". A practical guide for creating compelling graphics to explain and explore data, primarily aimed at designers, journalists, researchers, analysts, and other professionals who want to learn the basics of visualization. Lovely illustrations!",
       br(),
@@ -158,7 +149,7 @@ tab(class="cellpadding", width="800px",
       width = width
     ),
     tabtxt(
-      "Antony Unwin",
+      "Antony Unwin, ",
       a("Getting (More out of) Graphics", href="https://www.routledge.com/Getting-more-out-of-Graphics-Practice-and-Principles-of-Data-Visualisation/Unwin/p/book/9780367673994"),
       ". A lovely collection of 25 case studies using ggplot2, followed by discussion of factors affecting understanding graphics.",
       br(),
@@ -174,14 +165,45 @@ tab(class="cellpadding", width="800px",
       width = width
     ),
     tabtxt(
-      "Kim Marriot",
-      a("The Golden Age of Data Visualization", "https://www.routledge.com/The-Golden-Age-of-Data-Visualization-How-Did-We-Get-Here/Marriott/p/book/9781032830773"),
+      "Kim Marriot, ",
+      a("The Golden Age of Data Visualization", href="https://www.routledge.com/The-Golden-Age-of-Data-Visualization-How-Did-We-Get-Here/Marriott/p/book/9781032830773"),
       ". Traces the deep roots of data visualization from the earliest times to the present. A tour-de-force, meticulously researched."
+    )
+  ),
+
+  tr(
+    tabfig(
+      name = "Kabakoff",
+      img = "images/books/Kabakoff.png",
+      href = "https://rkabacoff.github.io/datavis/",
+      width = width
+    ),
+    tabtxt(
+      "Robert Kabakoff, ",
+      a("Modern Data Visualization with R", href="https://rkabacoff.github.io/datavis/"),
+      ". A comprehensive guide to creating data visualizations using R, mainly ggplot2, but also base R, and other tools. All R code and (non-package) data sets are available on ",
+      a("GitHub", href="https://github.com/rkabacoff/datavis_support")
     )
   )
 
 )
 ```
+
+<!--
+  tr(
+    tabfig(
+      name = "",
+      img = "",
+      href = "",
+      width = width
+    ),
+    tabtxt(
+      "name",
+      a("title", href="url"),
+      ". Additional text"
+    )
+  )
+-->
 
 ### Tufte Stufte {#tufte}
 
@@ -213,7 +235,7 @@ The following blogs are a rich source of information on visual design, data grap
 width <- "320px"
 tab(class="cellpadding", width="800px",
   tr(
-  	tabfig("datavis.ca", 
+  	tabfig("htpps://datavis.ca", 
   	       "images/blogs/datavis.ca.png", 
   	       "http://datavis.ca", width=width),
   	tabtxt("My web site,", aself("http://datavis.ca"),
@@ -268,6 +290,15 @@ tab(class="cellpadding", width="800px",
 		       aself("https://www.visualisingdata.com/blog/"), 
 		       "Among other things, Kirk provides a monthly digest of his picks for the Best in Data Visualization.")
 		),
+	tr(
+		tabfig("Data Visualization Teaching and Learning Materials ", 
+		       "images/blogs/visualization.info.png", 
+		       "https://visualization.info/", width=width),
+		tabtxt("Data Visualization Teaching and Learning Materials, ",
+		       aself("https://visualization.info/"), 
+		       "A large collection of online texts, lecture notes, tutorials on data visualization.")
+		),
+  
   
 )
 ```
