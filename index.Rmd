@@ -194,7 +194,7 @@ also online, [HCLwizard](http://hclwizard.org).
 
 ![](images/headers/human-factors.png)
 
-#### <img src="images/icons/PDF_icon.png" height=20> **Lecture notes**:  [1up PDF](lectures/HumanFactors.pdf) || [4up PDF](lectures/HumanFactors-2x2.pdf)
+#### <img src="images/icons/PDF_icon.png" height=20> **Lecture notes**:  [1up PDF](lectures/HumanFactors.pdf) || [4up PDF](lectures/HumanFactors-2x2.pdf) || [PPT](lectures/HumanFactors-2x2.pptx)
 <!-- - Guest lecture: Andrea Giambelli, [Design, Storytelling and Data Vis](Andrea-YorkU-Talk.pdf) -->
 
 #### <img src="images/icons/list.png" height=20> Topics:
