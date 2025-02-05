@@ -17,7 +17,7 @@ knitr::opts_chunk$set(warning=FALSE,
                       fig.width = 5,
                       fig.height = 5)
 
-#' This example shows the development of plots of Andre-Michel Guerry's (1831) data on crime and literacy in France
+#' This example shows the development of plots of Andre-Michel Guerry's (1833) data on crime and literacy in France
 
 #' ## Load packages
 library(ggplot2)
