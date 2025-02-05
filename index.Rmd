@@ -268,7 +268,7 @@ some aspects of R Studio
 - A free online book, [An Introduction to Statistical and Data Sciences via R](https://moderndive.com/).
 The focus is on the `tidyverse` of R packages for data manipulation and `ggplot2` for graphics.
 Also covers data modeling (regression), hypothesis testing, etc.
-- - Check out [Additional resources for Session 7](resources.html#week7)
+- Check out [Additional resources for Session 7](resources.html#week7)
 
 
 #### <img src="images/icons/R_logo-small.png" height=20> R examples
@@ -277,6 +277,7 @@ Also covers data modeling (regression), hypothesis testing, etc.
 * Plot Arbuthnot’s data with ggplot2 [arbuthnot-gg.R](R/arbuthnot-gg.R). Output: [arbuthnot-gg.html](R/arbuthnot-gg.html)
 * Playfair Balance of Trade data: [playfair-east-indies.R](R/playfair-east-indies.R). Output: [playfair-east-indies.html](R/playfair-east-indies.html)
 * Using Google fonts with ggplot2: [google.fonts.R](R/google.fonts.R). Output: [google.fonts.html](R/google.fonts.html)
+* Guerry's data on crime and literacy: [ggGuerry.R](R/ggGuerry.R). Output: [ggGuerry.html](R/ggGuerry.html)
 
 
 ## ggplot2: Going further in the tidyverse {#tidyverse}
