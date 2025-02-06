@@ -357,7 +357,18 @@ designed to show visualizations classified by type and topic.  But, more general
 follow [#30DayChartChallenge](https://twitter.com/30DayChartChall) on Twitter.
 
 * [Out of Sight, Out of Mind](http://drones.pitchinteractive.com)
-A great example in storytelling with data: history of drone strikes in Pakistan
+A great example in storytelling with data: history of drone strikes in Pakistan.
+
+* [Five ways to effectively use animation in data visualization](https://observablehq.com/blog/effective-animation). A nice collection
+of examples of animation to enhance engagement, reveal trends, and help viewers track patterns across time and space.
+
+* [COVIC](covic-archive.org/index.html)
+A large collection of Covid-19 pandemic visualizations intended for teaching and research purposes.
+
+	
+
+
+
 
 
 ### Session 3: History of Data Visualization {#week3}

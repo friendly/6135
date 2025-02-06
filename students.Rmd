@@ -37,7 +37,8 @@ Find one example of a data graph that attempts to tell an interesting story of a
 - Camille Proszanski [From Thematic Maps to Brain Maps](students/2025/MiniPres/Prozanski-Thematic maps to Brain Maps.pptx)
 - Iroshini Gunasekera [Visualizing weather through history](students/2025/MiniPres/Iroshini_Visualizing_weather.pptx)
 - Hannah Tran and Courtney Chan [Biases in Data Visualization](students/2025/MiniPres/Tran_Chan-Biases-in-Graph-Making.pptx)
-
+- Nisha Vashi [Human Factors: Eliciting emotional reactions within data visualizations](students/2025/MiniPres/NishaVashi-Mini-Presentation.pptx)
+- Marlee Salisbury [The Risk of Visualizing Risk](students/2025/MiniPres/Marlee_TheRiskofVisualizingRisk.pptx)
 
 ## 2024 {#2024}
 
