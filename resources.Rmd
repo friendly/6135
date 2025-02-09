@@ -609,6 +609,10 @@ items <- sub("^\\d+\\. ", "", items, perl=TRUE)
   * Michael Correll [The Mythos of Visualization Literacy](https://mcorrell.medium.com/the-mythos-of-visualization-literacy-5dd02db56254)
   * Lee et al. [VLAT : Development of a Visualization Literacy Assessment Test](https://www.bckwon.com/pdf/vlat.pdf)
   * Mirta Galesic [Graph Literacy: A Cross-Cultural Comparison](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=2c8dbb39ecec6e6ca27aabe1f84a134c4adef60a)
+  * [Vividness of Visual Imagery Questionnaire](https://en.wikipedia.org/wiki/Vividness_of_Visual_Imagery_Questionnaire). A 16-item scale
+  that tests the vividness with which you can see people, objects, or settings in your mind’s eye. 
+  You can take this [online](https://aphantasia.com/study/vviq/).
+	
   * Related: [Aphantasia](https://en.wikipedia.org/wiki/Aphantasia) - inability to "see" mental images, and some scales for measuring the same.
 
 * **Accessibility**: Making graphics accessible to the visually impaired. A simple example is **ALT** text, now increasingly used.  Are there standards or tools available? See the links under [Human factors](#week5) above.
