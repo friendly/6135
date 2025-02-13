@@ -40,6 +40,8 @@ Find one example of a data graph that attempts to tell an interesting story of a
 - Nisha Vashi: [Human Factors: Eliciting emotional reactions within data visualizations](students/2025/MiniPres/NishaVashi-Mini-Presentation.pptx)
 - Marlee Salisbury: [The Risk of Visualizing Risk](students/2025/MiniPres/Marlee_TheRiskofVisualizingRisk.pptx)
 - Ashley Siegel & Sami Harb: [Graph design and interpretation: Cultural considerations & Health Risk Communication](students/2025/MiniPres/Siegel_Harb_Presentation_6135.pptx)
+- William Fisher: [ggplot2 and efficiently generating several plots 
+](students/2025/MiniPres/WillFisher-MiniPresentation.pptx)
 
 ## 2024 {#2024}
 

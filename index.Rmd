@@ -222,8 +222,7 @@ cognitive framework across disciplines](papers/Padilla2018-cognitive-decision.pd
 
 ![](images/headers/language.png)
 
-#### <img src="images/icons/PDF_icon.png" height=20> **Lecture notes**:  [1up PDF](lectures/Language.pdf) || [4up PDF](lectures/Language-2x2.pdf)
-- **Bonus lecture**: _Deep questions of Data Visualization_ [1up PDF](lectures/DeepQuestions.pdf) || [4up](lectures/DeepQuestions-2x2.pdf)
+#### <img src="images/icons/PDF_icon.png" height=20> **Lecture notes**:  [1up PDF](lectures/Language.pdf) || [4up PDF](lectures/Language-2x2.pdf) || [PPT](lectures/Language.pptx)
 
 #### <img src="images/icons/list.png" height=20> Topics:
 
@@ -259,6 +258,8 @@ both R & R Studio to profit from this.
 some aspects of R Studio
 - **Introduction to ggplot2** [1up](lectures/ggplot-intro.pdf) || [4up](lectures/ggplot-intro-2x2.pdf)
 - **tutorial**: [ggplot2 tutorial: gapminder data](tutorials/gapminder.html) || [R script for this](tutorials/gapminder.R)
+- **Bonus lecture**: _Deep questions of Data Visualization_ [1up PDF](lectures/DeepQuestions.pdf) || [4up](lectures/DeepQuestions-2x2.pdf)
+
 
 #### <img src="images/icons/book.png" height=20> Readings:
 
