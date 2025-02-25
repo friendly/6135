@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+    <!-- Water background -->
+    <rect width="500" height="600" fill="#E6F3FF"/>
+    
+    <!-- Deeper water gradient -->
+    <defs>
+        <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#E6F3FF"/>
+            <stop offset="100%" style="stop-color:#001B3A"/>
+        </linearGradient>
+    </defs>
+    <rect x="0" y="200" width="500" height="400" fill="url(#waterGradient)"/>
+    
+    <!-- Iceberg -->
+    <path d="M150,150 L350,150 L400,200 L375,300 L425,400 L375,500 L300,550 L200,550 L125,500 L75,400 L125,300 L100,200 Z" 
+          fill="#FFFFFF" stroke="#CCCCCC" stroke-width="2"/>
+    
+    <!-- Waterline -->
+    <line x1="0" y1="200" x2="500" y2="200" stroke="#0066CC" stroke-width="2" stroke-dasharray="5,5"/>
+    
+    <!-- Labels -->
+    <!-- Conscious -->
+    <text x="250" y="180" text-anchor="middle" fill="#000000" font-size="16" font-weight="bold">Conscious</text>
+    <text x="250" y="130" text-anchor="middle" fill="#666666" font-size="12">
+        - Awareness
+        <tspan x="250" dy="15">- Current thoughts</tspan>
+        <tspan x="250" dy="15">- Present perceptions</tspan>
+    </text>
+    
+    <!-- Preconscious -->
+    <text x="250" y="280" text-anchor="middle" fill="#000000" font-size="16" font-weight="bold">Preconscious</text>
+    <text x="250" y="310" text-anchor="middle" fill="#666666" font-size="12">
+        - Memories
+        <tspan x="250" dy="15">- Stored knowledge</tspan>
+        <tspan x="250" dy="15">- Retrievable information</tspan>
+    </text>
+    
+    <!-- Unconscious -->
+    <text x="250" y="450" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold">Unconscious</text>
+    <text x="250" y="480" text-anchor="middle" fill="#FFFFFF" font-size="12">
+        - Repressed memories
+        <tspan x="250" dy="15">- Hidden desires</tspan>
+        <tspan x="250" dy="15">- Primitive instincts</tspan>
+        <tspan x="250" dy="15">- Deep emotions</tspan>
+    </text>
+</svg>
