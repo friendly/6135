@@ -351,6 +351,9 @@ Best practices help us to avoid common pitfalls in data visualisation — but we
 * Financial Times [Visual Vocabulary](images/varieties/C:\Dropbox\Documents\6135\images\varieties\VisualVocabulary-poster.pdf) poster, showing examples of different chart types depending on what
 you want to show.
 
+* [From Data to Viz](https://www.data-to-viz.com/). A decision tree of many chart types that
+tries to lead you to the most appropriate graph for your data. It links to the code to build it and lists common caveats you should avoid.
+
 * [30 Day Chart Challenge](https://github.com/Z3tt/30DayChartChallenge_Collection2021)
 This collection, currated by Cédric Scherer, contains examples of graphs and charts
 designed to show visualizations classified by type and topic.  But, more generally,

@@ -26,7 +26,8 @@ http://www.derivativeworks.com/2008/09/complete-scans.html
 
 https://www.flickr.com/photos/juggernautco/sets/72157607210036175/
 
-
+## ggplot aesthetics-mapping
+https://rockefelleruniversity.github.io/Plotting_In_R/presentations/slides/ggplot2.html#8
 Hockey Stick chart
 https://en.wikipedia.org/wiki/Hockey_stick_graph
 https://wattsupwiththat.com/2013/08/21/ipcc-throws-manns-hockey-stick-under-the-bus/

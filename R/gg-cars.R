@@ -98,3 +98,12 @@ mtcars$label <- ifelse(abs(resids) > 2.5, rownames(mtcars), "")
 plt2 + 
 	geom_text_repel(aes(label = mtcars$label)) 
 
+
+#' ## What's in a ggplot object?
+
+class(plt)
+
+names(plt)
+
+summary(plt)
+
