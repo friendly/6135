@@ -25,11 +25,18 @@ plt <- ggplot(data = hksum, aes(year, deaths, color = cause)) +
         legend.position.inside = c(.85, .8))
 plt
 
+# try to directly label the curves. `This`direct.label` didn't work out, so not finished...
 direct.label(plt, method = "top.bumptwice")
 
+# manually position curve labels
 curve_labels <- tibble(
-  year =   c(1910, ),
-  deaths = c(60, ),
-  cause = c("drowned", )
-)
+  year =   c(1902, 1880, 1892),
+  deaths = c(60, 22, 0),
+  cause = c("drown", "kick", "fall")
+  )
+
+plt + geom_label(data = curve_labels,
+                 aes(year, deaths, color = cause, label = cause),
+                 size = 6
+      )
 
