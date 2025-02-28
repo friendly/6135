@@ -7,6 +7,12 @@ output:
     code_folding: "show"
 ---
 
+<!-- Use 
+knitr::purl("tutorials/Minard.Rmd", output = "tutorials/", documentation = 2) 
+to convert to an R file with text as 
+     comments
+-->
+
 ```{r setup, include=FALSE, purl=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(
@@ -32,6 +38,9 @@ Along the way, we'll learn some techniques for developing plots using `ggplot2`.
 (The original source of this exercise was the documentation example for the Minard data,
 `example("Minard", package="HistData")`, with the steps explained here.
 Other ideas were taken from Andrew Heiss, [Exploring Minard's 1812 plot with ggplot2](https://github.com/andrewheiss/fancy-minard).)
+
+(In this tutorial, you are encouraged to work it through in your own R session, using this file as a guide.
+Each code chunk has an icon to copy the code to the clipboard. When a code chunk is hidden, click the **Show** button to un-hide it.)
 
 This graph looks very complicated.  How should we get started?
 
@@ -381,7 +390,28 @@ that Minard devotes to the title and descriptive text.
     for this, but that is quite tedious for lots of text.  Alternatively, find a way to read in this
     graphic and combine it with the image.
 
-![Minard-text](../images/Minard-odt-text.png)
+![Minard-text](Minard-odt-text.png)
+
+* **Fancy fonts**: Minard's original and the English translation ([originally from Tufte](https://www.edwardtufte.com/wp-content/uploads/2023/10/minard-napoleons-march-to-moscow-french-english.jpg))
+use a fancy script font. To reproduce this aspect, the first task is to try to find a similar font.
+Adobe has an [online font tool](https://fonts.adobe.com/fonts/); or, more conveniently,you can search 
+[Google Fonts](https://fonts.google.com/), which fonts can be used with the `showtext` package.
+I found something close in [Tangerine bold](https://fonts.google.com/specimen/Tangerine)
+
+![Tangerine bold](tangerine-bold.png)
+<br>
+
+Here's a stub to get you started:
+```{r eval=FALSE}
+library(showtext)
+font_add_google(name="Tangerine", family="tangerine")
+showtext_auto()
+
+title <- "Map of the losses over time of the French army during the Russian campaign, 1812-1813.\n
+Constructed by Charles Joseph Minard, Inspector General of Public Works (retired). 
+Paris, 20 November 1869."
+```
+
 
 * **Add a map background**:  Minard drew some map elements, largely rivers, on his graphic to provide more geographic context. The package [ggmap](https://CRAN.R-project.org/package=ggmap) works nicely with `ggplot2` and provides tools for getting map data from various web sources. Andrew Heiss, [Exploring Minard's 1812 plot with ggplot2](https://github.com/andrewheiss/fancy-minard) shows how to do this.
 

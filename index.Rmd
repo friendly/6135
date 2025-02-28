@@ -287,7 +287,7 @@ Also covers data modeling (regression), hypothesis testing, etc.
 
 #### <img src="images/icons/PDF_icon.png" height=20> **Lecture notes**:  [1up PDF](lectures/ggplot-further.pdf) || [4up PDF](lectures/ggplot-further-2x2.pdf)
 - **Bootstrapping**   [1up PDF](lectures/bootstrap.pdf) || [4up PDF](lectures/bootstrap-2x2.pdf)
-- **tutorial**: [Minard meets ggplot](tutorials/Minard.html); [R script for this](tutorials/Minard.R)
+- **tutorial**: [Minard meets ggplot](tutorials/Minard.html); [Rmarkdown source](tutorials/Minard.Rmd); [R script](tutorials/Minard.R)
 
 #### <img src="images/icons/list.png" height=20> Topics:
 
