@@ -1,31 +1,30 @@
 #' ---
 #' title: "Minard meets ggplot2"
 #' author: "Michael Friendly"
-#' date: "January 22, 2018"
-#' output: html_document
+#' date: "February 10, 2022"
+#' output: 
+#'   html_document:
+#'     code_folding: "show"
 #' ---
 #' 
-## ----setup, include=FALSE------------------------------------------------
-knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_chunk$set(
-  warning = FALSE,   # avoid warnings and messages in the output
-  message = FALSE,
-  tidy.opts=list(width.cutoff = 120),  # For code
-  options(width = 120)                 # for output
-  )
+
+#' 
 
 #' 
 #' ## Goal
 #' 
 #' What would C. J. Minard have done if he had access to `R` and `ggplot2`? The goal of this excercise is to 
 #' reproduce, to some reasonable approximation, Minard's famous graphic of Napoleon's March on Moscow.
-#' Along the way, we'll learn some techiques for developing plots using `ggplot2`.
+#' Along the way, we'll learn some techniques for developing plots using `ggplot2`.
 #' 
-#' ![Minard's March on Moscow graphic](../images/Minard-march.png)
+#' ![Minard's March on Moscow graphic](../images/Minard-march.png){width="70%"}
 #' 
 #' (The original source of this exercise was the documentation example for the Minard data,
 #' `example("Minard", package="HistData")`, with the steps explained here.
 #' Other ideas were taken from Andrew Heiss, [Exploring Minard's 1812 plot with ggplot2](https://github.com/andrewheiss/fancy-minard).)
+#' 
+#' (In this tutorial, you are encouraged to work it through in your own R session, using this file as a guide.
+#' Each code chunk has an icon to copy the code to the clipboard. When a code chunk is hidden, click the **Show** button to un-hide it.)
 #' 
 #' This graph looks very complicated.  How should we get started?
 #' 
@@ -41,7 +40,7 @@ knitr::opts_chunk$set(
 #' `survivors`, stratified by `direction`, a factor with levels  `A` ("Advance") and `R` ("Retreat"),
 #' and `group` (Napoleon had three generals commanding portions of his troops).
 #' 
-## ------------------------------------------------------------------------
+## ----data1-------------------------------------------------------------------------------------------------------------
 data(Minard.troops, package="HistData")
 str(Minard.troops)
 
@@ -49,7 +48,7 @@ str(Minard.troops)
 #' #### Cities: `Minard.cities`
 #' The (`lat`, `long`) locations of various places along the path of Napoleon's army, with the name of the `city`.
 #' 
-## ------------------------------------------------------------------------
+## ----data2, class.source = 'fold-hide'---------------------------------------------------------------------------------
 data(Minard.cities, package="HistData")
 str(Minard.cities)
 
@@ -57,7 +56,7 @@ str(Minard.cities)
 #' #### Temperature: `Minard.temp`
 #' The temperature at various places along the march of retreat from Moscow, with their `date`.
 #' 
-## ------------------------------------------------------------------------
+## ----data3, class.source = 'fold-hide'---------------------------------------------------------------------------------
 data(Minard.temp, package="HistData")
 str(Minard.temp)
 
@@ -69,7 +68,6 @@ str(Minard.temp)
 #' * First, the graph really consists of two separate plots, stacked vertically:
 #' 
 #'     + The graph of troop strength, with (x, y) coordinates (`lat`, `long`)
-#'     
 #'     + The graph of temperature, with coordinates (`temp`, `long`)
 #' 
 #' * The graph of troop strength has two layers:
@@ -82,7 +80,7 @@ str(Minard.temp)
 #' First, load the packages we will need.  In addition to `ggplot2` we will use the `scales` package to provide
 #' convenient formatting of the scale for `survivors` and the `gridExtra` package to combine the two separate plots.
 #' 
-## ----load-packages-------------------------------------------------------
+## ----load-packages-----------------------------------------------------------------------------------------------------
 library(ggplot2)
 library(scales)        # additional formatting for scales
 library(grid)          # combining plots
@@ -93,14 +91,14 @@ library(dplyr)         # tidy data manipulations
 #' The basic plot uses `lat` and `long` as the ggplot (x, y) coordinates. The line below just sets up an empty plot
 #' frame for `lat` and `long`.
 #' 
-## ----eval=FALSE----------------------------------------------------------
-## ggplot(Minard.troops, aes(long, lat))
+## ----eval=FALSE--------------------------------------------------------------------------------------------------------
+# ggplot(Minard.troops, aes(long, lat))
 
 #' 
 #' The flow-map path of the surviving troops is a `geom_path` layer. The important aesthetic attribute is to map
 #' the `size` (width) of the path to `survivors`. Here is a first try:
 #' 
-## ----Minard-troops1------------------------------------------------------
+## ----Minard-troops1----------------------------------------------------------------------------------------------------
  ggplot(Minard.troops, aes(long, lat)) +
 		geom_path(aes(size = survivors))
 
@@ -121,7 +119,7 @@ library(dplyr)         # tidy data manipulations
 #' equal on the two axes.
 #' 
 #' 
-## ----Minard-troops2------------------------------------------------------
+## ----Minard-troops2----------------------------------------------------------------------------------------------------
  ggplot(Minard.troops, aes(long, lat)) +
 		geom_path(aes(size = survivors, colour = direction, group = group)) +
     coord_fixed()
@@ -160,7 +158,7 @@ library(dplyr)         # tidy data manipulations
 #' Firefox **Tools -> Web Developer** to get the HEX values from the original graph.
 #' 
 #' 
-## ----Minard-troops3, fig.height=3.5, fig.width=10------------------------
+## ----Minard-troops3, fig.height=3.5, fig.width=10----------------------------------------------------------------------
 breaks <- c(1, 2, 3) * 10^5 
 ggplot(Minard.troops, aes(long, lat)) +
 		geom_path(aes(size = survivors, colour = direction, group = group),
@@ -199,8 +197,8 @@ plot_troops <- last_plot()
 #'     `theme_void()`.
 #' 
 #'     + He will also want to delete the legends for `survivors` and `direction`.  In `ggplot2`, these are
-#'     handled by `guides()`, and we can set them to `FALSE` to suppress them. 
-#'     Try: `plot_troops + guides(color = FALSE, size = FALSE)`
+#'     handled by `guides()`, and we can set them to `"none"` to suppress them. 
+#'     Try: `plot_troops + guides(color = "none", size = "none")`
 #' 
 #' 
 #' 
@@ -214,7 +212,7 @@ plot_troops <- last_plot()
 #' Using the `Minard.cities` data, we can use `geom_point()` to plot city locations, and/or `geom_text()` to plot their
 #' names. If we use both, we have to figure out how to deal with overlap of points & text.
 #' 
-## ----Minard-cities1, fig.height=3.5, fig.width=10------------------------
+## ----Minard-cities1, fig.height=3.5, fig.width=10----------------------------------------------------------------------
 plot_troops + geom_text(data = Minard.cities, aes(label = city), size = 3)
 
 #' 
@@ -222,7 +220,7 @@ plot_troops + geom_text(data = Minard.cities, aes(label = city), size = 3)
 #' (`hjust`, `vjust`) to move the text away from the points, `angle` to print them at an angle, and
 #' `family` to change the font family (e.g., `family = "Times New Roman"`)
 #' 
-## ----Minard-cities2, fig.height=3.5, fig.width=10------------------------
+## ----Minard-cities2, fig.height=3.5, fig.width=10----------------------------------------------------------------------
 plot_troops +	
 	geom_point(data = Minard.cities) +
   geom_text(data = Minard.cities, aes(label = city), vjust = 1.5) 
@@ -232,7 +230,7 @@ plot_troops +
 #' labels so they don't overlap the points. A separate `ggplot`-compatible package, [ggrepel](https://CRAN.R-project.org/package=ggrepel) provides a function, 
 #' `geom_text_repel()` to automatically move the labels away from points and to ensure none of the labels overlap.
 #' 
-## ----Minard-cities3, fig.height=3.5, fig.width=10------------------------
+## ----Minard-cities3, fig.height=3.5, fig.width=10----------------------------------------------------------------------
 if (!require(ggrepel)) {install.packages("ggrepel"); require(ggrepel)}
 library(ggrepel)
 plot_troops +	
@@ -248,7 +246,7 @@ plot_troops_cities <- last_plot()
 #' The second plot in Minard's graphic is the plot of temperature against longitude on the path of the retreat.
 #' Minard first takes a quick look at the data.
 #' 
-## ------------------------------------------------------------------------
+## ----------------------------------------------------------------------------------------------------------------------
 Minard.temp
 
 #' 
@@ -258,7 +256,7 @@ Minard.temp
 #' and used `fig.height=1.2, fig.width=10` as the `knitr` options in this chunk to make this plot have
 #' approximately the right size and shape.
 #' 
-## ----Minard-temp1, fig.height=1.2, fig.width=10--------------------------
+## ----Minard-temp1, fig.height=1.2, fig.width=10------------------------------------------------------------------------
 ggplot(Minard.temp, aes(long, temp)) +
 	geom_path(color="grey", size=1.5) +
 	geom_point(size=2) 
@@ -269,7 +267,7 @@ ggplot(Minard.temp, aes(long, temp)) +
 #' We construct a nicer `label` combining temperature and date as follows:
 #' 
 #' 
-## ------------------------------------------------------------------------
+## ----------------------------------------------------------------------------------------------------------------------
 Minard.temp <- Minard.temp %>%
 	mutate(label = paste0(temp, "° ", date))
 head(Minard.temp$label)
@@ -278,7 +276,7 @@ head(Minard.temp$label)
 #' 
 #' His next version of the plot of temperature used this `label` variable as follows:
 #' 
-## ----Minard-temp2, fig.height=1.2, fig.width=10--------------------------
+## ----Minard-temp2, fig.height=1.2, fig.width=10------------------------------------------------------------------------
 ggplot(Minard.temp, aes(long, temp)) +
 	geom_path(color="grey", size=1.5) +
 	geom_point(size=1) +
@@ -289,7 +287,7 @@ ggplot(Minard.temp, aes(long, temp)) +
 #' clipped, because they are outside the plot frame.
 #' He tries this again, using `geom_text_repel()`:
 #' 
-## ----Minard-temp3, fig.height=1.2, fig.width=10--------------------------
+## ----Minard-temp3, fig.height=1.2, fig.width=10------------------------------------------------------------------------
 ggplot(Minard.temp, aes(long, temp)) +
 	geom_path(color="grey", size=1.5) +
 	geom_point(size=1) +
@@ -298,7 +296,7 @@ ggplot(Minard.temp, aes(long, temp)) +
 #' 
 #' This is not too bad. He can always come back and tweak this later, assuming he saves his R code!
 #' 
-## ----save-plot_temp------------------------------------------------------
+## ----save-plot_temp----------------------------------------------------------------------------------------------------
 plot_temp <- last_plot()
 
 #' 
@@ -309,7 +307,7 @@ plot_temp <- last_plot()
 #' The tool for this is `grid.arrange()` from the [`gridExtra` package](https://CRAN.R-project.org/package=gridExtra).
 #' Here is the first attempt, just placing one plot on top of the other, as is.
 #' 
-## ----arrange1, fig.height=4.7, fig.width=10------------------------------
+## ----arrange1, fig.height=4.7, fig.width=10----------------------------------------------------------------------------
 grid.arrange(plot_troops_cities, plot_temp)
 
 #' 
@@ -323,11 +321,11 @@ grid.arrange(plot_troops_cities, plot_temp)
 #' * Remove the legends for `survivors` and `direction`;
 #' * Get rid of all `ggplot2` theme elements.
 #' 
-## ----troops-cities-fixed, fig.height=3.5, fig.width=10-------------------
+## ----troops-cities-fixed, fig.height=3.5, fig.width=10-----------------------------------------------------------------
 plot_troops_cities +
   coord_cartesian(xlim = c(24, 38)) +
   labs(x = NULL, y = NULL) +
-  guides(color = FALSE, size = FALSE) +
+  guides(color = "none", size = "none") +
   theme_void()
 
 plot_troops_cities_fixed <- last_plot()  
@@ -337,7 +335,7 @@ plot_troops_cities_fixed <- last_plot()
 #' horizontal axis tick marks and labels. The `theme()` function allows all aspects of a graph to be
 #' controlled.
 #' 
-## ----temp-fixed, fig.height=1.2, fig.width=10----------------------------
+## ----temp-fixed, fig.height=1.2, fig.width=10--------------------------------------------------------------------------
 plot_temp + 
   coord_cartesian(xlim = c(24, 38)) +
   labs(x = NULL, y="Temperature") + 
@@ -355,7 +353,7 @@ plot_temp_fixed <- last_plot()
 #' we can again use `grid.arrange()`.  It would be nice to add a border around the entire graphic.
 #' The function `grid.rect()` in the `grid` package does this for us.
 #' 
-## ----arrange2, fig.height=4.7, fig.width=10------------------------------
+## ----arrange2, fig.height=4.7, fig.width=10----------------------------------------------------------------------------
 grid.arrange(plot_troops_cities_fixed, plot_temp_fixed, nrow=2, heights=c(3.5, 1.2))
 grid.rect(width = .99, height = .99, gp = gpar(lwd = 2, col = "gray", fill = NA))
 
@@ -376,7 +374,28 @@ grid.rect(width = .99, height = .99, gp = gpar(lwd = 2, col = "gray", fill = NA)
 #'     for this, but that is quite tedious for lots of text.  Alternatively, find a way to read in this
 #'     graphic and combine it with the image.
 #' 
-#' ![Minard-text](../images/Minard-odt-text.png)
+#' ![Minard-text](Minard-odt-text.png)
+#' 
+#' * **Fancy fonts**: Minard's original and the English translation ([originally from Tufte](https://www.edwardtufte.com/wp-content/uploads/2023/10/minard-napoleons-march-to-moscow-french-english.jpg))
+#' use a fancy script font. To reproduce this aspect, the first task is to try to find a similar font.
+#' Adobe has an [online font tool](https://fonts.adobe.com/fonts/); or, more conveniently,you can search 
+#' [Google Fonts](https://fonts.google.com/), which fonts can be used with the `showtext` package.
+#' I found something close in [Tangerine bold](https://fonts.google.com/specimen/Tangerine)
+#' 
+#' ![Tangerine bold](tangerine-bold.png)
+#' <br>
+#' 
+#' Here's a stub to get you started:
+## ----eval=FALSE--------------------------------------------------------------------------------------------------------
+# library(showtext)
+# font_add_google(name="Tangerine", family="tangerine")
+# showtext_auto()
+# 
+# title <- "Map of the losses over time of the French army during the Russian campaign, 1812-1813.\n
+# Constructed by Charles Joseph Minard, Inspector General of Public Works (retired).
+# Paris, 20 November 1869."
+
+#' 
 #' 
 #' * **Add a map background**:  Minard drew some map elements, largely rivers, on his graphic to provide more geographic context. The package [ggmap](https://CRAN.R-project.org/package=ggmap) works nicely with `ggplot2` and provides tools for getting map data from various web sources. Andrew Heiss, [Exploring Minard's 1812 plot with ggplot2](https://github.com/andrewheiss/fancy-minard) shows how to do this.
 #' 

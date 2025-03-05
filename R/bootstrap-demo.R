@@ -8,7 +8,8 @@
 library(ggplot2)
 library(dplyr)
 library(gganimate)
-library(ungeviz)       # devtools::install_github("wilkelab/ungeviz")
+if (!require(ungeviz)) devtools::install_github("wilkelab/ungeviz")
+library(ungeviz)       
 
 # create a function to generate 3 bootstrap samples of its argument
 bs <- bootstrapper(3)

@@ -30,7 +30,8 @@ colorize <- function(x, color) {
 
 
 <center>
-<img src="images/hex-logos/psy6135-hex.png" width="150px"/>
+<img src="images/hex-logos/psy6135-hex.png" width="140px" style="margin-left: 2em;"/>
+<img src="images/icons/psy6135-qr-code.png" width="100px"/>
 </center>
 
 ## Course Description 
