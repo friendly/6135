@@ -1,15 +1,15 @@
+#' ---
+#' title: Bootstrap resampling and tidy regression models
+#' ---
 
-# Bootstrap resampling and tidy regression models
-# From: https://www.tidymodels.org/learn/statistics/bootstrap/
+# Originally from: https://www.tidymodels.org/learn/statistics/bootstrap/
 
 library(tidymodels)
 library(ggplot2)
 library(glue)
 
-#library(nls2)
 
 # set relative path for images
-#path <- here()
 setwd(here::here("images", "bootstrap"))
 
 
@@ -30,8 +30,9 @@ plt +
 ggsave("boot-mtcars2a.png", height = 5, width = 5)
 
 
-#   
-nlsfit <- nls(mpg ~ k / wt + b, mtcars, start = list(k = 1, b = 0))
+# Use nls() to fit the inverse model  
+nlsfit <- nls(mpg ~ k / wt + b, mtcars, 
+              start = list(k = 1, b = 0))
 summary(nlsfit)
 #> 
 #> Formula: mpg ~ k/wt + b
@@ -48,13 +49,14 @@ summary(nlsfit)
 #> Number of iterations to convergence: 1 
 #> Achieved convergence tolerance: 2.88e-08
 
-#' Plot predicted curve
+#' ## Plot predicted curve
 
 coeflab <- paste("Coefficients:\n",
                   "k =", round(coef(nlsfit)[1], 1), "\n",
                   "b =", round(coef(nlsfit)[2], 1))
 plt +
-    geom_line(aes(y = predict(nlsfit)), lwd=2, color="red") +
+    geom_line(aes(y = predict(nlsfit)), 
+              lwd=2, color="red") +
     annotate("text", x=5, y = 30, label= coeflab, size=5) 
 ggsave("boot-mtcars3a.png", height = 5, width = 5)
 
@@ -77,7 +79,7 @@ nlfun.parametric = function(b,k){
 
 # define a parametric stat_function for plotting
 fun.plot.parametric = function(b, k) {
-  stat_function(fun=nlfun.parametric(b, k)) 
+  stat_function(fun = nlfun.parametric(b, k)) 
   }
 
 # one parameter b=seq(0, 8, 2)
@@ -91,23 +93,29 @@ pltb
 
 curlab <- data.frame(x=6, b = bvals, y = nlfun(6, bvals, 50))
 
-pltb + geom_text(data = curlab, aes(x=x, y=y, label=b), size = 4, hjust=-.5) +
+pltb + geom_text(data = curlab, 
+                 aes(x=x, y=y, label=b), 
+                 size = 4, hjust=-.5) +
   annotate("text", x=6, y=20, label="b", size = 6 )
 ggsave("nlsfun-b.png", height = 5, width = 5)
 
 #--------------
-# one parameter k=seq(0, 8, 2)
+# Vary one parameter k=seq(30, 60, by = 10)
 kvals <- seq(30, 60, by = 10)
 fun.plot.family=sapply(kvals, 
                        function(k){k=k; fun.plot.parametric(4, k)})
 
 pltk = ggplot(data.frame(x = c(1, 6)), aes(x))
-for(curve in fun.plot.family) { pltk = pltk + curve}
+for(curve in fun.plot.family) {
+  pltk = pltk + curve
+  }
 pltk
 
 curlab <- data.frame(x=1, k = kvals, y = nlfun(1, 4, kvals))
 
-pltk + geom_text(data = curlab, aes(x=x, y=y, label=k), size = 4, hjust=.5) +
+pltk + geom_text(data = curlab, 
+                 aes(x=x, y=y, label=k), 
+                 size = 4, hjust=.5) +
   annotate("text", x=1, y=25, label="k", size = 6 )
 ggsave("nlsfun-k.png", height = 5, width = 5)
 
@@ -137,7 +145,7 @@ ggplot(data.frame(x = 0:1), aes(x)) +
 #' ## bootstrap
 library(rsample)
 
-# We can use the bootstraps() function in the rsample package to sample bootstrap replications. First, we construct 2000 bootstrap replicates of the data, each of which has been randomly sampled with replacement. The resulting object is an rset, which is a data frame with a column of rsplit objects.
+#' We can use the bootstraps() function in the rsample package to sample bootstrap replications. First, we construct 2000 bootstrap replicates of the data, each of which has been randomly sampled with replacement. The resulting object is an rset, which is a data frame with a column of rsplit objects.
 
 set.seed(27)
 boots <- bootstraps(mtcars, times = 500)
@@ -160,7 +168,7 @@ boot_coefs <-
   boot_models %>% 
   unnest(coef_info)
 
-#We can then calculate confidence intervals (using what is called the percentile method):
+# Calculate confidence intervals (using what is called the percentile method):
 
 pct_intervals <- int_pctl(boot_models, coef_info)
 
@@ -171,7 +179,7 @@ ggplot(boot_coefs, aes(estimate)) +
                  bins = 30, fill="pink", color="gray") +
   geom_density(size = 1.2) +
   facet_wrap( ~ term, scales = "free") +
-  geom_vline(aes(xintercept = .estimate), data = pct_intervals, col = "blue", size=1) +
+  geom_vline(aes(xintercept = .estimate), data = pct_intervals, col = "blue", linewidth=1) +
   geom_vline(aes(xintercept = .lower),    data = pct_intervals, col = "blue") +
   geom_vline(aes(xintercept = .upper),    data = pct_intervals, col = "blue")
 
@@ -218,16 +226,16 @@ plt_bk2 <-
 plt_bk +
     geom_errorbar(data = mean_se,
                aes(ymin = k - sk, 
-                   ymax = k + sk, x = b), width=0.4, size=2) + 
+                   ymax = k + sk, x = b), width=0.4, linewidth=2) + 
     geom_errorbarh(data = mean_se,
                aes(xmin = b - sb, 
-                   xmax = b + sb, y = k), size=2) + 
+                   xmax = b + sb, y = k), linewidth=2) + 
     geom_errorbar(data = mean_se,
                aes(ymin = k - 2*sk, 
-                   ymax = k + 2*sk, x = b), width=0.6, size=1, color=gray(.5)) + 
+                   ymax = k + 2*sk, x = b), width=0.6, linewidth=1, color=gray(.5)) + 
     geom_errorbarh(data = mean_se,
                aes(xmin = b - 2*sb, 
-                   xmax = b + 2*sb, y = k), size=1, color = gray(.5)) 
+                   xmax = b + 2*sb, y = k), linewidth=1, color = gray(.5)) 
 plt_bk2  
 ggsave("boot-mtcars-coef2.png", height = 5, width = 5)
 

@@ -32,6 +32,7 @@ klippy::klippy()
 What would C. J. Minard have done if he had access to `R` and `ggplot2`? The goal of this excercise is to 
 reproduce, to some reasonable approximation, Minard's famous graphic of Napoleon's March on Moscow.
 Along the way, we'll learn some techniques for developing plots using `ggplot2`.
+But, you might also want to read Paul Kahn's [Napoleon, Trump, and the Best Statistical Graphic Ever Drawn](https://nightingaledvs.com/napoleon-trump-best-statistical-graphic/).
 
 ![Minard's March on Moscow graphic](../images/Minard-march.png){width="70%"}
 
@@ -48,7 +49,7 @@ This graph looks very complicated.  How should we get started?
 
 The first step is to **understand the available data**.
 
-The data are contained in three data.frames in the [HistData]( https://CRAN.R-project.org/package=HistData) package.
+Because there are several sources of information here, the data are contained in **three** data.frames in the [HistData]( https://CRAN.R-project.org/package=HistData) package.
 Let's load each one and examine its structure.
 
 #### Troops: `Minard.troops`
@@ -90,6 +91,18 @@ The first step is to try to decompose the graph in terms of the components to be
 
     + A **path** connecting the (x, y) coordinates, of width proportional to `survivors`
     + **Text** labels on the map corresponding to the cities in `Minard.cities`
+
+At this point, it is useful to make a table of the aesthetics that are used in these plots:
+
+
+|Plot  | Information                           | Aesthetic       |
+|:-----|:--------------------------------------|:----------------|
+| 1,2  | Longitude of army (`long`)            | x-axis          |
+| 1    | Latitude of army (`lat`)              | y-axis          |
+| 1    | Size of army (`survivors`)            | Width of path   |
+| 1    | `direction` of army's movement        | Color of path   |
+| 2    | `date` of points along retreat path   | Text label      |
+| 2    | Temperature (`temp`) during retreat   | y-axis          |
 
 ### Plotting the troops data
 
@@ -320,7 +333,9 @@ plot_temp <- last_plot()
 ## Assembling the graphic
 
 OK, the pieces are done, and it is time to try to paste them together into a single graphic.
-The tool for this is `grid.arrange()` from the [`gridExtra` package](https://CRAN.R-project.org/package=gridExtra).
+The tool for this is `grid.arrange()` from the [`gridExtra` package](https://CRAN.R-project.org/package=gridExtra). If I was re-doing this today,
+I'd use the [`patchwork` package](https://patchwork.data-imaginist.com/).
+
 Here is the first attempt, just placing one plot on top of the other, as is.
 
 ```{r arrange1, fig.height=4.7, fig.width=10}

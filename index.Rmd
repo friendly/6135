@@ -338,6 +338,8 @@ the gapminder data with `ggplot2`
 - **Padilla, Kay & Hullman (2020)**, [Uncertainty Visualization](papers/Uncertainty_Visualization_Padilla_Kay_Hullman_2020.pdf)
 - **Claus Wilke** [Chapter 16 from _Fundamentals of Data Visualization_](https://clauswilke.com/dataviz/visualizing-uncertainty.html)
 - Paulina Levontin and others [Visualising Uncertainty: A short introduction](https://www.researchgate.net/publication/337289688_Visualising_Uncertainty_A_short_introduction)
+- Check out [Additional resources for Session 9](resources.html#week9)
+
 
 ## Data Journalism {#data-journalism}
 

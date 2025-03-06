@@ -492,7 +492,13 @@ additional packages that extend ggplot2 with new geoms, themes, data types, ...
 
 * David Weiskopf [Uncertainty Visualization: Concepts, Methods, and Applications in Biological Data Visualization](https://www.frontiersin.org/articles/10.3389/fbinf.2022.793819/full)
 
-* [Cartography and Visualization: The Visualization of Uncertainty](https://www.e-education.psu.edu/geog486/node/693)
+* [Cartography and Visualization: The Visualization of Uncertainty](https://www.e-education.psu.edu/geog486/node/906)
+
+* [Visualizing Uncertainty in Sets](https://arxiv.org/abs/2302.11575)
+
+* Nathan Yau [Visualizing the Uncertainty in Data](https://flowingdata.com/2018/01/08/visualizing-the-uncertainty-in-data/)
+
+* Matthey Kay [Frequentist uncertainty visualization](https://mjskay.github.io/ggdist/articles/freq-uncertainty-vis.html). Vignette from the [ggdist package](https://mjskay.github.io/ggdist/).
 
 ### Session 10: Data Journalism {#week10}
 

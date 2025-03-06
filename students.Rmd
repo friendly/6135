@@ -42,6 +42,8 @@ Find one example of a data graph that attempts to tell an interesting story of a
 - Ashley Siegel & Sami Harb: [Graph design and interpretation: Cultural considerations & Health Risk Communication](students/2025/MiniPres/Siegel_Harb_Presentation_6135.pptx)
 - William Fisher: [ggplot2 and efficiently generating several plots 
 ](students/2025/MiniPres/WillFisher-MiniPresentation.pptx)
+- Jessica Newman and Danika Wagner [ggplot2: the untold story](students/2025/MiniPres/Wagner-Jessica Newman-ggplot.pptx)
+- Victoria Celio & Vanessa Basurto [Interactive Visualizations](https://www.canva.com/design/DAGfBujntkA/fuqCfF6TiF8jt6p9--EUJg)
 
 ## 2024 {#2024}
 
