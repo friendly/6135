@@ -43,7 +43,7 @@ Find one example of a data graph that attempts to tell an interesting story of a
 - William Fisher: [ggplot2 and efficiently generating several plots 
 ](students/2025/MiniPres/WillFisher-MiniPresentation.pptx)
 - Jessica Newman and Danika Wagner [ggplot2: the untold story](students/2025/MiniPres/Wagner-Jessica Newman-ggplot.pptx)
-- Victoria Celio & Vanessa Basurto [Interactive Visualizations](https://www.canva.com/design/DAGfBujntkA/fuqCfF6TiF8jt6p9--EUJg)
+- Victoria Celio & Vanessa Basurto [Interactive Visualizations](https://www.canva.com/design/DAGfBujntkA/fuqCfF6TiF8jt6p9--EUJg). Also: [A Shiny Example](https://fohpsyc.shinyapps.io/InteractiveVizDemo/).
 
 ## 2024 {#2024}
 

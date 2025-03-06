@@ -286,9 +286,11 @@ Also covers data modeling (regression), hypothesis testing, etc.
 
 ![](images/headers/ggplot-further.png)
 
-#### <img src="images/icons/PDF_icon.png" height=20> **Lecture notes**:  [1up PDF](lectures/ggplot-further.pdf) || [4up PDF](lectures/ggplot-further-2x2.pdf)
+#### <img src="images/icons/PDF_icon.png" height=20> **Lecture notes**:  [1up PDF](lectures/ggplot-further.pdf) || [4up PDF](lectures/ggplot-further-2x2.pdf) || [PPT](lectures/ggplot-further.pptx)
 - **Bootstrapping**   [1up PDF](lectures/bootstrap.pdf) || [4up PDF](lectures/bootstrap-2x2.pdf)
-- **tutorial**: [Minard meets ggplot](tutorials/Minard.html); [Rmarkdown source](tutorials/Minard.Rmd); [R script](tutorials/Minard.R)
+- **tutorials**: 
+  * [ggplot2 tutorial: gapminder data](tutorials/gapminder.html) || [Rmarkdown source](tutorials/gapminder.Rmd) || [R script](tutorials/gapminder.R)
+  * [Minard meets ggplot](tutorials/Minard.html) || [Rmarkdown source](tutorials/Minard.Rmd) || [R script](tutorials/Minard.R)
 
 #### <img src="images/icons/list.png" height=20> Topics:
 
