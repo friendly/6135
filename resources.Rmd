@@ -498,7 +498,10 @@ additional packages that extend ggplot2 with new geoms, themes, data types, ...
 
 * Nathan Yau [Visualizing the Uncertainty in Data](https://flowingdata.com/2018/01/08/visualizing-the-uncertainty-in-data/)
 
-* Matthey Kay [Frequentist uncertainty visualization](https://mjskay.github.io/ggdist/articles/freq-uncertainty-vis.html). Vignette from the [ggdist package](https://mjskay.github.io/ggdist/).
+* Matthew Kay [Frequentist uncertainty visualization](https://mjskay.github.io/ggdist/articles/freq-uncertainty-vis.html). Vignette from the [ggdist package](https://mjskay.github.io/ggdist/).
+
+* A great collection of [uncertainty examples](https://github.com/mjskay/uncertainty-examples)
+by Matthew Kay using the [ggdist package](https://mjskay.github.io/ggdist/).
 
 ### Session 10: Data Journalism {#week10}
 
