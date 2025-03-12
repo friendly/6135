@@ -148,7 +148,9 @@ library(rsample)
 #' We can use the bootstraps() function in the rsample package to sample bootstrap replications. First, we construct 2000 bootstrap replicates of the data, each of which has been randomly sampled with replacement. The resulting object is an rset, which is a data frame with a column of rsplit objects.
 
 set.seed(27)
-boots <- bootstraps(mtcars, times = 500)
+boots <- bootstraps(mtcars, 
+                    times = 500,
+                    apparent = TRUE)
 boots
 
 # Let?s create a helper function to fit an nls() model on each bootstrap sample, and then use purrr::map() to apply this function to all the bootstrap samples at once. Similarly, we create a column of tidy coefficient information by unnesting.
@@ -166,11 +168,13 @@ boot_models <-
 # The unnested coefficient information contains a summary of each replication combined in a single data frame:
 boot_coefs <- 
   boot_models %>% 
-  unnest(coef_info)
+  unnest(coef_info) |> print()
+
 
 # Calculate confidence intervals (using what is called the percentile method):
 
-pct_intervals <- int_pctl(boot_models, coef_info)
+pct_intervals <- int_pctl(boot_models, coef_info) |>
+  print()
 
 
 # distribution of coefficients
@@ -184,6 +188,10 @@ ggplot(boot_coefs, aes(estimate)) +
   geom_vline(aes(xintercept = .upper),    data = pct_intervals, col = "blue")
 
 ggsave("boot-mtcars-coef.png", height = 5, width = 7)
+
+# Bias-corrected (BCa) intervals
+bca_intervals <- int_bca(boot_models, coef_info) |>
+  print()
 
 #' ## fancy scatterplot of coefs
 

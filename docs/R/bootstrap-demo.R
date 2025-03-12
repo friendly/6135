@@ -12,6 +12,7 @@ if (!require(ungeviz)) devtools::install_github("wilkelab/ungeviz")
 library(ungeviz)       
 
 # create a function to generate 3 bootstrap samples of its argument
+set.seed(42)
 bs <- bootstrapper(3)
 (draws <- bs(data.frame(letter = LETTERS[1:4])))
 

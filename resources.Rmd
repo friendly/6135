@@ -503,6 +503,8 @@ additional packages that extend ggplot2 with new geoms, themes, data types, ...
 * A great collection of [uncertainty examples](https://github.com/mjskay/uncertainty-examples)
 by Matthew Kay using the [ggdist package](https://mjskay.github.io/ggdist/).
 
+* [Uncertainty Visualization Collective](https://mucollective.co/uncertainty_collection/). A currated collection of different typoes of uncertainty visualizations.
+
 ### Session 10: Data Journalism {#week10}
 
 ![](images/headers/gun-deaths-banner.png)
@@ -631,6 +633,8 @@ items <- sub("^\\d+\\. ", "", items, perl=TRUE)
 
   * Somewhat related: Data **sonification & haptics**-- using sound and other modalities, e.g., [Loud Numbers](https://www.loudnumbers.net/); the [Data Sonification Archive](https://sonification.design/); Google's [TwoTone](https://twotone.io/), a free open-source web app to turn data into music
   * [Erie: A Declarative Grammar for Data Sonification](https://arxiv.org/abs/2402.00156). Describes how a sonification maps data variables to sound variables like time, pitch, and volume. E.g., an auditory histogram can map bins to time and the count to pitch.
+
+* **Social / Equity** [Do No Harm: Applying Equity Awarenes in Data Visualization](https://www.urban.org/sites/default/files/publication/104296/do-no-harm-guide.pdf)
 
 * **Other dataviz & graphic software**: 
   + [Observable](https://observablehq.com/), a dynamic, extensible graphics system built on [D3](https://d3js.org/), a free, open-source JavaScript library for visualizing data
