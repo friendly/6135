@@ -74,9 +74,11 @@ This course will examine a variety of issues related to data visualization from 
 We will consider visualization methods for a wide range of types of data from the points of view of both the viewer and designer/producer of graphic displays. 
 
 ## Evaluation {#evaluation}
+<!--
 <img src="images/icons/construction.png" height=20>
 The description below reflects the course when it was last taught in 2023.
 The components and weights for evaluation are still being considered, but are likely to remain the same.
+-->
 
 Grades will be based on the following components:
 
@@ -108,7 +110,7 @@ to the topic. (~ 5 min.).  I will circulate a sign-up sheet for this in the firs
     <!-- We would prefer to do this offline, in advance --- meaning you can record an audio/video of your presentation in advance and upload to eClass or share a link. In class discussion can then be abbreviated. -->
     <!-- Those who do post their presentation in advance will be given extra credit. -->
     
-* Evaluation of the presentation will be done by peer review as well as by the instructor. A rating form will provided.
+* Evaluation of the presentation will be done by peer review as well as by the instructor. An online rating form will provided.
 
 
 ### Research proposal (40%) {#proposal}
@@ -123,6 +125,23 @@ to the topic. (~ 5 min.).  I will circulate a sign-up sheet for this in the firs
   work you've done for other courses.
   <!-- You are permitted to do this work with one other person.  -->
   This will be due at the end of the exam period, ~ April 25.
+  
+  **Format**: Whatever you do, please _don't use strict APA format_ (double-spaced, figures at the end) --- meant for copy editors, not for readers. (I hate it so much, I refuse to review journal papers in this format.)
+  
+  - Single-spaced is fine, with figures inline, or even a two-column format as in a conference paper. For example, 
+    + the IEEE VIZ conference provides [a two-column example](students/tvcg-journal-word/template_journal_word_no_teaser.pdf) with this [Word template](students/tvcg-journal-word/template_journal_word_no_teaser.docx). 
+    + there is also an [example with a teaser image](students/tvcg-journal-word/template_journal_word_teaser.pdf), a sort of graphical abstract, with [this template](students/tvcg-journal-word/template_journal_word_teaser.docx)
+    + If you choose to write in Rmarkdown (`.Rmd`), the [rticles package](https://cran.r-project.org/package=rticles) provides a suite of custom R Markdown LaTeX formats and templates for various formats. To use one, select
+    `File -> New File -> R Markdown... -> From Template` and choose something reasonable. See the [Getting Started](https://pkgs.rstudio.com/rticles/articles/rticles.html) and their [Examples of journal templates](https://pkgs.rstudio.com/rticles/articles/examples.html).
+  - Word or PDF is the preferred output format, but you are free to submit something in HTML if you want to use interactivity or animation. 
+  - Pay attention to the preparation of your figures and their figure captions: strive for clarity. This is a course on data visualization and communication after all.
+  - **Citations & References**: I'm not that picky, but I prefer `author-year` citations like [Friendly & Claude (2025)](https://nightingaledvs.com/what-does-ai-understand-about-a-graph/) rather than a numbered list `[1]`. The reference for this would be something like:
+
+> Friendly, M., & Claude, H. (2025). What Does AI Understand About a Graph?, _Nightingale_ [online].  https://nightingaledvs.com/what-does-ai-understand-about-a-graph/
+
+
+  + In the References, please try to include URI links or DOIs where available.
+  
 
 ### Re-use policy
 
