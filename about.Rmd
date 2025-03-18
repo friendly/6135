@@ -2,12 +2,19 @@
 title: "About This Course"
 output:
   html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: yes
     css: styles.css
     includes:
       after_body: footer.html
       in_header: header.html
 ---
 
+```{r tabfig, echo=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+source("R/tabfig.R")
+```
 
 ## Instructor
 
@@ -122,7 +129,7 @@ to the topic. (~ 5 min.).  I will circulate a sign-up sheet for this in the firs
   + a something leading to the development or implementation of a graphical method. 
   
   The topic should not be identical to that of your presentation and should not be just a repetition of
-  work you've done for other courses.
+  work you've done for other courses. It can be related or similar, but should involve new work.
   <!-- You are permitted to do this work with one other person.  -->
   This will be due at the end of the exam period, ~ April 25.
   
@@ -140,7 +147,7 @@ to the topic. (~ 5 min.).  I will circulate a sign-up sheet for this in the firs
 > Friendly, M., & Claude, H. (2025). What Does AI Understand About a Graph?, _Nightingale_ [online].  https://nightingaledvs.com/what-does-ai-understand-about-a-graph/
 
 
-  + In the References, please try to include URI links or DOIs where available.
++ In the References, please try to include URI links or DOIs where available.
   
 
 ### Re-use policy
