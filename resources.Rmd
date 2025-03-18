@@ -513,6 +513,8 @@ by Matthew Kay using the [ggdist package](https://mjskay.github.io/ggdist/).
 A collection of tools to help journalists acquire, analyze, visualize, map, and otherwise make use of
 data in reporting.
 
+* [Awesome data journalism](https://jwyg.github.io/awesome-data-journalism/). A curated list of publicly available, free/open source and open access resources for learning and doing data journalism. 
+
 * [Journalism in the Age of Data](http://datajournalism.stanford.edu/index.html)
 A very interesting video report on data as a storytelling medium – a bit outdated, but still holds some interesting content.
 (There is an annotated version, which requires Flashplayer)
@@ -528,6 +530,9 @@ See his book: [The Signal and the Noise: Why So Many Predictions Fail – but So
 
 * [How Music Taste Evolved](https://pudding.cool/2017/03/music-history/) (by the Pudding).
 Borzu: In my opinion, this project is one of the most engaging dataviz projects in terms of storytelling. Enjoy!
+
+* [Data Journalism With R and the Tidyverse](https://mattwaite.github.io/datajournalism/).
+An online book covering data capture, cleaning, analysis and reporting from the perspective of data journalism.
 
 
 * Hans Rosling: [200 years in 4 minutes](https://www.youtube.com/watch?v=Z8t4k0Q8e8Y) – another example/approach in storytelling with data
