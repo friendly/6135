@@ -46,6 +46,8 @@ Find one example of a data graph that attempts to tell an interesting story of a
 - Victoria Celio & Vanessa Basurto [Interactive Visualizations](https://www.canva.com/design/DAGfBujntkA/fuqCfF6TiF8jt6p9--EUJg/edit). Also: [A Shiny Example](https://fohpsyc.shinyapps.io/InteractiveVizDemo/).
 - Mina Aryaie & Sophie Li [Visualizing Uncertainty](students/2025/MiniPres/Mina_Sophie_Uncertinty Visualization.pdf)
 
+### Class presentations  <img src="images/icons/teacher.png" height=30> {#2025-presentations}
+
 ## 2024 {#2024}
 
 <center>
