@@ -1,4 +1,8 @@
-# Data Journalism Quiz 💬 
+---
+title: "Data Journalism Quiz 💬"
+output: html_document
+---
+
 
 These non-graded questions are designed to test your understanding of the materials presented in the [Data Journalism lecture](https://friendly.github.io/6135/lectures/DataJournalism.pdf).
 Thy cover a broad range of topics from the presentation, including:
