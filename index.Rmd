@@ -351,7 +351,7 @@ the gapminder data with `ggplot2`
 - **Guest lecture**: [Jim Rankin](https://www.thestar.com/authors.rankin_jim.html), *Toronto Star*. Jim's [lecture slides: Race, Crime & Policing](lectures/Rankin-Race-Crime-2002-2019PPT.pdf) (A big file)
 -->
 
-#### <img src="images/icons/PDF_icon.png" height=20> Lecture notes:  [1up PDF](lectures/DataJournalism.pdf) || [4up PDF](lectures/DataJournalism-2x2.pdf)
+#### <img src="images/icons/PDF_icon.png" height=20> Lecture notes:  [1up PDF](lectures/DataJournalism.pdf) || [4up PDF](lectures/DataJournalism-2x2.pdf) || [PPT](lectures/DataJournalism.pptx)
 
 #### <img src="images/icons/quiz.png" height=20> Quiz: [data journalism](quiz/data-journalism.html)
 
