@@ -1,0 +1,173 @@
+---
+title: "Human Factors in Data Visualization Quiz"
+output: 
+  learnr::tutorial:
+  progressive: true
+allow_skip: true
+runtime: shiny_prerendered
+---
+  
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Human Factors in Data Visualization Quiz
+
+Data visualization is a powerful tool for understanding and communicating information, but its effectiveness is highly dependent on human perceptual and cognitive capabilities. This quiz covers key concepts from human factors research in data visualization, including:
+  
+  - **Perceptual accuracy**: How different visual encodings (position, length, angle, area) affect our ability to make accurate judgments about data.
+- **Cognitive processes**: The mental steps and operations involved in extracting information from graphs and visualizations.
+- **Experimental methods**: How researchers study visualization effectiveness through psychophysical methods, eye-tracking, and controlled experiments.
+- **Visual inference**: The relationship between statistical inference and visual data interpretation.
+- **Memory and perception**: How our memory of visual information differs from direct perception.
+- **Accessibility**: Considerations for making visualizations accessible to diverse users, including those with visual impairments.
+
+
+This quiz will test your understanding of key concepts related to human factors research in data visualization as presented in the lecture.
+
+## Question 1
+
+```{r q1, echo=FALSE}
+question("According to Cleveland & McGill's research on elementary perceptual tasks, which of the following chart types produces the most accurate judgments?",
+         answer("Pie charts (angle judgments)"),
+         answer("Stacked bar charts (length judgments)"),
+         answer("Adjacent bar charts (position judgments)", correct = TRUE),
+         answer("Bubble charts (area judgments)"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE,
+         message = "Cleveland & McGill's experiments showed that position-based judgments (as in adjacent bar charts) are more accurate than length, angle, or area judgments."
+)
+```
+
+## Question 2
+
+```{r q2, echo=FALSE}
+question("What is described as a key limitation of iconic (sensory) memory in the context of visualization?",
+         answer("It lasts too long"),
+         answer("It's too limited in capacity"),
+         answer("It's easily fooled", correct = TRUE),
+         answer("It cannot process color information"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE,
+         message = "The lecture notes indicate that iconic (sensory) memory is pre-attentive and automatic, but can be 'easily fooled,' which is a key limitation when designing visualizations."
+)
+```
+
+## Question 3
+
+```{r q3, echo=FALSE}
+question("In Stevens' Power Law, what does the exponent 'p' represent in the context of graph perception?",
+         answer("The physical intensity of the stimulus"),
+         answer("The multiplier effect of a change in intensity", correct = TRUE),
+         answer("The perceived sensation"),
+         answer("The logarithm of the stimulus"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE,
+         message = "Stevens' Power Law states that S ∝ Intensity^p, where p is the multiplier effect of a multiple of intensity. When graphed in log-log form, p represents the slope of the line."
+)
+```
+
+## Question 4
+
+```{r q4, echo=FALSE}
+question("According to Simkin & Hastie's research, which of the following is NOT one of the proposed elementary mental processes involved in graph comprehension?",
+         answer("Anchoring"),
+         answer("Scanning"),
+         answer("Projection"),
+         answer("Illumination", correct = TRUE),
+         allow_retry = TRUE,
+         random_answer_order = TRUE,
+         message = "Simkin & Hastie proposed five elementary mental processes: anchoring, scanning, projection, superimposition, and detection. Illumination is not one of them."
+)
+```
+
+## Question 5
+
+```{r q5, echo=FALSE}
+question("What is a key issue with Cleveland & McGill's original studies that was addressed by later researchers like Simkin & Hastie?",
+         answer("They only used paper-and-pencil tasks"),
+         answer("They only measured accuracy but not reaction time", correct = TRUE),
+         answer("They didn't use statistical tests"),
+         answer("They only tested expert users"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE,
+         message = "The lecture notes mention that a problem with Cleveland & McGill's study was 'Assessing accuracy-only omits consideration of speed of judgment' and that later researchers measured both accuracy and reaction time."
+)
+```
+
+## Question 6
+
+```{r q6, echo=FALSE}
+question("In the 'Lineup protocol' for visual inference, what is the statistical significance level (p-value) equivalent when using 19 decoys?",
+         answer("p = 0.01"),
+         answer("p = 0.05", correct = TRUE),
+         answer("p = 0.10"),
+         answer("p = 0.20"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE,
+         message = "With n=19 decoys plus 1 real dataset, the chance of correctly identifying the real data by random guessing is 1/20 = 0.05, which is equivalent to the common statistical significance level of p = 0.05."
+)
+```
+
+## Question 7
+
+```{r q7, echo=FALSE}
+question("According to Kerst & Howard's research on magnitude estimation and memory, how does remembered area compare to directly perceived area in terms of accuracy?",
+         answer("Remembered area is more accurate than perceived area"),
+         answer("Remembered area is equally accurate as perceived area"),
+         answer("Remembered area is less accurate than perceived area", correct = TRUE),
+         answer("There is no relationship between remembered and perceived area"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE,
+         message = "Kerst & Howard proposed that if the power law exponent for memory is p' and for perception is p, then the exponent for memory of perception is p×p'. For area (where p ≈ 0.7), remembered area would be even less accurate than perceived area."
+)
+```
+
+## Question 8
+
+```{r q8, echo=FALSE}
+question("What did Hollands & Spence's experiments reveal about pie charts versus divided bar charts?",
+         answer("Pie charts are always superior to divided bars for all tasks"),
+         answer("Divided bars are always superior to pie charts for all tasks"),
+         answer("Divided bars are better for discrimination tasks, but pie charts may be better for proportion judgments", correct = TRUE),
+         answer("There is no significant difference between these chart types"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE,
+         message = "According to the slides, Hollands & Spence found that for discrimination tasks (which is larger?), divided bars were better than pies, but for proportion judgments (what percent is this of the total?), pie charts performed better."
+)
+```
+
+## Question 9
+
+```{r q9, echo=FALSE}
+question("What is one of the key methods used in human factors research to record where people look when viewing graphic displays?",
+         answer("fMRI scanning"),
+         answer("Eye-tracking", correct = TRUE),
+         answer("Motion capture"),
+         answer("EEG recording"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE,
+         message = "Eye-tracking hardware and software allow researchers to record gaze fixation points over time, showing where people look when viewing graphic displays. This is discussed extensively in the lecture slides."
+)
+```
+
+## Question 10
+
+```{r q10, echo=FALSE}
+question("What did Yang et al.'s study show about truncated bar charts?",
+         answer("Truncation has no effect on viewer judgments"),
+         answer("Truncation helps viewers make more accurate comparisons"),
+         answer("Truncation persistently misleads viewers, even when they are warned", correct = TRUE),
+         answer("Truncation only affects novice users, not experts"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE,
+         message = "Yang et al.'s study showed that truncating bar graphs persistently misleads viewers. Even when subjects were explicitly warned that some graphs might be misleading (Study 2), they still perceived differences as more extreme in truncated graphs."
+)
+```
+
+## Quiz Complete
+
+Congratulations on completing the quiz on Human Factors in Data Visualization!
+  
+  You can review your answers and explanations by navigating back through the questions.

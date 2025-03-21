@@ -14,7 +14,7 @@
 <meta name="allow-skip" content="false" />
 <meta name="learnr-version-prerender" content="0.11.5" />
 
-<title>Data Journalism</title>
+<title>Visualizing Uncertainty Quiz</title>
 
 <!-- header-includes START -->
 <!-- HEAD_CONTENT -->
@@ -109,23 +109,31 @@ if (window.hljs) {
 
 <article class="topics" id="learnr-tutorial-content">
 
-<div id="section-data-journalism-lecture-quiz" class="section level1">
-<h1>Data Journalism Lecture Quiz</h1>
-<p>These non-graded questions are designed to test your understanding of
-the materials presented in the <a
-href="https://friendly.github.io/6135/lectures/DataJournalism.pdf">Data
-Journalism lecture</a>. They cover a broad range of topics from the
-presentation, including:</p>
+<div id="section-introduction" class="section level2">
+<h2>Introduction</h2>
+<p>This quiz is designed to test your understanding of concepts and
+techniques related to visualizing uncertainty in data, based on the
+lecture “Visualizing Uncertainty.” The quiz covers a range of important
+topics, including:</p>
 <ul>
-<li>Core components and techniques of data journalism</li>
-<li>Historical examples and landmark projects</li>
-<li>Key figures who advanced the field</li>
-<li>Tools and technologies used by data journalists</li>
-<li>Modern storytelling methods and emerging approaches</li>
+<li>The nature and sources of uncertainty in statistics and
+visualization</li>
+<li>Different methods for visualizing distributions (histograms, density
+plots, boxplots, etc.)</li>
+<li>Advanced visualization techniques like violin plots, raincloud
+plots, and hypothetical outcome plots</li>
+<li>Error bars and confidence intervals (frequentist vs. Bayesian
+approaches)</li>
+<li>Uncertainty in fitted curves and models</li>
+<li>Cartographic uncertainty and geographic visualization
+techniques</li>
+<li>Best practices for conveying uncertainty in data analysis and
+presentation</li>
 </ul>
-<p>(This was actually an experiment. I asked <a
-href="https://www.anthropic.com/claude/sonnet">Claude 3.7 Sonnet</a> to
-read the lecture slides and come up with 10 questions.)</p>
+<p>Understanding how to properly visualize uncertainty is critical for
+effective data communication and preventing misinterpretation of
+statistical results.</p>
+</div>
 <div id="section-question-1" class="section level2">
 <h2>Question 1</h2>
 <div class="panel panel-default tutorial-question-container">
@@ -262,26 +270,24 @@ session$onSessionEnded(function() {
 </script>
  
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q1", question = structure("What are the <strong>three main aspects<\u002fstrong> of Data Driven Journalism (DDJ) as described in the presentation?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_e055219", 
-    option = "Crowdsourcing, satellite imagery, and dynamic updating", 
-    value = "Crowdsourcing, satellite imagery, and dynamic updating", 
-    label = structure("Crowdsourcing, satellite imagery, and dynamic updating", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q1", question = structure("What are the four main sources of uncertainty in statistics according to the lecture?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_524ff71", 
+    option = "Sampling, measurement, modeling, and visualization", 
+    value = "Sampling, measurement, modeling, and visualization", 
+    label = structure("Sampling, measurement, modeling, and visualization", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_46168b9", 
-    option = "Database analysis, visualization, and software tools", 
-    value = "Database analysis, visualization, and software tools", 
-    label = structure("Database analysis, visualization, and software tools", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_cbadce7", 
+    option = "Data, assumptions, models, and replications", value = "Data, assumptions, models, and replications", 
+    label = structure("Data, assumptions, models, and replications", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_9b36839", 
-    option = "Election reporting, health statistics, and social media", 
-    value = "Election reporting, health statistics, and social media", 
-    label = structure("Election reporting, health statistics, and social media", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_ba9e40e", 
+    option = "Noise, variance, bias, and standard error", value = "Noise, variance, bias, and standard error", 
+    label = structure("Noise, variance, bias, and standard error", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_eccd852", 
-    option = "FOI requests, investigative reporting, and infographics", 
-    value = "FOI requests, investigative reporting, and infographics", 
-    label = structure("FOI requests, investigative reporting, and infographics", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_4b14026", 
+    option = "Error bars, p-values, confidence intervals, and credible intervals", 
+    value = "Error bars, p-values, confidence intervals, and credible intervals", 
+    label = structure("Error bars, p-values, confidence intervals, and credible intervals", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
@@ -290,29 +296,28 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), message = NULL, post_message = NULL), ids = list(
     answer = "q1-answer", question = "q1"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 1694093266.71113, options = list()), class = c("learnr_radio", 
+    allow_retry = FALSE, seed = 1541406255.28223, options = list()), class = c("learnr_radio", 
 "tutorial_question")), session = session)
 </script>
 
 
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q2", question = structure("Which data journalism project won the Pulitzer Prize in investigative reporting in 1989 for exposing racial discrimination in lending practices?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_c09c6cc", 
-    option = "The Panama Papers", value = "The Panama Papers", 
-    label = structure("The Panama Papers", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q2", question = structure("What is a key problem with boxplots for visualizing distributions?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_b83a9fe", 
+    option = "They always require a large sample size", value = "They always require a large sample size", 
+    label = structure("They always require a large sample size", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_22e4e32", 
-    option = "The Color of Money", value = "The Color of Money", 
-    label = structure("The Color of Money", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_55e679c", 
+    option = "They can only show categorical data", value = "They can only show categorical data", 
+    label = structure("They can only show categorical data", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_accabc0", 
+    option = "They are insensitive to multi-modal data", value = "They are insensitive to multi-modal data", 
+    label = structure("They are insensitive to multi-modal data", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_96068f3", 
-    option = "Hurricane Andrew", value = "Hurricane Andrew", 
-    label = structure("Hurricane Andrew", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_4c026a5", 
-    option = "The _Toronto Star_ racial profiling investigation", 
-    value = "The _Toronto Star_ racial profiling investigation", 
-    label = structure("The <em>Toronto Star<\u002fem> racial profiling investigation", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_89609e0", 
+    option = "They cannot display outliers effectively", value = "They cannot display outliers effectively", 
+    label = structure("They cannot display outliers effectively", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
@@ -321,31 +326,31 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), message = NULL, post_message = NULL), ids = list(
     answer = "q2-answer", question = "q2"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 1290243588.39918, options = list()), class = c("learnr_radio", 
+    allow_retry = FALSE, seed = 1166092566.457, options = list()), class = c("learnr_radio", 
 "tutorial_question")), session = session)
 </script>
  
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q3", question = structure("What <em>significant advancement<\u002fem> in election reporting was introduced with CNN’s Magic Wall in 2008?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_1fd926b", 
-    option = "The ability to predict winners with 99% certainty", 
-    value = "The ability to predict winners with 99% certainty", 
-    label = structure("The ability to predict winners with 99% certainty", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_641e46f", 
-    option = "A large touch-screen display with interactive visualization of election data", 
-    value = "A large touch-screen display with interactive visualization of election data", 
-    label = structure("A large touch-screen display with interactive visualization of election data", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q3", question = structure("What is the difference between standard deviation and standard error?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_9f41eaa", 
+    option = "Standard deviation measures variability in the data while standard error measures uncertainty about the mean", 
+    value = "Standard deviation measures variability in the data while standard error measures uncertainty about the mean", 
+    label = structure("Standard deviation measures variability in the data while standard error measures uncertainty about the mean", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_793057c", 
-    option = "The \"election needle\" showing predicted outcomes", 
-    value = "The \"election needle\" showing predicted outcomes", 
-    label = structure("The “election needle” showing predicted outcomes", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_7e39c14", 
+    option = "Standard deviation is used for categorical data while standard error is used for continuous data", 
+    value = "Standard deviation is used for categorical data while standard error is used for continuous data", 
+    label = structure("Standard deviation is used for categorical data while standard error is used for continuous data", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_f389c4d", 
-    option = "The use of hierarchical Bayes modeling for results", 
-    value = "The use of hierarchical Bayes modeling for results", 
-    label = structure("The use of hierarchical Bayes modeling for results", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_1de4a6f", 
+    option = "Standard deviation is a Bayesian concept while standard error is a frequentist concept", 
+    value = "Standard deviation is a Bayesian concept while standard error is a frequentist concept", 
+    label = structure("Standard deviation is a Bayesian concept while standard error is a frequentist concept", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_3193018", 
+    option = "Standard deviation is always larger than standard error regardless of sample size", 
+    value = "Standard deviation is always larger than standard error regardless of sample size", 
+    label = structure("Standard deviation is always larger than standard error regardless of sample size", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
@@ -354,27 +359,31 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), message = NULL, post_message = NULL), ids = list(
     answer = "q3-answer", question = "q3"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 919645814.071757, options = list()), class = c("learnr_radio", 
+    allow_retry = FALSE, seed = 109111652.449191, options = list()), class = c("learnr_radio", 
 "tutorial_question")), session = session)
 </script>
 
 
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q4", question = structure("According to the 2022 data journalism survey mentioned in the presentation, what are the most commonly used tools for data analysis and visualization among journalists?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_9324e87", 
-    option = "Python and R", value = "Python and R", label = structure("Python and R", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q4", question = structure("In the context of kernel density estimation, what does the bandwidth parameter control?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_e947865", 
+    option = "The number of observations included in the analysis", 
+    value = "The number of observations included in the analysis", 
+    label = structure("The number of observations included in the analysis", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_4107e5e", 
-    option = "Excel and Google Sheets", value = "Excel and Google Sheets", 
-    label = structure("Excel and Google Sheets", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_9926681", 
+    option = "The width of the moving window used for smoothing the distribution", 
+    value = "The width of the moving window used for smoothing the distribution", 
+    label = structure("The width of the moving window used for smoothing the distribution", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_63272dd", 
-    option = "Tableau and D3.js", value = "Tableau and D3.js", 
-    label = structure("Tableau and D3.js", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_14fb6c7", 
+    option = "The height of the resulting density curve", value = "The height of the resulting density curve", 
+    label = structure("The height of the resulting density curve", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_756f692", 
-    option = "Datawrapper and Flourish", value = "Datawrapper and Flourish", 
-    label = structure("Datawrapper and Flourish", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_58ab44", 
+    option = "The statistical significance of the distribution", 
+    value = "The statistical significance of the distribution", 
+    label = structure("The statistical significance of the distribution", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
@@ -383,26 +392,31 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), message = NULL, post_message = NULL), ids = list(
     answer = "q4-answer", question = "q4"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 2030636668.05441, options = list()), class = c("learnr_radio", 
+    allow_retry = FALSE, seed = 1516355391.29389, options = list()), class = c("learnr_radio", 
 "tutorial_question")), session = session)
 </script>
  
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q5", question = structure("Which of the following is described as a modern technique for interactive storytelling in digital journalism?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_21babd7", 
-    option = "Before-After Circle Charts", value = "Before-After Circle Charts", 
-    label = structure("Before-After Circle Charts", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q5", question = structure("What is a ‘raincloud plot’ in data visualization?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_41b1c43", 
+    option = "A plot that shows precipitation patterns over time", 
+    value = "A plot that shows precipitation patterns over time", 
+    label = structure("A plot that shows precipitation patterns over time", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_e73a36a", 
-    option = "Hierarchical Bayes modeling", value = "Hierarchical Bayes modeling", 
-    label = structure("Hierarchical Bayes modeling", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_ac811aa", 
-    option = "Scrollytelling", value = "Scrollytelling", label = structure("Scrollytelling", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_a5816ec", 
+    option = "A combination of density curve, boxplot, and jittered points", 
+    value = "A combination of density curve, boxplot, and jittered points", 
+    label = structure("A combination of density curve, boxplot, and jittered points", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_2aedbf7", 
-    option = "Satellite journalism", value = "Satellite journalism", 
-    label = structure("Satellite journalism", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_7228760", 
+    option = "A method for visualizing uncertainty in weather forecasts", 
+    value = "A method for visualizing uncertainty in weather forecasts", 
+    label = structure("A method for visualizing uncertainty in weather forecasts", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_a2e6a04", 
+    option = "A specialized chart used only for time-series data", 
+    value = "A specialized chart used only for time-series data", 
+    label = structure("A specialized chart used only for time-series data", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
@@ -411,27 +425,32 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), message = NULL, post_message = NULL), ids = list(
     answer = "q5-answer", question = "q5"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 1821493559.6518, options = list()), class = c("learnr_radio", 
+    allow_retry = FALSE, seed = 1988931782.57383, options = list()), class = c("learnr_radio", 
 "tutorial_question")), session = session)
 </script>
 
 
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q6", question = structure("What significant investigation involved the analysis of 2 terabytes of data, exposing tax avoidance schemes across 210,000 companies in 21 offshore jurisdictions?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_9f18ddb", 
-    option = "WikiLeaks", value = "WikiLeaks", label = structure("WikiLeaks", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q6", question = structure("What is the correct interpretation of a frequentist 95% confidence interval?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_ec25abd", 
+    option = "There is a 95% probability that the true parameter falls within this interval", 
+    value = "There is a 95% probability that the true parameter falls within this interval", 
+    label = structure("There is a 95% probability that the true parameter falls within this interval", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_51e075f", 
-    option = "The Panama Papers", value = "The Panama Papers", 
-    label = structure("The Panama Papers", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_3ae27a7", 
+    option = "If we take repeated samples, 95% of the resulting intervals will contain the true parameter", 
+    value = "If we take repeated samples, 95% of the resulting intervals will contain the true parameter", 
+    label = structure("If we take repeated samples, 95% of the resulting intervals will contain the true parameter", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_bf34ebc", 
-    option = "The _Toronto Star_ Trump Lies database", value = "The _Toronto Star_ Trump Lies database", 
-    label = structure("The <em>Toronto Star<\u002fem> Trump Lies database", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_222122", 
+    option = "95% of the data points fall within this interval", 
+    value = "95% of the data points fall within this interval", 
+    label = structure("95% of the data points fall within this interval", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_ab4be5c", 
-    option = "Our World in Data", value = "Our World in Data", 
-    label = structure("Our World in Data", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_fbbc864", 
+    option = "The model explains 95% of the variation in the data", 
+    value = "The model explains 95% of the variation in the data", 
+    label = structure("The model explains 95% of the variation in the data", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
@@ -440,25 +459,31 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), message = NULL, post_message = NULL), ids = list(
     answer = "q6-answer", question = "q6"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 1530579991.78727, options = list()), class = c("learnr_radio", 
+    allow_retry = FALSE, seed = 170349161.920675, options = list()), class = c("learnr_radio", 
 "tutorial_question")), session = session)
 </script>
  
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q7", question = structure("Which technique did <em>The Guardian<\u002fem> employ to analyze 700,000 documents detailing expense claims of British MPs?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_2885832", 
-    option = "Satellite imaging", value = "Satellite imaging", 
-    label = structure("Satellite imaging", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q7", question = structure("How do Hypothetical Outcome Plots (HOPs) convey uncertainty?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_521522a", 
+    option = "By showing all possible outcomes simultaneously", 
+    value = "By showing all possible outcomes simultaneously", 
+    label = structure("By showing all possible outcomes simultaneously", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_fdb9324", 
-    option = "Scrollytelling", value = "Scrollytelling", label = structure("Scrollytelling", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_ee4aeb", 
-    option = "Crowd sourcing", value = "Crowd sourcing", label = structure("Crowd sourcing", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_dd9ea36", 
+    option = "By visualizing a set of draws from a distribution either as small multiples or animation", 
+    value = "By visualizing a set of draws from a distribution either as small multiples or animation", 
+    label = structure("By visualizing a set of draws from a distribution either as small multiples or animation", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_32d4456", 
-    option = "Visual explainers", value = "Visual explainers", 
-    label = structure("Visual explainers", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_4932185", 
+    option = "By providing numerical probabilities for each possible outcome", 
+    value = "By providing numerical probabilities for each possible outcome", 
+    label = structure("By providing numerical probabilities for each possible outcome", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_cd03c18", 
+    option = "By using color intensity to represent probability", 
+    value = "By using color intensity to represent probability", 
+    label = structure("By using color intensity to represent probability", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
@@ -467,31 +492,30 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), message = NULL, post_message = NULL), ids = list(
     answer = "q7-answer", question = "q7"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 1691208926.21247, options = list()), class = c("learnr_radio", 
+    allow_retry = FALSE, seed = 1564446162.2715, options = list()), class = c("learnr_radio", 
 "tutorial_question")), session = session)
 </script>
 
 
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q8", question = structure("What made the <em>Miami Herald<\u002fem>‘s investigation of Hurricane Andrew’s destruction in 1992 a landmark in data journalism?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_28cd5a4", 
-    option = "It was the first to use satellite imagery", value = "It was the first to use satellite imagery", 
-    label = structure("It was the first to use satellite imagery", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_76ff515", 
-    option = "It used crowd sourcing to gather damage reports", 
-    value = "It used crowd sourcing to gather damage reports", 
-    label = structure("It used crowd sourcing to gather damage reports", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_c8d20c4", 
-    option = "It combined investigative reporting, analysis, and detailed maps to show why homes were destroyed", 
-    value = "It combined investigative reporting, analysis, and detailed maps to show why homes were destroyed", 
-    label = structure("It combined investigative reporting, analysis, and detailed maps to show why homes were destroyed", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q8", question = structure("What was a historical method for indicating uncertainty in maps before modern techniques?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_8f2776c", 
+    option = "Using monsters and imagined creatures to mark unexplored areas", 
+    value = "Using monsters and imagined creatures to mark unexplored areas", 
+    label = structure("Using monsters and imagined creatures to mark unexplored areas", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_5c61149", 
-    option = "It used dynamic updating of storm tracking data", 
-    value = "It used dynamic updating of storm tracking data", 
-    label = structure("It used dynamic updating of storm tracking data", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_e07faff", 
+    option = "Leaving uncertain areas completely blank", value = "Leaving uncertain areas completely blank", 
+    label = structure("Leaving uncertain areas completely blank", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_11ca40c", 
+    option = "Using only black and white for unknown regions", 
+    value = "Using only black and white for unknown regions", 
+    label = structure("Using only black and white for unknown regions", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_bc6f063", 
+    option = "Including warning text directly on the map", value = "Including warning text directly on the map", 
+    label = structure("Including warning text directly on the map", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
@@ -500,24 +524,28 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), message = NULL, post_message = NULL), ids = list(
     answer = "q8-answer", question = "q8"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 1089164495.49282, options = list()), class = c("learnr_radio", 
+    allow_retry = FALSE, seed = 1919111315.60634, options = list()), class = c("learnr_radio", 
 "tutorial_question")), session = session)
 </script>
  
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q9", question = structure("“Borrowing strength” in election prediction, which later became known as “hierarchical Bayes,” was pioneered by which statistician working with NBC in 1962?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_450a128", 
-    option = "John Tukey", value = "John Tukey", label = structure("John Tukey", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q9", question = structure("In a meta-analysis, what does a funnel plot help to identify?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_64b44d0", 
+    option = "The overall effect size", value = "The overall effect size", 
+    label = structure("The overall effect size", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_3f69ac7", 
+    option = "Which studies have the most precise measurements", 
+    value = "Which studies have the most precise measurements", 
+    label = structure("Which studies have the most precise measurements", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_f042632", 
+    option = "Publication bias", value = "Publication bias", 
+    label = structure("Publication bias", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_91f1a38", 
-    option = "Bill Dedman", value = "Bill Dedman", label = structure("Bill Dedman", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_f0b254", 
-    option = "Daniel Dale", value = "Daniel Dale", label = structure("Daniel Dale", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_92b7f25", 
-    option = "Michael Friendly", value = "Michael Friendly", 
-    label = structure("Michael Friendly", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_b7c5162", 
+    option = "The sample size required for future studies", value = "The sample size required for future studies", 
+    label = structure("The sample size required for future studies", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
@@ -526,27 +554,28 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), message = NULL, post_message = NULL), ids = list(
     answer = "q9-answer", question = "q9"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 1231507030.92653, options = list()), class = c("learnr_radio", 
+    allow_retry = FALSE, seed = 1691765727.21221, options = list()), class = c("learnr_radio", 
 "tutorial_question")), session = session)
 </script>
 
 
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q10", question = structure("What emerging field of journalism uses imagery from privately owned satellites to provide evidence for investigations?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_c2a83b4", 
-    option = "Crowd-sourced journalism", value = "Crowd-sourced journalism", 
-    label = structure("Crowd-sourced journalism", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q10", question = structure("According to the {ggdist} package philosophy, what are the three key elements that can be combined for visualizing uncertainty?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_9e0114d", 
+    option = "Mean, median, and mode", value = "Mean, median, and mode", 
+    label = structure("Mean, median, and mode", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_6ef1c6c", 
-    option = "Scrollytelling", value = "Scrollytelling", label = structure("Scrollytelling", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_4d0c36c", 
-    option = "Satellite journalism", value = "Satellite journalism", 
-    label = structure("Satellite journalism", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_34ede64", 
+    option = "Data, distribution, and interval", value = "Data, distribution, and interval", 
+    label = structure("Data, distribution, and interval", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_6149e07", 
-    option = "Visual explainers", value = "Visual explainers", 
-    label = structure("Visual explainers", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_3f08a3e", 
+    option = "Points, lines, and bars", value = "Points, lines, and bars", 
+    label = structure("Points, lines, and bars", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_4d0ce26", 
+    option = "Color, shape, and size", value = "Color, shape, and size", 
+    label = structure("Color, shape, and size", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
@@ -555,7 +584,7 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), message = NULL, post_message = NULL), ids = list(
     answer = "q10-answer", question = "q10"), loading = NULL, 
-    random_answer_order = FALSE, allow_retry = FALSE, seed = 21042835.9902012, 
+    random_answer_order = FALSE, allow_retry = FALSE, seed = 1409874210.84348, 
     options = list()), class = c("learnr_radio", "tutorial_question"
 )), session = session)
 </script>
@@ -571,7 +600,6 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 </script>
 <!--/html_preserve-->
 </div>
-</div>
 
 </article> <!-- topics -->
 
@@ -582,7 +610,8 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 
 <!-- begin doc-metadata -->
 <div id="doc-metadata">
-<h1 class="title toc-ignore" style="display:none;">Data Journalism</h1>
+<h1 class="title toc-ignore" style="display:none;">Visualizing
+Uncertainty Quiz</h1>
 </div>
 <!-- end doc-metadata -->
 

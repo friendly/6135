@@ -14,7 +14,7 @@
 <meta name="allow-skip" content="false" />
 <meta name="learnr-version-prerender" content="0.11.5" />
 
-<title>Data Journalism</title>
+<title>Human Factors in Data Visualization Quiz</title>
 
 <!-- header-includes START -->
 <!-- HEAD_CONTENT -->
@@ -109,23 +109,36 @@ if (window.hljs) {
 
 <article class="topics" id="learnr-tutorial-content">
 
-<div id="section-data-journalism-lecture-quiz" class="section level1">
-<h1>Data Journalism Lecture Quiz</h1>
-<p>These non-graded questions are designed to test your understanding of
-the materials presented in the <a
-href="https://friendly.github.io/6135/lectures/DataJournalism.pdf">Data
-Journalism lecture</a>. They cover a broad range of topics from the
-presentation, including:</p>
+<div id="section-human-factors-in-data-visualization-quiz"
+class="section level2">
+<h2>Human Factors in Data Visualization Quiz</h2>
+<p>Data visualization is a powerful tool for understanding and
+communicating information, but its effectiveness is highly dependent on
+human perceptual and cognitive capabilities. This quiz covers key
+concepts from human factors research in data visualization,
+including:</p>
 <ul>
-<li>Core components and techniques of data journalism</li>
-<li>Historical examples and landmark projects</li>
-<li>Key figures who advanced the field</li>
-<li>Tools and technologies used by data journalists</li>
-<li>Modern storytelling methods and emerging approaches</li>
+<li><strong>Perceptual accuracy</strong>: How different visual encodings
+(position, length, angle, area) affect our ability to make accurate
+judgments about data.</li>
+<li><strong>Cognitive processes</strong>: The mental steps and
+operations involved in extracting information from graphs and
+visualizations.</li>
+<li><strong>Experimental methods</strong>: How researchers study
+visualization effectiveness through psychophysical methods,
+eye-tracking, and controlled experiments.</li>
+<li><strong>Visual inference</strong>: The relationship between
+statistical inference and visual data interpretation.</li>
+<li><strong>Memory and perception</strong>: How our memory of visual
+information differs from direct perception.</li>
+<li><strong>Accessibility</strong>: Considerations for making
+visualizations accessible to diverse users, including those with visual
+impairments.</li>
 </ul>
-<p>(This was actually an experiment. I asked <a
-href="https://www.anthropic.com/claude/sonnet">Claude 3.7 Sonnet</a> to
-read the lecture slides and come up with 10 questions.)</p>
+<p>This quiz will test your understanding of key concepts related to
+human factors research in data visualization as presented in the
+lecture.</p>
+</div>
 <div id="section-question-1" class="section level2">
 <h2>Question 1</h2>
 <div class="panel panel-default tutorial-question-container">
@@ -235,7 +248,13 @@ read the lecture slides and come up with 10 questions.)</p>
 <script>if (Tutorial.triggerMathJax) Tutorial.triggerMathJax()</script>
 </div>
 </div>
-<p>
+</div>
+<div id="section-quiz-complete" class="section level2">
+<h2>Quiz Complete</h2>
+<p>Congratulations on completing the quiz on Human Factors in Data
+Visualization!</p>
+<p>You can review your answers and explanations by navigating back
+through the questions. 
 <script type="application/shiny-prerendered" data-context="server-start">
 library(learnr)
 knitr::opts_chunk$set(echo = FALSE)
@@ -262,302 +281,309 @@ session$onSessionEnded(function() {
 </script>
  
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q1", question = structure("What are the <strong>three main aspects<\u002fstrong> of Data Driven Journalism (DDJ) as described in the presentation?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_e055219", 
-    option = "Crowdsourcing, satellite imagery, and dynamic updating", 
-    value = "Crowdsourcing, satellite imagery, and dynamic updating", 
-    label = structure("Crowdsourcing, satellite imagery, and dynamic updating", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q1", question = structure("According to Cleveland &amp; McGill’s research on elementary perceptual tasks, which of the following chart types produces the most accurate judgments?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_75acdd", 
+    option = "Pie charts (angle judgments)", value = "Pie charts (angle judgments)", 
+    label = structure("Pie charts (angle judgments)", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_46168b9", 
-    option = "Database analysis, visualization, and software tools", 
-    value = "Database analysis, visualization, and software tools", 
-    label = structure("Database analysis, visualization, and software tools", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_266cd7", 
+    option = "Stacked bar charts (length judgments)", value = "Stacked bar charts (length judgments)", 
+    label = structure("Stacked bar charts (length judgments)", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_5c72570", 
+    option = "Adjacent bar charts (position judgments)", value = "Adjacent bar charts (position judgments)", 
+    label = structure("Adjacent bar charts (position judgments)", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_9b36839", 
-    option = "Election reporting, health statistics, and social media", 
-    value = "Election reporting, health statistics, and social media", 
-    label = structure("Election reporting, health statistics, and social media", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_eccd852", 
-    option = "FOI requests, investigative reporting, and infographics", 
-    value = "FOI requests, investigative reporting, and infographics", 
-    label = structure("FOI requests, investigative reporting, and infographics", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_8b4982f", 
+    option = "Bubble charts (area judgments)", value = "Bubble charts (area judgments)", 
+    label = structure("Bubble charts (area judgments)", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
 "character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
 "character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
-"character")), message = NULL, post_message = NULL), ids = list(
-    answer = "q1-answer", question = "q1"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 1694093266.71113, options = list()), class = c("learnr_radio", 
+"character")), message = structure("Cleveland &amp; McGill’s experiments showed that position-based judgments (as in adjacent bar charts) are more accurate than length, angle, or area judgments.", html = TRUE, class = c("html", 
+"character")), post_message = NULL), ids = list(answer = "q1-answer", 
+    question = "q1"), loading = NULL, random_answer_order = TRUE, 
+    allow_retry = TRUE, seed = 1753874919.18329, options = list()), class = c("learnr_radio", 
 "tutorial_question")), session = session)
 </script>
 
 
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q2", question = structure("Which data journalism project won the Pulitzer Prize in investigative reporting in 1989 for exposing racial discrimination in lending practices?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_c09c6cc", 
-    option = "The Panama Papers", value = "The Panama Papers", 
-    label = structure("The Panama Papers", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q2", question = structure("What is described as a key limitation of iconic (sensory) memory in the context of visualization?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_69799d2", 
+    option = "It lasts too long", value = "It lasts too long", 
+    label = structure("It lasts too long", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_22e4e32", 
-    option = "The Color of Money", value = "The Color of Money", 
-    label = structure("The Color of Money", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_277402c", 
+    option = "It's too limited in capacity", value = "It's too limited in capacity", 
+    label = structure("It’s too limited in capacity", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_f3ab27e", 
+    option = "It's easily fooled", value = "It's easily fooled", 
+    label = structure("It’s easily fooled", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_96068f3", 
-    option = "Hurricane Andrew", value = "Hurricane Andrew", 
-    label = structure("Hurricane Andrew", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_4c026a5", 
-    option = "The _Toronto Star_ racial profiling investigation", 
-    value = "The _Toronto Star_ racial profiling investigation", 
-    label = structure("The <em>Toronto Star<\u002fem> racial profiling investigation", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_4c5009d", 
+    option = "It cannot process color information", value = "It cannot process color information", 
+    label = structure("It cannot process color information", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
 "character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
 "character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
-"character")), message = NULL, post_message = NULL), ids = list(
-    answer = "q2-answer", question = "q2"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 1290243588.39918, options = list()), class = c("learnr_radio", 
+"character")), message = structure("The lecture notes indicate that iconic (sensory) memory is pre-attentive and automatic, but can be ‘easily fooled,’ which is a key limitation when designing visualizations.", html = TRUE, class = c("html", 
+"character")), post_message = NULL), ids = list(answer = "q2-answer", 
+    question = "q2"), loading = NULL, random_answer_order = TRUE, 
+    allow_retry = TRUE, seed = 1035087525.018, options = list()), class = c("learnr_radio", 
 "tutorial_question")), session = session)
 </script>
  
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q3", question = structure("What <em>significant advancement<\u002fem> in election reporting was introduced with CNN’s Magic Wall in 2008?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_1fd926b", 
-    option = "The ability to predict winners with 99% certainty", 
-    value = "The ability to predict winners with 99% certainty", 
-    label = structure("The ability to predict winners with 99% certainty", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q3", question = structure("In Stevens’ Power Law, what does the exponent ‘p’ represent in the context of graph perception?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_6ec1730", 
+    option = "The physical intensity of the stimulus", value = "The physical intensity of the stimulus", 
+    label = structure("The physical intensity of the stimulus", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_641e46f", 
-    option = "A large touch-screen display with interactive visualization of election data", 
-    value = "A large touch-screen display with interactive visualization of election data", 
-    label = structure("A large touch-screen display with interactive visualization of election data", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_f1cc377", 
+    option = "The multiplier effect of a change in intensity", 
+    value = "The multiplier effect of a change in intensity", 
+    label = structure("The multiplier effect of a change in intensity", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_793057c", 
-    option = "The \"election needle\" showing predicted outcomes", 
-    value = "The \"election needle\" showing predicted outcomes", 
-    label = structure("The “election needle” showing predicted outcomes", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_4ba47cd", 
+    option = "The perceived sensation", value = "The perceived sensation", 
+    label = structure("The perceived sensation", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_f389c4d", 
-    option = "The use of hierarchical Bayes modeling for results", 
-    value = "The use of hierarchical Bayes modeling for results", 
-    label = structure("The use of hierarchical Bayes modeling for results", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_61d7874", 
+    option = "The logarithm of the stimulus", value = "The logarithm of the stimulus", 
+    label = structure("The logarithm of the stimulus", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
 "character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
 "character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
-"character")), message = NULL, post_message = NULL), ids = list(
-    answer = "q3-answer", question = "q3"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 919645814.071757, options = list()), class = c("learnr_radio", 
+"character")), message = structure("Stevens’ Power Law states that S ∝ Intensity^p, where p is the multiplier effect of a multiple of intensity. When graphed in log-log form, p represents the slope of the line.", html = TRUE, class = c("html", 
+"character")), post_message = NULL), ids = list(answer = "q3-answer", 
+    question = "q3"), loading = NULL, random_answer_order = TRUE, 
+    allow_retry = TRUE, seed = 2406131.49887956, options = list()), class = c("learnr_radio", 
 "tutorial_question")), session = session)
 </script>
 
 
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q4", question = structure("According to the 2022 data journalism survey mentioned in the presentation, what are the most commonly used tools for data analysis and visualization among journalists?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_9324e87", 
-    option = "Python and R", value = "Python and R", label = structure("Python and R", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q4", question = structure("According to Simkin &amp; Hastie’s research, which of the following is NOT one of the proposed elementary mental processes involved in graph comprehension?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_c1ace99", 
+    option = "Anchoring", value = "Anchoring", label = structure("Anchoring", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_4107e5e", 
-    option = "Excel and Google Sheets", value = "Excel and Google Sheets", 
-    label = structure("Excel and Google Sheets", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_6f18840", 
+    option = "Scanning", value = "Scanning", label = structure("Scanning", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_52e4153", 
+    option = "Projection", value = "Projection", label = structure("Projection", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_72f8460", 
+    option = "Illumination", value = "Illumination", label = structure("Illumination", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_63272dd", 
-    option = "Tableau and D3.js", value = "Tableau and D3.js", 
-    label = structure("Tableau and D3.js", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_756f692", 
-    option = "Datawrapper and Flourish", value = "Datawrapper and Flourish", 
-    label = structure("Datawrapper and Flourish", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
 "character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
 "character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
-"character")), message = NULL, post_message = NULL), ids = list(
-    answer = "q4-answer", question = "q4"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 2030636668.05441, options = list()), class = c("learnr_radio", 
+"character")), message = structure("Simkin &amp; Hastie proposed five elementary mental processes: anchoring, scanning, projection, superimposition, and detection. Illumination is not one of them.", html = TRUE, class = c("html", 
+"character")), post_message = NULL), ids = list(answer = "q4-answer", 
+    question = "q4"), loading = NULL, random_answer_order = TRUE, 
+    allow_retry = TRUE, seed = 6424695.49700827, options = list()), class = c("learnr_radio", 
 "tutorial_question")), session = session)
 </script>
  
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q5", question = structure("Which of the following is described as a modern technique for interactive storytelling in digital journalism?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_21babd7", 
-    option = "Before-After Circle Charts", value = "Before-After Circle Charts", 
-    label = structure("Before-After Circle Charts", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q5", question = structure("What is a key issue with Cleveland &amp; McGill’s original studies that was addressed by later researchers like Simkin &amp; Hastie?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_d71a01c", 
+    option = "They only used paper-and-pencil tasks", value = "They only used paper-and-pencil tasks", 
+    label = structure("They only used paper-and-pencil tasks", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_e73a36a", 
-    option = "Hierarchical Bayes modeling", value = "Hierarchical Bayes modeling", 
-    label = structure("Hierarchical Bayes modeling", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_ac811aa", 
-    option = "Scrollytelling", value = "Scrollytelling", label = structure("Scrollytelling", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_4c1b933", 
+    option = "They only measured accuracy but not reaction time", 
+    value = "They only measured accuracy but not reaction time", 
+    label = structure("They only measured accuracy but not reaction time", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_2aedbf7", 
-    option = "Satellite journalism", value = "Satellite journalism", 
-    label = structure("Satellite journalism", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_55f4cfd", 
+    option = "They didn't use statistical tests", value = "They didn't use statistical tests", 
+    label = structure("They didn’t use statistical tests", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_3696708", 
+    option = "They only tested expert users", value = "They only tested expert users", 
+    label = structure("They only tested expert users", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
 "character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
 "character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
-"character")), message = NULL, post_message = NULL), ids = list(
-    answer = "q5-answer", question = "q5"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 1821493559.6518, options = list()), class = c("learnr_radio", 
+"character")), message = structure("The lecture notes mention that a problem with Cleveland &amp; McGill’s study was ‘Assessing accuracy-only omits consideration of speed of judgment’ and that later researchers measured both accuracy and reaction time.", html = TRUE, class = c("html", 
+"character")), post_message = NULL), ids = list(answer = "q5-answer", 
+    question = "q5"), loading = NULL, random_answer_order = TRUE, 
+    allow_retry = TRUE, seed = 1751203795.68453, options = list()), class = c("learnr_radio", 
 "tutorial_question")), session = session)
 </script>
 
 
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q6", question = structure("What significant investigation involved the analysis of 2 terabytes of data, exposing tax avoidance schemes across 210,000 companies in 21 offshore jurisdictions?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_9f18ddb", 
-    option = "WikiLeaks", value = "WikiLeaks", label = structure("WikiLeaks", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q6", question = structure("In the ‘Lineup protocol’ for visual inference, what is the statistical significance level (p-value) equivalent when using 19 decoys?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_ba5e849", 
+    option = "p = 0.01", value = "p = 0.01", label = structure("p = 0.01", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_51e075f", 
-    option = "The Panama Papers", value = "The Panama Papers", 
-    label = structure("The Panama Papers", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_c393ca3", 
+    option = "p = 0.05", value = "p = 0.05", label = structure("p = 0.05", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_bf34ebc", 
-    option = "The _Toronto Star_ Trump Lies database", value = "The _Toronto Star_ Trump Lies database", 
-    label = structure("The <em>Toronto Star<\u002fem> Trump Lies database", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_e36dda6", 
+    option = "p = 0.10", value = "p = 0.10", label = structure("p = 0.10", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_ab4be5c", 
-    option = "Our World in Data", value = "Our World in Data", 
-    label = structure("Our World in Data", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_35a7436", 
+    option = "p = 0.20", value = "p = 0.20", label = structure("p = 0.20", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
 "character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
 "character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
-"character")), message = NULL, post_message = NULL), ids = list(
-    answer = "q6-answer", question = "q6"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 1530579991.78727, options = list()), class = c("learnr_radio", 
-"tutorial_question")), session = session)
-</script>
- 
-<script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q7", question = structure("Which technique did <em>The Guardian<\u002fem> employ to analyze 700,000 documents detailing expense claims of British MPs?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_2885832", 
-    option = "Satellite imaging", value = "Satellite imaging", 
-    label = structure("Satellite imaging", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_fdb9324", 
-    option = "Scrollytelling", value = "Scrollytelling", label = structure("Scrollytelling", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_ee4aeb", 
-    option = "Crowd sourcing", value = "Crowd sourcing", label = structure("Crowd sourcing", html = TRUE, class = c("html", 
-    "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_32d4456", 
-    option = "Visual explainers", value = "Visual explainers", 
-    label = structure("Visual explainers", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
-"character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
-"character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
-"character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
-"character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
-"character")), message = NULL, post_message = NULL), ids = list(
-    answer = "q7-answer", question = "q7"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 1691208926.21247, options = list()), class = c("learnr_radio", 
-"tutorial_question")), session = session)
-</script>
-
-
-<script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q8", question = structure("What made the <em>Miami Herald<\u002fem>‘s investigation of Hurricane Andrew’s destruction in 1992 a landmark in data journalism?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_28cd5a4", 
-    option = "It was the first to use satellite imagery", value = "It was the first to use satellite imagery", 
-    label = structure("It was the first to use satellite imagery", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_76ff515", 
-    option = "It used crowd sourcing to gather damage reports", 
-    value = "It used crowd sourcing to gather damage reports", 
-    label = structure("It used crowd sourcing to gather damage reports", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_c8d20c4", 
-    option = "It combined investigative reporting, analysis, and detailed maps to show why homes were destroyed", 
-    value = "It combined investigative reporting, analysis, and detailed maps to show why homes were destroyed", 
-    label = structure("It combined investigative reporting, analysis, and detailed maps to show why homes were destroyed", html = TRUE, class = c("html", 
-    "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_5c61149", 
-    option = "It used dynamic updating of storm tracking data", 
-    value = "It used dynamic updating of storm tracking data", 
-    label = structure("It used dynamic updating of storm tracking data", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
-"character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
-"character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
-"character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
-"character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
-"character")), message = NULL, post_message = NULL), ids = list(
-    answer = "q8-answer", question = "q8"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 1089164495.49282, options = list()), class = c("learnr_radio", 
+"character")), message = structure("With n=19 decoys plus 1 real dataset, the chance of correctly identifying the real data by random guessing is 1/20 = 0.05, which is equivalent to the common statistical significance level of p = 0.05.", html = TRUE, class = c("html", 
+"character")), post_message = NULL), ids = list(answer = "q6-answer", 
+    question = "q6"), loading = NULL, random_answer_order = TRUE, 
+    allow_retry = TRUE, seed = 793516503.63049, options = list()), class = c("learnr_radio", 
 "tutorial_question")), session = session)
 </script>
  
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q9", question = structure("“Borrowing strength” in election prediction, which later became known as “hierarchical Bayes,” was pioneered by which statistician working with NBC in 1962?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_450a128", 
-    option = "John Tukey", value = "John Tukey", label = structure("John Tukey", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q7", question = structure("According to Kerst &amp; Howard’s research on magnitude estimation and memory, how does remembered area compare to directly perceived area in terms of accuracy?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_d2352dc", 
+    option = "Remembered area is more accurate than perceived area", 
+    value = "Remembered area is more accurate than perceived area", 
+    label = structure("Remembered area is more accurate than perceived area", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_8bbbcf2", 
+    option = "Remembered area is equally accurate as perceived area", 
+    value = "Remembered area is equally accurate as perceived area", 
+    label = structure("Remembered area is equally accurate as perceived area", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_e77b03", 
+    option = "Remembered area is less accurate than perceived area", 
+    value = "Remembered area is less accurate than perceived area", 
+    label = structure("Remembered area is less accurate than perceived area", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_91f1a38", 
-    option = "Bill Dedman", value = "Bill Dedman", label = structure("Bill Dedman", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_f0b254", 
-    option = "Daniel Dale", value = "Daniel Dale", label = structure("Daniel Dale", html = TRUE, class = c("html", 
-    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_92b7f25", 
-    option = "Michael Friendly", value = "Michael Friendly", 
-    label = structure("Michael Friendly", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_d3cd76e", 
+    option = "There is no relationship between remembered and perceived area", 
+    value = "There is no relationship between remembered and perceived area", 
+    label = structure("There is no relationship between remembered and perceived area", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
 "character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
 "character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
-"character")), message = NULL, post_message = NULL), ids = list(
-    answer = "q9-answer", question = "q9"), loading = NULL, random_answer_order = FALSE, 
-    allow_retry = FALSE, seed = 1231507030.92653, options = list()), class = c("learnr_radio", 
+"character")), message = structure("Kerst &amp; Howard proposed that if the power law exponent for memory is p’ and for perception is p, then the exponent for memory of perception is p×p’. For area (where p ≈ 0.7), remembered area would be even less accurate than perceived area.", html = TRUE, class = c("html", 
+"character")), post_message = NULL), ids = list(answer = "q7-answer", 
+    question = "q7"), loading = NULL, random_answer_order = TRUE, 
+    allow_retry = TRUE, seed = 1882005385.62362, options = list()), class = c("learnr_radio", 
 "tutorial_question")), session = session)
 </script>
 
 
 <script type="application/shiny-prerendered" data-context="server">
-learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q10", question = structure("What emerging field of journalism uses imagery from privately owned satellites to provide evidence for investigations?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_c2a83b4", 
-    option = "Crowd-sourced journalism", value = "Crowd-sourced journalism", 
-    label = structure("Crowd-sourced journalism", html = TRUE, class = c("html", 
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q8", question = structure("What did Hollands &amp; Spence’s experiments reveal about pie charts versus divided bar charts?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_1da2c5b", 
+    option = "Pie charts are always superior to divided bars for all tasks", 
+    value = "Pie charts are always superior to divided bars for all tasks", 
+    label = structure("Pie charts are always superior to divided bars for all tasks", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_6ef1c6c", 
-    option = "Scrollytelling", value = "Scrollytelling", label = structure("Scrollytelling", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_b1fcead", 
+    option = "Divided bars are always superior to pie charts for all tasks", 
+    value = "Divided bars are always superior to pie charts for all tasks", 
+    label = structure("Divided bars are always superior to pie charts for all tasks", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_4d0c36c", 
-    option = "Satellite journalism", value = "Satellite journalism", 
-    label = structure("Satellite journalism", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_c58f345", 
+    option = "Divided bars are better for discrimination tasks, but pie charts may be better for proportion judgments", 
+    value = "Divided bars are better for discrimination tasks, but pie charts may be better for proportion judgments", 
+    label = structure("Divided bars are better for discrimination tasks, but pie charts may be better for proportion judgments", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_6149e07", 
-    option = "Visual explainers", value = "Visual explainers", 
-    label = structure("Visual explainers", html = TRUE, class = c("html", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_467d363", 
+    option = "There is no significant difference between these chart types", 
+    value = "There is no significant difference between these chart types", 
+    label = structure("There is no significant difference between these chart types", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
 "character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
 "character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
 "character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
-"character")), message = NULL, post_message = NULL), ids = list(
-    answer = "q10-answer", question = "q10"), loading = NULL, 
-    random_answer_order = FALSE, allow_retry = FALSE, seed = 21042835.9902012, 
-    options = list()), class = c("learnr_radio", "tutorial_question"
-)), session = session)
+"character")), message = structure("According to the slides, Hollands &amp; Spence found that for discrimination tasks (which is larger?), divided bars were better than pies, but for proportion judgments (what percent is this of the total?), pie charts performed better.", html = TRUE, class = c("html", 
+"character")), post_message = NULL), ids = list(answer = "q8-answer", 
+    question = "q8"), loading = NULL, random_answer_order = TRUE, 
+    allow_retry = TRUE, seed = 214198019.400256, options = list()), class = c("learnr_radio", 
+"tutorial_question")), session = session)
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q9", question = structure("What is one of the key methods used in human factors research to record where people look when viewing graphic displays?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_610681b", 
+    option = "fMRI scanning", value = "fMRI scanning", label = structure("fMRI scanning", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_d70b623", 
+    option = "Eye-tracking", value = "Eye-tracking", label = structure("Eye-tracking", html = TRUE, class = c("html", 
+    "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_9da86c", 
+    option = "Motion capture", value = "Motion capture", label = structure("Motion capture", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_b2d4d50", 
+    option = "EEG recording", value = "EEG recording", label = structure("EEG recording", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
+"character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
+"character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
+"character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), message = structure("Eye-tracking hardware and software allow researchers to record gaze fixation points over time, showing where people look when viewing graphic displays. This is discussed extensively in the lecture slides.", html = TRUE, class = c("html", 
+"character")), post_message = NULL), ids = list(answer = "q9-answer", 
+    question = "q9"), loading = NULL, random_answer_order = TRUE, 
+    allow_retry = TRUE, seed = 789929934.13216, options = list()), class = c("learnr_radio", 
+"tutorial_question")), session = session)
+</script>
+
+
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "q10", question = structure("What did Yang et al.’s study show about truncated bar charts?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_66d4afd", 
+    option = "Truncation has no effect on viewer judgments", 
+    value = "Truncation has no effect on viewer judgments", label = structure("Truncation has no effect on viewer judgments", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_840b19a", 
+    option = "Truncation helps viewers make more accurate comparisons", 
+    value = "Truncation helps viewers make more accurate comparisons", 
+    label = structure("Truncation helps viewers make more accurate comparisons", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_84fd30d", 
+    option = "Truncation persistently misleads viewers, even when they are warned", 
+    value = "Truncation persistently misleads viewers, even when they are warned", 
+    label = structure("Truncation persistently misleads viewers, even when they are warned", html = TRUE, class = c("html", 
+    "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_dd7ab21", 
+    option = "Truncation only affects novice users, not experts", 
+    value = "Truncation only affects novice users, not experts", 
+    label = structure("Truncation only affects novice users, not experts", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
+"character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
+"character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
+"character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), message = structure("Yang et al.’s study showed that truncating bar graphs persistently misleads viewers. Even when subjects were explicitly warned that some graphs might be misleading (Study 2), they still perceived differences as more extreme in truncated graphs.", html = TRUE, class = c("html", 
+"character")), post_message = NULL), ids = list(answer = "q10-answer", 
+    question = "q10"), loading = NULL, random_answer_order = TRUE, 
+    allow_retry = TRUE, seed = 132584527.438261, options = list()), class = c("learnr_radio", 
+"tutorial_question")), session = session)
 </script>
 </p>
 <!--html_preserve-->
@@ -571,7 +597,6 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 </script>
 <!--/html_preserve-->
 </div>
-</div>
 
 </article> <!-- topics -->
 
@@ -582,7 +607,8 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 
 <!-- begin doc-metadata -->
 <div id="doc-metadata">
-<h1 class="title toc-ignore" style="display:none;">Data Journalism</h1>
+<h1 class="title toc-ignore" style="display:none;">Human Factors in Data
+Visualization Quiz</h1>
 </div>
 <!-- end doc-metadata -->
 

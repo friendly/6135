@@ -1,0 +1,135 @@
+---
+title: "Data Journalism"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Data Journalism Lecture Quiz
+
+
+These non-graded questions are designed to test your understanding of the materials presented in the [Data Journalism lecture](https://friendly.github.io/6135/lectures/DataJournalism.pdf).
+They cover a broad range of topics from the presentation, including:
+
+- Core components and techniques of data journalism
+- Historical examples and landmark projects
+- Key figures who advanced the field
+- Tools and technologies used by data journalists
+- Modern storytelling methods and emerging approaches
+
+(This was actually an experiment. I asked [Claude 3.7 Sonnet](https://www.anthropic.com/claude/sonnet) to read the lecture slides and come up with 10 questions.)
+
+## Question 1
+
+```{r q1, echo=FALSE}
+question("What are the **three main aspects** of Data Driven Journalism (DDJ) as described in the presentation?",
+  answer("Crowdsourcing, satellite imagery, and dynamic updating"),
+  answer("Database analysis, visualization, and software tools", correct = TRUE),
+  answer("Election reporting, health statistics, and social media"),
+  answer("FOI requests, investigative reporting, and infographics")
+)
+```
+
+## Question 2
+
+```{r q2, echo=FALSE}
+question("Which data journalism project won the Pulitzer Prize in investigative reporting in 1989 for exposing racial discrimination in lending practices?",
+  answer("The Panama Papers"),
+  answer("The Color of Money", correct = TRUE),
+  answer("Hurricane Andrew"),
+  answer("The _Toronto Star_ racial profiling investigation")
+)
+```
+
+## Question 3
+
+```{r q3, echo=FALSE}
+question("What _significant advancement_ in election reporting was introduced with CNN's Magic Wall in 2008?",
+  answer("The ability to predict winners with 99% certainty"),
+  answer("A large touch-screen display with interactive visualization of election data", correct = TRUE),
+  answer("The \"election needle\" showing predicted outcomes"),
+  answer("The use of hierarchical Bayes modeling for results")
+)
+```
+
+## Question 4
+
+```{r q4, echo=FALSE}
+question("According to the 2022 data journalism survey mentioned in the presentation, what are the most commonly used tools for data analysis and visualization among journalists?",
+  answer("Python and R"),
+  answer("Excel and Google Sheets", correct = TRUE),
+  answer("Tableau and D3.js"),
+  answer("Datawrapper and Flourish")
+)
+```
+
+## Question 5
+
+```{r q5, echo=FALSE}
+question("Which of the following is described as a modern technique for interactive storytelling in digital journalism?",
+  answer("Before-After Circle Charts"),
+  answer("Hierarchical Bayes modeling"),
+  answer("Scrollytelling", correct = TRUE),
+  answer("Satellite journalism")
+)
+```
+
+## Question 6
+
+```{r q6, echo=FALSE}
+question("What significant investigation involved the analysis of 2 terabytes of data, exposing tax avoidance schemes across 210,000 companies in 21 offshore jurisdictions?",
+  answer("WikiLeaks"),
+  answer("The Panama Papers", correct = TRUE),
+  answer("The _Toronto Star_ Trump Lies database"),
+  answer("Our World in Data")
+)
+```
+
+## Question 7
+
+```{r q7, echo=FALSE}
+question("Which technique did _The Guardian_ employ to analyze 700,000 documents detailing expense claims of British MPs?",
+  answer("Satellite imaging"),
+  answer("Scrollytelling"),
+  answer("Crowd sourcing", correct = TRUE),
+  answer("Visual explainers")
+)
+```
+
+## Question 8
+
+```{r q8, echo=FALSE}
+question("What made the _Miami Herald_'s investigation of Hurricane Andrew's destruction in 1992 a landmark in data journalism?",
+  answer("It was the first to use satellite imagery"),
+  answer("It used crowd sourcing to gather damage reports"),
+  answer("It combined investigative reporting, analysis, and detailed maps to show why homes were destroyed", correct = TRUE),
+  answer("It used dynamic updating of storm tracking data")
+)
+```
+
+## Question 9
+
+```{r q9, echo=FALSE}
+question("\"Borrowing strength\" in election prediction, which later became known as \"hierarchical Bayes,\" was pioneered by which statistician working with NBC in 1962?",
+  answer("John Tukey", correct = TRUE),
+  answer("Bill Dedman"),
+  answer("Daniel Dale"),
+  answer("Michael Friendly")
+)
+```
+
+## Question 10
+
+```{r q10, echo=FALSE}
+question("What emerging field of journalism uses imagery from privately owned satellites to provide evidence for investigations?",
+  answer("Crowd-sourced journalism"),
+  answer("Scrollytelling"),
+  answer("Satellite journalism", correct = TRUE),
+  answer("Visual explainers")
+)
+```
+
