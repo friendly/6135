@@ -1,0 +1,12 @@
+# Claude Quiz Prompt
+
+I would like to upload the PDF file of a lecture in a course,
+The Psychology of Data Visualization. The topic of the current lecture is: Graph Perception
+Please read the lecture slides and create a 10 item multiple choice quiz on this topic.
+Begin the quiz with a brief statement of the main ideas of the lecture.
+Produce the questions in the format used by the {learnr} package in R,
+so it can be used with a shinyapps.io server.
+For each question, use the 'message =' option of learnr::question() to give a brief
+explanation of why the correct answer is right.
+At the end of the quiz, include a "Quiz Complete" section congratulates the student for completing the quiz.
+I will upload the PDF now.

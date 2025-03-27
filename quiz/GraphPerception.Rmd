@@ -1,0 +1,157 @@
+---
+  title: "Graph Perception Quiz"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+  
+  ```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+This quiz covers the key concepts from the lecture on **Graphical Perception**. The lecture focused on how humans perceive and interpret visual information in graphs and charts. Important topics include:
+  
+- The encoding and decoding process in data visualization
+- Bottom-up vs. top-down processing in perception
+- Visual illusions that affect graph interpretation
+- Gestalt principles in graph perception
+- The accuracy of different visual encodings for quantitative data
+- Effective use of color in data visualization
+
+Please select the best answer for each question.
+
+## Question 1
+
+```{r q1}
+question("In the encoding-decoding model of graph comprehension, which statement is TRUE?",
+         answer("Encoding is what the viewer does when looking at a graph", FALSE),
+         answer("Decoding is what the graph creator does when making a graph", FALSE),
+         answer("When we construct a graph, we encode numerical variables as graphical attributes", TRUE),
+         answer("Decoding occurs only in cognitive processing, not in perception", FALSE),
+         message = "When creating a graph, we **encode** numerical or categorical variables as visual attributes like length, position, angle, etc. The viewer then **decodes** these attributes to extract the original information."
+)
+```
+
+## Question 2
+
+```{r q2}
+question("According to Cleveland & McGill's research on the accuracy of magnitude judgments, which visual encoding is generally MOST accurate?",
+         answer("Area (as in bubble charts)", FALSE),
+         answer("Color saturation", FALSE),
+         answer("Angle (as in pie charts)", FALSE),
+         answer("Position along a common scale", TRUE),
+         message = "Position along a common scale is the most accurate visual encoding for making magnitude judgments. This is followed by position along non-aligned scales, then length, angle, area, and finally color attributes."
+)
+```
+
+## Question 3
+
+```{r q3}
+question("Which of the following is NOT a Gestalt principle of perception discussed in the lecture?",
+         answer("Proximity", FALSE),
+         answer("Similarity", FALSE),
+         answer("Transparency", TRUE),
+         answer("Closure", FALSE),
+         message = "Transparency is not one of the Gestalt principles discussed in the lecture. The Gestalt principles mentioned include proximity (elements close together are perceived as a unit), similarity (similar elements are grouped), good continuation (elements that blend together are perceived as a unit), common region, and closure (elements that make a meaningful whole belong together)."
+)
+```
+
+## Question 4
+
+```{r q4}
+question("When comparing curves in a line graph, what perceptual issue can arise?",
+         answer("We accurately perceive the vertical distance between curves", FALSE),
+         answer("We tend to see the perpendicular distance rather than the vertical distance", TRUE),
+         answer("We tend to overestimate the area between the curves", FALSE),
+         answer("We focus only on intersection points", FALSE),
+         message = "As shown in the lecture slides, we tend to see the perpendicular distance between curves rather than the vertical distance, which can lead to misinterpretation of differences. Plotting the difference directly is a better way to show this information."
+)
+```
+
+## Question 5
+
+```{r q5}
+question("For effective visualization of categorical variables, which color scheme is MOST appropriate?",
+         answer("Sequential (varying lightness of the same hue)", FALSE),
+         answer("Diverging (two hues that meet in the middle)", FALSE),
+         answer("Qualitative (different hues of similar saturation)", TRUE),
+         answer("Grayscale (varying levels of gray)", FALSE),
+         message = "Qualitative color schemes with different hues of similar saturation are most effective for categorical variables, as they help visually distinguish between unordered categories. Sequential and diverging schemes are better suited for quantitative variables."
+)
+```
+
+## Question 6
+
+```{r q6}
+question("According to Stevens' Power Law, which visual encoding provides the most accurate estimation of magnitudes?",
+         answer("Area", FALSE),
+         answer("Length", TRUE),
+         answer("Volume", FALSE),
+         answer("Brightness", FALSE),
+         message = "According to Stevens' Power Law, length judgments are most accurate with a power exponent of approximately 1, meaning perceived magnitude is proportional to actual magnitude. Area and volume are sub-sensitive (p < 1), meaning larger values tend to be underestimated."
+)
+```
+
+## Question 7
+
+```{r q7}
+question("Which statement about color perception is TRUE?",
+         answer("Color perception is entirely objective and consistent across viewers", FALSE),
+         answer("The perception of a color is not affected by surrounding colors", FALSE),
+         answer("Red-green color blindness affects approximately 6-8% of the population", TRUE),
+         answer("All color schemes are equally effective when printed in black and white", FALSE),
+         message = "Red-green color blindness (protanopia or deuteranopia) affects approximately 6-8% of the population and is more common in males. This makes it important to consider color accessibility when designing visualizations."
+)
+```
+
+## Question 8
+
+```{r q8}
+question("What is the difference between bottom-up and top-down processing in perception?",
+         answer("Bottom-up processing is slow and deliberate, while top-down is fast and automatic", FALSE),
+         answer("Bottom-up processing involves features→pattern→object, while top-down uses expectations and prior knowledge", TRUE),
+         answer("Bottom-up processing occurs in long-term memory, while top-down occurs in working memory", FALSE),
+         answer("Bottom-up processing is unique to graph perception, while top-down applies to all visual perception", FALSE),
+         message = "Bottom-up processing is data-driven, starting with low-level feature detection and building up to pattern and object recognition. Top-down processing is conceptually-driven, using goals, expectations, and prior knowledge to influence what we perceive."
+)
+```
+
+## Question 9
+
+```{r q9}
+question("Which of these is a key consideration when selecting colors for data visualization?",
+         answer("Always use the full rainbow spectrum to maximize information content", FALSE),
+         answer("Red and green should be used together to highlight important differences", FALSE),
+         answer("Consider how the visualization will appear to colorblind viewers and in grayscale", TRUE),
+         answer("Sequential color schemes are ideal for categorical variables", FALSE),
+         message = "An important consideration in color selection is accessibility - how the visualization will appear to viewers with color vision deficiencies and when printed in grayscale. Tools like ColorBrewer help select appropriate palettes that work for these situations."
+)
+```
+
+## Question 10
+
+```{r q10}
+question("Which statement about visual illusions and graph perception is MOST accurate?",
+         answer("Illusions rarely affect the interpretation of data visualizations", FALSE),
+         answer("Understanding perceptual illusions can help avoid misleading graph designs", TRUE),
+         answer("The Müller-Lyer illusion shows that angle judgments are more accurate than length judgments", FALSE),
+         answer("Context effects only impact color perception, not judgments of size or length", FALSE),
+         message = "Understanding how perceptual illusions work can help designers avoid creating misleading visualizations. Many illusions demonstrate how context affects perception of length, area, and color, which are all important elements in data visualization."
+)
+```
+
+## Quiz Complete
+
+Congratulations on completing the Graph Perception quiz! 
+  
+  You've demonstrated your understanding of key concepts in how humans perceive and interpret visual information in graphs and charts. This knowledge is fundamental to creating effective data visualizations that accurately communicate information while avoiding perceptual pitfalls.
+
+Remember these key takeaways:
+- Position along a scale is generally the most accurate visual encoding
+- Context affects perception of visual attributes like length, area, and color
+- Choose visual encodings and color schemes appropriate to your data type and visualization goals
+- Consider accessibility factors like colorblindness and grayscale printing
+
+Keep applying these principles to create clear, accurate, and accessible data visualizations!

@@ -344,6 +344,9 @@ Cédric Scherer, Session 1 of a workshop, [Designing Data Visualizations to Succ
 - [Why you sometimes need to break the rules in data viz](https://medium.economist.com/why-you-sometimes-need-to-break-the-rules-in-data-viz-4d8ece284919).
 Best practices help us to avoid common pitfalls in data visualisation — but we shouldn’t follow them blindly.
 
+- Dishonest charts are coming from all directions, and they're only going to hit harder. Nathan Yau
+provides an interactive self-defence guide: [Defense Against Dishonest Charts](https://flowingdata.com/projects/dishonest-charts/) 
+
 ### Session 2: Varieties Data Visualization {#week2}
 
 ![](images/headers/30-day-topics-snip.png)

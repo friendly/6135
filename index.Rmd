@@ -174,6 +174,8 @@ We will consider visualization methods for a wide range of types of data from th
 	- Memory
 	- Color
 
+#### <img src="images/icons/quiz.png" height=20> Quiz: [Graph perception](https://fohpsyc.shinyapps.io/GraphPerception/)
+
 #### <img src="images/icons/book.png" height=20> Readings: 
 
 - **Cleveland & McGill** (1984) [Graphical Perception... *JASA*](papers/ClevelandMcGill1984.pdf) A foundation paper on understanding aspects of graph perception.
@@ -336,6 +338,9 @@ the gapminder data with `ggplot2`
 - Hypothetical outcome plots
 - Cartographic uncertainty
 
+#### <img src="images/icons/quiz.png" height=20> Quiz: [Uncertainty quiz](https://fohpsyc.shinyapps.io/UncertaintyQuiz/)
+
+
 #### <img src="images/icons/book.png" height=20> Readings:
 
 - **Padilla, Kay & Hullman (2020)**, [Uncertainty Visualization](papers/Uncertainty_Visualization_Padilla_Kay_Hullman_2020.pdf)
@@ -353,7 +358,7 @@ the gapminder data with `ggplot2`
 
 #### <img src="images/icons/PDF_icon.png" height=20> Lecture notes:  [1up PDF](lectures/DataJournalism.pdf) || [4up PDF](lectures/DataJournalism-2x2.pdf) || [PPT](lectures/DataJournalism.pptx)
 
-#### <img src="images/icons/quiz.png" height=20> Quiz: [data journalism](quiz/data-journalism.html)
+#### <img src="images/icons/quiz.png" height=20> Quiz: [Data Journalism](https://fohpsyc.shinyapps.io/Data_Journalism_Quiz/)
 
 #### <img src="images/icons/book.png" height=20> Readings:
 
