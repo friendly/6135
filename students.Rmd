@@ -50,7 +50,7 @@ Find one example of a data graph that attempts to tell an interesting story of a
 ### Class presentations  <img src="images/icons/teacher.png" height=30> {#2025-presentations}
 
 - Danika Wagner [Visualizing Preferences: History, Method, and Importance](students/2025/Presentation/)
-- Iroshini Gunasekera [Data Visualization for Public Health](students/2025/Presentation/)
+- Iroshini Gunasekera [Data Visualization for Public Health](https://docs.google.com/presentation/d/1LNe0jr1MpV72yDqANf2mdCJQYe7aCMDE/)
 - Audrey Li-Chay-Chung [Increasing Data Accessibility for Visually Impaired](students/2025/Presentation/)
 - Talia Tissera [Data Sonification](students/2025/Presentation/)
 - Camille Proszansk [Data Visualization in Augmented and Virtual Reality](students/2025/Presentation/)
