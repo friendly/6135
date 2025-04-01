@@ -1,0 +1,225 @@
+---
+title: "Visualizing Uncertainty"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+  
+```{r setup, include=FALSE}
+library(learnr)
+library(shiny)
+library(knitr)
+library(rsconnect)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Visualizing Uncertainty Quiz
+
+This quiz is designed to test your understanding of concepts and techniques related to visualizing uncertainty in data, based on the lecture "Visualizing Uncertainty." The quiz covers a range of important topics, including:
+  
+- The nature and sources of uncertainty in statistics and visualization
+- Different methods for visualizing distributions (histograms, density plots, boxplots, etc.)
+- Advanced visualization techniques like violin plots, raincloud plots, and hypothetical outcome plots
+- Error bars and confidence intervals (frequentist vs. Bayesian approaches)
+- Uncertainty in fitted curves and models
+- Cartographic uncertainty and geographic visualization techniques
+- Best practices for conveying uncertainty in data analysis and presentation
+
+Understanding how to properly visualize uncertainty is critical for effective data communication and preventing misinterpretation of statistical results.
+
+## Question 1
+
+```{r q1, echo=FALSE}
+question("What are the **four main sources** of uncertainty in statistics according to the lecture?",
+         answer("Sampling, measurement, modeling, and visualization"),
+         answer("Data, assumptions, models, and replications", correct = TRUE),
+         answer("Noise, variance, bias, and standard error"),
+         answer("Error bars, p-values, confidence intervals, and credible intervals"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE,
+         message = "At the highest level, uncertainty of results arises in data (sampling variability, assumptions required for
+                 the validity of results, the form of models used for analysis and the potential for replications to
+                 yield different results."
+)
+```
+
+## Question 2
+
+```{r q2, echo=FALSE}
+question("What is a key problem with boxplots for visualizing distributions?",
+         answer("They always require a large sample size"),
+         answer("They can only show categorical data"),
+         answer("They are insensitive to multi-modal data", correct = TRUE),
+         answer("They cannot display outliers effectively"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE,
+         message = "Because boxplots summarize the data by quartiles, they are insensitive to multi-modal data."
+)
+```
+
+## Question 3
+
+```{r q3, echo=FALSE}
+question("What is the difference between standard deviation and standard error?",
+         answer("Standard deviation measures variability in the data while standard error measures uncertainty about the mean", correct = TRUE),
+         answer("Standard deviation is used for categorical data while standard error is used for continuous data"),
+         answer("Standard deviation is a Bayesian concept while standard error is a frequentist concept"),
+         answer("Standard deviation is always larger than standard error regardless of sample size"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE,
+         message = "Standard deviation and standard error are both frequentist ideas used for continuous data, but the
+            standard deviation measures variability in the data while standard error measures uncertainty about the mean."
+)
+```
+
+## Question 4
+
+```{r q4, echo=FALSE}
+question("In the context of kernel density estimation, what does the bandwidth parameter control?",
+         answer("The number of observations included in the analysis"),
+         answer("The width of the moving window used for smoothing the distribution", correct = TRUE),
+         answer("The height of the resulting density curve"),
+         answer("The statistical significance of the distribution"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE
+)
+```
+
+## Question 5
+
+```{r q5, echo=FALSE}
+question("What is a 'raincloud plot' in data visualization?",
+         answer("A plot that shows precipitation patterns over time"),
+         answer("A combination of density curve, boxplot, and jittered points", correct = TRUE),
+         answer("A method for visualizing uncertainty in weather forecasts"),
+         answer("A specialized chart used only for time-series data"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE
+)
+```
+
+## Question 6
+
+```{r q6, echo=FALSE}
+question("What is the correct interpretation of a frequentist 95% confidence interval?",
+         answer("There is a 95% probability that the true parameter falls within this interval"),
+         answer("If we take repeated samples, 95% of the resulting intervals will contain the true parameter", correct = TRUE),
+         answer("95% of the data points fall within this interval"),
+         answer("The model explains 95% of the variation in the data"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE
+)
+```
+
+## Question 7
+
+```{r q7, echo=FALSE}
+question("How do Hypothetical Outcome Plots (HOPs) convey uncertainty?",
+         answer("By showing all possible outcomes simultaneously"),
+         answer("By visualizing a set of draws from a distribution either as small multiples or animation", correct = TRUE),
+         answer("By providing numerical probabilities for each possible outcome"),
+         answer("By using color intensity to represent probability"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE
+)
+```
+
+## Question 8
+
+```{r q8, echo=FALSE}
+question("What was a historical method for indicating uncertainty in maps before modern techniques?",
+         answer("Using monsters and imagined creatures to mark unexplored areas", correct = TRUE),
+         answer("Leaving uncertain areas completely blank"),
+         answer("Using only black and white for unknown regions"),
+         answer("Including warning text directly on the map"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE,
+         message ="Cartographers like Abraham Ortelius use fanciful drawings of monsters and imagninary creatures to
+         show that there might be something at a given location, but he didn't know what."
+)
+```
+
+## Question 9
+
+```{r q9, echo=FALSE}
+question("In a meta-analysis, what does a funnel plot help to identify?",
+         answer("The overall effect size"),
+         answer("Which studies have the most precise measurements"),
+         answer("Publication bias", correct = TRUE),
+         answer("The sample size required for future studies"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE,
+         message = "The funnel plot is a plot of effect size on the _X_ axis against a measure of standard error (inverse precision)
+             on the _Y_ axis. Points outside a central triangle indicate potential publication bias."
+)
+```
+
+## Question 10
+
+```{r q10, echo=FALSE}
+question("According to the {ggdist} package design, what are the three key elements that can be combined for visualizing uncertainty?",
+         answer("Mean, median, and mode"),
+         answer("Data, distribution, and interval", correct = TRUE),
+         answer("Points, lines, and bars"),
+         answer("Color, shape, and size"),
+         allow_retry = TRUE,
+         random_answer_order = TRUE
+)
+```
+
+## Quiz Complete
+
+```{r results='asis'}
+random_praise()
+```
+
+
+Congratulations on completing the quiz on Human Factors in Data Visualization!
+  
+
+```{r context="server"}
+shiny::observeEvent(
+  input$get_score, 
+  {
+    objs2 = learnr:::get_tutorial_state()
+    
+    # Number of correct questions
+    
+    n_correct <- 
+      # Access the $correct sublist item in each list item
+        lapply(objs2, purrr::pluck, "correct") |>
+           # make it a vector containing: TRUE and FALSE and NAs
+           # NA is appearing for list items which don't have
+           # a $correct subitem
+                unlist() |> 
+           # Taking the sum of a logical Vector returns the number of TRUEs
+                sum(na.rm=TRUE)
+    
+    # Number of total questions
+    
+    total_questions <- 
+      # 1. Access $type in each list item and make it a vector of types
+      lapply(objs2, purrr::pluck, "type") |> unlist()
+    
+    # 2. Count the number of "question" in that vector
+    total_questions <- total_questions[total_questions == "question"] |> 
+      length()
+      
+      
+    output$score = shiny::renderText(
+      paste0(n_correct, " out of ", total_questions,
+        " question(s) were correct.")
+)
+    invisible()
+  }
+)
+```
+
+```{r score, echo=FALSE}
+shiny::actionButton("get_score", "Get Score", icon=icon("star"))
+shiny::br()
+shiny::br()
+shiny::textOutput("score")
+```
+
+You can review your answers and explanations by navigating back through the questions.
+  
