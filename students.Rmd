@@ -54,9 +54,15 @@ Find one example of a data graph that attempts to tell an interesting story of a
 - Audrey Li-Chay-Chung [Increasing Data Accessibility for Visually Impaired](https://www.canva.com/design/DAGi-pJZR8Q/8GbIm6SEGLyqPWLcQeSr6g/edit)
 - Talia Tissera [Data Sonification](students/2025/Presentation/Talia-DataSonification.pdf)
 - Camille Proszansk [Data Visualization in Augmented and Virtual Reality](students/2025/Presentation/)
-- Vanessa Basurto [Rethinking Data: Creative Applications of Data Visualization](students/2025/Presentation/)
+- Vanessa Basurto [Rethinking Data: Creative Applications of Data Visualization](https://www.canva.com/design/DAGhj-261yI/qhrnWou4PEIaItXqPbWGHA/edit)
 - Mina Aryaie [The Role of Data Visualization in Crime Prevention and Public Safety](students/2025/Presentation/Mina-Data Visualization Crime Analysis.pdf)
 - Courtney Chan [Data Visualization Methods in Social Cognition](students/2025/Presentation/Chan-Data Visualization Methods in Social Cognition.pptx)
+- Jessica Newman & Ashley Siegel [Data Visualization for Therapeutic Process and Outcomes]()
+- Victoria Cello [Using Shiny Applications to Enhance Statistics Instruction for Psychology Students]()
+- Hannah Tran [The Quantified Self and Media Consumption Data Tracking]()
+- Sophie Li [Data Visualization in Basketball]()
+- William Fisher [Visualizing narratives and cognitive trajectories in semantic space]()
+- Sami Harb [Visualization in the generation, display, and analysis of qualitative data]()
 
 
 
