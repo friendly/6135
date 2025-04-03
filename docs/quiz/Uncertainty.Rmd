@@ -8,6 +8,7 @@ runtime: shiny_prerendered
 library(learnr)
 library(shiny)
 library(knitr)
+library(rsconnect)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 

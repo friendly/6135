@@ -1,11 +1,14 @@
 ---
-  title: "Graph Perception Quiz"
+title: "Graph Perception Quiz"
 output: learnr::tutorial
 runtime: shiny_prerendered
 ---
   
-  ```{r setup, include=FALSE}
+```{r setup, include=FALSE}
 library(learnr)
+library(shiny)
+library(knitr)
+library(rsconnect)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
