@@ -60,7 +60,7 @@ Find one example of a data graph that attempts to tell an interesting story of a
 - Courtney Chan [Data Visualization Methods in Social Cognition](students/2025/Presentation/Chan-Data Visualization Methods in Social Cognition.pptx)
 <p><p/>
 - Jessica Newman & Ashley Siegel [Data Visualization for Therapeutic Process and Outcomes]()
-- Victoria Cello [Using Shiny Applications to Enhance Statistics Instruction for Psychology Students]()
+- Victoria Cello [Using Shiny Applications to Enhance Statistics Instruction for Psychology Students](https://www.canva.com/design/DAGdzavDbiI/aX0A07N2gNR-Cz5AjhYKpQ/edit)
 - Hannah Tran [The Quantified Self and Media Consumption Data Tracking]()
 - Sophie Li [Data Visualization in Basketball]()
 - William Fisher [Visualizing narratives and cognitive trajectories in semantic space]()
