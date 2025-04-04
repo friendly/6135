@@ -43,7 +43,8 @@ Find one example of a data graph that attempts to tell an interesting story of a
 - William Fisher: [ggplot2 and efficiently generating several plots 
 ](students/2025/MiniPres/WillFisher-MiniPresentation.pptx)
 - Jessica Newman and Danika Wagner [ggplot2: the untold story](students/2025/MiniPres/Wagner-Jessica Newman-ggplot.pptx)
-- Victoria Celio & Vanessa Basurto [Interactive Visualizations](https://www.canva.com/design/DAGfBujntkA/fuqCfF6TiF8jt6p9--EUJg/edit). Also: [A Shiny Example](https://fohpsyc.shinyapps.io/InteractiveVizDemo/).
+- Victoria Celio & Vanessa Basurto [Interactive Visualizations](https://www.canva.com/design/DAGfBujntkA/fuqCfF6TiF8jt6p9--EUJg/edit). 
+<!-- Also: [A Shiny Example](https://fohpsyc.shinyapps.io/InteractiveVizDemo/). -->
 - Mina Aryaie & Sophie Li [Visualizing Uncertainty](students/2025/MiniPres/Mina_Sophie_Uncertinty Visualization.pdf)
 - Talia Tissera & Audrey Li-Chay-Chung [Data Journalism](https://www.canva.com/design/DAGhowT4vVQ/8rgwBeQ8nUz4ZOL0k8h-DA/edit)
 
@@ -53,16 +54,18 @@ Find one example of a data graph that attempts to tell an interesting story of a
 - Iroshini Gunasekera [Data Visualization for Public Health](https://docs.google.com/presentation/d/1LNe0jr1MpV72yDqANf2mdCJQYe7aCMDE/) || [Local PDF](students/2025/Presentation/Iroshini-DataVisualization-PublicHealthi.pdf)
 - Audrey Li-Chay-Chung [Increasing Data Accessibility for Visually Impaired](https://www.canva.com/design/DAGi-pJZR8Q/8GbIm6SEGLyqPWLcQeSr6g/edit)
 - Talia Tissera [Data Sonification](students/2025/Presentation/Talia-DataSonification.pdf)
-- Camille Proszansk [Data Visualization in Augmented and Virtual Reality](students/2025/Presentation/)
+- Camille Proszanski [Data Visualization in Augmented and Virtual Reality](students/2025/Presentation/)
 - Vanessa Basurto [Rethinking Data: Creative Applications of Data Visualization](https://www.canva.com/design/DAGhj-261yI/qhrnWou4PEIaItXqPbWGHA/edit)
 - Mina Aryaie [The Role of Data Visualization in Crime Prevention and Public Safety](students/2025/Presentation/Mina-Data Visualization Crime Analysis.pdf)
 - Courtney Chan [Data Visualization Methods in Social Cognition](students/2025/Presentation/Chan-Data Visualization Methods in Social Cognition.pptx)
+<p><p/>
 - Jessica Newman & Ashley Siegel [Data Visualization for Therapeutic Process and Outcomes]()
 - Victoria Cello [Using Shiny Applications to Enhance Statistics Instruction for Psychology Students]()
 - Hannah Tran [The Quantified Self and Media Consumption Data Tracking]()
 - Sophie Li [Data Visualization in Basketball]()
 - William Fisher [Visualizing narratives and cognitive trajectories in semantic space]()
 - Sami Harb [Visualization in the generation, display, and analysis of qualitative data]()
+- Nisha Vashi [Data Visualization in Education & Teaching](students/2025/Presentation/Data Vis Presentation_Nisha Vashi.pptx)
 
 
 
