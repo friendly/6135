@@ -59,13 +59,14 @@ Find one example of a data graph that attempts to tell an interesting story of a
 - Mina Aryaie [The Role of Data Visualization in Crime Prevention and Public Safety](students/2025/Presentation/Mina-Data Visualization Crime Analysis.pdf)
 - Courtney Chan [Data Visualization Methods in Social Cognition](students/2025/Presentation/Chan-Data Visualization Methods in Social Cognition.pptx)
 <p><p/>
-- Jessica Newman & Ashley Siegel [Data Visualization for Therapeutic Process and Outcomes]()
-- Victoria Cello [Using Shiny Applications to Enhance Statistics Instruction for Psychology Students](https://www.canva.com/design/DAGdzavDbiI/aX0A07N2gNR-Cz5AjhYKpQ/edit)
-- Hannah Tran [The Quantified Self and Media Consumption Data Tracking]()
-- Sophie Li [Data Visualization in Basketball]()
-- William Fisher [Visualizing narratives and cognitive trajectories in semantic space]()
-- Sami Harb [Visualization in the generation, display, and analysis of qualitative data]()
+- Jessica Newman & Ashley Siegel [Data Visualization for Therapeutic Process and Outcomes](students/2025/Presentation/Ashley-Jessica-Data Visualization-in-Therapy.pdf)
+- Victoria Cello [Using Shiny Applications to Enhance Statistics Instruction for Psychology Students](https://www.canva.com/design/DAGdzavDbiI/aX0A07N2gNR-Cz5AjhYKpQ/edit) || [Demo Shiny app](students/2025/Presentation/Victoria-app.R)
+- Hannah Tran [The Quantified Self and Media Consumption Data Tracking](students/2025/Presentation/)
+- Sophie Li [Data Visualization in Basketball](students/2025/Presentation/C:\Dropbox\Documents\6135\students\2025\Presentation\dataviz_SophieLi.pdf)
+- William Fisher [Visualizing narratives and cognitive trajectories in semantic space](students/2025/Presentation/C:\Dropbox\Documents\6135\students\2025\Presentation\Will-Fisher-Visualizing the meaning of words.pdf)
+- Sami Harb [Visualization in the generation, display, and analysis of qualitative data](students/2025/Presentation/)
 - Nisha Vashi [Data Visualization in Education & Teaching](students/2025/Presentation/Data Vis Presentation_Nisha Vashi.pptx)
+- Marlee Salisbury [The Evolution of Infographics in Psychology](students/2025/Presentation/Marlee-Evolution-Infographics-Psychology-compressed.pdf)
 
 
 
