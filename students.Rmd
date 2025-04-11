@@ -66,7 +66,7 @@ Find one example of a data graph that attempts to tell an interesting story of a
 - William Fisher [Visualizing narratives and cognitive trajectories in semantic space](students/2025/Presentation/C:\Dropbox\Documents\6135\students\2025\Presentation\Will-Fisher-Visualizing the meaning of words.pdf)
 - Sami Harb [Visualization in the generation, display, and analysis of qualitative data](students/2025/Presentation/)
 - Nisha Vashi [Data Visualization in Education & Teaching](students/2025/Presentation/Data Vis Presentation_Nisha Vashi.pptx)
-- Marlee Salisbury [The Evolution of Infographics in Psychology](students/2025/Presentation/Marlee-Evolution-Infographics-Psychology-compressed.pdf)
+- Marlee Salisbury [The Evolution of Infographics in Psychology](Marlee-TheEvolutionofInfographicsinPsychology.pdf) || [Video presentation](https://drive.google.com/file/d/1aHMoibV_pdHZoC-GZWHLMIBTIeAcOg4Q/view)
 
 
 
