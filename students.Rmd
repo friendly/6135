@@ -51,7 +51,7 @@ Find one example of a data graph that attempts to tell an interesting story of a
 ### Class presentations  <img src="images/icons/teacher.png" height=30> {#2025-presentations}
 
 - Danika Wagner [Visualizing Preferences: History, Method, and Importance](students/2025/Presentation/Wagner-Visualizing-Preferences-6135.pdf)
-- Iroshini Gunasekera [Data Visualization for Public Health](https://docs.google.com/presentation/d/1LNe0jr1MpV72yDqANf2mdCJQYe7aCMDE/) || [Local PDF](students/2025/Presentation/Iroshini-DataVisualization-PublicHealthi.pdf)
+- Iroshini Gunasekera [Data Visualization for Public Health](https://docs.google.com/presentation/d/1LNe0jr1MpV72yDqANf2mdCJQYe7aCMDE/) || Also: [Local PDF](students/2025/Presentation/Iroshini-DataVisualization-PublicHealthi.pdf)
 - Audrey Li-Chay-Chung [Increasing Data Accessibility for Visually Impaired](https://www.canva.com/design/DAGi-pJZR8Q/8GbIm6SEGLyqPWLcQeSr6g/edit)
 - Talia Tissera [Data Sonification](students/2025/Presentation/Talia-DataSonification.pdf)
 - Camille Proszanski [Data Visualization in Augmented and Virtual Reality](students/2025/Presentation/)
@@ -60,13 +60,13 @@ Find one example of a data graph that attempts to tell an interesting story of a
 - Courtney Chan [Data Visualization Methods in Social Cognition](students/2025/Presentation/Chan-Data Visualization Methods in Social Cognition.pptx)
 <p><p/>
 - Jessica Newman & Ashley Siegel [Data Visualization for Therapeutic Process and Outcomes](students/2025/Presentation/Ashley-Jessica-Data Visualization-in-Therapy.pdf)
-- Victoria Cello [Using Shiny Applications to Enhance Statistics Instruction for Psychology Students](https://www.canva.com/design/DAGdzavDbiI/aX0A07N2gNR-Cz5AjhYKpQ/edit) || [Demo Shiny app](students/2025/Presentation/Victoria-app.R)
-- Hannah Tran [The Quantified Self and Media Consumption Data Tracking](students/2025/Presentation/)
+- Victoria Cello [Using Shiny Applications to Enhance Statistics Instruction for Psychology Students](https://www.canva.com/design/DAGdzavDbiI/aX0A07N2gNR-Cz5AjhYKpQ/edit) || Also: [Demo Shiny app](students/2025/Presentation/Victoria-app.R)
+- Hannah Tran [The Quantified Self and Media Consumption Data Tracking](students/2025/Presentation/HannahTran-TheQuantifiedSelf.pdf)
 - Sophie Li [Data Visualization in Basketball](students/2025/Presentation/C:\Dropbox\Documents\6135\students\2025\Presentation\dataviz_SophieLi.pdf)
 - William Fisher [Visualizing narratives and cognitive trajectories in semantic space](students/2025/Presentation/C:\Dropbox\Documents\6135\students\2025\Presentation\Will-Fisher-Visualizing the meaning of words.pdf)
-- Sami Harb [Visualization in the generation, display, and analysis of qualitative data](students/2025/Presentation/)
+- Sami Harb [Qualitative Data Visualization of Lived Experience](students/2025/Presentation/Harb-QualPrez.pptx)
 - Nisha Vashi [Data Visualization in Education & Teaching](students/2025/Presentation/Data Vis Presentation_Nisha Vashi.pptx)
-- Marlee Salisbury [The Evolution of Infographics in Psychology](Marlee-TheEvolutionofInfographicsinPsychology.pdf) || [Video presentation](https://drive.google.com/file/d/1aHMoibV_pdHZoC-GZWHLMIBTIeAcOg4Q/view)
+- Marlee Salisbury [The Evolution of Infographics in Psychology](Marlee-TheEvolutionofInfographicsinPsychology.pdf) || Also: [Video presentation](https://drive.google.com/file/d/1aHMoibV_pdHZoC-GZWHLMIBTIeAcOg4Q/view)
 
 
 
