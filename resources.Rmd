@@ -371,9 +371,7 @@ of examples of animation to enhance engagement, reveal trends, and help viewers 
 * [COVIC](covic-archive.org/index.html)
 A large collection of Covid-19 pandemic visualizations intended for teaching and research purposes.
 
-	
-
-
+* [Five ways to effectively use animation in data visualization](https://observablehq.com/blog/effective-animation)	
 
 
 
