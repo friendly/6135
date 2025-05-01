@@ -68,6 +68,14 @@ Find one example of a data graph that attempts to tell an interesting story of a
 - Nisha Vashi [Data Visualization in Education & Teaching](students/2025/Presentation/Data Vis Presentation_Nisha Vashi.pptx)
 - Marlee Salisbury [The Evolution of Infographics in Psychology](students/2025/Presentation/Marlee-TheEvolutionofInfographicsinPsychology.pdf) || Also: [Video presentation](https://drive.google.com/file/d/1aHMoibV_pdHZoC-GZWHLMIBTIeAcOg4Q/view)
 
+<img id=expand src="images/JimRankinAward.png" width="120px"/>
+
+Winners of the 2025  **Jim Rankin Award**: {#2024-rankin}
+
+
+- 🥇 Hannah Tran [The Quantified Self and Media Consumption Data Tracking](students/2025/Presentation/HannahTran-TheQuantifiedSelf.pdf)
+- 🥈 William Fisher [Visualizing narratives and cognitive trajectories in semantic space](students/2025/Presentation/C:\Dropbox\Documents\6135\students\2025\Presentation\Will-Fisher-Visualizing the meaning of words.pdf)
+- 🥈 Marlee Salisbury [The Evolution of Infographics in Psychology](students/2025/Presentation/Marlee-TheEvolutionofInfographicsinPsychology.pdf)
 
 
 ## 2024 {#2024}
