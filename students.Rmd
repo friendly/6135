@@ -70,7 +70,7 @@ Find one example of a data graph that attempts to tell an interesting story of a
 
 <img id=expand src="images/JimRankinAward.png" width="120px"/>
 
-Winners of the 2025  **Jim Rankin Award**: {#2024-rankin}
+Winners of the 2025  **Jim Rankin Award**: 
 
 
 - 🥇 Hannah Tran [The Quantified Self and Media Consumption Data Tracking](students/2025/Presentation/HannahTran-TheQuantifiedSelf.pdf)
@@ -112,7 +112,7 @@ Winners of the 2025  **Jim Rankin Award**: {#2024-rankin}
 
 <img id=expand src="images/JimRankinAward.png" width="120px"/>
 
-Winners of the 2024  **Jim Rankin Award**: {#2024-rankin}
+Winners of the 2024  **Jim Rankin Award**: 
 
 <img src="images/gabe-crone-rankin-book.jpg" width="100px"/>
 
