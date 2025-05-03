@@ -63,7 +63,7 @@ Find one example of a data graph that attempts to tell an interesting story of a
 - Victoria Cello [Using Shiny Applications to Enhance Statistics Instruction for Psychology Students](https://www.canva.com/design/DAGdzavDbiI/aX0A07N2gNR-Cz5AjhYKpQ/edit) || Also: [Demo Shiny app](students/2025/Presentation/Victoria-app.R)
 - Hannah Tran [The Quantified Self and Media Consumption Data Tracking](students/2025/Presentation/HannahTran-TheQuantifiedSelf.pdf)
 - Sophie Li [Data Visualization in Basketball](students/2025/Presentation/C:\Dropbox\Documents\6135\students\2025\Presentation\dataviz_SophieLi.pdf)
-- William Fisher [Visualizing narratives and cognitive trajectories in semantic space](students/2025/Presentation/C:\Dropbox\Documents\6135\students\2025\Presentation\Will-Fisher-Visualizing the meaning of words.pdf)
+- William Fisher [Visualizing narratives and cognitive trajectories in semantic space](students/2025/Presentation/Will-Fisher-Visualizing-word-meaning.pdf)
 - Sami Harb [Qualitative Data Visualization of Lived Experience](students/2025/Presentation/Harb-QualPrez.pptx)
 - Nisha Vashi [Data Visualization in Education & Teaching](students/2025/Presentation/Data Vis Presentation_Nisha Vashi.pptx)
 - Marlee Salisbury [The Evolution of Infographics in Psychology](students/2025/Presentation/Marlee-TheEvolutionofInfographicsinPsychology.pdf) || Also: [Video presentation](https://drive.google.com/file/d/1aHMoibV_pdHZoC-GZWHLMIBTIeAcOg4Q/view)
@@ -74,7 +74,7 @@ Winners of the 2025  **Jim Rankin Award**: {#2024-rankin}
 
 
 - 🥇 Hannah Tran [The Quantified Self and Media Consumption Data Tracking](students/2025/Presentation/HannahTran-TheQuantifiedSelf.pdf)
-- 🥈 William Fisher [Visualizing narratives and cognitive trajectories in semantic space](students/2025/Presentation/C:\Dropbox\Documents\6135\students\2025\Presentation\Will-Fisher-Visualizing the meaning of words.pdf)
+- 🥈 William Fisher [Visualizing narratives and cognitive trajectories in semantic space](students/2025/Presentation/Will-Fisher-Visualizing-word-meaning.pdf)
 - 🥈 Marlee Salisbury [The Evolution of Infographics in Psychology](students/2025/Presentation/Marlee-TheEvolutionofInfographicsinPsychology.pdf)
 
 
